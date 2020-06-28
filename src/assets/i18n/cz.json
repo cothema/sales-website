@@ -1,0 +1,95 @@
+{
+  "btn": {
+    "interested": "Mám zájem"
+  },
+  "menu": {
+    "home": "Úvod",
+    "services": "Služby",
+    "aboutUs": "O nás",
+    "contact": "Kontakt",
+    "forDealers": "Pro obchodníky",
+    "faq": "Dotazy"
+  },
+  "part": {
+    "coverOutsourcing": {
+      "h1": "Propojujeme startupy s obchodníky",
+      "p1": "Přenechte své obchodní záležitosti síti lokálních distributorů za win-win provizi."
+    },
+    "aboutUs": {
+      "why": {
+        "h": "Proč to děláme?",
+        "p1": "Více než 90% startupů selže v prvních 2 letech své existence a z našich odhadů plyne, že až 70% z těch, které selžou by se dalo pomoci k úspěchu rychlou zpětnou vazbou od reálných zákazníků. Chápeme, že zakladatelé jsou zahlceni vývojem produktu a na zbytek zkrátka “není čas”."
+      },
+      "challenges": {
+        "h": "Našimi výzvami jsou:",
+        "li1": "Férové jednání a win-win obchod",
+        "li2": "Vyšší míra inovací",
+        "li3": "Vyšší diverzita trhu"
+      }
+    },
+    "contactUs": {
+      "h": "Kontaktujte nás",
+      "p1": "Rádi s Vámi zkonzultujeme Vaše individuální potřeby a zašleme podrobnější informace k případné spolupráci včetně konkrétních provizních podmínek.",
+      "poweredBy": "Provozovatelem je:"
+    },
+    "services": {
+      "h": "Naše služby",
+      "p1": "Jste technologický B2B startup bez obchodního týmu zabývající se vývojem softwaru nebo hardwaru? Přenechte své obchodní záležitosti síti našich lokálních distributorů formou provizí za oboustranně výhodných podmínek.",
+      "freeConsultation": "ZDARMA nabízíme nezávaznou online úvodní konzultaci k individuálním potřebám Vašeho projektu s prezentací našich služeb.",
+      "salesTeam": {
+        "h": "Obchodní tým",
+        "p1": "Získáte fungující obchodní tým s maximalizovaným poměrem cena/výkon.",
+        "li1": "Neztrácíte čas hledáním, školením a vedením obchodních zástupců nebo týmů.",
+        "li2": "Platíte jen provize za realizované obchody."
+      },
+      "localRepre": {
+        "h": "Lokální zastoupení",
+        "p1": "S námi vaši obchodní zástupci neztrácí čas na dlouhých cestách a přesto dokážete udržet osobní kontakt se svými zákazníky.",
+        "li1": "Prezentace u zákazníka",
+        "li2": "Základní školení uživatelů",
+        "li3": "Základní uživatelská podpora"
+      },
+      "existRel": {
+        "h": "Existující vztahy",
+        "p1": "Máme k dispozici množství již navázaných vztahů se zákazníky - nezačínáte “od nuly”.",
+        "li1": "Předběžná zpětná vazba",
+        "li2": "Zajištění zájmu o produkt"
+      },
+      "faq": {
+        "1": {
+          "h": "Kdo tvoří Váš obchodní tým?",
+          "p1": "Náš obchodní tým kombinuje zkušenosti seniorních obchodníků, kteří dohlíží na juniorní obchodní zástupce. Tímto způsobem dokážeme optimalizovat poměr cena/výkon pro potřeby startupu."
+        },
+        "2": {
+          "h": "Co když nám přivedete příliš mnoho zákazníků a nebudeme stíhat je obsloužit?",
+          "p1": "Zákazníky rozdělujeme do několika skupin. Zprvu Vám přivedeme malé množství zákazníků (zpravidla do 5), na kterých si svou službu vyzkoušíte. Zároveň máme ale již v záloze další čekající klienty se zájmem o váš produkt (zpravidla 10 - 20), kterým můžete své služby nabídnout ihned, jak bude ověřen na malém vzorku. Další klienty Vám budeme dávkovat s tím, jak budete schopni škálovat svůj business."
+        },
+        "3": {
+          "h": "Co když o můj produkt nebude zájem?",
+          "p1": "Razíme přístup “fail fast”. Pokud selžete brzy, ušetříte čas a zbytečně vynaložené peníze na rozvoj něčeho, co nemá šanci na trhu uspět.",
+          "p2": "Jestliže se Vám nepodaří uspět ve spolupráci s námi, s velkou pravděpodobností se Vám to nepodaří ani samotným. Rádi Vám poskytneme informace o dalších příležitostech na trhu."
+        },
+        "4": {
+          "h": "Můžeme se zákazníky jednat napřímo?",
+          "p1": "Samozřejmě. Dáme Vám jen doporučení a odsouhlasíme si etický kodex, jak se zákazníky jednat. Klíčoví zákazníci jistě přímý kontakt se zakladateli velmi ocení."
+        },
+        "5": {
+          "h": "Není lepší využít marketing? Co třeba kampaně na Google / Facebook?",
+          "p1": "Marketing je určitě cestou k prosazení produktů u nichž již známe trh. Obecně je tento typ marketingu vhodnější spíše pro B2C služby, které mají nízké provize na jednoho zákazníka. Můžeme nabídnout formy, jak marketing a obchod vhodně kombinovat a propojit Vás s marketingovou agenturou, která se o Vás bude starat, případně Vám poskytnout obecná doporučení."
+        },
+        "6": {
+          "h": "Jste něco jako akcelerační program?",
+          "p1": "Vybrali jsme si jen část z toho co dělají akcelerační programy a snažíme se nabídnout, co Vám většina akcelerátorů za takto výhodných podmínek nenabídne. Fungujeme tudíž v synergii s některými akcelerátory. Narozdíl od akceleračních programů není spolupráce s námi nijak časově omezena."
+        }
+      },
+      "forDealers": {
+        "p1": "Jste zkušený obchodník nebo Vás uzavírání obchodů jen baví a cítíte v této oblasti svůj talent? Zapojením do naší sítě získají zkušení obchodníci přístup k široké síti lokálně rozmístěných obchodníků, což jim umožní lépe obsloužit své stávající zákazníky a pro ty méně zkušené máme připravený systém školení a profesního růstu.",
+        "li1": "Více uzavřených obchodů",
+        "li2": "Spolupráce v síti lokálních obchodníků",
+        "li3": "Profesní růst"
+      },
+      "freeStartPackTill": "Do {{tillDate}} každý náš nový klient získává ZDARMA “startovací balíček“ s vypracováním základní analýzy trhu a zaškolením našich obchodních zástupců.",
+      "expansionCz": "Nabízíme zajištění expanze do ČR"
+    }
+  }
+}

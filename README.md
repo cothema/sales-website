@@ -1,6 +1,7 @@
 # Website of Cothema Sales Network
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
+This project is build with [Angular](https://github.com/angular/angular).
+and [Scully.io](https://github.com/scullyio/scully) for static rendering.
 
 ## Development server
 
@@ -13,6 +14,13 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+### Build for production
+
+```
+ng build --prod
+npm run scully -- --scanRoutes
+```
 
 ## Running unit tests
 

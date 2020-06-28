@@ -21,16 +21,22 @@
 
           <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
             <li>
-              <a href="#home-section" class="nav-link">Home</a>
+              <a href="#home-section" class="nav-link">{{'menu.home'|translate}}</a>
             </li>
             <li>
-              <a href="#features-section" class="nav-link">Services</a>
+              <a href="#services-section" class="nav-link">{{'menu.services'|translate}}</a>
             </li>
             <li>
-              <a href="#about-section" class="nav-link">About Us</a>
+              <a href="#about-section" class="nav-link">{{'menu.aboutUs'|translate}}</a>
             </li>
             <li>
-              <a href="#contact-section" class="nav-link">Contact</a>
+              <a href="#salesman-section" class="nav-link">{{'menu.forDealers'|translate}}</a>
+            </li>
+            <li>
+              <a href="#contact-section" class="nav-link">{{'menu.contact'|translate}}</a>
+            </li>
+            <li>
+              <a href="#faq-section" class="nav-link">{{'menu.faq'|translate}}</a>
             </li>
           </ul>
         </nav>
@@ -45,7 +51,6 @@
   </div>
 
 </header>
-
 
 <div class="site-blocks-cover" style="overflow: hidden;">
   <div class="container">
@@ -230,62 +235,6 @@
   </div>
 </div>
 
+<app-about-us></app-about-us>
 
-<div class="site-section bg-light" id="about-section">
-  <div class="container">
-    <div class="row mb-5">
-      <div class="col-12 text-center">
-        <h2 class="section-title mb-3">O nás</h2>
-      </div>
-    </div>
-    <div class="row mb-5">
-      <div class="col-lg-6" data-aos="fade-right">
-        <img src="assets/images/undraw_bookmarks_r6up.svg" alt="Image" class="img-fluid">
-      </div>
-      <div class="col-lg-5 ml-auto pl-lg-5">
-        <h2 class="text-black mb-4 h3 font-weight-bold">Proč to děláme?</h2>
-        <p class="mb-4">
-          Více než 90% startupů selže v prvních 2 letech své existence a z našich odhadů plyne, že až 70%
-          z těch, které selžou by se dalo pomoci k úspěchu rychlou zpětnou vazbou od reálných zákazníků.
-          Chápeme, že zakladatelé jsou zahlceni vývojem produktu a na zbytek zkrátka “není čas”.
-        </p>
-        <p class="mb-1">
-          Našimi výzvami jsou:
-        </p>
-        <ul class="ul-check mb-5 list-unstyled success">
-          <li>Férové jednání a win-win obchod</li>
-          <li>Vyšší míra inovací</li>
-          <li>Vyšší diverzita trhu</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="site-section bg-image2 overlay" id="contact-section"
-     style="background-image: url('assets/images/hero_1.jpg');">
-  <div class="container">
-    <div class="row mb-5">
-      <div class="col-12 text-center">
-        <h2 class="section-title mb-3 text-white">Contact us</h2>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-lg-7 mb-5">
-        <div class="bg-white text-center p-5">
-          <b>Contact person:</b> Miloš Havlíček<br/>
-          <b>Email:</b> <a href="mailto:havlicek@cothema.com">havlicek@cothema.com</a><br/>
-          <b>Tel.:</b> +420 606 460 316
-
-          <hr/>
-
-          The project is powered by:<br/>
-          Cothema s.r.o.,<br/>
-          náměstí 14. října 1307/2,<br/>
-          Smíchov, 150 00 Praha<br/>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
+<app-contact-us></app-contact-us>

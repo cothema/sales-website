@@ -1,8 +1,6 @@
 import { Component, OnInit } from "@angular/core";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons/faArrowRight";
-import { faLink } from "@fortawesome/free-solid-svg-icons/faLink";
-import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons/faMapMarkerAlt";
-import { faUsers } from "@fortawesome/free-solid-svg-icons/faUsers";
+import { ActivatedRoute, Router } from "@angular/router";
+import { TranslateService } from "@ngx-translate/core";
 
 @Component({
   selector: "app-home",
@@ -10,15 +8,26 @@ import { faUsers } from "@fortawesome/free-solid-svg-icons/faUsers";
   styleUrls: ["./home.component.scss"]
 })
 export class HomeComponent implements OnInit {
-  faUsers = faUsers;
-  mapMarkerAlt = faMapMarkerAlt;
-  faLink = faLink;
-  faArrowRight = faArrowRight;
 
-  constructor() {
+  constructor(
+    private router: Router,
+    private route: ActivatedRoute,
+    private translate: TranslateService
+  ) {
   }
 
-  ngOnInit(): void {
+  async ngOnInit(): Promise<void> {
+    const routeData = await this.route.data;
+    let langParam = await this.route.snapshot.paramMap.get("lang");
+    if (!langParam) {
+      langParam = routeData['lang'];
+    }
+
+    if (langParam) {
+      this.translate.use(langParam);
+    } else {
+      this.translate.use(this.translate.getDefaultLang());
+    }
   }
 
 }

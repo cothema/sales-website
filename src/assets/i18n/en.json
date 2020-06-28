@@ -1,0 +1,95 @@
+{
+  "btn": {
+    "interested": "I'm interested in"
+  },
+  "menu": {
+    "home": "Home",
+    "services": "Services",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "forDealers": "For Dealers",
+    "faq": "FAQ"
+  },
+  "part": {
+    "coverOutsourcing": {
+      "h1": "We connect startups with dealers",
+      "p1": "Leave your business matters to a network of local distributors for a win-win commission."
+    },
+    "aboutUs": {
+      "why": {
+        "h": "Why we do it?",
+        "p1": "More than 90% of startups fail in the first 2 years of their existence, and our estimates says that up to 70% of those that fail could be helped to succeed by a quick feedback from real customers. We understand that the founders are overwhelmed by their product development and for the rest simply “there is no time“."
+      },
+      "challenges": {
+        "h": "Our challenges are:",
+        "li1": "Fair dealing and win-win business",
+        "li2": "Higher rate of innovation",
+        "li3": "Higher market diversity"
+      }
+    },
+    "contactUs": {
+      "h": "Contact us",
+      "p1": "We will consult your individual needs and send you more detailed information on possible cooperation, including specific commission conditions.",
+      "poweredBy": "This project is powered by:"
+    },
+    "services": {
+      "h": "Our services",
+      "p1": "Are you a technological B2B startup without a business team dealing with software or hardware development? Outsource your business matters to the network of our local distributors for win-win commission terms.",
+      "freeConsultation": "We offer a FREE non-binding online introductory consultation on the individual needs of your project with a presentation of our services.",
+      "salesTeam": {
+        "h": "Sales team",
+        "p1": "You will get a functioning business team with an optimized price vs. performance ratio.",
+        "li1": "You don't waste time looking for, training and leading sales representatives or teams.",
+        "li2": "You only pay commissions for closed deals."
+      },
+      "localRepre": {
+        "h": "Local representation",
+        "p1": "With us, your sales representatives do not waste time on long journeys, and yet you can maintain personal contact with your customers.",
+        "li1": "Presentation for customers",
+        "li2": "Basic user training",
+        "li3": "Basic user support"
+      },
+      "existRel": {
+        "h": "Existing relationships",
+        "p1": "We have a number of already established relationships with customers - you do not start “from scratch“.",
+        "li1": "Preliminary feedback",
+        "li2": "Provision of product interest"
+      },
+      "freeStartPackTill": "Till {{tillDate}}, each of our new clients receives a FREE “starter pack“ with basic market analysis and training of our sales representatives.",
+      "expansionCz": "We offer expansion to the Czech rep."
+    },
+    "faq": {
+      "1": {
+        "h": "Who does your sales team consist of?",
+        "p1": "Our sales team combines the experience of senior salespeople who oversee junior sales representatives. In this way, we can optimize the price vs. performance ratio for the needs of the startup."
+      },
+      "2": {
+        "h": "What if you bring us too many customers and we don't manage to serve them?",
+        "p1": "We divide customers into several groups. First, we will bring you a small number of customers (usually up to 5), where you can try your service. At the same time, we already have other waiting clients in reserve with an interest in your product (usually 10 - 20), to whom you can offer your services as soon as they are verified on a small sample. We will dose other clients to you as you will be able to scale your business."
+      },
+      "3": {
+        "h": "What if the will not be interest in my product?",
+        "p1": "Razíme přístup “fail fast”. Pokud selžete brzy, ušetříte čas a zbytečně vynaložené peníze na rozvoj něčeho, co nemá šanci na trhu uspět.",
+        "p2": "Jestliže se Vám nepodaří uspět ve spolupráci s námi, s velkou pravděpodobností se Vám to nepodaří ani samotným. Rádi Vám poskytneme informace o dalších příležitostech na trhu."
+      },
+      "4": {
+        "h": "Can we deal with customers directly?",
+        "p1": "Of course. We will only give you recommendations and agree on a code of ethics on how to deal with customers. Key customers will certainly appreciate the direct contact with the founders."
+      },
+      "5": {
+        "h": "Isn't it better to use marketing? What about a Google / Facebook campaign?",
+        "p1": "Marketing je určitě cestou k prosazení produktů u nichž již známe trh. Obecně je tento typ marketingu vhodnější spíše pro B2C služby, které mají nízké provize na jednoho zákazníka. Můžeme nabídnout formy, jak marketing a obchod vhodně kombinovat a propojit Vás s marketingovou agenturou, která se o Vás bude starat, případně Vám poskytnout obecná doporučení."
+      },
+      "6": {
+        "h": "Are you something like an accelerator program?",
+        "p1": "We have chosen only a part of what acceleration programs do and we try to offer what most accelerators will not offer you under such advantageous conditions. We therefore work in synergy with some accelerators. Unlike acceleration programs, cooperation with us is not time-limited."
+      }
+    },
+    "forDealers": {
+      "p1": "Are you an experienced dealer or do you just enjoy closing deals and do you feel your talent in this area? By joining our network, experienced salespeople will gain access to a wide network of local salespeople, which will allow them to better serve their existing customers, and for the less experienced we have prepared a system of training and professional growth.",
+      "li1": "More closed deals",
+      "li2": "Cooperation in a network of local dealers",
+      "li3": "Professional growth"
+    }
+  }
+}
