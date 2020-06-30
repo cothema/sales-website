@@ -1,7 +1,7 @@
 import { NgModule } from "@angular/core";
 import { RouterModule } from "@angular/router";
 import { SharedModule } from "../../shared/shared.module";
-import { ExpansionComponent } from "./expansion.component";
+import { CodeOfEthicsComponent } from "./code-of-ethics.component";
 
 @NgModule({
   declarations: [],
@@ -10,10 +10,10 @@ import { ExpansionComponent } from "./expansion.component";
     RouterModule.forChild([
       {
         path: "",
-        component: ExpansionComponent,
+        component: CodeOfEthicsComponent,
       },
     ]),
   ]
 })
-export class ExpansionModule {
+export class CodeOfEthicsModule {
 }

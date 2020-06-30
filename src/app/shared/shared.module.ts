@@ -6,7 +6,7 @@ import { TranslateModule } from "@ngx-translate/core";
   declarations: [],
   exports: [
     CommonModule,
-    TranslateModule
+    TranslateModule,
   ],
 })
 export class SharedModule {

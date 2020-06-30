@@ -1,0 +1,21 @@
+<div class="site-section" id="blog-section">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2 class="section-title mb-3">{{'menu.blogPosts'|translate}}</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div *ngFor="let post of posts" class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+        <div class="h-entry">
+          <h2><a [routerLink]="post.route">{{post.title}}</a></h2>
+          <p>
+            {{post.annotation}}
+          </p>
+          <p><a [routerLink]="post.route">{{'btn.continueReading'|translate}}…</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

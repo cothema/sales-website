@@ -34,6 +34,7 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/jquery-sticky/jquery.sticky.js",
               "node_modules/aos/dist/aos.js"
             ]
           },
@@ -103,6 +104,7 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/jquery-sticky/jquery.sticky.js",
               "node_modules/aos/dist/aos.js"
             ]
           }
@@ -131,6 +133,10 @@
               "devServerTarget": "sales-website:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }

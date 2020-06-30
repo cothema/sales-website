@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "nlp20-tool"
+  },
+  "targets": {
+    "nlp20-tool": {
+      "hosting": {
+        "sales-website": [
+          "nlp20-tool"
+        ]
+      }
+    }
   }
 }

@@ -1,6 +1,7 @@
 {
   "btn": {
-    "interested": "I'm interested in"
+    "interested": "I'm interested in",
+    "continueReading": "Continue Reading"
   },
   "menu": {
     "home": "Home",
@@ -8,7 +9,9 @@
     "aboutUs": "About Us",
     "contact": "Contact",
     "forDealers": "For Dealers",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "blogPosts": "Blog Posts",
+    "codeOfEthics": "Code of ethics"
   },
   "part": {
     "coverOutsourcing": {

@@ -1,6 +1,7 @@
 {
   "btn": {
-    "interested": "Mám zájem"
+    "interested": "Mám zájem",
+    "continueReading": "Číst dále"
   },
   "menu": {
     "home": "Úvod",
@@ -8,7 +9,9 @@
     "aboutUs": "O nás",
     "contact": "Kontakt",
     "forDealers": "Pro obchodníky",
-    "faq": "Dotazy"
+    "faq": "Dotazy",
+    "blogPosts": "Příspěvky z blogu",
+    "codeOfEthics": "Etický kodex"
   },
   "part": {
     "coverOutsourcing": {
