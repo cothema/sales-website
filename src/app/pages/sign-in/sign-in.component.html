@@ -4,14 +4,14 @@
 
   <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
     <h2 class="display-4 mb-4">
-      Login to dashboard
+      {{'page.signIn.h1'|translate}}
     </h2>
 
     <ng-template #login>
       <div style="max-width: 400px;margin:0 auto;">
         <button (click)="authService.signInViaGoogle()" class="btn btn-primary btn-block" type="button">
           <fa-icon [icon]="faGoogle"></fa-icon>&nbsp;
-          Přihlásit se přes Google
+          {{'btn.signInViaGoogle'|translate}}
         </button>
       </div>
     </ng-template>
@@ -19,7 +19,7 @@
     <div *ngIf="(authService.user$ | async); else login" style="max-width: 400px;margin:0 auto;">
       <button (click)="authService.signOut()" class="btn btn-primary btn-block" type="button">
         <fa-icon [icon]="faSignOutAlt"></fa-icon>&nbsp;
-        Odhlásit se
+        {{'btn.signOut'|translate}}
       </button>
     </div>
   </div>

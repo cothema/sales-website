@@ -43,11 +43,11 @@ const routes: Routes = [
   },
   {
     path: "cz/prihlaseni",
-    loadChildren: () => import("./pages/login/login.module").then(m => m.LoginModule)
+    loadChildren: () => import("./pages/sign-in/sign-in.module").then(m => m.SignInModule)
   },
   {
-    path: "en/login",
-    loadChildren: () => import("./pages/login/login.module").then(m => m.LoginModule)
+    path: "en/sign-in",
+    loadChildren: () => import("./pages/sign-in/sign-in.module").then(m => m.SignInModule)
   },
 ];
 

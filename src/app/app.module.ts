@@ -17,7 +17,7 @@ import { BlogComponent } from "./pages/blog/blog.component";
 import { CodeOfEthicsComponent } from "./pages/code-of-ethics/code-of-ethics.component";
 import { ExpansionComponent } from "./pages/expansion/expansion.component";
 import { HomeComponent } from "./pages/home/home.component";
-import { LoginComponent } from "./pages/login/login.component";
+import { SignInComponent } from "./pages/sign-in/sign-in.component";
 import { AboutUsComponent } from "./part/about-us/about-us.component";
 import { BlogPostsComponent } from "./part/blog-posts/blog-posts.component";
 import { ContactUsComponent } from "./part/contact-us/contact-us.component";
@@ -49,7 +49,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     CodeOfEthicsComponent,
     ExpansionComponent,
     HomeComponent,
-    LoginComponent
+    SignInComponent
   ],
   imports: [
     BrowserModule,

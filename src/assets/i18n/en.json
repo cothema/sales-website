@@ -1,7 +1,10 @@
 {
   "btn": {
     "interested": "I'm interested in",
-    "continueReading": "Continue Reading"
+    "continueReading": "Continue Reading",
+    "signInViaGoogle": "Login via Google",
+    "signOut": "Sign out",
+    "signIn": "Sign in"
   },
   "menu": {
     "home": "Home",
@@ -61,6 +64,32 @@
       "freeStartPackTill": "Till {{tillDate}}, each of our new clients receives a FREE “starter pack“ with basic market analysis and training of our sales representatives.",
       "expansionCz": "We offer expansion to the Czech rep."
     },
+    "servicesSteps": {
+      "1": {
+        "h1": "Basic market research",
+        "p1": "Don't create a product if you don't know who you're creating it for. With us, you will understand which customers are most important to you and, above all, you will find out how much space is on the market. As part of the start-up package, we will prepare an introductory market research for you."
+      },
+      "2": {
+        "h1": "Feedback collection",
+        "p1": "Feedback is key to any product and for startups, and software and hardware in general, this is doubly true! You get feedback from your new, existing and potential customers in real time."
+      },
+      "3": {
+        "h1": "Acquiring new customers",
+        "p1": "There is nothing more difficult than addressing new contacts, finding the right decision makers in the customer's company and presenting the product to usually very busy people. We solve all this for you."
+      },
+      "4": {
+        "h1": "Basic user support",
+        "p1": "Don't waste time handling elementary queries from customers (e.g. where they find a particular button). You will only deal with technical problems and the rest will reach you in the form of feedback."
+      },
+      "5": {
+        "h1": "Long-term relationship with customers",
+        "p1": "The relationship with the customer almost never ends when the sale closes. The customer expects the product to be further developed and the cooperation to deepen as much as possible. Our sales representatives listen to the needs of customers for a long time and maintain a relationship with them."
+      },
+      "6": {
+        "h1": "Initial cash flow",
+        "p1": "The first sales will start the initial cash flow of your newly emerging project. You will be able to innovate faster and invest where needed."
+      }
+    },
     "faq": {
       "1": {
         "h": "Who does your sales team consist of?",
@@ -93,6 +122,11 @@
       "li1": "More closed deals",
       "li2": "Cooperation in a network of local dealers",
       "li3": "Professional growth"
+    }
+  },
+  "page": {
+    "signIn": {
+      "h1": "Login to dashboard"
     }
   }
 }

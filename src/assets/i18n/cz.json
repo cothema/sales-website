@@ -1,7 +1,10 @@
 {
   "btn": {
     "interested": "Mám zájem",
-    "continueReading": "Číst dále"
+    "continueReading": "Číst dále",
+    "signInViaGoogle": "Přihlásit se přes Google",
+    "signOut": "Odhlásit se",
+    "signIn": "Přihlášení"
   },
   "menu": {
     "home": "Úvod",
@@ -57,42 +60,73 @@
         "p1": "Máme k dispozici množství již navázaných vztahů se zákazníky - nezačínáte “od nuly”.",
         "li1": "Předběžná zpětná vazba",
         "li2": "Zajištění zájmu o produkt"
+      }
+    },
+    "servicesSteps": {
+      "1": {
+        "h1": "Základní průzkum trhu",
+        "p1": "Nevytvářejte produkt, jestliže nevíte pro koho ho vytváříte. S námi pochopíte, kteří zákazníci jsou pro Vás nejdůležitější a především zjistíte jak velký je prostor na trhu. V rámci startovního balíčku za Vás vypracujeme úvodní průzkum trhu."
       },
-      "faq": {
-        "1": {
-          "h": "Kdo tvoří Váš obchodní tým?",
-          "p1": "Náš obchodní tým kombinuje zkušenosti seniorních obchodníků, kteří dohlíží na juniorní obchodní zástupce. Tímto způsobem dokážeme optimalizovat poměr cena/výkon pro potřeby startupu."
-        },
-        "2": {
-          "h": "Co když nám přivedete příliš mnoho zákazníků a nebudeme stíhat je obsloužit?",
-          "p1": "Zákazníky rozdělujeme do několika skupin. Zprvu Vám přivedeme malé množství zákazníků (zpravidla do 5), na kterých si svou službu vyzkoušíte. Zároveň máme ale již v záloze další čekající klienty se zájmem o váš produkt (zpravidla 10 - 20), kterým můžete své služby nabídnout ihned, jak bude ověřen na malém vzorku. Další klienty Vám budeme dávkovat s tím, jak budete schopni škálovat svůj business."
-        },
-        "3": {
-          "h": "Co když o můj produkt nebude zájem?",
-          "p1": "Razíme přístup “fail fast”. Pokud selžete brzy, ušetříte čas a zbytečně vynaložené peníze na rozvoj něčeho, co nemá šanci na trhu uspět.",
-          "p2": "Jestliže se Vám nepodaří uspět ve spolupráci s námi, s velkou pravděpodobností se Vám to nepodaří ani samotným. Rádi Vám poskytneme informace o dalších příležitostech na trhu."
-        },
-        "4": {
-          "h": "Můžeme se zákazníky jednat napřímo?",
-          "p1": "Samozřejmě. Dáme Vám jen doporučení a odsouhlasíme si etický kodex, jak se zákazníky jednat. Klíčoví zákazníci jistě přímý kontakt se zakladateli velmi ocení."
-        },
-        "5": {
-          "h": "Není lepší využít marketing? Co třeba kampaně na Google / Facebook?",
-          "p1": "Marketing je určitě cestou k prosazení produktů u nichž již známe trh. Obecně je tento typ marketingu vhodnější spíše pro B2C služby, které mají nízké provize na jednoho zákazníka. Můžeme nabídnout formy, jak marketing a obchod vhodně kombinovat a propojit Vás s marketingovou agenturou, která se o Vás bude starat, případně Vám poskytnout obecná doporučení."
-        },
-        "6": {
-          "h": "Jste něco jako akcelerační program?",
-          "p1": "Vybrali jsme si jen část z toho co dělají akcelerační programy a snažíme se nabídnout, co Vám většina akcelerátorů za takto výhodných podmínek nenabídne. Fungujeme tudíž v synergii s některými akcelerátory. Narozdíl od akceleračních programů není spolupráce s námi nijak časově omezena."
-        }
+      "2": {
+        "h1": "Sběr zpětné vazby",
+        "p1": "Zpětná vazba je klíčová pro jakýkoliv produkt a u startupů, a softwaru a hardwaru obecně, to platí dvojnásob! Zpětnou vazbu od svých nových, existujících i potencionálních zákazníků dostáváte v reálném čase."
       },
-      "forDealers": {
-        "p1": "Jste zkušený obchodník nebo Vás uzavírání obchodů jen baví a cítíte v této oblasti svůj talent? Zapojením do naší sítě získají zkušení obchodníci přístup k široké síti lokálně rozmístěných obchodníků, což jim umožní lépe obsloužit své stávající zákazníky a pro ty méně zkušené máme připravený systém školení a profesního růstu.",
-        "li1": "Více uzavřených obchodů",
-        "li2": "Spolupráce v síti lokálních obchodníků",
-        "li3": "Profesní růst"
+      "3": {
+        "h1": "Získání nových zákazníků",
+        "p1": "Není nic těžšího než oslovování nových kontaktů, hledání těch správných odpovědných osob ve firmě zákazníka a prezentace produktu zpravidla velmi vytíženým osobám. Toto vše řešíme za Vás."
       },
-      "freeStartPackTill": "Do {{tillDate}} každý náš nový klient získává ZDARMA “startovací balíček“ s vypracováním základní analýzy trhu a zaškolením našich obchodních zástupců.",
-      "expansionCz": "Nabízíme zajištění expanze do ČR"
+      "4": {
+        "h1": "Základní uživatelská podpora",
+        "p1": "Neztrácejte čas vyřizováním elementárních dotazů zákazníků typu, kde naleznou určité tlačítko. Vyřizovat budete až technické problémy a zbytek se k Vám dostane formou zpětné vazby."
+      },
+      "5": {
+        "h1": "Dlouhodobý vztah se zákazníky",
+        "p1": "Téměř nikdy nekončí vztah se zákazníkem okamžikem uzavření prodeje. Zákazník očekává, že se produkt bude dále rozvíjet a spolupráce pokud možno prohlubovat. Naši obchodní zástupci dlouhodobě potřebám zákazníků naslouchají a udržují s nimi vztah."
+      },
+      "6": {
+        "h1": "Počáteční cash flow",
+        "p1": "První prodeje nastartují počáteční cash flow Vašeho nově vznikajícího projektu. Budete moci rychleji inovovat a investovat tam, kde je potřeba."
+      }
+    },
+    "faq": {
+      "1": {
+        "h": "Kdo tvoří Váš obchodní tým?",
+        "p1": "Náš obchodní tým kombinuje zkušenosti seniorních obchodníků, kteří dohlíží na juniorní obchodní zástupce. Tímto způsobem dokážeme optimalizovat poměr cena/výkon pro potřeby startupu."
+      },
+      "2": {
+        "h": "Co když nám přivedete příliš mnoho zákazníků a nebudeme stíhat je obsloužit?",
+        "p1": "Zákazníky rozdělujeme do několika skupin. Zprvu Vám přivedeme malé množství zákazníků (zpravidla do 5), na kterých si svou službu vyzkoušíte. Zároveň máme ale již v záloze další čekající klienty se zájmem o váš produkt (zpravidla 10 - 20), kterým můžete své služby nabídnout ihned, jak bude ověřen na malém vzorku. Další klienty Vám budeme dávkovat s tím, jak budete schopni škálovat svůj business."
+      },
+      "3": {
+        "h": "Co když o můj produkt nebude zájem?",
+        "p1": "Razíme přístup “fail fast”. Pokud selžete brzy, ušetříte čas a zbytečně vynaložené peníze na rozvoj něčeho, co nemá šanci na trhu uspět.",
+        "p2": "Jestliže se Vám nepodaří uspět ve spolupráci s námi, s velkou pravděpodobností se Vám to nepodaří ani samotným. Rádi Vám poskytneme informace o dalších příležitostech na trhu."
+      },
+      "4": {
+        "h": "Můžeme se zákazníky jednat napřímo?",
+        "p1": "Samozřejmě. Dáme Vám jen doporučení a odsouhlasíme si etický kodex, jak se zákazníky jednat. Klíčoví zákazníci jistě přímý kontakt se zakladateli velmi ocení."
+      },
+      "5": {
+        "h": "Není lepší využít marketing? Co třeba kampaně na Google / Facebook?",
+        "p1": "Marketing je určitě cestou k prosazení produktů u nichž již známe trh. Obecně je tento typ marketingu vhodnější spíše pro B2C služby, které mají nízké provize na jednoho zákazníka. Můžeme nabídnout formy, jak marketing a obchod vhodně kombinovat a propojit Vás s marketingovou agenturou, která se o Vás bude starat, případně Vám poskytnout obecná doporučení."
+      },
+      "6": {
+        "h": "Jste něco jako akcelerační program?",
+        "p1": "Vybrali jsme si jen část z toho co dělají akcelerační programy a snažíme se nabídnout, co Vám většina akcelerátorů za takto výhodných podmínek nenabídne. Fungujeme tudíž v synergii s některými akcelerátory. Narozdíl od akceleračních programů není spolupráce s námi nijak časově omezena."
+      }
+    },
+    "forDealers": {
+      "p1": "Jste zkušený obchodník nebo Vás uzavírání obchodů jen baví a cítíte v této oblasti svůj talent? Zapojením do naší sítě získají zkušení obchodníci přístup k široké síti lokálně rozmístěných obchodníků, což jim umožní lépe obsloužit své stávající zákazníky a pro ty méně zkušené máme připravený systém školení a profesního růstu.",
+      "li1": "Více uzavřených obchodů",
+      "li2": "Spolupráce v síti lokálních obchodníků",
+      "li3": "Profesní růst"
+    },
+    "freeStartPackTill": "Do {{tillDate}} každý náš nový klient získává ZDARMA “startovací balíček“ s vypracováním základní analýzy trhu a zaškolením našich obchodních zástupců.",
+    "expansionCz": "Nabízíme zajištění expanze do ČR"
+  },
+  "page": {
+    "signIn": {
+      "h1": "Přihlášení do administrace"
     }
   }
 }
