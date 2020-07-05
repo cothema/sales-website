@@ -24,9 +24,21 @@ const routes: Routes = [
     data: {lang: "en"}
   },
   {
+    path: "en/for-dealers",
+    loadChildren: () =>
+      import("./pages/for-dealers/for-dealers.module").then(m => m.ForDealersModule),
+    data: {lang: "en"}
+  },
+  {
     path: "cz/expanze",
     loadChildren: () =>
       import("./pages/expansion/expansion.module").then(m => m.ExpansionModule),
+    data: {lang: "cz"}
+  },
+  {
+    path: "cz/pro-obchodniky",
+    loadChildren: () =>
+      import("./pages/for-dealers/for-dealers.module").then(m => m.ForDealersModule),
     data: {lang: "cz"}
   },
   {

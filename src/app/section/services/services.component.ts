@@ -5,7 +5,7 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons/faMapMarkerAlt
 import { faUsers } from "@fortawesome/free-solid-svg-icons/faUsers";
 
 @Component({
-  selector: "app-services",
+  selector: "app-services-section",
   templateUrl: "./services.component.html",
   styleUrls: ["./services.component.scss"]
 })

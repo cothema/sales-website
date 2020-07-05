@@ -28,8 +28,10 @@
                  class="nav-link">{{'menu.services'|translate}}</a>
               <ul class="dropdown">
                 <li>
-                  <a routerLink="/cz/eticky-kodex"
-                     class="nav-link">{{'menu.codeOfEthics'|translate}}</a>
+                  <a pageScroll routerLink="/" fragment="pricelist-section"
+                     class="nav-link">{{'menu.priceList'|translate}}</a>
+                  <a pageScroll routerLink="/expansion"
+                     class="nav-link">{{'menu.expansionCZ'|translate}}</a>
                 </li>
               </ul>
             </li>
@@ -37,8 +39,16 @@
               <a pageScroll routerLink="/" fragment="about-section" class="nav-link">{{'menu.aboutUs'|translate}}</a>
               <ul class="dropdown">
                 <li>
-                  <a pageScroll routerLink="/" fragment="salesman-section"
+                  <a pageScroll routerLink="/" fragment="why-we-section"
+                     class="nav-link">{{'menu.whyWe'|translate}}</a>
+                </li>
+                <li>
+                  <a routerLink="/cz/pro-obchodniky"
                      class="nav-link">{{'menu.forDealers'|translate}}</a>
+                </li>
+                <li>
+                  <a routerLink="/cz/eticky-kodex"
+                     class="nav-link">{{'menu.codeOfEthics'|translate}}</a>
                 </li>
               </ul>
             </li>
@@ -47,6 +57,11 @@
               <ul class="dropdown">
                 <li>
                   <a pageScroll routerLink="/" fragment="faq-section">{{'menu.faq'|translate}}</a>
+                </li>
+                <li>
+                  <a href="https://forms.gle/ee4Sf7qhWj3FqzoX8" target="_blank">{{'menu.questionnaire'|translate}} <sup>
+                    <fa-icon [icon]="faExternalLinkAlt"></fa-icon>
+                  </sup></a>
                 </li>
               </ul>
             </li>

@@ -5,7 +5,7 @@ import { TranslateService } from "@ngx-translate/core";
 declare var $: any;
 
 @Component({
-  selector: 'app-expansion',
+  selector: 'app-expansion-page',
   templateUrl: './expansion.component.html',
   styleUrls: ['./expansion.component.scss']
 })

@@ -14,12 +14,16 @@
     "forDealers": "Pro obchodníky",
     "faq": "Dotazy",
     "blogPosts": "Příspěvky z blogu",
-    "codeOfEthics": "Etický kodex"
+    "codeOfEthics": "Etický kodex",
+    "priceList": "Ceník",
+    "questionnaire": "Úvodní dotazník",
+    "expansionCZ": "Expanze do Česka",
+    "whyWe": "Proč my?"
   },
-  "part": {
+  "section": {
     "coverOutsourcing": {
-      "h1": "Propojujeme startupy s obchodníky",
-      "p1": "Přenechte své obchodní záležitosti síti lokálních distributorů za win-win provizi."
+      "h1": "Přivádíme inovativním firmám zákazníky",
+      "p1": "Přenechte získávání zákazníků a péči o ně síti zkušených obchodníků za výhodných podmínek."
     },
     "aboutUs": {
       "why": {
@@ -40,7 +44,7 @@
     },
     "services": {
       "h": "Naše služby",
-      "p1": "Jste technologický B2B startup bez obchodního týmu zabývající se vývojem softwaru nebo hardwaru? Přenechte své obchodní záležitosti síti našich lokálních distributorů formou provizí za oboustranně výhodných podmínek.",
+      "p1": "Zaměřujeme se na potřeby technologických B2B startupů bez obchodního týmu zabývajících se vývojem softwaru nebo hardwaru.",
       "freeConsultation": "ZDARMA nabízíme nezávaznou online úvodní konzultaci k individuálním potřebám Vašeho projektu s prezentací našich služeb.",
       "salesTeam": {
         "h": "Obchodní tým",
@@ -60,7 +64,9 @@
         "p1": "Máme k dispozici množství již navázaných vztahů se zákazníky - nezačínáte “od nuly”.",
         "li1": "Předběžná zpětná vazba",
         "li2": "Zajištění zájmu o produkt"
-      }
+      },
+      "freeStartPackTill": "Do {{tillDate}} každý náš nový klient získává ZDARMA “startovací balíček“ s vypracováním základní analýzy trhu a zaškolením našich obchodních zástupců.",
+      "expansionCz": "Nabízíme zajištění expanze do ČR"
     },
     "servicesSteps": {
       "1": {
@@ -77,11 +83,11 @@
       },
       "4": {
         "h1": "Základní uživatelská podpora",
-        "p1": "Neztrácejte čas vyřizováním elementárních dotazů zákazníků typu, kde naleznou určité tlačítko. Vyřizovat budete až technické problémy a zbytek se k Vám dostane formou zpětné vazby."
+        "p1": "Neztrácejte svůj čas vyřizováním elementárních dotazů zákazníků typu, kde naleznou určité tlačítko. Vyřizovat budete až technické problémy a zbytek se k Vám dostane formou zpětné vazby."
       },
       "5": {
         "h1": "Dlouhodobý vztah se zákazníky",
-        "p1": "Téměř nikdy nekončí vztah se zákazníkem okamžikem uzavření prodeje. Zákazník očekává, že se produkt bude dále rozvíjet a spolupráce pokud možno prohlubovat. Naši obchodní zástupci dlouhodobě potřebám zákazníků naslouchají a udržují s nimi vztah."
+        "p1": "Téměř nikdy nekončí vztah se zákazníkem okamžikem uzavření obchodu. Zákazník očekává, že se produkt bude dále rozvíjet a spolupráce pokud možno prohlubovat. Naši obchodní zástupci dlouhodobě potřebám zákazníků naslouchají a udržují s nimi vztah."
       },
       "6": {
         "h1": "Počáteční cash flow",
@@ -120,9 +126,7 @@
       "li1": "Více uzavřených obchodů",
       "li2": "Spolupráce v síti lokálních obchodníků",
       "li3": "Profesní růst"
-    },
-    "freeStartPackTill": "Do {{tillDate}} každý náš nový klient získává ZDARMA “startovací balíček“ s vypracováním základní analýzy trhu a zaškolením našich obchodních zástupců.",
-    "expansionCz": "Nabízíme zajištění expanze do ČR"
+    }
   },
   "page": {
     "signIn": {

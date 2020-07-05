@@ -17,6 +17,11 @@
     </ng-template>
 
     <div *ngIf="(authService.user$ | async); else login" style="max-width: 400px;margin:0 auto;">
+      <div class="alert-warning mb-4 p-4">
+        V současné době nejste evidován/a jako obchodní zástupce.<br />
+        Kontaktujte nás, prosím, pro více informací.
+      </div>
+
       <button (click)="authService.signOut()" class="btn btn-primary btn-block" type="button">
         <fa-icon [icon]="faSignOutAlt"></fa-icon>&nbsp;
         {{'btn.signOut'|translate}}

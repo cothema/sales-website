@@ -1,9 +1,9 @@
 import { Component, OnInit } from "@angular/core";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons/faFacebookF";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons/faLinkedinIn";
-import { TranslateService } from "@ngx-translate/core";
 
 import * as AOS from "aos";
+import { FacebookService, InitParams } from "ngx-facebook";
 
 @Component({
   selector: "app-root",
@@ -17,23 +17,17 @@ export class AppComponent implements OnInit {
   faLinkedinIn = faLinkedinIn;
 
   constructor(
-    translate: TranslateService
-  ) {
-    const browserLang = translate.getBrowserLang();
-
-    let defaultLang = "en";
-
-    switch (browserLang) {
-      case "cs":
-        defaultLang = "cz";
-    }
-
-    translate.setDefaultLang(defaultLang);
-    translate.use(defaultLang);
+    private facebookService: FacebookService) {
   }
 
   ngOnInit() {
     this.initAOS();
+    this.initFacebookService();
+  }
+
+  private initFacebookService(): void {
+    const initParams: InitParams = {xfbml: true, version: 'v3.2'};
+    this.facebookService.init(initParams);
   }
 
   /**

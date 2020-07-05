@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { environment } from '../../../environments/environment';
-import { StorageKeys } from '../../@app/enums/storage-keys';
-import { LocalStorageService } from '../../@app/services/storage/local-storage';
+import { environment } from "../../environments/environment";
+import { StorageKeys } from "../enums/storage-keys";
+import { LocalStorageService } from "./storage/local-storage";
 
 @Injectable({
   providedIn: 'root'

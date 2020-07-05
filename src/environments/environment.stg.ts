@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  staging: false,
+  staging: true,
   baseUrl: 'https://cothema.com',
   firebaseConfig: {
     apiKey: 'AIzaSyBngu03A50vQA5laXvcB4J9Ki_OQO8zs3M',

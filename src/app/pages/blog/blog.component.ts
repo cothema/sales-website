@@ -3,7 +3,7 @@ import { Component, OnInit, ViewEncapsulation } from "@angular/core";
 declare var $: any;
 
 @Component({
-  selector: "app-blog",
+  selector: "app-blog-page",
   templateUrl: "./blog.component.html",
   styleUrls: ["./blog.component.scss"],
   preserveWhitespaces: true,

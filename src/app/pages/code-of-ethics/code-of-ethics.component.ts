@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 declare var $: any;
 
 @Component({
-  selector: 'app-code-of-ethics',
+  selector: 'app-code-of-ethics-page',
   templateUrl: './code-of-ethics.component.html',
   styleUrls: ['./code-of-ethics.component.scss']
 })

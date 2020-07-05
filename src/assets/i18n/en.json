@@ -14,17 +14,21 @@
     "forDealers": "For Dealers",
     "faq": "FAQ",
     "blogPosts": "Blog Posts",
-    "codeOfEthics": "Code of ethics"
+    "codeOfEthics": "Code of ethics",
+    "priceList": "Price list",
+    "questionnaire": "Questionnaire",
+    "expansionCZ": "Expansion to Czechia",
+    "whyWe": "Why we?"
   },
-  "part": {
+  "section": {
     "coverOutsourcing": {
-      "h1": "We connect startups with dealers",
-      "p1": "Leave your business matters to a network of local distributors for a win-win commission."
+      "h1": "We bring customers to innovative companies",
+      "p1": "Leave customer acquisition and care to a network of experienced salespeople under favorable conditions."
     },
     "aboutUs": {
       "why": {
         "h": "Why we do it?",
-        "p1": "More than 90% of startups fail in the first 2 years of their existence, and our estimates says that up to 70% of those that fail could be helped to succeed by a quick feedback from real customers. We understand that the founders are overwhelmed by their product development and for the rest simply “there is no time“."
+        "p1": "More than 90% of startups fail in the first 2 years of their existence, and our estimates say that up to 70% of those who failed could be helped to succeed by quick feedback from real customers. We understand that the founders are overwhelmed by their product development and for the rest “there is no time“."
       },
       "challenges": {
         "h": "Our challenges are:",
@@ -50,14 +54,14 @@
       },
       "localRepre": {
         "h": "Local representation",
-        "p1": "With us, your sales representatives do not waste time on long journeys, and yet you can maintain personal contact with your customers.",
+        "p1": "With us, your sales representatives don't waste time on long journeys, and yet you can maintain personal contact with your customers.",
         "li1": "Presentation for customers",
         "li2": "Basic user training",
         "li3": "Basic user support"
       },
       "existRel": {
         "h": "Existing relationships",
-        "p1": "We have a number of already established relationships with customers - you do not start “from scratch“.",
+        "p1": "We have a number of already established relationships with customers - you don't start “from scratch“.",
         "li1": "Preliminary feedback",
         "li2": "Provision of product interest"
       },
@@ -67,23 +71,23 @@
     "servicesSteps": {
       "1": {
         "h1": "Basic market research",
-        "p1": "Don't create a product if you don't know who you're creating it for. With us, you will understand which customers are most important to you and, above all, you will find out how much space is on the market. As part of the start-up package, we will prepare an introductory market research for you."
+        "p1": "Don't create a product if you don't know who you're creating it for. With us, you will understand which customers are most important to you and, above all, you will find out how much space is on the market. As part of the start-up package, we will prepare introductory market research for you."
       },
       "2": {
         "h1": "Feedback collection",
-        "p1": "Feedback is key to any product and for startups, and software and hardware in general, this is doubly true! You get feedback from your new, existing and potential customers in real time."
+        "p1": "Feedback is the key to any product and for startups, and software and hardware in general! You get feedback from your new, existing and potential customers in real-time."
       },
       "3": {
         "h1": "Acquiring new customers",
-        "p1": "There is nothing more difficult than addressing new contacts, finding the right decision makers in the customer's company and presenting the product to usually very busy people. We solve all this for you."
+        "p1": "Nothing is more difficult than addressing new contacts, finding the right decision-makers in the customer's company and presenting the product to usually very busy people. We solve all this for you."
       },
       "4": {
         "h1": "Basic user support",
-        "p1": "Don't waste time handling elementary queries from customers (e.g. where they find a particular button). You will only deal with technical problems and the rest will reach you in the form of feedback."
+        "p1": "Don't waste your time handling elementary queries from customers (e.g. where they find a particular button). You will only deal with technical problems and the rest will reach you in the form of feedback."
       },
       "5": {
-        "h1": "Long-term relationship with customers",
-        "p1": "The relationship with the customer almost never ends when the sale closes. The customer expects the product to be further developed and the cooperation to deepen as much as possible. Our sales representatives listen to the needs of customers for a long time and maintain a relationship with them."
+        "h1": "A long-term relationship with customers",
+        "p1": "The relationship with the customer never ends when the deal is closed. The customer expects the product to be further developed and the cooperation to be deepen as much as possible. Our sales representatives listen to the customer's needs and maintain a long-term relationship with them."
       },
       "6": {
         "h1": "Initial cash flow",
@@ -100,9 +104,9 @@
         "p1": "We divide customers into several groups. First, we will bring you a small number of customers (usually up to 5), where you can try your service. At the same time, we already have other waiting clients in reserve with an interest in your product (usually 10 - 20), to whom you can offer your services as soon as they are verified on a small sample. We will dose other clients to you as you will be able to scale your business."
       },
       "3": {
-        "h": "What if the will not be interest in my product?",
-        "p1": "Razíme přístup “fail fast”. Pokud selžete brzy, ušetříte čas a zbytečně vynaložené peníze na rozvoj něčeho, co nemá šanci na trhu uspět.",
-        "p2": "Jestliže se Vám nepodaří uspět ve spolupráci s námi, s velkou pravděpodobností se Vám to nepodaří ani samotným. Rádi Vám poskytneme informace o dalších příležitostech na trhu."
+        "h": "What if there won't be any interest in my product?",
+        "p1": "We promote a “fail fast” approach. If you fail early, you will your save time and money wasted on developing something that has no chance of succeeding in the market.",
+        "p2": "If you do not succeed in cooperating with us, you will most likely not succeed alone. We will be happy to provide you with information on other market opportunities."
       },
       "4": {
         "h": "Can we deal with customers directly?",
@@ -110,15 +114,15 @@
       },
       "5": {
         "h": "Isn't it better to use marketing? What about a Google / Facebook campaign?",
-        "p1": "Marketing je určitě cestou k prosazení produktů u nichž již známe trh. Obecně je tento typ marketingu vhodnější spíše pro B2C služby, které mají nízké provize na jednoho zákazníka. Můžeme nabídnout formy, jak marketing a obchod vhodně kombinovat a propojit Vás s marketingovou agenturou, která se o Vás bude starat, případně Vám poskytnout obecná doporučení."
+        "p1": "Marketing is definitely a way to promote products for which we already know the market. In general, this type of marketing is more suitable for B2C services that have low commissions per customer. We can offer ways to combine marketing and business appropriately and connect you with a marketing agency that will take care of you, or provide you with general recommendations."
       },
       "6": {
         "h": "Are you something like an accelerator program?",
-        "p1": "We have chosen only a part of what acceleration programs do and we try to offer what most accelerators will not offer you under such advantageous conditions. We therefore work in synergy with some accelerators. Unlike acceleration programs, cooperation with us is not time-limited."
+        "p1": "We have chosen only a part of what acceleration programs do and we try to offer what most accelerators won't offer under such advantageous conditions. We therefore work in synergy with some accelerators. Unlike acceleration programs, cooperation with us isn't time-limited."
       }
     },
     "forDealers": {
-      "p1": "Are you an experienced dealer or do you just enjoy closing deals and do you feel your talent in this area? By joining our network, experienced salespeople will gain access to a wide network of local salespeople, which will allow them to better serve their existing customers, and for the less experienced we have prepared a system of training and professional growth.",
+      "p1": "Are you an experienced dealer or do you just enjoy closing deals and do you feel to be talented in this area? By joining our network, experienced salespeople will gain access to a wide network of local salespeople, which will allow them to better serve their existing customers, and for the less experienced we have prepared a system of training and professional growth.",
       "li1": "More closed deals",
       "li2": "Cooperation in a network of local dealers",
       "li3": "Professional growth"
