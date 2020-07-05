@@ -8,9 +8,8 @@ describe('CoverOutsourcingComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CoverOutsourcingComponent ]
-    })
-    .compileComponents();
+      declarations: [CoverOutsourcingComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

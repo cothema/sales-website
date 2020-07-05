@@ -1,24 +1,22 @@
-import { Component, OnInit } from "@angular/core";
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons/faFacebookF";
-import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons/faLinkedinIn";
+import { Component, OnInit } from '@angular/core';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 
-import * as AOS from "aos";
-import { FacebookService, InitParams } from "ngx-facebook";
+import * as AOS from 'aos';
+import { FacebookService, InitParams } from 'ngx-facebook';
 
 @Component({
-  selector: "app-root",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.scss"]
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title = "sales-website";
+  title = 'sales-website';
   actualDate = new Date();
   faFacebookF = faFacebookF;
   faLinkedinIn = faLinkedinIn;
 
-  constructor(
-    private facebookService: FacebookService) {
-  }
+  constructor(private facebookService: FacebookService) {}
 
   ngOnInit() {
     this.initAOS();
@@ -26,7 +24,7 @@ export class AppComponent implements OnInit {
   }
 
   private initFacebookService(): void {
-    const initParams: InitParams = {xfbml: true, version: 'v3.2'};
+    const initParams: InitParams = { xfbml: true, version: 'v3.2' };
     this.facebookService.init(initParams);
   }
 
@@ -38,8 +36,8 @@ export class AppComponent implements OnInit {
   private initAOS() {
     AOS.init({
       duration: 800,
-      easing: "slide",
-      once: false
+      easing: 'slide',
+      once: false,
     });
   }
 }

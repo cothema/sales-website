@@ -1,7 +1,7 @@
-import { NgModule, OnInit } from "@angular/core";
-import { RouterModule } from "@angular/router";
-import { SharedModule } from "../../shared/shared.module";
-import { ForDealersComponent } from "./for-dealers.component";
+import { NgModule, OnInit } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { SharedModule } from '../../shared/shared.module';
+import { ForDealersComponent } from './for-dealers.component';
 
 declare var $: any;
 
@@ -11,17 +11,15 @@ declare var $: any;
     SharedModule,
     RouterModule.forChild([
       {
-        path: "",
+        path: '',
         component: ForDealersComponent,
       },
     ]),
-  ]
+  ],
 })
 export class ForDealersModule implements OnInit {
-
   async ngOnInit(): Promise<void> {
-    $(".loader").fadeOut("slow");
-    $("#overlayer").fadeOut("slow");
+    $('.loader').fadeOut('slow');
+    $('#overlayer').fadeOut('slow');
   }
-
 }

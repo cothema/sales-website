@@ -3,7 +3,7 @@ body {
   color: lighten($black, 50%);
   font-weight: 400;
   font-size: $font-size-base;
-  font-family: "Nunito", $font-family-sans-serif;
+  font-family: 'Nunito', $font-family-sans-serif;
 }
 
 ::-moz-selection {
@@ -17,16 +17,24 @@ body {
 }
 
 a {
-  transition: .3s all ease;
+  transition: 0.3s all ease;
 
   &:hover {
     text-decoration: none;
   }
 }
 
-h1, h2, h3, h4, h5,
-.h1, .h2, .h3, .h4, .h5 {
-  font-family: "Nunito", $font-family-sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-family: 'Nunito', $font-family-sans-serif;
 }
 
 .bg-light {
@@ -34,7 +42,13 @@ h1, h2, h3, h4, h5,
 }
 
 .bg-dark {
-  h1, h2, h3, h4, h5, p, li {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  li {
     color: $white;
   }
 }
@@ -52,11 +66,11 @@ h1, h2, h3, h4, h5,
 }
 
 .color-black-opacity-5 {
-  color: rgba($black, .5);
+  color: rgba($black, 0.5);
 }
 
 .color-white-opacity-5 {
-  color: rgba($white, .5);
+  color: rgba($white, 0.5);
 }
 
 .offcanvas-menu .site-wrap {
@@ -66,9 +80,9 @@ h1, h2, h3, h4, h5,
 
 .site-wrap {
   &:before {
-    transition: .3s all ease-in-out;
-    background: rgba(0, 0, 0, .6);
-    content: "";
+    transition: 0.3s all ease-in-out;
+    background: rgba(0, 0, 0, 0.6);
+    content: '';
     position: absolute;
     z-index: 2000;
     top: 0;
@@ -98,23 +112,24 @@ h1, h2, h3, h4, h5,
 
   &:after {
     position: absolute;
-    content: "";
+    content: '';
     top: 0;
     left: 0;
     top: 0;
     right: 0;
     z-index: 21;
-    background: rgba($black, .2);
+    background: rgba($black, 0.2);
   }
 }
-
 
 .btn {
   font-size: 16px;
   border-radius: 30px;
   padding: 10px 30px;
 
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     outline: none;
     box-shadow: none !important;
   }
@@ -126,19 +141,17 @@ h1, h2, h3, h4, h5,
     color: $white;
     position: relative;
     top: 0;
-    transition: .3s all ease;
-    box-shadow: 0 4px 20px -5px rgba($primary, .4);
+    transition: 0.3s all ease;
+    box-shadow: 0 4px 20px -5px rgba($primary, 0.4);
 
     &:hover {
       top: -2px;
       background: $primary;
       border-color: $primary;
       color: $white;
-      box-shadow: 0 5px 30px -5px rgba($primary, .7) !important;
+      box-shadow: 0 5px 30px -5px rgba($primary, 0.7) !important;
     }
-
   }
-
 }
 
 .line-height-1 {
@@ -154,11 +167,14 @@ h1, h2, h3, h4, h5,
   border-radius: 30px;
   font-family: $font-family-sans-serif;
 
-  &:active, &:focus {
+  &:active,
+  &:focus {
     border-color: $primary;
   }
 
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     box-shadow: none !important;
   }
 }
@@ -196,14 +212,17 @@ h1, h2, h3, h4, h5,
   }
 
   .border-top {
-    border-top: 1px solid rgba(255, 255, 255, .1) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
   }
 
   p {
     color: lighten($black, 45%);
   }
 
-  h2, h3, h4, h5 {
+  h2,
+  h3,
+  h4,
+  h5 {
     color: $white;
   }
 
@@ -234,11 +253,11 @@ h1, h2, h3, h4, h5,
 }
 
 .text-white-opacity-05 {
-  color: rgba($white, .5);
+  color: rgba($white, 0.5);
 }
 
 .text-black-opacity-05 {
-  color: rgba($black, .5);
+  color: rgba($black, 0.5);
 }
 
 .hover-bg-enlarge {
@@ -249,11 +268,13 @@ h1, h2, h3, h4, h5,
   }
 
   > div {
-    transform: scale(1.0);
-    transition: .8s all ease-in-out;
+    transform: scale(1);
+    transition: 0.8s all ease-in-out;
   }
 
-  &:hover, &:focus, &:active {
+  &:hover,
+  &:focus,
+  &:active {
     > div {
       transform: scale(1.2);
     }
@@ -264,9 +285,7 @@ h1, h2, h3, h4, h5,
       height: 300px !important;
     }
   }
-
 }
-
 
 .bg-image {
   background-size: cover;
@@ -279,14 +298,14 @@ h1, h2, h3, h4, h5,
 
     &:after {
       position: absolute;
-      content: "";
+      content: '';
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
       z-index: 0;
       width: 100%;
-      background: rgba(0, 0, 0, .7);
+      background: rgba(0, 0, 0, 0.7);
     }
   }
 
@@ -302,7 +321,8 @@ h1, h2, h3, h4, h5,
   }
 }
 
-.display-1, .display-3 {
+.display-1,
+.display-3 {
   @include media-breakpoint-down(md) {
     font-size: 3rem;
   }
@@ -316,7 +336,7 @@ h1, h2, h3, h4, h5,
   color: $white !important;
   border-radius: 50%;
   position: relative;
-  transition: .3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 
   > span {
     font-size: 50px;
@@ -348,8 +368,8 @@ h1, h2, h3, h4, h5,
     &:before {
       left: 0;
       font-size: 20px;
-      top: -.3rem;
-      content: "✓";
+      top: -0.3rem;
+      content: '✓';
       position: absolute;
     }
   }
@@ -379,7 +399,8 @@ h1, h2, h3, h4, h5,
   }
 }
 
-.select-wrap, .wrap-icon {
+.select-wrap,
+.wrap-icon {
   position: relative;
 
   .icon {
@@ -395,4 +416,3 @@ h1, h2, h3, h4, h5,
     width: 100%;
   }
 }
-

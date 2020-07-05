@@ -1,7 +1,7 @@
-import { NgModule } from "@angular/core";
-import { RouterModule } from "@angular/router";
-import { SharedModule } from "../../shared/shared.module";
-import { SignInComponent } from "./sign-in.component";
+import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { SharedModule } from '../../shared/shared.module';
+import { SignInComponent } from './sign-in.component';
 
 @NgModule({
   declarations: [],
@@ -9,11 +9,10 @@ import { SignInComponent } from "./sign-in.component";
     SharedModule,
     RouterModule.forChild([
       {
-        path: "",
+        path: '',
         component: SignInComponent,
       },
     ]),
-  ]
+  ],
 })
-export class SignInModule {
-}
+export class SignInModule {}

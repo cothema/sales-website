@@ -5,23 +5,16 @@ import { map, take, tap } from 'rxjs/operators';
 import { AuthService } from '../../@shared/services/auth.service';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class AuthGuard implements CanActivate, CanActivateChild {
-  constructor(
-    private auth: AuthService,
-    private router: Router
-  ) {
-  }
+  constructor(private auth: AuthService, private router: Router) {}
 
-  canActivate(
-    next: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot
-  ): Observable<boolean> {
+  canActivate(next: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<boolean> {
     return this.auth.user$.pipe(
       take(1),
-      map(user => !!user),
-      tap(loggedIn => {
+      map((user) => !!user),
+      tap((loggedIn) => {
         if (!loggedIn) {
           console.warn('Access denied!');
           this.router.navigate(['/sign-in']);
@@ -30,11 +23,7 @@ export class AuthGuard implements CanActivate, CanActivateChild {
     );
   }
 
-  canActivateChild(
-    next: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot
-  ): Observable<boolean> {
+  canActivateChild(next: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<boolean> {
     return this.canActivate(next, state);
   }
-
 }

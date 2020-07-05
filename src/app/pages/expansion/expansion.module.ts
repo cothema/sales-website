@@ -1,7 +1,7 @@
-import { NgModule } from "@angular/core";
-import { RouterModule } from "@angular/router";
-import { SharedModule } from "../../shared/shared.module";
-import { ExpansionComponent } from "./expansion.component";
+import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { SharedModule } from '../../shared/shared.module';
+import { ExpansionComponent } from './expansion.component';
 
 @NgModule({
   declarations: [],
@@ -9,11 +9,10 @@ import { ExpansionComponent } from "./expansion.component";
     SharedModule,
     RouterModule.forChild([
       {
-        path: "",
+        path: '',
         component: ExpansionComponent,
       },
     ]),
-  ]
+  ],
 })
-export class ExpansionModule {
-}
+export class ExpansionModule {}

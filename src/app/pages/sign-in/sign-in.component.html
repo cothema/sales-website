@@ -1,22 +1,21 @@
 <app-header></app-header>
 
 <div class="container" style="padding-top: 120px;">
-
   <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
     <h2 class="display-4 mb-4">
-      {{'page.signIn.h1'|translate}}
+      {{ 'page.signIn.h1' | translate }}
     </h2>
 
     <ng-template #login>
-      <div style="max-width: 400px;margin:0 auto;">
+      <div style="max-width: 400px; margin: 0 auto;">
         <button (click)="authService.signInViaGoogle()" class="btn btn-primary btn-block" type="button">
           <fa-icon [icon]="faGoogle"></fa-icon>&nbsp;
-          {{'btn.signInViaGoogle'|translate}}
+          {{ 'btn.signInViaGoogle' | translate }}
         </button>
       </div>
     </ng-template>
 
-    <div *ngIf="(authService.user$ | async); else login" style="max-width: 400px;margin:0 auto;">
+    <div *ngIf="authService.user$ | async; else login" style="max-width: 400px; margin: 0 auto;">
       <div class="alert-warning mb-4 p-4">
         V současné době nejste evidován/a jako obchodní zástupce.<br />
         Kontaktujte nás, prosím, pro více informací.
@@ -24,9 +23,8 @@
 
       <button (click)="authService.signOut()" class="btn btn-primary btn-block" type="button">
         <fa-icon [icon]="faSignOutAlt"></fa-icon>&nbsp;
-        {{'btn.signOut'|translate}}
+        {{ 'btn.signOut' | translate }}
       </button>
     </div>
   </div>
-
 </div>

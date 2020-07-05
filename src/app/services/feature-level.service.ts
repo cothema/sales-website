@@ -1,23 +1,20 @@
 import { Injectable } from '@angular/core';
-import { environment } from "../../environments/environment";
-import { StorageKeys } from "../enums/storage-keys";
-import { LocalStorageService } from "./storage/local-storage";
+import { environment } from '../../environments/environment';
+import { StorageKeys } from '../enums/storage-keys';
+import { LocalStorageService } from './storage/local-storage';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class FeatureLevelService {
-
   LEVEL_NONE = 0; // Feature is hidden for everyone
   LEVEL_DEV = 10; // Feature is visible only for developers
   LEVEL_BETA = 20; // Feature is visible for beta testers
   LEVEL_PROD = 30; // Feature is visible for all
 
-  constructor(
-    private storage: LocalStorageService,
-  ) {
+  constructor(private storage: LocalStorageService) {
     const levelInStorage = this.currentLevelInStorage;
-    this._currentLevel = (levelInStorage !== null) ? levelInStorage : this.defaultLevel;
+    this._currentLevel = levelInStorage !== null ? levelInStorage : this.defaultLevel;
   }
 
   private _currentLevel;
@@ -47,7 +44,7 @@ export class FeatureLevelService {
   private get currentLevelInStorage(): number | null {
     const storageValue = this.storage.get(StorageKeys.FEATURE_LEVEL_KEY);
 
-    return (storageValue !== null) ? +storageValue : null;
+    return storageValue !== null ? +storageValue : null;
   }
 
   isAvailable(requiredMinimumLevel: number): boolean {

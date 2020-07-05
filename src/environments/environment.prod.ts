@@ -10,6 +10,6 @@ export const environment = {
     storageBucket: 'nlp20-tool.appspot.com',
     messagingSenderId: '764074145248',
     appId: '1:764074145248:web:f1b65afd44f01776382785',
-    measurementId: 'G-KHHNZB0H9X'
-  }
+    measurementId: 'G-KHHNZB0H9X',
+  },
 };

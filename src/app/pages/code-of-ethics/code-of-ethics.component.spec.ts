@@ -8,9 +8,8 @@ describe('CodeOfEthicsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CodeOfEthicsComponent ]
-    })
-    .compileComponents();
+      declarations: [CodeOfEthicsComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

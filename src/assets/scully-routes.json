@@ -1,1 +1,15 @@
-[{"route":"/"},{"route":"/en"},{"route":"/en/expansion"},{"route":"/cz/expanze"},{"route":"/cz/blog/jak-vybudovat-startup-bez-investoru","title":"Jak vybudovat startup bez investorů?","description":"Návod, jak lze vybudovat úspěšný startup i bez velkého kapitálu.","published":true,"keywords":"startup, investoři, bootstrapping, fundraising","lang":"cz","sourceFile":"jak-vybudovat-startup-bez-investoru.md"}]
+[
+  { "route": "/" },
+  { "route": "/en" },
+  { "route": "/en/expansion" },
+  { "route": "/cz/expanze" },
+  {
+    "route": "/cz/blog/jak-vybudovat-startup-bez-investoru",
+    "title": "Jak vybudovat startup bez investorů?",
+    "description": "Návod, jak lze vybudovat úspěšný startup i bez velkého kapitálu.",
+    "published": true,
+    "keywords": "startup, investoři, bootstrapping, fundraising",
+    "lang": "cz",
+    "sourceFile": "jak-vybudovat-startup-bez-investoru.md"
+  }
+]

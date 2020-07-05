@@ -1,18 +1,15 @@
-import { Injectable } from "@angular/core";
-import { TranslateService } from "@ngx-translate/core";
-import { StorageKeys } from "../enums/storage-keys";
-import { LocalStorageService } from "./storage/local-storage";
+import { Injectable } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { StorageKeys } from '../enums/storage-keys';
+import { LocalStorageService } from './storage/local-storage';
 
 @Injectable({
-  providedIn: "root"
+  providedIn: 'root',
 })
 export class TranslateWrapperService {
   private defaultLang = 'en';
 
-  constructor(
-    private translate: TranslateService,
-    private storage: LocalStorageService,
-  ) {
+  constructor(private translate: TranslateService, private storage: LocalStorageService) {
     this.init();
   }
 
@@ -27,10 +24,10 @@ export class TranslateWrapperService {
       const browserLang = this.translate.getBrowserLang();
 
       switch (browserLang) {
-        case "en":
-          lang = "en";
-        case "cs":
-          lang = "cz";
+        case 'en':
+          lang = 'en';
+        case 'cs':
+          lang = 'cz';
       }
     }
 
