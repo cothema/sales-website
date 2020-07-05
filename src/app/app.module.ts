@@ -14,21 +14,22 @@ import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BlogComponent } from './pages/blog/blog.component';
-import { CodeOfEthicsComponent } from './pages/code-of-ethics/code-of-ethics.component';
-import { ExpansionComponent } from './pages/expansion/expansion.component';
-import { HomeComponent } from './pages/home/home.component';
-import { SignInComponent } from './pages/sign-in/sign-in.component';
-import { AboutUsComponent } from './section/about-us/about-us.component';
-import { BlogPostsComponent } from './section/blog-posts/blog-posts.component';
-import { ContactUsComponent } from './section/contact-us/contact-us.component';
-import { CoverOutsourcingComponent } from './section/cover-outsourcing/cover-outsourcing.component';
-import { FaqComponent } from './section/faq/faq.component';
-import { ForDealersComponent } from './section/for-dealers/for-dealers.component';
-import { HeaderComponent } from './section/header/header.component';
-import { PricelistComponent } from './section/pricelist/pricelist.component';
-import { ServicesStepsComponent } from './section/services-steps/services-steps.component';
-import { ServicesComponent } from './section/services/services.component';
+import { BlogPageComponent } from './pages/blog-page/blog-page.component';
+import { CodeOfEthicsPageComponent } from './pages/code-of-ethics-page/code-of-ethics-page.component';
+import { ExpansionPageComponent } from './pages/expansion-page/expansion-page.component';
+import { ForDealersPageComponent } from './pages/for-dealers-page/for-dealers-page.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { SignInPageComponent } from './pages/sign-in-page/sign-in-page.component';
+import { HeaderPartComponent } from './parts/header-part/header-part.component';
+import { AboutUsSectionComponent } from './section/about-us-section/about-us-section.component';
+import { BlogPostsSectionComponent } from './section/blog-posts-section/blog-posts-section.component';
+import { ContactUsSectionComponent } from './section/contact-us-section/contact-us-section.component';
+import { CoverOutsourcingSectionComponent } from './section/cover-outsourcing-section/cover-outsourcing-section.component';
+import { FaqSectionComponent } from './section/faq-section/faq-section.component';
+import { ForDealersSectionComponent } from './section/for-dealers-section/for-dealers-section.component';
+import { PricelistSectionComponent } from './section/pricelist-section/pricelist-section.component';
+import { ServicesSectionComponent } from './section/services-section/services-section.component';
+import { ServicesStepsSectionComponent } from './section/services-steps-section/services-steps-section.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -38,21 +39,22 @@ export function HttpLoaderFactory(http: HttpClient) {
 @NgModule({
   declarations: [
     AppComponent,
-    ContactUsComponent,
-    AboutUsComponent,
-    ServicesComponent,
-    ServicesStepsComponent,
-    ForDealersComponent,
-    FaqComponent,
-    CoverOutsourcingComponent,
-    BlogPostsComponent,
-    HeaderComponent,
-    BlogComponent,
-    CodeOfEthicsComponent,
-    ExpansionComponent,
-    HomeComponent,
-    SignInComponent,
-    PricelistComponent,
+    ContactUsSectionComponent,
+    AboutUsSectionComponent,
+    ServicesSectionComponent,
+    ServicesStepsSectionComponent,
+    ForDealersSectionComponent,
+    FaqSectionComponent,
+    CoverOutsourcingSectionComponent,
+    BlogPostsSectionComponent,
+    BlogPageComponent,
+    CodeOfEthicsPageComponent,
+    ExpansionPageComponent,
+    HomePageComponent,
+    SignInPageComponent,
+    PricelistSectionComponent,
+    HeaderPartComponent,
+    ForDealersPageComponent
   ],
   imports: [
     BrowserModule,
@@ -61,8 +63,8 @@ export function HttpLoaderFactory(http: HttpClient) {
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
-        deps: [HttpClient],
-      },
+        deps: [HttpClient]
+      }
     }),
     AppRoutingModule,
     ScullyLibModule,
@@ -72,8 +74,12 @@ export function HttpLoaderFactory(http: HttpClient) {
     FormsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
-    FacebookModule.forRoot(),
+    FacebookModule.forRoot()
   ],
   bootstrap: [AppComponent],
+  exports: [
+    HeaderPartComponent
+  ]
 })
-export class AppModule {}
+export class AppModule {
+}

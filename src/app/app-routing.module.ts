@@ -4,57 +4,57 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./pages/home/home.module').then((m) => m.HomeModule),
-    pathMatch: 'full',
+    loadChildren: () => import('./pages/home-page/home-page.module').then((m) => m.HomePageModule),
+    pathMatch: 'full'
   },
   {
     path: 'en',
-    loadChildren: () => import('./pages/home/home.module').then((m) => m.HomeModule),
+    loadChildren: () => import('./pages/home-page/home-page.module').then((m) => m.HomePageModule)
   },
   {
     path: 'expansion',
-    redirectTo: 'en/expansion',
+    redirectTo: 'en/expansion-page'
   },
   {
-    path: 'en/expansion',
-    loadChildren: () => import('./pages/expansion/expansion.module').then((m) => m.ExpansionModule),
-    data: { lang: 'en' },
+    path: 'en/expansion-page',
+    loadChildren: () => import('./pages/expansion-page/expansion-page.module').then((m) => m.ExpansionPageModule),
+    data: { lang: 'en' }
   },
   {
-    path: 'en/for-dealers',
-    loadChildren: () => import('./pages/for-dealers/for-dealers.module').then((m) => m.ForDealersModule),
-    data: { lang: 'en' },
+    path: 'en/for-dealers-section-page',
+    loadChildren: () => import('./pages/for-dealers-page/for-dealers-page.module').then((m) => m.ForDealersPageModule),
+    data: { lang: 'en' }
   },
   {
     path: 'cz/expanze',
-    loadChildren: () => import('./pages/expansion/expansion.module').then((m) => m.ExpansionModule),
-    data: { lang: 'cz' },
+    loadChildren: () => import('./pages/expansion-page/expansion-page.module').then((m) => m.ExpansionPageModule),
+    data: { lang: 'cz' }
   },
   {
     path: 'cz/pro-obchodniky',
-    loadChildren: () => import('./pages/for-dealers/for-dealers.module').then((m) => m.ForDealersModule),
-    data: { lang: 'cz' },
+    loadChildren: () => import('./pages/for-dealers-page/for-dealers-page.module').then((m) => m.ForDealersPageModule),
+    data: { lang: 'cz' }
   },
   {
-    path: 'cz/blog',
-    loadChildren: () => import('./pages/blog/blog.module').then((m) => m.BlogModule),
+    path: 'cz/blog-page',
+    loadChildren: () => import('./pages/blog-page/blog-page.module').then((m) => m.BlogPageModule)
   },
   {
     path: 'cz/eticky-kodex',
-    loadChildren: () => import('./pages/code-of-ethics/code-of-ethics.module').then((m) => m.CodeOfEthicsModule),
+    loadChildren: () => import('./pages/code-of-ethics-page/code-of-ethics-page.module').then((m) => m.CodeOfEthicsPageModule)
   },
   {
-    path: 'en/code-of-ethics',
-    loadChildren: () => import('./pages/code-of-ethics/code-of-ethics.module').then((m) => m.CodeOfEthicsModule),
+    path: 'en/code-of-ethics-page',
+    loadChildren: () => import('./pages/code-of-ethics-page/code-of-ethics-page.module').then((m) => m.CodeOfEthicsPageModule)
   },
   {
     path: 'cz/prihlaseni',
-    loadChildren: () => import('./pages/sign-in/sign-in.module').then((m) => m.SignInModule),
+    loadChildren: () => import('./pages/sign-in-page/sign-in-page.module').then((m) => m.SignInPageModule)
   },
   {
-    path: 'en/sign-in',
-    loadChildren: () => import('./pages/sign-in/sign-in.module').then((m) => m.SignInModule),
-  },
+    path: 'en/sign-in-page',
+    loadChildren: () => import('./pages/sign-in-page/sign-in-page.module').then((m) => m.SignInPageModule)
+  }
 ];
 
 @NgModule({

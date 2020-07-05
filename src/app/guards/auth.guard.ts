@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, CanActivate, CanActivateChild, Router, RouterStateSnapshot } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map, take, tap } from 'rxjs/operators';
-import { AuthService } from '../../@shared/services/auth.service';
+import { AuthService } from '../../@shared/services-section/auth.service';
 
 @Injectable({
   providedIn: 'root',
@@ -17,7 +17,7 @@ export class AuthGuard implements CanActivate, CanActivateChild {
       tap((loggedIn) => {
         if (!loggedIn) {
           console.warn('Access denied!');
-          this.router.navigate(['/sign-in']);
+          this.router.navigate(['/sign-in-page']);
         }
       })
     );
