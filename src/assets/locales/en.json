@@ -1,4 +1,10 @@
 {
+  "ROUTES": {
+    "code-of-ethics": "code-of-ethics",
+    "expansion": "expansion",
+    "for-dealers": "for-dealers",
+    "sign-in": "sign-in"
+  },
   "msg": {
     "loading": "Loading"
   },
@@ -53,7 +59,8 @@
         "h": "Sales team",
         "p1": "You will get a functioning business team with an optimized price vs. performance ratio.",
         "li1": "You don't waste time looking for, training and leading sales representatives or teams.",
-        "li2": "You only pay commissions for closed deals."
+        "li2": "You only pay commissions for closed deals.",
+        "li3": "Expertise - we dealers traders according to the field."
       },
       "localRepre": {
         "h": "Local representation",

@@ -1,5 +1,10 @@
+import { Location } from '@angular/common';
+import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LocalizeParser, LocalizeRouterModule, LocalizeRouterSettings } from '@gilsdav/ngx-translate-router';
+import { LocalizeRouterHttpLoader } from '@gilsdav/ngx-translate-router-http-loader';
+import { TranslateService } from '@ngx-translate/core';
 
 const routes: Routes = [
   {
@@ -8,51 +13,23 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'en',
-    loadChildren: () => import('./pages/home-page/home-page.module').then((m) => m.HomePageModule)
+    path: 'for-dealers',
+    loadChildren: () => import('./pages/for-dealers-page/for-dealers-page.module').then((m) => m.ForDealersPageModule)
   },
   {
     path: 'expansion',
-    redirectTo: 'en/expansion-page'
+    loadChildren: () => import('./pages/expansion-page/expansion-page.module').then((m) => m.ExpansionPageModule)
   },
   {
-    path: 'en/expansion-page',
-    loadChildren: () => import('./pages/expansion-page/expansion-page.module').then((m) => m.ExpansionPageModule),
-    data: { lang: 'en' }
-  },
-  {
-    path: 'en/for-dealers-section-page',
-    loadChildren: () => import('./pages/for-dealers-page/for-dealers-page.module').then((m) => m.ForDealersPageModule),
-    data: { lang: 'en' }
-  },
-  {
-    path: 'cz/expanze',
-    loadChildren: () => import('./pages/expansion-page/expansion-page.module').then((m) => m.ExpansionPageModule),
-    data: { lang: 'cz' }
-  },
-  {
-    path: 'cz/pro-obchodniky',
-    loadChildren: () => import('./pages/for-dealers-page/for-dealers-page.module').then((m) => m.ForDealersPageModule),
-    data: { lang: 'cz' }
-  },
-  {
-    path: 'cz/blog-page',
+    path: 'blog',
     loadChildren: () => import('./pages/blog-page/blog-page.module').then((m) => m.BlogPageModule)
   },
   {
-    path: 'cz/eticky-kodex',
+    path: 'code-of-ethics',
     loadChildren: () => import('./pages/code-of-ethics-page/code-of-ethics-page.module').then((m) => m.CodeOfEthicsPageModule)
   },
   {
-    path: 'en/code-of-ethics-page',
-    loadChildren: () => import('./pages/code-of-ethics-page/code-of-ethics-page.module').then((m) => m.CodeOfEthicsPageModule)
-  },
-  {
-    path: 'cz/prihlaseni',
-    loadChildren: () => import('./pages/sign-in-page/sign-in-page.module').then((m) => m.SignInPageModule)
-  },
-  {
-    path: 'en/sign-in-page',
+    path: 'sign-in',
     loadChildren: () => import('./pages/sign-in-page/sign-in-page.module').then((m) => m.SignInPageModule)
   }
 ];
@@ -61,9 +38,18 @@ const routes: Routes = [
   imports: [
     RouterModule.forRoot(routes, {
       anchorScrolling: 'enabled',
-      scrollPositionRestoration: 'enabled',
+      scrollPositionRestoration: 'enabled'
     }),
+    LocalizeRouterModule.forRoot(routes, {
+      parser: {
+        provide: LocalizeParser,
+        useFactory: (translate, location, settings, http) =>
+          new LocalizeRouterHttpLoader(translate, location, settings, http),
+        deps: [TranslateService, Location, LocalizeRouterSettings, HttpClient]
+      }
+    })
   ],
-  exports: [RouterModule],
+  exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule {
+}

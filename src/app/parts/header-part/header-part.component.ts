@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { faBars } from '@fortawesome/free-solid-svg-icons/faBars';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons/faExternalLinkAlt';
+import { LocalizeRouterService } from '@gilsdav/ngx-translate-router';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslateWrapperService } from '../../services/translate-wrapper.service';
 
@@ -14,7 +15,11 @@ export class HeaderPartComponent implements OnInit {
   faExternalLinkAlt = faExternalLinkAlt;
   faBars = faBars;
 
-  constructor(private translateService: TranslateService, private translateWrapperService: TranslateWrapperService) {
+  constructor(
+    private translateService: TranslateService,
+    private translateWrapperService: TranslateWrapperService,
+    private localize: LocalizeRouterService
+  ) {
   }
 
   ngOnInit(): void {
@@ -22,6 +27,6 @@ export class HeaderPartComponent implements OnInit {
   }
 
   onChangeLang(lang: string) {
-    this.translateWrapperService.setLanguage(lang);
+    this.localize.changeLanguage(lang);
   }
 }

@@ -16,38 +16,22 @@ export class TranslateWrapperService {
   public async setLanguage(lang: string): Promise<any> {
     this.storage.store(StorageKeys.LANG, lang);
     this.translate.setDefaultLang(lang);
-    return this.initAndUseLang(lang);
+    this.translate.use(lang);
+    return this.initLang();
   }
 
   public async init(): Promise<any> {
-    const storedLang = this.storage.get(StorageKeys.LANG);
-
-    let lang = this.defaultLang;
-
-    if (storedLang) {
-      lang = storedLang;
-    } else {
-      const browserLang = this.translate.getBrowserLang();
-
-      switch (browserLang) {
-        case 'en':
-          lang = 'en';
-        case 'cs':
-          lang = 'cz';
-      }
-    }
-
-    return this.setLanguage(lang);
+    return this.initLang();
   }
 
-  private initAndUseLang(langToSet: string): Promise<any> {
+  private initLang(): Promise<any> {
     return new Promise<any>((resolve: any) => {
       const locationInitialized = this.injector.get(LOCATION_INITIALIZED, Promise.resolve(null));
       locationInitialized.then(() => {
-        this.translate.use(langToSet).subscribe(() => {
+        this.translate.use(this.translate.currentLang).subscribe(() => {
           // Successfully initialized language.
         }, err => {
-          console.error(`Problem with '${langToSet}' language initialization.'`);
+          console.error(`Problem with '${this.translate.currentLang}' language initialization.'`);
         }, () => {
           resolve(null);
         });

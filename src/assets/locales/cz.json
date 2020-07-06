@@ -1,4 +1,10 @@
 {
+  "ROUTES": {
+    "code-of-ethics": "eticky-kodex",
+    "expansion": "expanze",
+    "for-dealers": "pro-obchodniky",
+    "sign-in": "prihlaseni"
+  },
   "msg": {
     "loading": "Načítání"
   },
@@ -54,7 +60,7 @@
         "p1": "Získáte fungující obchodní tým s maximalizovaným poměrem cena/výkon.",
         "li1": "Neztrácíte čas a peníze hledáním, školením a vedením obchodních zástupců nebo týmů.",
         "li2": "Platíte jen provize za realizované obchody.",
-        "li3": "Odbornost - obchodníky přidělujeme dle oboru"
+        "li3": "Odbornost - obchodníky přidělujeme dle oboru."
       },
       "localRepre": {
         "h": "Regionální zastoupení",

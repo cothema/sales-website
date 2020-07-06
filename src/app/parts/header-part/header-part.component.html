@@ -32,7 +32,8 @@
                   <a class="nav-link" fragment="pricelist-section" pageScroll routerLink="/">{{
                     'menu.priceList' | translate
                     }}</a>
-                  <a class="nav-link" pageScroll routerLink="/expansion">{{ 'menu.expansionCZ' | translate }}</a>
+                  <a [routerLink]="'/expansion' | localize" class="nav-link"
+                     pageScroll>{{ 'menu.expansionCZ' | translate }}</a>
                 </li>
               </ul>
             </li>
@@ -47,10 +48,11 @@
                     }}</a>
                 </li>
                 <li>
-                  <a class="nav-link" routerLink="/cz/pro-obchodniky">{{ 'menu.forDealers' | translate }}</a>
+                  <a [routerLink]="'/for-dealers' | localize" class="nav-link">{{ 'menu.forDealers' | translate }}</a>
                 </li>
                 <li>
-                  <a class="nav-link" routerLink="/cz/eticky-kodex">{{ 'menu.codeOfEthics' | translate }}</a>
+                  <a [routerLink]="'/code-of-ethics' | localize"
+                     class="nav-link">{{ 'menu.codeOfEthics' | translate }}</a>
                 </li>
               </ul>
             </li>
@@ -69,8 +71,8 @@
             </li>
             <li>
               <a
+                [routerLink]="'/sign-in' | localize"
                 class="btn-login btn btn-outline-primary btn-sm"
-                routerLink="/cz/prihlaseni"
                 style="margin: 0 0 0 1em; padding: 0.2em 1em;"
               >
                 {{ 'btn.signIn' | translate }}

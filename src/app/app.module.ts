@@ -4,7 +4,9 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { LocalizeRouterModule } from '@gilsdav/ngx-translate-router';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { ScullyLibModule } from '@scullyio/ng-lib';
@@ -36,7 +38,7 @@ import { TranslateWrapperService } from './services/translate-wrapper.service';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+  return new TranslateHttpLoader(http, './assets/locales/', '.json');
 }
 
 export function appInitializerFactory(translateWrapperService: TranslateWrapperService) {
@@ -66,6 +68,7 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
@@ -83,7 +86,8 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
     FacebookModule.forRoot(),
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    LocalizeRouterModule
   ],
   bootstrap: [AppComponent],
   exports: [
