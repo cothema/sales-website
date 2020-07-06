@@ -1,5 +1,5 @@
 .site-navbar {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   z-index: 1999;
   position: absolute;
   width: 100%;
@@ -251,8 +251,10 @@
       }
     }
     li {
+      text-align: center;
       position: relative;
       display: block;
+
       .active {
         // > a {
         color: $primary;
@@ -273,10 +275,10 @@
         background: $gray-100;
       }
       &:before {
-        font-size: 12px;
+        color: #444444;
+        font-size: 2em;
         z-index: 20;
-        font-family: 'icomoon';
-        content: '\f078';
+        content: '▾';
         position: absolute;
         top: 50%;
         left: 50%;
@@ -294,15 +296,18 @@
       position: relative;
       float: left;
       width: 100%;
+      min-height: 54px;
 
       > a {
         padding-left: 20px;
         font-size: 20px;
       }
+
       > ul {
         padding: 0;
         margin: 0;
         list-style: none;
+
         > li {
           display: block;
           > a {

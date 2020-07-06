@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
-import { TranslateService } from '@ngx-translate/core';
 
 declare var $: any;
 
@@ -10,73 +8,60 @@ declare var $: any;
   styleUrls: ['./home-page.component.scss']
 })
 export class HomePageComponent implements OnInit {
-  constructor(private router: Router, private route: ActivatedRoute, private translate: TranslateService) {
+  constructor() {
   }
 
   async ngOnInit(): Promise<void> {
-    const routeData = await this.route.data;
-    let langParam = await this.route.snapshot.paramMap.get('lang');
-    if (!langParam) {
-      langParam = routeData['lang'];
-    }
-
-    if (langParam) {
-      this.translate.use(langParam);
-    } else {
-      this.translate.use(this.translate.getDefaultLang());
-    }
-
     this.siteMenuClone();
     this.initSiteSticky();
     this.initSiteScroll();
   }
 
   private initSiteScroll() {
-    $(window).scroll(function () {
+    $(window).scroll(function() {
       const st = $(this).scrollTop();
-
       if (st > 100) {
-        $('.js-sticky-header-part').addClass('shrink');
+        $('.js-sticky-header').addClass('shrink');
       } else {
-        $('.js-sticky-header-part').removeClass('shrink');
+        $('.js-sticky-header').removeClass('shrink');
       }
     });
   }
 
   private initSiteSticky() {
-    $('.js-sticky-header-part').sticky({
+    $('.js-sticky-header').sticky({
       topSpacing: 0
     });
   }
 
   private siteMenuClone() {
-    $('.js-clone-nav').each(function () {
+    $('.js-clone-nav').each(function() {
       const $this = $(this);
       $this.clone().attr('class', 'site-nav-wrap').appendTo('.site-mobile-menu-body');
     });
 
-    setTimeout(function () {
+    setTimeout(function() {
       let counter = 0;
-      $('.site-mobile-menu .has-children').each(function () {
+      $('.site-mobile-menu .has-children').each(function() {
         const $this = $(this);
 
         $this.prepend('<span class="arrow-collapse collapsed">');
 
         $this.find('.arrow-collapse').attr({
           'data-toggle': 'collapse',
-          'data-target': '#collapseItem' + counter,
+          'data-target': '#collapseItem' + counter
         });
 
         $this.find('> ul').attr({
           class: 'collapse',
-          id: 'collapseItem' + counter,
+          id: 'collapseItem' + counter
         });
 
         counter++;
       });
     }, 1000);
 
-    $('body').on('click', '.arrow-collapse', function (e) {
+    $('body').on('click', '.arrow-collapse', function(e) {
       const $this = $(this);
       if ($this.closest('li').find('.collapse').hasClass('show')) {
         $this.removeClass('active');
@@ -86,7 +71,7 @@ export class HomePageComponent implements OnInit {
       e.preventDefault();
     });
 
-    $(window).resize(function () {
+    $(window).resize(function() {
       const $this = $(this),
         w = $this.width();
 
@@ -97,7 +82,7 @@ export class HomePageComponent implements OnInit {
       }
     });
 
-    $('body').on('click', '.js-menu-toggle', function (e) {
+    $('body').on('click', '.js-menu-toggle', function(e) {
       const $this = $(this);
       e.preventDefault();
 
@@ -111,7 +96,7 @@ export class HomePageComponent implements OnInit {
     });
 
     // click outisde offcanvas
-    $(document).mouseup(function (e) {
+    $(document).mouseup(function(e) {
       const container = $('.site-mobile-menu');
       if (!container.is(e.target) && container.has(e.target).length === 0) {
         if ($('body').hasClass('offcanvas-menu')) {

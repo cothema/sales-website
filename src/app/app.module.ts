@@ -25,15 +25,17 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SignInPageComponent } from './pages/sign-in-page/sign-in-page.component';
 import { FooterPartComponent } from './parts/footer-part/footer-part.component';
 import { HeaderPartComponent } from './parts/header-part/header-part.component';
-import { AboutUsSectionComponent } from './section/about-us-section/about-us-section.component';
-import { BlogPostsSectionComponent } from './section/blog-posts-section/blog-posts-section.component';
-import { ContactUsSectionComponent } from './section/contact-us-section/contact-us-section.component';
-import { CoverOutsourcingSectionComponent } from './section/cover-outsourcing-section/cover-outsourcing-section.component';
-import { FaqSectionComponent } from './section/faq-section/faq-section.component';
-import { ForDealersSectionComponent } from './section/for-dealers-section/for-dealers-section.component';
-import { PricelistSectionComponent } from './section/pricelist-section/pricelist-section.component';
-import { ServicesSectionComponent } from './section/services-section/services-section.component';
-import { ServicesStepsSectionComponent } from './section/services-steps-section/services-steps-section.component';
+import { MenuItemsComponent } from './parts/menu-items/menu-items.component';
+import { AboutUsSectionComponent } from './sections/about-us-section/about-us-section.component';
+import { BlogPostsSectionComponent } from './sections/blog-posts-section/blog-posts-section.component';
+import { ContactUsSectionComponent } from './sections/contact-us-section/contact-us-section.component';
+import { CoverExpansionSectionComponent } from './sections/cover-expansion-section/cover-expansion-section.component';
+import { CoverOutsourcingSectionComponent } from './sections/cover-outsourcing-section/cover-outsourcing-section.component';
+import { FaqSectionComponent } from './sections/faq-section/faq-section.component';
+import { ForDealersSectionComponent } from './sections/for-dealers-section/for-dealers-section.component';
+import { PricelistSectionComponent } from './sections/pricelist-section/pricelist-section.component';
+import { ServicesSectionComponent } from './sections/services-section/services-section.component';
+import { ServicesStepsSectionComponent } from './sections/services-steps-section/services-steps-section.component';
 import { TranslateWrapperService } from './services/translate-wrapper.service';
 
 // AoT requires an exported function for factories
@@ -64,7 +66,9 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     PricelistSectionComponent,
     HeaderPartComponent,
     ForDealersPageComponent,
-    FooterPartComponent
+    FooterPartComponent,
+    CoverExpansionSectionComponent,
+    MenuItemsComponent
   ],
   imports: [
     BrowserModule,

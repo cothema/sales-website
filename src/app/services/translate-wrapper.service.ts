@@ -1,23 +1,14 @@
 import { LOCATION_INITIALIZED } from '@angular/common';
 import { Injectable, Injector } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { StorageKeys } from '../enums/storage-keys';
 import { LocalStorageService } from './storage/local-storage';
 
 @Injectable({
   providedIn: 'root'
 })
 export class TranslateWrapperService {
-  private defaultLang = 'en';
 
   constructor(private translate: TranslateService, private storage: LocalStorageService, private injector: Injector) {
-  }
-
-  public async setLanguage(lang: string): Promise<any> {
-    this.storage.store(StorageKeys.LANG, lang);
-    this.translate.setDefaultLang(lang);
-    this.translate.use(lang);
-    return this.initLang();
   }
 
   public async init(): Promise<any> {

@@ -1,0 +1,24 @@
+<li *ngFor="let item of items" [class]="item.children && item.children.length ? 'has-children' : ''">
+
+  <a *ngIf="!item.isExternal"
+     [fragment]="item.fragment"
+     [routerLink]="item.link | localize"
+     class="nav-link"
+     pageScroll>
+    {{ item.title | translate }}
+  </a>
+
+  <a *ngIf="item.isExternal"
+     [href]="item.link"
+     target="_blank">
+    {{ item.title | translate }}
+    <sup>
+      <fa-icon [icon]="faExternalLinkAlt"></fa-icon>
+    </sup>
+  </a>
+
+  <ul *ngIf="item.children && item.children.length" [items]="item.children" class="dropdown" menuItems></ul>
+
+</li>
+
+<ng-content></ng-content>

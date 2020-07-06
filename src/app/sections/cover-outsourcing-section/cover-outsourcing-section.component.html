@@ -8,7 +8,8 @@
             <h1>{{ 'section.coverOutsourcing.h1' | translate }}</h1>
             <p class="mb-5" style="font-size: 1.4rem;">{{ 'section.coverOutsourcing.p1' | translate }}</p>
             <div>
-              <a class="btn btn-success mr-2 mb-2" href="#services-section">{{ 'btn.interested' | translate }}</a>
+              <a [routerLink]="'/'|localize" class="btn btn-success mr-2 mb-2" fragment="services-section"
+                 pageScroll>{{ 'btn.interested' | translate }}</a>
             </div>
           </div>
         </div>
