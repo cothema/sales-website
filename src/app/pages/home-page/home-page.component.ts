@@ -26,9 +26,6 @@ export class HomePageComponent implements OnInit {
       this.translate.use(this.translate.getDefaultLang());
     }
 
-    $('.loader').fadeOut('slow');
-    $('#overlayer').fadeOut('slow');
-
     this.siteMenuClone();
     this.initSiteSticky();
     this.initSiteScroll();

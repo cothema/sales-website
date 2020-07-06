@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faLink } from '@fortawesome/free-solid-svg-icons/faLink';
 
 @Component({
   selector: 'app-services-steps-section',
@@ -6,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./services-steps-section.component.scss']
 })
 export class ServicesStepsSectionComponent implements OnInit {
-  constructor() {}
+  faLink = faLink;
 
-  ngOnInit(): void {}
+  constructor() {
+  }
+
+  ngOnInit(): void {
+  }
 }

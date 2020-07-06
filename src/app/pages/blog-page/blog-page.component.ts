@@ -1,7 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
-declare var $: any;
-
 @Component({
   selector: 'app-blog-page',
   templateUrl: './blog-page.component.html',
@@ -14,7 +12,5 @@ export class BlogPageComponent implements OnInit {
   }
 
   ngOnInit() {
-    $('.loader').fadeOut('slow');
-    $('#overlayer').fadeOut('slow');
   }
 }

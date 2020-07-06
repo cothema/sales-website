@@ -1,5 +1,5 @@
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { NgModule } from '@angular/core';
+import { APP_INITIALIZER, NgModule } from '@angular/core';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { FormsModule } from '@angular/forms';
@@ -11,6 +11,7 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
 import { FacebookModule } from 'ngx-facebook';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import { NgxSpinnerModule } from 'ngx-spinner';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,6 +21,7 @@ import { ExpansionPageComponent } from './pages/expansion-page/expansion-page.co
 import { ForDealersPageComponent } from './pages/for-dealers-page/for-dealers-page.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SignInPageComponent } from './pages/sign-in-page/sign-in-page.component';
+import { FooterPartComponent } from './parts/footer-part/footer-part.component';
 import { HeaderPartComponent } from './parts/header-part/header-part.component';
 import { AboutUsSectionComponent } from './section/about-us-section/about-us-section.component';
 import { BlogPostsSectionComponent } from './section/blog-posts-section/blog-posts-section.component';
@@ -30,10 +32,15 @@ import { ForDealersSectionComponent } from './section/for-dealers-section/for-de
 import { PricelistSectionComponent } from './section/pricelist-section/pricelist-section.component';
 import { ServicesSectionComponent } from './section/services-section/services-section.component';
 import { ServicesStepsSectionComponent } from './section/services-steps-section/services-steps-section.component';
+import { TranslateWrapperService } from './services/translate-wrapper.service';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
+
+export function appInitializerFactory(translateWrapperService: TranslateWrapperService) {
+  return () => translateWrapperService.init();
 }
 
 @NgModule({
@@ -54,7 +61,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     SignInPageComponent,
     PricelistSectionComponent,
     HeaderPartComponent,
-    ForDealersPageComponent
+    ForDealersPageComponent,
+    FooterPartComponent
   ],
   imports: [
     BrowserModule,
@@ -74,11 +82,20 @@ export function HttpLoaderFactory(http: HttpClient) {
     FormsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
-    FacebookModule.forRoot()
+    FacebookModule.forRoot(),
+    NgxSpinnerModule
   ],
   bootstrap: [AppComponent],
   exports: [
     HeaderPartComponent
+  ],
+  providers: [
+    {
+      provide: APP_INITIALIZER,
+      useFactory: appInitializerFactory,
+      deps: [TranslateWrapperService],
+      multi: true
+    }
   ]
 })
 export class AppModule {

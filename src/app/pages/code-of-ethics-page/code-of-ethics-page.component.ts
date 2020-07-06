@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-declare var $: any;
-
 @Component({
   selector: 'app-code-of-ethics-page',
   templateUrl: './code-of-ethics-page.component.html',
@@ -12,7 +10,5 @@ export class CodeOfEthicsPageComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    $('.loader').fadeOut('slow');
-    $('#overlayer').fadeOut('slow');
   }
 }

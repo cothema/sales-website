@@ -1,4 +1,7 @@
 {
+  "msg": {
+    "loading": "Načítání"
+  },
   "btn": {
     "interested": "Mám zájem",
     "continueReading": "Číst dále",
@@ -49,11 +52,12 @@
       "salesTeam": {
         "h": "Obchodní tým",
         "p1": "Získáte fungující obchodní tým s maximalizovaným poměrem cena/výkon.",
-        "li1": "Neztrácíte čas hledáním, školením a vedením obchodních zástupců nebo týmů.",
-        "li2": "Platíte jen provize za realizované obchody."
+        "li1": "Neztrácíte čas a peníze hledáním, školením a vedením obchodních zástupců nebo týmů.",
+        "li2": "Platíte jen provize za realizované obchody.",
+        "li3": "Odbornost - obchodníky přidělujeme dle oboru"
       },
       "localRepre": {
-        "h": "Lokální zastoupení",
+        "h": "Regionální zastoupení",
         "p1": "S námi vaši obchodní zástupci neztrácí čas na dlouhých cestách a přesto dokážete udržet osobní kontakt se svými zákazníky.",
         "li1": "Prezentace u zákazníka",
         "li2": "Základní školení uživatelů",
@@ -125,7 +129,8 @@
       "p1": "Jste zkušený obchodník nebo Vás uzavírání obchodů jen baví a cítíte v této oblasti svůj talent? Zapojením do naší sítě získají zkušení obchodníci přístup k široké síti lokálně rozmístěných obchodníků, což jim umožní lépe obsloužit své stávající zákazníky a pro ty méně zkušené máme připravený systém školení a profesního růstu.",
       "li1": "Více uzavřených obchodů",
       "li2": "Spolupráce v síti lokálních obchodníků",
-      "li3": "Profesní růst"
+      "li3": "Profesní růst",
+      "li4": "Žádné nesmyslné produkty bez přidané hodnoty pro zákazníka"
     }
   },
   "page": {

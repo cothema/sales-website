@@ -1,22 +1,27 @@
 import { Component, OnInit } from '@angular/core';
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 
 import * as AOS from 'aos';
 import { FacebookService, InitParams } from 'ngx-facebook';
+import { NgxSpinnerService } from 'ngx-spinner';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
   title = 'sales-website';
-  actualDate = new Date();
-  faFacebookF = faFacebookF;
-  faLinkedinIn = faLinkedinIn;
+  translatorInitialized = false;
 
-  constructor(private facebookService: FacebookService) {}
+  constructor(
+    private facebookService: FacebookService,
+    spinnerService: NgxSpinnerService
+  ) {
+    spinnerService.show();
+    setTimeout(() => {
+      spinnerService.hide();
+    }, 1000);
+  }
 
   ngOnInit() {
     this.initAOS();
@@ -29,7 +34,6 @@ export class AppComponent implements OnInit {
   }
 
   /**
-   *
    * Animate on scroll library
    * @see https://michalsnik.github.io/aos/
    */
@@ -37,7 +41,7 @@ export class AppComponent implements OnInit {
     AOS.init({
       duration: 800,
       easing: 'slide',
-      once: false,
+      once: false
     });
   }
 }
