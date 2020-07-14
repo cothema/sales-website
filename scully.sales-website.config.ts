@@ -12,8 +12,8 @@ setPluginConfig(SitemapPlugin, {
 
 registerNgxTranslateRouter({
   langs: {
-    en: "./src/assets/locales/en.json",
-    cz: "./src/assets/locales/cz.json"
+    en: './src/assets/locales/en.json',
+    cz: './src/assets/locales/cz.json'
   }
 });
 
@@ -22,7 +22,7 @@ export const config: ScullyConfig = {
   projectName: 'sales-website',
   outDir: './dist/static',
   routes: {
-    '/cz/blog/:slug': {
+    '/blog/:slug': {
       type: 'contentFolder',
       slug: {
         folder: './blog/cz'

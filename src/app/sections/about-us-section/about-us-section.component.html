@@ -23,7 +23,7 @@
           <li>{{ 'section.aboutUs.challenges.li3' | translate }}</li>
         </ul>
         <div>
-          <a class="btn btn-success" routerLink="/en/code-of-ethics">
+          <a [routerLink]="'/code-of-ethics'|localize" class="btn btn-success">
             {{ 'menu.codeOfEthics' | translate }}
           </a>
         </div>
