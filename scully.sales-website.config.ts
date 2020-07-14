@@ -22,7 +22,7 @@ export const config: ScullyConfig = {
   projectName: 'sales-website',
   outDir: './dist/static',
   routes: {
-    '/blog/:slug': {
+    '/cz/blog/:slug': {
       type: 'contentFolder',
       slug: {
         folder: './blog/cz'
