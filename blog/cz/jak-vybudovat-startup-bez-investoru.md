@@ -21,4 +21,15 @@ Zmíněný postup označujeme pojmem "startup bootstrapping".
 - Půjčky
 - Crowdfunding
 - Dotace
-- Sponzorské dary 
+- Sponzorské dary
+
+## Jaké výhody tím získáme
+- Vyšší flexibilita
+- Možnost držet se své vize
+
+## Rizika
+- Může Vám dojít kapitál.
+
+## Které známé firmy začínali bez investorů?
+- <a href="https://www.legito.cz/" target="_blank">Legito</a> (automatizovaná tvorba smluv a dokumentů)
+  - <a href="https://pravo21.online/podcasty21/podcasty21-s-ondrejem-maternou-vybudovat-startup-bez-investora-bylo-tezke-ale-jsme-diky-tomu-flexibilni" target="_blank">rozhovor se spoluzakladatelem</a>

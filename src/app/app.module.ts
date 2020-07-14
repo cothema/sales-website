@@ -37,6 +37,7 @@ import { PricelistSectionComponent } from './sections/pricelist-section/pricelis
 import { ServicesSectionComponent } from './sections/services-section/services-section.component';
 import { ServicesStepsSectionComponent } from './sections/services-steps-section/services-steps-section.component';
 import { TranslateWrapperService } from './services/translate-wrapper.service';
+import { SpecializationSectionComponent } from './sections/specialization-section/specialization-section.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -68,7 +69,8 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     ForDealersPageComponent,
     FooterPartComponent,
     CoverExpansionSectionComponent,
-    MenuItemsComponent
+    MenuItemsComponent,
+    SpecializationSectionComponent
   ],
   imports: [
     BrowserModule,

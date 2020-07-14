@@ -11,7 +11,6 @@ import { NgxSpinnerService } from 'ngx-spinner';
 })
 export class AppComponent implements OnInit {
   title = 'sales-website';
-  translatorInitialized = false;
 
   constructor(
     private facebookService: FacebookService,

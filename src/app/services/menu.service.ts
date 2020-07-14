@@ -33,8 +33,13 @@ export class MenuService {
         children: [
           {
             link: '/',
-            fragment: 'priceList-section',
+            fragment: 'pricelist-section',
             title: 'menu.priceList'
+          },
+          {
+            link: '/',
+            fragment: 'specialization-section',
+            title: 'menu.specialization'
           },
           {
             link: '/expansion',
@@ -59,6 +64,11 @@ export class MenuService {
           {
             link: '/code-of-ethics',
             title: 'menu.codeOfEthics'
+          },
+          {
+            link: '/',
+            fragment: 'blog-section',
+            title: 'menu.blog'
           }
         ]
       },

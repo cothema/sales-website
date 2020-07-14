@@ -271,9 +271,15 @@
       text-align: center;
       cursor: pointer;
       border-radius: 50%;
+
+      &.active:before {
+        content: '▴';
+      }
+
       &:hover {
         background: $gray-100;
       }
+
       &:before {
         color: #444444;
         font-size: 2em;
@@ -285,6 +291,7 @@
         transform: translate(-50%, -50%) rotate(-180deg);
         transition: 0.3s all ease;
       }
+
       &.collapsed {
         &:before {
           transform: translate(-50%, -50%);

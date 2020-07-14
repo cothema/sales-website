@@ -4,7 +4,30 @@
       <fa-icon [icon]="faTimes" class="h3 js-menu-toggle"></fa-icon>
     </div>
   </div>
-  <div class="site-mobile-menu-body"></div>
+  <div class="site-mobile-menu-body">
+    <ul [items]="menu.items" class="site-nav-wrap"
+        menuItems>
+      <li>
+        <a
+          [routerLink]="'/sign-in' | localize"
+          class="btn-login btn btn-outline-primary btn-sm"
+          style="margin: 0 0 0 1em; padding: 0.2em 1em;"
+        >
+          {{ 'btn.signIn' | translate }}
+        </a>
+      </li>
+      <li>
+        <select
+          (change)="onChangeLang($event.target.value)"
+          [ngModel]="lang"
+          style="border: 0; margin: 0 0 0 1em;"
+        >
+          <option value="cz">CZ</option>
+          <option value="en">EN</option>
+        </select>
+      </li>
+    </ul>
+  </div>
 </div>
 
 <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">

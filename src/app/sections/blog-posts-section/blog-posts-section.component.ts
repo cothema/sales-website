@@ -10,12 +10,16 @@ import { ScullyRoute, ScullyRoutesService } from '@scullyio/ng-lib';
 export class BlogPostsSectionComponent implements OnInit {
   posts;
 
-  constructor(private scully: ScullyRoutesService, private translateService: TranslateService) {}
+  constructor(
+    private scully: ScullyRoutesService,
+    private translateService: TranslateService
+  ) {
+  }
 
   async ngOnInit(): Promise<void> {
     let allRoutes = await this.getAllRoutes();
     this.posts = allRoutes.filter((route) => {
-      return route.published; /* && route.lang === this.translateService.currentLang */
+      return route.published && route.lang === this.translateService.currentLang;
     });
   }
 

@@ -7,40 +7,46 @@
         <thead>
         <tr>
           <th></th>
-          <th class="text-center">Nový produkt</th>
-          <th class="text-center">Zavedený produkt</th>
+          <th class="text-center">{{ 'section.priceList.newProduct' | translate }}</th>
+          <th class="text-center">{{ 'section.priceList.existingProduct' | translate }}</th>
         </tr>
         </thead>
         <tbody>
         <tr>
           <td style="width:40%">
-            <b>Startovní balíček</b><br/>
-            Průzkum trhu, zaškolení obchodních zástupců
+            <b>{{ 'section.priceList.startPack' | translate }}</b><br/>
+            {{ 'section.priceList.startPackDesc' | translate }}
           </td>
-          <td class="text-center">od 25.000 Kč</td>
-          <td class="text-center">individuálně</td>
+          <td class="text-center">
+            {{ 'section.priceList.from' | translate }} 25.000
+            <span [innerHTML]="'section.priceList.czk'|translate"></span>
+          </td>
+          <td class="text-center">{{ 'section.priceList.individual' | translate }}</td>
         </tr>
         <tr>
           <td>
-            <b>Spolupráce</b><br/>
-            Poplatek částečně pokrývá naše provozní náklady v době, kdy je obrat minimální.
+            <b>{{ 'section.priceList.cooperation' | translate }}</b><br/>
+            {{ 'section.priceList.cooperationDesc' | translate }}
           </td>
           <td class="text-center">
-            1.000<br/>
-            Kč&nbsp;/&nbsp;měs.
+            2.000<br/>
+            <span [innerHTML]="'section.priceList.czkPerMo'|translate"></span>
           </td>
           <td class="text-center">
             0<br/>
-            Kč&nbsp;/&nbsp;měs.
+            <span [innerHTML]="'section.priceList.czkPerMo'|translate"></span>
           </td>
         </tr>
         <tr>
-          <th>Provize za zrealizovaný obchod</th>
-          <td class="text-center" colspan="2">dle dohody</td>
+          <th>{{ 'section.priceList.provisionRealized' | translate }}</th>
+          <td class="text-center" colspan="2">{{ 'section.priceList.byAgreement' | translate }}</td>
         </tr>
         <tr>
-          <th>Odborné konzultace nad rámec běžných služeb</th>
-          <td class="text-center" colspan="2">od 1.000 Kč / hod.</td>
+          <th>{{ 'section.priceList.consultations' | translate }}</th>
+          <td class="text-center" colspan="2">
+            {{ 'section.priceList.from' | translate }} 1.000
+            <span [innerHTML]="'section.priceList.czkPerH'|translate"></span>
+          </td>
         </tr>
         </tbody>
       </table>
@@ -48,7 +54,7 @@
       <table class="table table-striped mt-2">
         <thead>
         <tr>
-          <th class="text-center" colspan="2">Další služby:</th>
+          <th class="text-center" colspan="2">{{ 'section.priceList.otherServices.h' | translate }}:</th>
         </tr>
         </thead>
         <tbody>
@@ -56,9 +62,9 @@
           <td style="width:25%"></td>
           <td>
             <ul class="ul-check mt-2 mb-2 list-unstyled success font-weight-bold">
-              <li>Propojení s experty</li>
-              <li>Sdílený seznam úkolů</li>
-              <li>Sdílené analýzy a informace o zákaznících</li>
+              <li>{{ 'section.priceList.otherServices.li1' | translate }}</li>
+              <li>{{ 'section.priceList.otherServices.li2' | translate }}</li>
+              <li>{{ 'section.priceList.otherServices.li3' | translate }}</li>
             </ul>
           </td>
         </tr>

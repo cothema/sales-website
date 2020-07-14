@@ -1,5 +1,6 @@
 {
   "ROUTES": {
+    "blog": "blog",
     "code-of-ethics": "code-of-ethics",
     "expansion": "expansion",
     "for-dealers": "for-dealers",
@@ -22,14 +23,19 @@
     "contact": "Contact",
     "forDealers": "For Dealers",
     "faq": "FAQ",
-    "blogPosts": "Blog Posts",
+    "blog": "Blog",
     "codeOfEthics": "Code of ethics",
     "priceList": "Price list",
     "questionnaire": "Questionnaire",
     "expansionCZ": "Expansion to Czechia",
-    "whyWe": "Why we?"
+    "whyWe": "Why we?",
+    "specialization": "Specialization"
   },
   "section": {
+    "blog": {
+      "h1": "Blog Posts",
+      "noPosts": "No posts available."
+    },
     "coverOutsourcing": {
       "h1": "We bring customers to innovative companies",
       "p1": "Leave customer acquisition and care to a network of experienced salespeople under favorable conditions."
@@ -57,7 +63,7 @@
     },
     "services": {
       "h": "Our services",
-      "p1": "Are you a technological B2B startup without a business team dealing with software or hardware development? Outsource your business matters to the network of our local distributors for win-win commission terms.",
+      "p1": "We focus on needs of technological B2B startup without a business team that deals with software or hardware development.",
       "freeConsultation": "We offer a FREE non-binding online introductory consultation on the individual needs of your project with a presentation of our services.",
       "salesTeam": {
         "h": "Sales team",
@@ -79,7 +85,6 @@
         "li1": "Preliminary feedback",
         "li2": "Provision of product interest"
       },
-      "freeStartPackTill": "Till {{tillDate}}, each of our new clients receives a FREE “starter pack“ with basic market analysis and training of our sales representatives.",
       "expansionCz": "We offer expansion to the Czech rep."
     },
     "servicesSteps": {
@@ -141,11 +146,49 @@
       "li2": "Cooperation in a network of local dealers",
       "li3": "Professional growth",
       "li4": "No meaningless products without added value for the customer"
+    },
+    "specialization": {
+      "p1": "Fields in which we have more clients, so we have specialized salespeople available.",
+      "gastro": {
+        "h": "Gastro",
+        "p1": "Restaurants, bistros, pubs, catering companies…"
+      },
+      "note": "Do you do business in another field? Don't worry, we are flexible. We will quickly find your way in your field as well."
+    },
+    "priceList": {
+      "newProduct": "New product",
+      "existingProduct": "Product on the market",
+      "individual": "individually",
+      "startPack": "Starter pack",
+      "startPackDesc": "Market research, training of sales representatives",
+      "cooperation": "Cooperation",
+      "cooperationDesc": "The fee partially covers our operating costs at a time when turnover is minimal.",
+      "byAgreement": "by agreement",
+      "provisionRealized": "Commission for closed deal",
+      "otherServices": {
+        "h": "Other services",
+        "li1": "Linking with experts",
+        "li2": "Shared to-do list",
+        "li3": "Shared analysis and customer information"
+      },
+      "consultations": "Expert consultations beyond the usual services",
+      "from": "from",
+      "czk": "CZK",
+      "czkPerH": "CZK&nbsp;/&nbsp;h.",
+      "czkPerMo": "CZK&nbsp;/&nbsp;mo."
     }
   },
   "page": {
     "signIn": {
       "h1": "Login to dashboard"
+    },
+    "codeOfEthics": {
+      "li1": "We negotiate <b>politely</b> and with humility.",
+      "li2": "We do not close deals until we are convinced of the added value for the other party and adherence to the <b>win-win</b> principle.",
+      "li3": "If we see <b>risks</b>, we will always alert them to the other side.",
+      "li4": "We care about building a <b>long-term relationship</b> with customers and partners.",
+      "li5": "We adhere to the <b>deadlines</b> we set, otherwise we will notify you in a timely manner of their unattainability.",
+      "note": "Adherence to this Code of Ethics is not legally enforceable, however, we carefully monitor compliance with the Code. We will be happy if you notify us of any violations."
     }
   }
 }
