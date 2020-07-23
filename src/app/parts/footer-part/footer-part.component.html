@@ -24,17 +24,17 @@
     <div class="row">
       <div class="d-print-none col-md-2 d-none d-lg-block">
         <a [fragment]="'services-section'" [routerLink]="'/'" pageScroll>
-          Služby
+          {{'menu.services'|translate}}
         </a><br/>
         <a [fragment]="'pricelist-section'" [routerLink]="'/how-it-works'|localize" pageScroll>
-          Ceník
+          {{'menu.priceList'|translate}}
         </a><br/>
         <a [fragment]="'contact-section'" [routerLink]="'/'" pageScroll>
-          Kontakt
+          {{'menu.contact'|translate}}
         </a>
       </div>
       <div class="d-none d-lg-block d-md-block d-print-none col-md-3 d-none d-lg-block text-center">
-        Jsme členy:<br/>
+        {{'footer.memberOf'|translate}}<br/>
         <a href="https://mastermindklub.cz" target="_blank">
           <img src="/assets/logos/mastermindklub_cz.png" style="max-width: 100%">
         </a>
@@ -49,10 +49,9 @@
           </a>
         </div>
         <div class="mb-0">
+          Copyright &copy; {{ actualDate | date: 'yyyy' }} Cothema, s.r.o., {{'footer.rightsReserved'|translate}}<br/>
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          Copyright &copy; {{ actualDate | date: 'yyyy' }} Cothema, s.r.o., All rights reserved<br/>
-          This template is made with &hearts; by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          {{'footer.templateBy'|translate}} <a href="https://colorlib.com" target="_blank">Colorlib</a>
         </div>
       </div>
     </div>

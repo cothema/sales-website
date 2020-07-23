@@ -27,19 +27,7 @@
   </div>
 </div>
 
-<div class="site-section bg-dark" style="color: #ffffff;">
-
-  <div class="container" style="font-size:1.7em">
-    <b>Vše "pod jednou střechou"</b> - zaštítíme komunikaci mezi klientem a jednotlivými provozovateli služeb.
-  </div>
-
-  <div class="container mt-4" style="font-size:1.7em">
-    <b>Inovace a integrace</b> - u námi doporučovaných řešení se snažíme o co nejvyšší kompatibilitu a integraci.
-    Od klientů neustále sbíráme zpětnou vazbu a předáváme ji tvůrcům služeb tak, aby řešení ještě lépe vyhovovala
-    potřebám klientů.
-  </div>
-
-</div>
+<app-field-reasons-section></app-field-reasons-section>
 
 <div class="container">
   <div class="p-3">
@@ -57,12 +45,12 @@
     </div>
 
     <div class="mt-5 mb-5">
-      <h2 class="mt-4">Další obory, na které se specializujeme:</h2>
+      <h2 class="mt-4">{{'page.fieldEcommerce.otherFields'|translate}}</h2>
 
       <div class="p-2">
         <a [routerLink]="'/field/gastro'|localize" class="btn btn-dark btn-lg">
           <fa-icon [icon]="faUtensils"></fa-icon>&nbsp;
-          Gastro
+          {{'section.specialization.gastro.h'|translate}}
         </a>
       </div>
     </div>

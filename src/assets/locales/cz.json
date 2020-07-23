@@ -202,6 +202,10 @@
       "czk": "Kč",
       "czkPerH": "Kč&nbsp;/&nbsp;hod.",
       "czkPerMo": "Kč&nbsp;/&nbsp;měs."
+    },
+    "field-reasons": {
+      "1": "<b>Vše \"pod jednou střechou\"</b> - zaštítíme komunikaci mezi klientem a jednotlivými provozovateli služeb.",
+      "2": "<b>Inovace a integrace</b> - u námi doporučovaných řešení se snažíme o co nejvyšší kompatibilitu a integraci. Od klientů neustále sbíráme zpětnou vazbu a předáváme ji tvůrcům služeb tak, aby řešení ještě lépe vyhovovala potřebám klientů."
     }
   },
   "page": {
@@ -221,7 +225,13 @@
       "solutionsExamples": "Vybraná řešení, která doporučujeme:",
       "tags": {
         "consultations": "Konzultace"
-      }
+      },
+      "otherFields": "Další obory, na které se specializujeme:"
     }
+  },
+  "footer": {
+    "memberOf": "Jsme členem:",
+    "rightsReserved": "Všechna práva vyhrazena",
+    "templateBy": "Tato šablona je vytvořena s ♥ od"
   }
 }

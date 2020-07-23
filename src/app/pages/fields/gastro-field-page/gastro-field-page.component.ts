@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { faUtensils } from '@fortawesome/free-solid-svg-icons/faUtensils';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons/faShoppingCart';
+import { faTag } from '@fortawesome/free-solid-svg-icons/faTag';
 
 @Component({
   selector: 'app-gastro-field-page',
@@ -7,7 +8,8 @@ import { faUtensils } from '@fortawesome/free-solid-svg-icons/faUtensils';
   styleUrls: ['./gastro-field-page.component.scss']
 })
 export class GastroFieldPageComponent implements OnInit {
-  faUtensils = faUtensils;
+  faTag = faTag;
+  faShoppingCart = faShoppingCart;
 
   constructor() {
   }

@@ -202,6 +202,10 @@
       "czk": "CZK",
       "czkPerH": "CZK&nbsp;/&nbsp;h.",
       "czkPerMo": "CZK&nbsp;/&nbsp;mo."
+    },
+    "field-reasons": {
+      "1": "<b>Everything  \"under one roof\"</b> - we provide communication between the client and individual service providers.",
+      "2": "<b>Innovations and integrations</b> - for our recommended solutions, we strive for the highest possible compatibility and integration. We constantly collect feedback from clients and pass it on to service creators so that the solution meets the needs of clients even better."
     }
   },
   "page": {
@@ -221,7 +225,13 @@
       "solutionsExamples": "Selected solutions that we recommend:",
       "tags": {
         "consultations": "Consultations"
-      }
+      },
+      "otherFields": "Other fields in which we specialize:"
     }
+  },
+  "footer": {
+    "memberOf": "We are a member of:",
+    "rightsReserved": "All rights reserved",
+    "templateBy": "This template is made with ♥ by"
   }
 }

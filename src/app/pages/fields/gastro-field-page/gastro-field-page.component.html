@@ -1,5 +1,44 @@
 <app-header-part [subBrand]="'gastro'"></app-header-part>
 
 <div class="cover-title">
-  <h1><fa-icon [icon]="faUtensils"></fa-icon>&nbsp; {{'section.specialization.gastro.h'|translate}}</h1>
+  <h1>
+    <fa-icon [icon]="faUtensils"></fa-icon>&nbsp; {{'section.specialization.gastro.h'|translate}}
+  </h1>
+  <div>
+    <span class="badge badge-light">
+      <fa-icon [icon]="faTag"></fa-icon>&nbsp; {{ 'page.fieldEcommerce.tags.consultations' | translate }}
+    </span>
+    &nbsp;
+    <span class="badge badge-light">
+      <fa-icon [icon]="faTag"></fa-icon>&nbsp; {{ 'section.coverOutsourcing.tags.innovations' | translate }}
+    </span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="mt-5 mb-4">
+    <p style="font-size:1.7em">
+
+    </p>
+  </div>
+  <div class="text-center mb-5">
+    <app-schedule-call-btn></app-schedule-call-btn>
+  </div>
+</div>
+
+<app-field-reasons-section></app-field-reasons-section>
+
+<div class="container">
+  <div class="p-3">
+    <div class="mt-5 mb-5">
+      <h2 class="mt-4">{{'page.fieldEcommerce.otherFields'|translate}}</h2>
+
+      <div class="p-2">
+        <a [routerLink]="'/field/ecommerce'|localize" class="btn btn-dark btn-lg">
+          <fa-icon [icon]="faShoppingCart"></fa-icon>&nbsp;
+          {{'section.specialization.ecommerce.h'|translate}}
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
