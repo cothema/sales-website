@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons/faArrowRight';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-footer-part',
@@ -10,9 +12,12 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 export class FooterPartComponent implements OnInit {
   faFacebookF = faFacebookF;
   faLinkedinIn = faLinkedinIn;
+  faArrowRight = faArrowRight;
   actualDate = new Date();
 
-  constructor() {
+  constructor(
+    public translate: TranslateService
+  ) {
   }
 
   ngOnInit(): void {

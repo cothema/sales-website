@@ -41,7 +41,10 @@ h5,
   background: lighten(#eeeeee, 3%) !important;
 }
 
-.bg-dark {
+.bg-dark, .bg-black {
+  color: $white;
+
+  a,
   h1,
   h2,
   h3,
@@ -151,6 +154,10 @@ h5,
       color: $white;
       box-shadow: 0 5px 30px -5px rgba($primary, 0.7) !important;
     }
+  }
+
+  &.btn-lg {
+    font-size: 20px;
   }
 }
 
@@ -414,5 +421,19 @@ h5,
   select {
     appearance: none;
     width: 100%;
+  }
+}
+
+.cover-title {
+  background-color: $primary;
+  text-align: center;
+  height: 300px;
+  padding-top: 160px;
+  margin-bottom: 30px;
+
+  h1 {
+    color: $white;
+    font-weight: bold;
+    font-size: 3.5em;
   }
 }

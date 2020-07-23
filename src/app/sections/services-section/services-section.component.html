@@ -3,20 +3,20 @@
     <div class="row mb-5 justify-content-center text-center" data-aos="fade-up">
       <div class="col-7 text-center">
         <h2 class="section-title">{{ 'section.services.h' | translate }}</h2>
-        <p class="lead">
+        <p *ngIf="!expansion" class="lead">
           {{ 'section.services.p1' | translate }}
         </p>
 
         <div class="author-box aos-init aos-animate mb-5" data-aos="fade-right">
           <blockquote>
-            <b>{{ 'section.services.freeConsultation' | translate }}</b>
+            <h4><b>{{ 'section.services.freeConsultation' | translate }}</b></h4>
+            <app-schedule-call-btn></app-schedule-call-btn>
           </blockquote>
         </div>
       </div>
     </div>
 
     <div class="row align-items-stretch">
-      <div class="col-lg-2"></div>
 
       <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
         <div class="unit-4 d-block">
@@ -26,14 +26,32 @@
           <div>
             <h3>{{ 'section.services.salesTeam.h' | translate }}</h3>
             <div class="text-left">
-              <p>{{ 'section.services.salesTeam.p1' | translate }}</p>
               <ul
                 class="ul-check mb-2 list-unstyled success"
                 style="display: inline-block; text-align: left; margin: 0 auto;"
               >
+                <li>{{ 'section.services.salesTeam.li4' | translate }}</li>
                 <li>{{ 'section.services.salesTeam.li3' | translate }}</li>
                 <li>{{ 'section.services.salesTeam.li1' | translate }}</li>
                 <li>{{ 'section.services.salesTeam.li2' | translate }}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
+        <div class="unit-4 d-block">
+          <div class="unit-4-icon mb-3">
+            <span class="icon-wrap"><fa-icon [icon]="faHeadset"></fa-icon></span>
+          </div>
+          <div>
+            <h3>{{ 'section.services.userSupport.h' | translate }}</h3>
+            <div class="text-left">
+              <ul class="ul-check mb-2 list-unstyled success">
+                <li>{{ 'section.services.userSupport.li1' | translate }}</li>
+                <li>{{ 'section.services.userSupport.li3' | translate }}</li>
+                <li>{{ 'section.services.userSupport.li2' | translate }}</li>
               </ul>
             </div>
           </div>
@@ -48,7 +66,6 @@
           <div>
             <h3>{{ 'section.services.localRepre.h' | translate }}</h3>
             <div class="text-left">
-              <p>{{ 'section.services.localRepre.p1' | translate }}</p>
               <ul class="ul-check mb-2 list-unstyled success">
                 <li>{{ 'section.services.localRepre.li1' | translate }}</li>
                 <li>{{ 'section.services.localRepre.li2' | translate }}</li>
@@ -58,13 +75,16 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
 
-  <div class="text-center mb-2">
+  <div *ngIf="!expansion" class="text-center mb-4">
     <a [routerLink]="'/expansion' | localize" class="btn btn-primary btn-lg">
       {{ 'section.services.expansionCz' | translate }}
       &nbsp;<fa-icon [icon]="faArrowRight"></fa-icon>
     </a>
   </div>
+
+  <app-schedule-call-btn class="mt-2 mb-4"></app-schedule-call-btn>
 </div>

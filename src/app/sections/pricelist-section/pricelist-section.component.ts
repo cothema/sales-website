@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faInfoCircle } from '@fortawesome/free-solid-svg-icons/faInfoCircle';
 
 @Component({
   selector: 'app-pricelist-section',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pricelist-section.component.scss'],
 })
 export class PricelistSectionComponent implements OnInit {
+  faInfoCircle = faInfoCircle;
   constructor() {}
 
   ngOnInit(): void {}

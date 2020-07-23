@@ -1,8 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { faBars } from '@fortawesome/free-solid-svg-icons/faBars';
 import { faTimes } from '@fortawesome/free-solid-svg-icons/faTimes';
 import { LocalizeRouterService } from '@gilsdav/ngx-translate-router';
 import { TranslateService } from '@ngx-translate/core';
+import { NgxSpinnerService } from 'ngx-spinner';
 import { MenuService } from '../../services/menu.service';
 import { TranslateWrapperService } from '../../services/translate-wrapper.service';
 
@@ -17,12 +19,15 @@ export class HeaderPartComponent implements OnInit {
   lang: string;
   faBars = faBars;
   faTimes = faTimes;
+  @Input() subBrand;
 
   constructor(
     private translateService: TranslateService,
     private translateWrapperService: TranslateWrapperService,
     private localize: LocalizeRouterService,
-    public menu: MenuService
+    public menu: MenuService,
+    private router: Router,
+    private spinner: NgxSpinnerService
   ) {
   }
 
@@ -33,8 +38,12 @@ export class HeaderPartComponent implements OnInit {
     this.initSiteScroll();
   }
 
-  onChangeLang(lang: string) {
-    this.localize.changeLanguage(lang, { preserveFragment: true, replaceUrl: true, skipLocationChange: false }, true);
+  async onChangeLang(lang: string) {
+    this.spinner.show();
+    this.localize.changeLanguage(lang, { preserveFragment: true }, true);
+    setTimeout(() => {
+      window.location.reload();
+    }, 1000);
   }
 
   private initSiteScroll() {

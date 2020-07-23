@@ -4,7 +4,9 @@
     "code-of-ethics": "code-of-ethics",
     "expansion": "expansion",
     "for-dealers": "for-dealers",
-    "sign-in": "sign-in"
+    "sign-in": "sign-in",
+    "field": "field",
+    "how-it-works": "how-it-works"
   },
   "msg": {
     "loading": "Loading"
@@ -28,7 +30,7 @@
     "priceList": "Price list",
     "questionnaire": "Questionnaire",
     "expansionCZ": "Expansion to Czechia",
-    "whyWe": "Why we?",
+    "howItWorks": "How it works?",
     "specialization": "Specialization"
   },
   "section": {
@@ -37,12 +39,23 @@
       "noPosts": "No posts available."
     },
     "coverOutsourcing": {
-      "h1": "We bring customers to innovative companies",
-      "p1": "Leave customer acquisition and care to a network of experienced salespeople under favorable conditions."
+      "h1": "We bring clients to innovative services",
+      "p1": "Leave your sales matters to a network of experienced salespeople — focus on your growth!",
+      "tags": {
+        "salesOutsourcing": "Sales outsourcing",
+        "b2b": "B2B",
+        "saas": "SaaS",
+        "startups": "Startups",
+        "innovations": "Innovations"
+      }
     },
     "coverExpansion": {
       "h1": "Expand to Czechia easily",
-      "p1": "We best know the Czech market and our local distribution network is here for your needs."
+      "p1": "We best know the Czech market and our local distribution network is here for your needs.",
+      "tags": {
+        "expansion": "Expansion",
+        "resellerNetwork": "Reseller network"
+      }
     },
     "aboutUs": {
       "why": {
@@ -64,20 +77,20 @@
     "services": {
       "h": "Our services",
       "p1": "We focus on needs of technological B2B startup without a business team that deals with software or hardware development.",
-      "freeConsultation": "We offer a FREE non-binding online introductory consultation on the individual needs of your project with a presentation of our services.",
+      "freeConsultation": "FREE non-binding online introductory consultation",
+      "scheduleACall": "Schedule a call",
       "salesTeam": {
         "h": "Sales team",
-        "p1": "You will get a functioning business team with an optimized price vs. performance ratio.",
         "li1": "You don't waste time looking for, training and leading sales representatives or teams.",
         "li2": "You only pay commissions for closed deals.",
-        "li3": "Expertise - we dealers traders according to the field."
+        "li3": "Expertise - we assign salespeople according to the field.",
+        "li4": "A functioning sales team with an optimized price vs. performance ratio."
       },
       "localRepre": {
         "h": "Local representation",
-        "p1": "With us, your sales representatives don't waste time on long journeys, and yet you can maintain personal contact with your customers.",
-        "li1": "Presentation for customers",
-        "li2": "Basic user training",
-        "li3": "Basic user support"
+        "li1": "Presentations and consultations with clients",
+        "li2": "End user training",
+        "li3": "A team located throughout the Czech Rep. - you do not waste time on long journeys"
       },
       "existRel": {
         "h": "Existing relationships",
@@ -85,7 +98,13 @@
         "li1": "Preliminary feedback",
         "li2": "Provision of product interest"
       },
-      "expansionCz": "We offer expansion to the Czech rep."
+      "expansionCz": "We offer expansion to the Czech rep.",
+      "userSupport": {
+        "h": "User support",
+        "li1": "Solution of first-level user support",
+        "li2": "Providing feedback and suggestions for improvement",
+        "li3": "Email and phone support 9AM - 5PM on working days"
+      }
     },
     "servicesSteps": {
       "1": {
@@ -153,7 +172,14 @@
         "h": "Gastro",
         "p1": "Restaurants, bistros, pubs, catering companies…"
       },
-      "note": "Do you do business in another field? Don't worry, we are flexible. We will quickly find your way in your field as well."
+      "ecommerce": {
+        "h": "E-commerce",
+        "p1": "E-shops and other websites that allow online payments."
+      },
+      "note": "Do you do business in another field? Don't worry, we are flexible. We will quickly find your way in your field as well.",
+      "btn": {
+        "more": "More about services"
+      }
     },
     "priceList": {
       "newProduct": "New product",
@@ -189,6 +215,13 @@
       "li4": "We care about building a <b>long-term relationship</b> with customers and partners.",
       "li5": "We adhere to the <b>deadlines</b> we set, otherwise we will notify you in a timely manner of their unattainability.",
       "note": "Adherence to this Code of Ethics is not legally enforceable, however, we carefully monitor compliance with the Code. We will be happy if you notify us of any violations."
+    },
+    "fieldEcommerce": {
+      "p1": "We offer to clients in the field of e-commerce (e-shops and websites with online payments) consultations in which we can design effective solutions for further growth.",
+      "solutionsExamples": "Selected solutions that we recommend:",
+      "tags": {
+        "consultations": "Consultations"
+      }
     }
   }
 }

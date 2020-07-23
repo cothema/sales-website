@@ -14,8 +14,8 @@
         <tbody>
         <tr>
           <td style="width:40%">
-            <b>{{ 'section.priceList.startPack' | translate }}</b><br/>
-            {{ 'section.priceList.startPackDesc' | translate }}
+            <b>{{ 'section.priceList.startPack' | translate }}</b>
+            &nbsp;<fa-icon [icon]="faInfoCircle" [tooltip]="'section.priceList.startPackDesc' | translate"></fa-icon>
           </td>
           <td class="text-center">
             {{ 'section.priceList.from' | translate }} 25.000
@@ -25,16 +25,11 @@
         </tr>
         <tr>
           <td>
-            <b>{{ 'section.priceList.cooperation' | translate }}</b><br/>
-            {{ 'section.priceList.cooperationDesc' | translate }}
+            <b>{{ 'section.priceList.cooperation' | translate }}</b>
+            &nbsp;<fa-icon [icon]="faInfoCircle" [tooltip]="'section.priceList.cooperationDesc' | translate"></fa-icon>
           </td>
-          <td class="text-center">
-            2.000<br/>
-            <span [innerHTML]="'section.priceList.czkPerMo'|translate"></span>
-          </td>
-          <td class="text-center">
-            0<br/>
-            <span [innerHTML]="'section.priceList.czkPerMo'|translate"></span>
+          <td class="text-center" colspan="2">
+            3.000 <span [innerHTML]="'section.priceList.czkPerMo'|translate"></span>
           </td>
         </tr>
         <tr>

@@ -31,6 +31,23 @@ const routes: Routes = [
   {
     path: 'sign-in',
     loadChildren: () => import('./pages/sign-in-page/sign-in-page.module').then((m) => m.SignInPageModule)
+  },
+  {
+    path: 'how-it-works',
+    loadChildren: () => import('./pages/how-it-works-page/how-it-works-page.module').then((m) => m.HowItWorksPageModule)
+  },
+  {
+    path: 'field',
+    children: [
+      {
+        path: 'gastro',
+        loadChildren: () => import('./pages/fields/gastro-field-page/gastro-field-page.module').then((m) => m.GastroFieldPageModule)
+      },
+      {
+        path: 'ecommerce',
+        loadChildren: () => import('./pages/fields/ecommerce-field-page/ecommerce-field-page.module').then((m) => m.EcommerceFieldPageModule)
+      }
+    ]
   }
 ];
 

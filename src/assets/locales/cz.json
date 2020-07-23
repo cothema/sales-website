@@ -4,7 +4,9 @@
     "code-of-ethics": "eticky-kodex",
     "expansion": "expanze",
     "for-dealers": "pro-obchodniky",
-    "sign-in": "prihlaseni"
+    "sign-in": "prihlaseni",
+    "field": "obor",
+    "how-it-works": "jak-to-funguje"
   },
   "msg": {
     "loading": "Načítání"
@@ -28,7 +30,7 @@
     "priceList": "Ceník",
     "questionnaire": "Úvodní dotazník",
     "expansionCZ": "Expanze do Česka",
-    "whyWe": "Proč my?",
+    "howItWorks": "Jak to funguje?",
     "specialization": "Obory specializace"
   },
   "section": {
@@ -37,12 +39,23 @@
       "noPosts": "Žádné příspěvky nejsou k dispozici."
     },
     "coverOutsourcing": {
-      "h1": "Přivádíme inovativním firmám zákazníky",
-      "p1": "Přenechte získávání zákazníků a péči o ně síti zkušených obchodníků za výhodných podmínek."
+      "h1": "Přivádíme klienty inovativním službám",
+      "p1": "Přenechte své obchodní záležitosti síti zkušených obchodníků — zaměřte se na svůj růst!",
+      "tags": {
+        "salesOutsourcing": "Obchodní outsourcing",
+        "b2b": "B2B",
+        "saas": "SaaS",
+        "startups": "Startupy",
+        "innovations": "Inovace"
+      }
     },
     "coverExpansion": {
       "h1": "Expandujte do Česka jednoduše",
-      "p1": "Český trh známe nejlépe a naše místní distribuční síť je zde pro Vaše potřeby."
+      "p1": "Český trh známe nejlépe a naše místní distribuční síť je zde pro Vaše potřeby.",
+      "tags": {
+        "expansion": "Expanze",
+        "resellerNetwork": "Síť prodejců"
+      }
     },
     "aboutUs": {
       "why": {
@@ -64,28 +77,34 @@
     "services": {
       "h": "Naše služby",
       "p1": "Zaměřujeme se na potřeby technologických B2B startupů bez obchodního týmu zabývajících se vývojem softwaru nebo hardwaru.",
-      "freeConsultation": "ZDARMA nabízíme nezávaznou online úvodní konzultaci k individuálním potřebám Vašeho projektu s prezentací našich služeb.",
+      "freeConsultation": "Nezávazná úvodní online konzultace ZDARMA",
+      "scheduleACall": "Naplánovat hovor",
       "salesTeam": {
         "h": "Obchodní tým",
-        "p1": "Získáte fungující obchodní tým s maximalizovaným poměrem cena/výkon.",
-        "li1": "Neztrácíte čas a peníze hledáním, školením a vedením obchodních zástupců nebo týmů.",
+        "li1": "Nemusíte hledat, školit a vést obchodní zástupce.",
         "li2": "Platíte jen provize za realizované obchody.",
-        "li3": "Odbornost - obchodníky přidělujeme dle oboru."
+        "li3": "Odbornost - obchodníky přidělujeme dle oboru.",
+        "li4": "Fungující obchodní tým s optimalizovaným poměrem cena/výkon."
       },
       "localRepre": {
         "h": "Regionální zastoupení",
-        "p1": "S námi vaši obchodní zástupci neztrácí čas na dlouhých cestách a přesto dokážete udržet osobní kontakt se svými zákazníky.",
-        "li1": "Prezentace u zákazníka",
-        "li2": "Základní školení uživatelů",
-        "li3": "Základní uživatelská podpora"
+        "li1": "Prezentace a konzultace u klientů",
+        "li2": "Školení koncových uživatelů",
+        "li3": "Tým rozmístěný po ČR — neztrácíte čas na cestách"
       },
       "existRel": {
         "h": "Existující vztahy",
-        "p1": "Máme k dispozici množství již navázaných vztahů se zákazníky - nezačínáte “od nuly”.",
+        "p1": "Máme k dispozici množství již navázaných vztahů se zákazníky — nezačínáte “od nuly”.",
         "li1": "Předběžná zpětná vazba",
         "li2": "Zajištění zájmu o produkt"
       },
-      "expansionCz": "Nabízíme zajištění expanze do ČR"
+      "expansionCz": "Nabízíme zajištění expanze do ČR",
+      "userSupport": {
+        "h": "Uživatelská podpora",
+        "li1": "Vyřešení prvoúrovňové uživatelské podpory",
+        "li2": "Zajištění zpětné vazby a námětů ke zlepšení",
+        "li3": "E-mailová a telefonická podpora od 9 do 17 hod. v pracovních dnech"
+      }
     },
     "servicesSteps": {
       "1": {
@@ -116,7 +135,7 @@
     "faq": {
       "1": {
         "h": "Kdo tvoří Váš obchodní tým?",
-        "p1": "Náš obchodní tým kombinuje zkušenosti seniorních obchodníků, kteří dohlíží na juniorní obchodní zástupce. Tímto způsobem dokážeme optimalizovat poměr cena/výkon pro potřeby startupu."
+        "p1": "Náš obchodní tým kombinuje zkušenosti seniorních obchodníků, kteří dohlíží na juniorní obchodní zástupce. Tímto způsobem dokážeme optimalizovat poměr cena/výkon pro potřeby startupu. Díky využití moderních technologií umožňujících automatizaci některých procesů a jednání s klienty na dálku snižujeme potřebné počáteční investice na nezbytné minimum."
       },
       "2": {
         "h": "Co když nám přivedete příliš mnoho zákazníků a nebudeme stíhat je obsloužit?",
@@ -153,7 +172,14 @@
         "h": "Gastro",
         "p1": "Restaurace, bistra, hospody, cateringové společnosti…"
       },
-      "note": "Podnikáte v jiném oboru? Nebojte, jsme flexibilní. Rychle se zorientujeme i ve Vašem oboru."
+      "ecommerce": {
+        "h": "E-commerce",
+        "p1": "E-shopy a další weby umožňující platby přes internet."
+      },
+      "note": "Podnikáte v jiném oboru? Nebojte, jsme flexibilní. Rychle se zorientujeme i ve Vašem oboru.",
+      "btn": {
+        "more": "Více o službách"
+      }
     },
     "priceList": {
       "newProduct": "Nový produkt",
@@ -189,6 +215,13 @@
       "li4": "Dbáme na budování <b>dlouhodobého vztahu</b> se zákazníky a partnery.",
       "li5": "<b>Termíny</b>, které si stanovíme dodržujeme nebo včas upozorníme na jejich nesplnitelnost.",
       "note": "Dodržování tohoto etického kodexu není právně vymahatelné, nicméně dodržování bodů kodexu pečlivě kontrolujeme. Budeme rádi, pokud nás na případné porušení upozorníte."
+    },
+    "fieldEcommerce": {
+      "p1": "Klientům v oboru e-commerce (e-shopy a webové stránky umožňující online platby) nabízíme konzultace v rámci nichž dokážeme navrhnout efektivní řešení pro další růst.",
+      "solutionsExamples": "Vybraná řešení, která doporučujeme:",
+      "tags": {
+        "consultations": "Konzultace"
+      }
     }
   }
 }

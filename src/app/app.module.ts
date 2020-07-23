@@ -10,6 +10,7 @@ import { LocalizeRouterModule } from '@gilsdav/ngx-translate-router';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { ScullyLibModule } from '@scullyio/ng-lib';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { FacebookModule } from 'ngx-facebook';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
@@ -20,8 +21,11 @@ import { AppComponent } from './app.component';
 import { BlogPageComponent } from './pages/blog-page/blog-page.component';
 import { CodeOfEthicsPageComponent } from './pages/code-of-ethics-page/code-of-ethics-page.component';
 import { ExpansionPageComponent } from './pages/expansion-page/expansion-page.component';
+import { EcommerceFieldPageComponent } from './pages/fields/ecommerce-field-page/ecommerce-field-page.component';
+import { GastroFieldPageComponent } from './pages/fields/gastro-field-page/gastro-field-page.component';
 import { ForDealersPageComponent } from './pages/for-dealers-page/for-dealers-page.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import { HowItWorksPageComponent } from './pages/how-it-works-page/how-it-works-page.component';
 import { SignInPageComponent } from './pages/sign-in-page/sign-in-page.component';
 import { FooterPartComponent } from './parts/footer-part/footer-part.component';
 import { HeaderPartComponent } from './parts/header-part/header-part.component';
@@ -36,8 +40,9 @@ import { ForDealersSectionComponent } from './sections/for-dealers-section/for-d
 import { PricelistSectionComponent } from './sections/pricelist-section/pricelist-section.component';
 import { ServicesSectionComponent } from './sections/services-section/services-section.component';
 import { ServicesStepsSectionComponent } from './sections/services-steps-section/services-steps-section.component';
-import { TranslateWrapperService } from './services/translate-wrapper.service';
 import { SpecializationSectionComponent } from './sections/specialization-section/specialization-section.component';
+import { TranslateWrapperService } from './services/translate-wrapper.service';
+import { ScheduleCallBtnComponent } from './components/schedule-call-btn/schedule-call-btn.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -70,7 +75,11 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     FooterPartComponent,
     CoverExpansionSectionComponent,
     MenuItemsComponent,
-    SpecializationSectionComponent
+    SpecializationSectionComponent,
+    GastroFieldPageComponent,
+    EcommerceFieldPageComponent,
+    HowItWorksPageComponent,
+    ScheduleCallBtnComponent
   ],
   imports: [
     BrowserModule,
@@ -93,7 +102,8 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     AngularFireAuthModule,
     FacebookModule.forRoot(),
     NgxSpinnerModule,
-    LocalizeRouterModule
+    LocalizeRouterModule,
+    TooltipModule.forRoot()
   ],
   bootstrap: [AppComponent],
   exports: [

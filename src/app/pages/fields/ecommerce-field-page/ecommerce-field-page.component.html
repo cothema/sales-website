@@ -1,0 +1,70 @@
+<app-header-part [subBrand]="'ecommerce'"></app-header-part>
+
+<div class="cover-title">
+  <h1>
+    <fa-icon [icon]="faShoppingCart"></fa-icon>&nbsp;
+    {{'section.specialization.ecommerce.h'|translate}}
+  </h1>
+  <div>
+    <span class="badge badge-light">
+      <fa-icon [icon]="faTag"></fa-icon>&nbsp; {{ 'page.fieldEcommerce.tags.consultations' | translate }}
+    </span>
+    &nbsp;
+    <span class="badge badge-light">
+      <fa-icon [icon]="faTag"></fa-icon>&nbsp; {{ 'section.coverOutsourcing.tags.innovations' | translate }}
+    </span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="mt-5 mb-4">
+    <p style="font-size:1.7em">
+      {{'page.fieldEcommerce.p1'|translate}}
+    </p>
+  </div>
+  <div class="text-center mb-5">
+    <app-schedule-call-btn></app-schedule-call-btn>
+  </div>
+</div>
+
+<div class="site-section bg-dark" style="color: #ffffff;">
+
+  <div class="container" style="font-size:1.7em">
+    <b>Vše "pod jednou střechou"</b> - zaštítíme komunikaci mezi klientem a jednotlivými provozovateli služeb.
+  </div>
+
+  <div class="container mt-4" style="font-size:1.7em">
+    <b>Inovace a integrace</b> - u námi doporučovaných řešení se snažíme o co nejvyšší kompatibilitu a integraci.
+    Od klientů neustále sbíráme zpětnou vazbu a předáváme ji tvůrcům služeb tak, aby řešení ještě lépe vyhovovala
+    potřebám klientů.
+  </div>
+
+</div>
+
+<div class="container">
+  <div class="p-3">
+    <div class="mt-5 mb-5">
+      <h2 class="mt-4">{{'page.fieldEcommerce.solutionsExamples'|translate}}</h2>
+
+      <div class="p-2">
+        <a href="https://www.thepay.cz" target="_blank">
+          <img class="m-4" height="100" src="/assets/logos/ecommerce/the-pay.png">
+        </a>
+        <a href="https://notifikuj.cz" target="_blank">
+          <img class="m-4" height="100" src="/assets/logos/ecommerce/notifikuj_cz.png">
+        </a>
+      </div>
+    </div>
+
+    <div class="mt-5 mb-5">
+      <h2 class="mt-4">Další obory, na které se specializujeme:</h2>
+
+      <div class="p-2">
+        <a [routerLink]="'/field/gastro'|localize" class="btn btn-dark btn-lg">
+          <fa-icon [icon]="faUtensils"></fa-icon>&nbsp;
+          Gastro
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

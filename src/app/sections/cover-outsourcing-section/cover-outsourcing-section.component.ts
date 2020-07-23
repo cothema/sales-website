@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faCheck } from '@fortawesome/free-solid-svg-icons/faCheck';
+import { faTag } from '@fortawesome/free-solid-svg-icons/faTag';
 
 @Component({
   selector: 'app-cover-outsourcing-section',
@@ -6,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cover-outsourcing-section.component.scss']
 })
 export class CoverOutsourcingSectionComponent implements OnInit {
-  constructor() {}
+  faTag = faTag;
+  faCheck = faCheck;
 
-  ngOnInit(): void {}
+  constructor() {
+  }
+
+  ngOnInit(): void {
+  }
 }

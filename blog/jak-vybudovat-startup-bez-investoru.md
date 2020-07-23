@@ -23,12 +23,14 @@ Zmíněný postup označujeme pojmem "startup bootstrapping".
 - Dotace
 - Sponzorské dary
 
-## Jaké výhody tím získáme
+## Jaké výhody tím získáme?
 - Vyšší flexibilita
 - Možnost držet se své vize
 
 ## Rizika
 - Může Vám dojít kapitál.
+- Můžete hůře získávat potřebné know-how, které Vám je mnohdy investor schopný poskytnout. 
+- 
 
 ## Které známé firmy začínali bez investorů?
 - <a href="https://www.legito.cz/" target="_blank">Legito</a> (automatizovaná tvorba smluv a dokumentů)

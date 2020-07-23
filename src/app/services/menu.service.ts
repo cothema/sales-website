@@ -33,17 +33,27 @@ export class MenuService {
         children: [
           {
             link: '/',
-            fragment: 'pricelist-section',
-            title: 'menu.priceList'
-          },
-          {
-            link: '/',
             fragment: 'specialization-section',
-            title: 'menu.specialization'
+            title: 'menu.specialization',
+            children: [
+              {
+                link: '/field/gastro',
+                title: 'section.specialization.gastro.h'
+              },
+              {
+                link: '/field/ecommerce',
+                title: 'section.specialization.ecommerce.h'
+              }
+            ]
           },
           {
             link: '/expansion',
             title: 'menu.expansionCZ'
+          },
+          {
+            link: '/how-it-works',
+            fragment: 'pricelist-section',
+            title: 'menu.priceList'
           }
         ]
       },
@@ -53,9 +63,8 @@ export class MenuService {
         title: 'menu.aboutUs',
         children: [
           {
-            link: '/',
-            fragment: 'why-we-section',
-            title: 'menu.whyWe'
+            link: '/how-it-works',
+            title: 'menu.howItWorks'
           },
           {
             link: '/for-dealers',

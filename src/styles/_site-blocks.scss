@@ -960,6 +960,10 @@
     transition: 0.3s all ease;
   }
 
+  .btn, .btn:hover {
+    color: $white;
+  }
+
   *:last-child {
     margin-bottom: 0;
   }
@@ -1702,7 +1706,7 @@
     max-width: 50px;
   }
 
-  blockquote {
+  blockquote p {
     font-style: italic;
   }
 }

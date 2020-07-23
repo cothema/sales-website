@@ -6,12 +6,36 @@
         <div class="row mb-4" data-aos="fade-up" data-aos-delay="200">
           <div class="col-lg-6 mr-auto">
             <h1>{{ 'section.coverOutsourcing.h1' | translate }}</h1>
-            <p class="mb-5" style="font-size: 1.4rem;">{{ 'section.coverOutsourcing.p1' | translate }}</p>
+            <p class="mb-4" style="font-size: 1.4rem;">{{ 'section.coverOutsourcing.p1' | translate }}</p>
             <div>
-              <a [routerLink]="'/'|localize" class="btn btn-success mr-2 mb-2" fragment="services-section"
-                 pageScroll>{{ 'btn.interested' | translate }}</a>
+              <a [routerLink]="'/'|localize" class="btn btn-success btn-lg mr-2 mb-2" fragment="services-section"
+                 pageScroll>
+                <fa-icon [icon]="faCheck"></fa-icon>&nbsp;
+                {{ 'btn.interested' | translate }}
+              </a>
             </div>
           </div>
+        </div>
+        <div class="d-none d-lg-block">
+          <span class="badge badge-secondary">
+            <fa-icon [icon]="faTag"></fa-icon>&nbsp; {{ 'section.coverOutsourcing.tags.salesOutsourcing' | translate }}
+          </span>
+          &nbsp;
+          <span class="badge badge-secondary">
+            <fa-icon [icon]="faTag"></fa-icon>&nbsp; {{ 'section.coverOutsourcing.tags.b2b' | translate }}
+          </span>
+          &nbsp;
+          <span class="badge badge-secondary">
+            <fa-icon [icon]="faTag"></fa-icon>&nbsp; {{ 'section.coverOutsourcing.tags.saas' | translate }}
+          </span>
+          &nbsp;
+          <span class="badge badge-secondary">
+            <fa-icon [icon]="faTag"></fa-icon>&nbsp; {{ 'section.coverOutsourcing.tags.startups' | translate }}
+          </span>
+          &nbsp;
+          <span class="badge badge-secondary">
+            <fa-icon [icon]="faTag"></fa-icon>&nbsp; {{ 'section.coverOutsourcing.tags.innovations' | translate }}
+          </span>
         </div>
       </div>
     </div>

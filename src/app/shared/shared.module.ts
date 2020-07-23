@@ -4,7 +4,10 @@ import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   declarations: [],
-  imports: [CommonModule, TranslateModule.forChild()],
+  imports: [
+    CommonModule,
+    TranslateModule.forChild()
+  ],
   exports: [CommonModule, TranslateModule]
 })
 
