@@ -44,6 +44,7 @@ import { SpecializationSectionComponent } from './sections/specialization-sectio
 import { TranslateWrapperService } from './services/translate-wrapper.service';
 import { ScheduleCallBtnComponent } from './components/schedule-call-btn/schedule-call-btn.component';
 import { FieldReasonsSectionComponent } from './sections/field-reasons-section/field-reasons-section.component';
+import { SalesUniversityBannerComponent } from './banners/sales-university-banner/sales-university-banner.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -81,7 +82,8 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     EcommerceFieldPageComponent,
     HowItWorksPageComponent,
     ScheduleCallBtnComponent,
-    FieldReasonsSectionComponent
+    FieldReasonsSectionComponent,
+    SalesUniversityBannerComponent
   ],
   imports: [
     BrowserModule,

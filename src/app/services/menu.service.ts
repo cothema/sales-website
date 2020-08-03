@@ -23,11 +23,6 @@ export class MenuService {
     this.items = [
       {
         link: '/',
-        fragment: 'home-section',
-        title: 'menu.home'
-      },
-      {
-        link: '/',
         fragment: 'services-section',
         title: 'menu.services',
         children: [

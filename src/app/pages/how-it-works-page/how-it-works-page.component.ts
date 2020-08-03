@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faUsers } from '@fortawesome/free-solid-svg-icons/faUsers';
 
 @Component({
   selector: 'app-how-it-works-page',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./how-it-works-page.component.scss']
 })
 export class HowItWorksPageComponent implements OnInit {
+  faUsers = faUsers;
 
   constructor() { }
 

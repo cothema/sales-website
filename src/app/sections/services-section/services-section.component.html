@@ -3,8 +3,7 @@
     <div class="row mb-5 justify-content-center text-center" data-aos="fade-up">
       <div class="col-7 text-center">
         <h2 class="section-title">{{ 'section.services.h' | translate }}</h2>
-        <p *ngIf="!expansion" class="lead">
-          {{ 'section.services.p1' | translate }}
+        <p *ngIf="!expansion" [innerHTML]="'section.services.p1'|translate" class="lead mt-4 mb-4">
         </p>
 
         <div class="author-box aos-init aos-animate mb-5" data-aos="fade-right">
@@ -87,4 +86,12 @@
   </div>
 
   <app-schedule-call-btn class="mt-2 mb-4"></app-schedule-call-btn>
+
+  <div class="text-center mt-4">
+    <a [routerLink]="'/how-it-works' | localize"
+       class="btn btn-primary">
+      <fa-icon [icon]="faInfoCircle"></fa-icon>&nbsp; {{ 'menu.howItWorks' | translate }}
+    </a>
+  </div>
+
 </div>

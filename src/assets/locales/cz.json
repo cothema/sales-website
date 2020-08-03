@@ -76,7 +76,7 @@
     },
     "services": {
       "h": "Naše služby",
-      "p1": "Zaměřujeme se na potřeby technologických B2B startupů bez obchodního týmu zabývajících se vývojem softwaru nebo hardwaru.",
+      "p1": "<b>Řešíme potřeby technologických B2B inovativních firem (zejména startupů bez obchodního týmu)</b> zabývajících se vývojem softwaru nebo hardwaru.",
       "freeConsultation": "Nezávazná úvodní online konzultace ZDARMA",
       "scheduleACall": "Naplánovat hovor",
       "salesTeam": {
@@ -84,7 +84,7 @@
         "li1": "Nemusíte hledat, školit a vést obchodní zástupce.",
         "li2": "Platíte jen provize za realizované obchody.",
         "li3": "Odbornost - obchodníky přidělujeme dle oboru.",
-        "li4": "Fungující obchodní tým s optimalizovaným poměrem cena/výkon."
+        "li4": "Fungující tým s optimalizovaným poměrem cena/výkon."
       },
       "localRepre": {
         "h": "Regionální zastoupení",
@@ -170,7 +170,14 @@
       "p1": "Obory, u nichž máme více klientů, tudíž máme k dispozici specializované obchodníky.",
       "gastro": {
         "h": "Gastro",
-        "p1": "Restaurace, bistra, hospody, cateringové společnosti…"
+        "p1": "Restaurace, bistra, hospody, cateringové společnosti…",
+        "p2": "Rádi Vám nabídneme konzultaci pro zefektivnění a inovaci Vašich pracovních postupů. Oblasti, které konzultujeme nejčastěji:",
+        "li1": "Pokladní systém",
+        "li2": "Skladové hospodářství",
+        "li3": "Věrnostní program pro hosty",
+        "li4": "Prodej dárkových poukazů",
+        "li5": "Automatizace komunikace s dodavateli",
+        "li6": "Efektivní marketing"
       },
       "ecommerce": {
         "h": "E-commerce",
@@ -205,7 +212,8 @@
     },
     "field-reasons": {
       "1": "<b>Vše \"pod jednou střechou\"</b> - zaštítíme komunikaci mezi klientem a jednotlivými provozovateli služeb.",
-      "2": "<b>Inovace a integrace</b> - u námi doporučovaných řešení se snažíme o co nejvyšší kompatibilitu a integraci. Od klientů neustále sbíráme zpětnou vazbu a předáváme ji tvůrcům služeb tak, aby řešení ještě lépe vyhovovala potřebám klientů."
+      "2": "<b>Inovace a integrace</b> - u námi doporučovaných řešení se snažíme o co nejvyšší kompatibilitu a integraci. Od klientů neustále sbíráme zpětnou vazbu a předáváme ji tvůrcům služeb tak, aby řešení ještě lépe vyhovovala potřebám klientů.",
+      "3": "<b>Důvěra</b> - dlouhotrvající vztahy jsou pro nás receptem na udržování dobrých vztahů mezi klienty a poskytovateli služeb."
     }
   },
   "page": {

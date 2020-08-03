@@ -76,7 +76,7 @@
     },
     "services": {
       "h": "Our services",
-      "p1": "We focus on needs of technological B2B startup without a business team that deals with software or hardware development.",
+      "p1": "<b>We solve needs of technological B2B innovative companies (especially startups without a sales team)</b> engaged in software or hardware development.",
       "freeConsultation": "FREE non-binding online introductory consultation",
       "scheduleACall": "Schedule a call",
       "salesTeam": {
@@ -170,7 +170,14 @@
       "p1": "Fields in which we have more clients, so we have specialized salespeople available.",
       "gastro": {
         "h": "Gastro",
-        "p1": "Restaurants, bistros, pubs, catering companies…"
+        "p1": "Restaurants, bistros, pubs, catering companies…",
+        "p2": "We can offer you a consultation to streamline and innovate your work processes. Areas we consult most often:",
+        "li1": "Point of sale",
+        "li2": "Stock system",
+        "li3": "Guest Loyalty Program",
+        "li4": "Sale of gift vouchers",
+        "li5": "Automation of communication with Suppliers",
+        "li6": "Effective marketing"
       },
       "ecommerce": {
         "h": "E-commerce",
@@ -205,7 +212,8 @@
     },
     "field-reasons": {
       "1": "<b>Everything  \"under one roof\"</b> - we provide communication between the client and individual service providers.",
-      "2": "<b>Innovations and integrations</b> - for our recommended solutions, we strive for the highest possible compatibility and integration. We constantly collect feedback from clients and pass it on to service creators so that the solution meets the needs of clients even better."
+      "2": "<b>Innovations and integrations</b> - for our recommended solutions, we strive for the highest possible compatibility and integration. We constantly collect feedback from clients and pass it on to service creators so that the solution meets the needs of clients even better.",
+      "3": "<b>Trust</b> - long-term relationships are our recipe for maintaining good relationships between clients and service providers."
     }
   },
   "page": {

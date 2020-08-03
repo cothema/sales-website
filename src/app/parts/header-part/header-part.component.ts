@@ -20,6 +20,7 @@ export class HeaderPartComponent implements OnInit {
   faBars = faBars;
   faTimes = faTimes;
   @Input() subBrand;
+  @Input() color;
 
   constructor(
     private translateService: TranslateService,
