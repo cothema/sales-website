@@ -1,6 +1,6 @@
 # Website of Cothema Sales Network
 
-This project is build with [Angular](https://github.com/angular/angular).
+This project is build with [Angular](https://github.com/angular/angular)
 and [Scully.io](https://github.com/scullyio/scully) for static rendering.
 
 ## Development server
@@ -18,8 +18,13 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ### Build for production
 
 ```
-ng build --prod
-npm run scully -- --scanRoutes
+npm run build:prod
+```
+
+### Deployment
+
+```
+npm run deploy
 ```
 
 ## Running unit tests

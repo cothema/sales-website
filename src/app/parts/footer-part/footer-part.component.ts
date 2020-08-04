@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
+import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 
 @Component({
@@ -9,6 +10,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 })
 export class FooterPartComponent implements OnInit {
   faFacebookF = faFacebookF;
+  faGithub = faGithub;
   faLinkedinIn = faLinkedinIn;
   actualDate = new Date();
 
