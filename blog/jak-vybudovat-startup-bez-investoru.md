@@ -1,9 +1,12 @@
 ---
 title: 'Jak vybudovat startup bez investorů?'
 description: 'Návod, jak lze vybudovat úspěšný startup i bez velkého kapitálu.'
-published: true
-keywords: startup, investoři, bootstrapping, fundraising
+published: false
+keywords: 'startup, investoři, bootstrapping, fundraising'
 lang: cz
+slugs:
+    - ___UNPUBLISHED___kdf1g7ka_KlDh1WJX2ggAGNFiJAYdxjklXLmX5W6O
+
 ---
 # Jak vybudovat startup bez investorů?
 

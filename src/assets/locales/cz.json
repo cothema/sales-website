@@ -235,6 +235,13 @@
         "consultations": "Konzultace"
       },
       "otherFields": "Další obory, na které se specializujeme:"
+    },
+    "howItWorks": {
+      "salesOutsourcing": "Obchodní outsourcing"
+    },
+    "notFound": {
+      "pageNotFound": "Stránka nenalezena",
+      "chooseAnotherPage": "Zvolte jinou stránku…"
     }
   },
   "footer": {

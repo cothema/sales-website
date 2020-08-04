@@ -235,6 +235,13 @@
         "consultations": "Consultations"
       },
       "otherFields": "Other fields in which we specialize:"
+    },
+    "howItWorks": {
+      "salesOutsourcing": "Sales outsourcing"
+    },
+    "notFound": {
+      "pageNotFound": "Page not found",
+      "chooseAnotherPage": "Choose another page…"
     }
   },
   "footer": {

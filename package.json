@@ -5,12 +5,14 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build && npm run scully",
-    "build:prod": "ng build --prod && npm run scully",
+    "build:prod": "ng build --prod && npm run g:robots && npm run scully",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "scully": "scully --scanRoutes",
-    "scully:serve": "scully serve --scanRoutes"
+    "scully:serve": "scully serve --scanRoutes",
+    "deploy": "npm run build:prod && firebase deploy",
+    "g:robots": "generate-robotstxt dist/sales-website/robots.txt"
   },
   "private": true,
   "dependencies": {
@@ -64,6 +66,7 @@
     "codelyzer": "^5.1.2",
     "firebase-tools": "^8.6.0",
     "fuzzy": "^0.1.3",
+    "generate-robotstxt": "^8.0.3",
     "inquirer": "^6.2.2",
     "inquirer-autocomplete-prompt": "^1.0.1",
     "jasmine-core": "~3.5.0",

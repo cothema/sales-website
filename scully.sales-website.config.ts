@@ -4,7 +4,7 @@ import { ScullyConfig, setPluginConfig } from '@scullyio/scully';
 
 const SitemapPlugin = getSitemapPlugin();
 setPluginConfig(SitemapPlugin, {
-  urlPrefix: 'https://cotema.com',
+  urlPrefix: 'https://cothema.com',
   sitemapFilename: 'sitemap.xml',
   changeFreq: 'monthly',
   ignoredRoutes: ['/404']

@@ -48,6 +48,10 @@ const routes: Routes = [
         loadChildren: () => import('./pages/fields/ecommerce-field-page/ecommerce-field-page.module').then((m) => m.EcommerceFieldPageModule)
       }
     ]
+  },
+  {
+    path: '**',
+    loadChildren: () => import('./pages/not-found-page/not-found-page.module').then((m) => m.NotFoundPageModule)
   }
 ];
 
