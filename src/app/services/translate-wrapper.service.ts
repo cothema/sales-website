@@ -8,7 +8,11 @@ import { LocalStorageService } from './storage/local-storage';
 })
 export class TranslateWrapperService {
 
-  constructor(private translate: TranslateService, private storage: LocalStorageService, private injector: Injector) {
+  constructor(
+    private translate: TranslateService,
+    private storage: LocalStorageService,
+    private injector: Injector
+  ) {
   }
 
   public async init(): Promise<any> {

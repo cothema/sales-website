@@ -1,12 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import { faBars } from '@fortawesome/free-solid-svg-icons/faBars';
 import { faTimes } from '@fortawesome/free-solid-svg-icons/faTimes';
-import { LocalizeRouterService } from '@gilsdav/ngx-translate-router';
 import { TranslateService } from '@ngx-translate/core';
-import { NgxSpinnerService } from 'ngx-spinner';
+import { LangService } from '../../services/lang.service';
 import { MenuService } from '../../services/menu.service';
-import { TranslateWrapperService } from '../../services/translate-wrapper.service';
 
 declare var $: any;
 
@@ -24,11 +21,8 @@ export class HeaderPartComponent implements OnInit {
 
   constructor(
     private translateService: TranslateService,
-    private translateWrapperService: TranslateWrapperService,
-    private localize: LocalizeRouterService,
     public menu: MenuService,
-    private router: Router,
-    private spinner: NgxSpinnerService
+    private langService: LangService
   ) {
   }
 
@@ -40,11 +34,7 @@ export class HeaderPartComponent implements OnInit {
   }
 
   async onChangeLang(lang: string) {
-    this.spinner.show();
-    this.localize.changeLanguage(lang, { preserveFragment: true }, true);
-    setTimeout(() => {
-      window.location.reload();
-    }, 1000);
+    return this.langService.changeLang(lang);
   }
 
   private initSiteScroll() {
