@@ -7,6 +7,9 @@ and [Scully.io](https://github.com/scullyio/scully) for static rendering.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+To serve content via Scully with blog availability run:
+`npm run scully:serve`
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.

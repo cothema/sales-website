@@ -242,6 +242,9 @@
     "notFound": {
       "pageNotFound": "Page not found",
       "chooseAnotherPage": "Choose another page…"
+    },
+    "blog": {
+      "consultTopic": "Do you want to discuss this topic with us?"
     }
   },
   "footer": {

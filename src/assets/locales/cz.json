@@ -242,6 +242,9 @@
     "notFound": {
       "pageNotFound": "Stránka nenalezena",
       "chooseAnotherPage": "Zvolte jinou stránku…"
+    },
+    "blog": {
+      "consultTopic": "Chcete toto téma s námi probrat?"
     }
   },
   "footer": {
