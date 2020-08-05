@@ -16,7 +16,8 @@ setPluginConfig(SitemapPlugin, {
 registerNgxTranslateRouter({
   langs: {
     en: './src/assets/locales/en.json',
-    cz: './src/assets/locales/cz.json'
+    cz: './src/assets/locales/cz.json',
+    sk: './src/assets/locales/sk.json'
   }
 });
 

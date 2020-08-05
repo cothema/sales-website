@@ -1,0 +1,252 @@
+{
+  "ROUTES": {
+    "blog": "blog",
+    "code-of-ethics": "eticky-kodex",
+    "expansion": "expanzia",
+    "for-dealers": "pre-obchodnikov",
+    "sign-in": "prihlasenie",
+    "field": "obor",
+    "how-it-works": "ako-to-funguje"
+  },
+  "msg": {
+    "loading": "Načítanie"
+  },
+  "btn": {
+    "interested": "Mám záujem",
+    "continueReading": "Čítať ďalej",
+    "signInViaGoogle": "Prihlásiť sa cez Google",
+    "signOut": "Odhlásiť sa",
+    "signIn": "Prihlásenie"
+  },
+  "menu": {
+    "home": "Úvod",
+    "services": "Služby",
+    "aboutUs": "O nás",
+    "contact": "Kontakt",
+    "forDealers": "Pre obchodníkov",
+    "faq": "Otázky",
+    "blog": "Blog",
+    "codeOfEthics": "Etický kódex",
+    "priceList": "Cenník",
+    "questionnaire": "Úvodný dotazník",
+    "expansionCZ": "Expanzia do Česka",
+    "howItWorks": "Ako to funguje?",
+    "specialization": "Obory špecializácie"
+  },
+  "section": {
+    "blog": {
+      "h1": "Príspevky z blogu",
+      "noPosts": "Žiadne príspevky nie sú k dispozícii."
+    },
+    "coverOutsourcing": {
+      "h1": "Privádzame klientov inovatívnym službám",
+      "p1": "Prenechajte svoje obchodné záležitosti sieti skúsených obchodníkov - zamerajte sa na svoj rast!",
+      "tags": {
+        "salesOutsourcing": "Obchodnej outsourcing",
+        "b2b": "B2B",
+        "saas": "SaaS",
+        "startups": "Startupy",
+        "innovations": "Inovácie"
+      }
+    },
+    "coverExpansion": {
+      "h1": "Expandujte do Česka jednoducho",
+      "p1": "Český trh poznáme najlepšie a naše miestne distribučná sieť je tu pre Vaše potreby.",
+      "tags": {
+        "expansion": "Expanzia",
+        "resellerNetwork": "Sieť predajcov"
+      }
+    },
+    "aboutUs": {
+      "why": {
+        "h": "Prečo to robíme?",
+        "p1": "Viac ako 90% startupov zlyhá v prvých 2 rokoch svojej existencie a z našich odhadov vyplýva, že až 70% z tých, ktoré zlyhajú by sa dalo pomôcť k úspechu rýchlou spätnou väzbou od reálnych zákazníkov. Chápeme, že zakladatelia sú zahltení vývojom produktu a na zvyšok skrátka “nie je čas”."
+      },
+      "challenges": {
+        "h": "Našimi výzvami sú:",
+        "li1": "Férové jednanie a win-win obchod",
+        "li2": "Vyššia miera inovácií",
+        "li3": "Vyššia diverzita trhu"
+      }
+    },
+    "contactUs": {
+      "h": "Kontaktujte nás",
+      "p1": "Radi s Vami skonzultujeme Vaše individuálne potreby a zašleme podrobnejšie informácie k prípadnej spolupráci vrátane konkrétnych províznych podmienok.",
+      "poweredBy": "Prevádzkovateľom je:"
+    },
+    "services": {
+      "h": "Naše služby",
+      "p1": "<b>Riešime potreby technologických B2B inovatívnych firiem (najmä startupov bez obchodného tímu)</b> zaoberajúcich sa vývojom softvéru alebo hardvéru.",
+      "freeConsultation": "Nezáväzná úvodný online konzultácia ZADARMO",
+      "scheduleACall": "Naplánovať hovor",
+      "salesTeam": {
+        "h": "Obchodný tím",
+        "li1": "Nemusíte hľadať, školiť a viesť obchodný zástupca.",
+        "li2": "Platíte len provízie za realizované obchody.",
+        "li3": "Odbornosť - obchodníkov prideľujeme podľa oboru.",
+        "li4": "Fungujúci tím s optimalizovaným pomerom cena/výkon."
+      },
+      "localRepre": {
+        "h": "Regionálne zastúpenie",
+        "li1": "Prezentácia a konzultácie u klientov",
+        "li2": "Školenie koncových užívateľov",
+        "li3": "Tím rozmiestnený po ČR - nestrácate čas na cestách"
+      },
+      "existRel": {
+        "h": "Existujúce vzťahy",
+        "p1": "Máme k dispozícii množstvo už nadviazaných vzťahov so zákazníkmi - nezačínate “od nuly”.",
+        "li1": "Predbežná spätná väzba",
+        "li2": "Zaistenie záujmu o produkt"
+      },
+      "expansionCz": "Ponúkame zabezpečenie expanzie do ČR",
+      "userSupport": {
+        "h": "Užívateľská podpora",
+        "li1": "Vyriešenie prvoúrovňové užívateľskej podpory",
+        "li2": "Zaistenie spätnej väzby a námetov na zlepšenie",
+        "li3": "E-mailová a telefonická podpora od 9 do 17 hod. v pracovných dňoch"
+      }
+    },
+    "servicesSteps": {
+      "1": {
+        "h1": "Základný prieskum trhu",
+        "p1": "Nevytvárajte produkt, ak neviete pre koho ho vytvárate. S nami pochopíte, ktorí zákazníci sú pre Vás najdôležitejšie a predovšetkým zistíte aký veľký je priestor na trhu. V rámci štartovného balíčka za Vás vypracujeme úvodný prieskum trhu."
+      },
+      "2": {
+        "h1": "Zber spätnej väzby",
+        "p1": "Spätná väzba je kľúčová pre akýkoľvek produkt a u startupov, a softvéru a hardvéru všeobecne, to platí dvojnásobne! Spätnú väzbu od svojich nových, existujúcich i potencionálnych zákazníkov dostávate v reálnom čase."
+      },
+      "3": {
+        "h1": "Získanie nových zákazníkov",
+        "p1": "Nie je nič ťažšieho než oslovovanie nových kontaktov, hľadanie tých správnych zodpovedných osôb vo firme zákazníka a prezentácia produktu spravidla veľmi vyťaženým osobám. Toto všetko riešime za Vás."
+      },
+      "4": {
+        "h1": "Základná užívateľská podpora",
+        "p1": "Nestrácajte svoj čas vybavovaním elementárnych otázok zákazníkov typu, kde nájdu určité tlačidlo. Vybavovať budete až technické problémy a zvyšok sa k Vám dostane formou spätnej väzby."
+      },
+      "5": {
+        "h1": "Dlhodobý vzťah so zákazníkmi",
+        "p1": "Takmer nikdy nekončí vzťah so zákazníkom okamihom uzatvorenia obchodu. Zákazník očakáva, že sa produkt bude ďalej rozvíjať a spolupráca pokiaľ možno prehlbovať. Naši obchodní zástupcovia dlhodobo potrebám zákazníkov počúvajú a udržiavajú s nimi vzťah."
+      },
+      "6": {
+        "h1": "Počiatočné cash flow",
+        "p1": "Prvé predaja naštartujú počiatočné cash flow Vášho novovznikajúceho projektu. Budete môcť rýchlejšie inovovať a investovať tam, kde je potreba."
+      }
+    },
+    "faq": {
+      "1": {
+        "h": "Kto tvorí Váš obchodný tím?",
+        "p1": "Náš obchodný tím kombinuje skúsenosti senior obchodníkov, ktorí dohliada na juniorní obchodný zástupca. Týmto spôsobom dokážeme optimalizovať pomer cena / výkon pre potreby startup. Vďaka využitiu moderných technológií umožňujúcich automatizáciu niektorých procesov a rokovaní s klientmi na diaľku znižujeme potrebné počiatočné investície na nevyhnutné minimum."
+      },
+      "2": {
+        "h": "Čo keď nám privediete príliš mnoho zákazníkov a nebudeme stíhať je obslúžiť?",
+        "p1": "Zákazníkov rozdeľujeme do niekoľkých skupín. Sprvu Vám privedieme malé množstvo zákazníkov (spravidla do 5), na ktorých si svoju službu vyskúšate. Zároveň máme ale už v zálohe ďalší čakajúci zákazníkov so záujmom o váš produkt (spravidla 10 - 20), ktorým môžete svoje služby ponúknuť ihneď, ako bude overený na malej vzorke. Ďalšie zákazníkmi Vám budeme dávkovať s tým, ako budete schopní škálovať svoj business."
+      },
+      "3": {
+        "h": "Čo keď o môj produkt nebude záujem?",
+        "p1": "Razíme přístup “fail fast”. Pokud selžete brzy, ušetříte čas a zbytečně vynaložené peníze na rozvoj něčeho, co nemá šanci na trhu uspět.",
+        "p2": "Ak sa Vám nepodarí uspieť v spolupráci s nami, s veľkou pravdepodobnosťou sa Vám to nepodarí ani samotným. Radi Vám poskytneme informácie o ďalších príležitostiach na trhu."
+      },
+      "4": {
+        "h": "Môžeme sa zákazníkmi jednať napriamo?",
+        "p1": "Samozrejme. Dáme Vám len odporúčanie a odsúhlasíme si etický kódex, ako sa zákazníkmi jednať. Kľúčoví zákazníci určite priamy kontakt so zakladateľmi veľmi ocenia."
+      },
+      "5": {
+        "h": "Nie je lepšie využiť marketing? Čo napríklad kampane na Google / Facebook?",
+        "p1": "Marketing je určite cestou k presadeniu produktov pri ktorých už poznáme trh. Všeobecne je tento typ marketingu vhodnejší skôr pre B2C služby, ktoré majú nízke provízie na jedného zákazníka. Môžeme ponúknuť formy, ako marketing a obchod vhodne kombinovať a prepojiť Vás s marketingovou agentúrou, ktorá sa o vás bude starať, prípadne Vám poskytnúť všeobecné odporúčania."
+      },
+      "6": {
+        "h": "Ste niečo ako akceleračný program?",
+        "p1": "Vybrali sme si len časť z toho čo robia akceleračné programy a snažíme sa ponúknuť, čo Vám väčšina akcelerátorov za takto výhodných podmienok neponúkne. Fungujeme teda v synergii s niektorými akcelerátory. Narozdiel od akceleračných programov nie je spolupráca s nami nijako časovo obmedzená."
+      }
+    },
+    "forDealers": {
+      "p1": "Ste skúsený obchodník alebo Vás uzatváranie obchodov len baví a cítite v tejto oblasti svoj talent? Zapojením do našej siete získajú skúsení obchodníci prístup k širokej sieti regionálne rozmiestnených obchodníkov, čo im umožní lepšie obslúžiť svoje existujúce zákazníkov a pre tých menej skúsených máme pripravený systém školení a profesijného rastu.",
+      "li1": "Viac uzavretých obchodov",
+      "li2": "Spolupráca v sieti lokálnych obchodníkov",
+      "li3": "Profesijný rast",
+      "li4": "Žiadne nezmyselné produkty bez pridanej hodnoty pre zákazníka"
+    },
+    "specialization": {
+      "p1": "Odbory, pri ktorých máme viac klientov, teda máme k dispozícii špecializované obchodníkmi.",
+      "gastro": {
+        "h": "Gastro",
+        "p1": "Reštaurácie, bistrá, krčmy, cateringové spoločnosti…",
+        "p2": "Radi Vám ponúkneme konzultáciu pre zefektívnenie a inováciu Vašich pracovných postupov. Oblasti, ktoré konzultujeme najčastejšie:",
+        "li1": "Pokladničný systém",
+        "li2": "Skladové hospodárstvo",
+        "li3": "Vernostný program pre hostí",
+        "li4": "Predaj darčekových poukazov",
+        "li5": "Automatizácia komunikácie s dodávateľmi",
+        "li6": "Efektívny marketing"
+      },
+      "ecommerce": {
+        "h": "E-commerce",
+        "p1": "E-shopy a ďalšie weby umožňujúce platby cez internet."
+      },
+      "note": "Podnikáte v inom odbore? Nebojte, sme flexibilní. Rýchlo sa zorientujeme aj vo Vašom odbore.",
+      "btn": {
+        "more": "Viac o službách"
+      }
+    },
+    "priceList": {
+      "newProduct": "Nový produkt",
+      "existingProduct": "Zavedený produkt",
+      "individual": "individuálne",
+      "startPack": "Štartovný balíček",
+      "startPackDesc": "Prieskum trhu, zaškolenie obchodných zástupcov",
+      "cooperation": "Spolupráca",
+      "cooperationDesc": "Poplatok čiastočne pokrýva naše prevádzkové náklady v čase, keď je obrat minimálne.",
+      "byAgreement": "podľa dohody",
+      "provisionRealized": "Provízia za zrealizovaný obchod",
+      "otherServices": {
+        "h": "Ďalšie služby",
+        "li1": "Prepojenie s expertmi",
+        "li2": "Zdieľaný zoznam úloh",
+        "li3": "Zdieľané analýzy a informácie o zákazníkoch"
+      },
+      "consultations": "Odborné konzultácie nad rámec bežných služieb",
+      "from": "od",
+      "czk": "Kč",
+      "czkPerH": "Kč&nbsp;/&nbsp;hod.",
+      "czkPerMo": "Kč&nbsp;/&nbsp;mes."
+    },
+    "field-reasons": {
+      "1": "<b>Všetko \"pod jednou strechou\"</b> - zaštítíme komunikáciu medzi klientom a jednotlivými prevádzkovateľmi služieb.",
+      "2": "<b>Inovácie a previazanosť</b> - u nami odporúčaných riešení sa snažíme o čo najvyššiu kompatibilitu a integráciu. Od klientov neustále zbierame spätnú väzbu a odovzdávame ju tvorcom služieb tak, aby riešenie ešte lepšie vyhovovala potrebám klientov.",
+      "3": "<b>Dôvera</b> - dlhotrvajúce vzťahy sú pre nás receptom na udržiavanie dobrých vzťahov medzi klientmi a poskytovateľmi služieb."
+    }
+  },
+  "page": {
+    "signIn": {
+      "h1": "Prihlásenie do administrácie"
+    },
+    "codeOfEthics": {
+      "li1": "Rokujeme <b>slušne</b> a s pokorou.",
+      "li2": "Neuzavíráme obchody dokud nejsme sami přesvědčeni o přidané hodnotě pro druhou stranu a dodržení <b>win-win</b> principu.",
+      "li3": "Jestliže vidíme <b>rizika</b>, vždy na ně druhou stranu upozorníme.",
+      "li4": "Dbáme na budovanie <b>dlhodobého vzťahu</b> so zákazníkmi a partnermi.",
+      "li5": "<b>Termíny</b>, ktoré si stanovíme dodržiavame alebo včas upozorníme na ich nesplniteľnosť.",
+      "note": "Dodržiavanie tohto etického kódexu nie je právne vymožiteľné, však dodržiavanie bodov kódexu starostlivo kontrolujeme. Budeme radi, ak nás na prípadné porušenie upozorníte."
+    },
+    "fieldEcommerce": {
+      "p1": "Klientom v obore e-commerce (e-shopy a webové stránky umožňujúce online platby) ponúkame konzultácie v rámci ktorých dokážeme navrhnúť efektívne riešenie pre ďalší rast.",
+      "solutionsExamples": "Vybrané riešenia, ktorá odporúčame:",
+      "tags": {
+        "consultations": "Konzultácie"
+      },
+      "otherFields": "Ďalšie odbory, na ktoré sa špecializujeme:"
+    },
+    "howItWorks": {
+      "salesOutsourcing": "Obchodný outsourcing"
+    },
+    "notFound": {
+      "pageNotFound": "Stránka nenájdená",
+      "chooseAnotherPage": "Zvoľte inú stránku…"
+    }
+  },
+  "footer": {
+    "memberOf": "Sme členom:",
+    "rightsReserved": "Všetky práva vyhradené",
+    "templateBy": "Táto šablóna je vytvorená s ♥ od"
+  }
+}

@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
     spinnerService.show();
     setTimeout(() => {
       spinnerService.hide();
-    }, 1000);
+    }, 600);
   }
 
   ngOnInit() {

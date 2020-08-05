@@ -139,7 +139,7 @@
       },
       "2": {
         "h": "What if you bring us too many customers and we don't manage to serve them?",
-        "p1": "We divide customers into several groups. First, we will bring you a small number of customers (usually up to 5), where you can try your service. At the same time, we already have other waiting clients in reserve with an interest in your product (usually 10 - 20), to whom you can offer your services as soon as they are verified on a small sample. We will dose other clients to you as you will be able to scale your business."
+        "p1": "We divide customers into several groups. First, we will bring you a small number of customers (usually up to 5), where you can try your service. At the same time, we already have other waiting customers in reserve with an interest in your product (usually 10 - 20), to whom you can offer your services as soon as they are verified on a small sample. We will dose other customers to you as you will be able to scale your business."
       },
       "3": {
         "h": "What if there won't be any interest in my product?",
@@ -160,7 +160,7 @@
       }
     },
     "forDealers": {
-      "p1": "Are you an experienced dealer or do you just enjoy closing deals and do you feel to be talented in this area? By joining our network, experienced salespeople will gain access to a wide network of local salespeople, which will allow them to better serve their existing customers, and for the less experienced we have prepared a system of training and professional growth.",
+      "p1": "Are you an experienced dealer or do you just enjoy closing deals and do you feel to be talented in this area? By joining our network, experienced salespeople will gain access to a wide network of regional salespeople, which will allow them to better serve their existing customers, and for the less experienced we have prepared a system of training and professional growth.",
       "li1": "More closed deals",
       "li2": "Cooperation in a network of local dealers",
       "li3": "Professional growth",

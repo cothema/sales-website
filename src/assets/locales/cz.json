@@ -139,7 +139,7 @@
       },
       "2": {
         "h": "Co když nám přivedete příliš mnoho zákazníků a nebudeme stíhat je obsloužit?",
-        "p1": "Zákazníky rozdělujeme do několika skupin. Zprvu Vám přivedeme malé množství zákazníků (zpravidla do 5), na kterých si svou službu vyzkoušíte. Zároveň máme ale již v záloze další čekající klienty se zájmem o váš produkt (zpravidla 10 - 20), kterým můžete své služby nabídnout ihned, jak bude ověřen na malém vzorku. Další klienty Vám budeme dávkovat s tím, jak budete schopni škálovat svůj business."
+        "p1": "Zákazníky rozdělujeme do několika skupin. Zprvu Vám přivedeme malé množství zákazníků (zpravidla do 5), na kterých si svou službu vyzkoušíte. Zároveň máme ale již v záloze další čekající zákazníky se zájmem o váš produkt (zpravidla 10 - 20), kterým můžete své služby nabídnout ihned, jak bude ověřen na malém vzorku. Další zákazníky Vám budeme dávkovat s tím, jak budete schopni škálovat svůj business."
       },
       "3": {
         "h": "Co když o můj produkt nebude zájem?",
@@ -160,7 +160,7 @@
       }
     },
     "forDealers": {
-      "p1": "Jste zkušený obchodník nebo Vás uzavírání obchodů jen baví a cítíte v této oblasti svůj talent? Zapojením do naší sítě získají zkušení obchodníci přístup k široké síti lokálně rozmístěných obchodníků, což jim umožní lépe obsloužit své stávající zákazníky a pro ty méně zkušené máme připravený systém školení a profesního růstu.",
+      "p1": "Jste zkušený obchodník nebo Vás uzavírání obchodů jen baví a cítíte v této oblasti svůj talent? Zapojením do naší sítě získají zkušení obchodníci přístup k široké síti regionálně rozmístěných obchodníků, což jim umožní lépe obsloužit své stávající zákazníky a pro ty méně zkušené máme připravený systém školení a profesního růstu.",
       "li1": "Více uzavřených obchodů",
       "li2": "Spolupráce v síti lokálních obchodníků",
       "li3": "Profesní růst",
@@ -212,7 +212,7 @@
     },
     "field-reasons": {
       "1": "<b>Vše \"pod jednou střechou\"</b> - zaštítíme komunikaci mezi klientem a jednotlivými provozovateli služeb.",
-      "2": "<b>Inovace a integrace</b> - u námi doporučovaných řešení se snažíme o co nejvyšší kompatibilitu a integraci. Od klientů neustále sbíráme zpětnou vazbu a předáváme ji tvůrcům služeb tak, aby řešení ještě lépe vyhovovala potřebám klientů.",
+      "2": "<b>Inovace a provázanost</b> - u námi doporučovaných řešení se snažíme o co nejvyšší kompatibilitu a integraci. Od klientů neustále sbíráme zpětnou vazbu a předáváme ji tvůrcům služeb tak, aby řešení ještě lépe vyhovovala potřebám klientů.",
       "3": "<b>Důvěra</b> - dlouhotrvající vztahy jsou pro nás receptem na udržování dobrých vztahů mezi klienty a poskytovateli služeb."
     }
   },

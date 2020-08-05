@@ -1,7 +1,8 @@
 {
   "locales": [
     "en",
-    "cz"
+    "cz",
+    "sk"
   ],
   "prefix": "ROUTES.",
   "escapePrefix": "!"
