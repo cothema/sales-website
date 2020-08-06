@@ -27,7 +27,8 @@
 
     <div class="share-box">
       <span class="share-box-title">{{'page.blog.shareVia'|translate}}:</span>
-      <share-buttons [include]="['facebook', 'linkedin', 'twitter', 'copy']" theme="default"></share-buttons>
+      <share-buttons [include]="['facebook', 'linkedin', 'twitter', 'copy']" [url]="this.seo.getUrl()"
+                     theme="default"></share-buttons>
       <div class="clearfix"></div>
     </div>
 

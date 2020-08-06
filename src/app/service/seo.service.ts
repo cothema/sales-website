@@ -2,15 +2,16 @@ import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { SeoSocialShareData, SeoSocialShareService } from 'ngx-seo';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SeoService {
 
-  public baseUrl = window.location.protocol + '//' + window.location.hostname;
+  public baseUrl = environment.baseUrl;
   public brandTitle = 'Cothema';
-  public defaultImage = this.baseUrl + '/assets/image/og_cover.png';
+  public defaultImage = this.baseUrl + '/assets/images/og_cover.png';
 
   constructor(
     public readonly socialService: SeoSocialShareService,
@@ -24,7 +25,7 @@ export class SeoService {
       title: this.brandTitle + ' | ' + this.translate.instant('section.coverOutsourcing.h1'),
       description: this.translate.instant('section.coverOutsourcing.p1'),
       image: this.defaultImage,
-      url: this.baseUrl + this.router.url,
+      url: this.getUrl(),
       keywords: this.getDefaultKeywords()
     });
   }
@@ -47,6 +48,10 @@ export class SeoService {
     }
 
     this.socialService.setData(param);
+  }
+
+  public getUrl() {
+    return this.baseUrl + this.router.url;
   }
 
   private getDefaultKeywords(): string {

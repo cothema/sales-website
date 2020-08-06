@@ -23,9 +23,9 @@ export class BlogPageComponent implements OnInit, OnDestroy {
   faEnvelope = faEnvelope;
 
   constructor(
+    public seo: SeoService,
     private scully: ScullyRoutesService,
-    authorRepositoryService: AuthorRepositoryService,
-    private seo: SeoService
+    authorRepositoryService: AuthorRepositoryService
   ) {
     this.article$.subscribe((article) => {
       this.article = article;
