@@ -4,7 +4,6 @@ description: 'Návod, jak lze vybudovat úspěšný startup i bez velkého kapit
 published: true
 keywords: 'startup, investoři, bootstrapping, fundraising'
 lang: cz
-
 ---
 # Jak vybudovat startup bez investorů?
 
@@ -69,7 +68,7 @@ rozhodnutí, proto vybírejte partnery velmi opatrně!
 Nesnažte se za každou cenu vybudovat dokonalý produkt. Udělejte takový
 nejmenší produkt, za který jsou ochotni zákazníci utratit své peníze.
 
-## Jaké výhody tím získáme?
+## Jaké výhody získáte bez investorů?
 - Vyšší flexibilita
 - Možnost držet se své vize
 
@@ -80,7 +79,8 @@ nejmenší produkt, za který jsou ochotni zákazníci utratit své peníze.
 
 ## Uvědomte si své silné stránky
 - Vaše know-how, dovednosti, talent, kontakty, zázemí…
-- Vlastní příběh (např. budování snu, rodinné firmy apod.)
+- Vlastní příběh (např. budování snu, rodinné firmy apod.).
+Emoce jsou to nejsilnější, co prodává!
 - Osobní přístup k zákazníkům.
 - Oproti velkým společnostem můžete kdykoliv změnit směr
 a reagovat na potřeby trhu mnohem pružněji.
