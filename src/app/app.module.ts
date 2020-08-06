@@ -46,6 +46,7 @@ import { ServicesSectionComponent } from './sections/services-section/services-s
 import { ServicesStepsSectionComponent } from './sections/services-steps-section/services-steps-section.component';
 import { SpecializationSectionComponent } from './sections/specialization-section/specialization-section.component';
 import { TranslateWrapperService } from './services/translate-wrapper.service';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -109,7 +110,8 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     FacebookModule.forRoot(),
     NgxSpinnerModule,
     LocalizeRouterModule,
-    TooltipModule.forRoot()
+    TooltipModule.forRoot(),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   bootstrap: [AppComponent],
   exports: [
