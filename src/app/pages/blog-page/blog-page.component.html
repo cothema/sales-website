@@ -1,17 +1,68 @@
-<app-header-part></app-header-part>
+<app-header-part [subBrand]="'blog'"></app-header-part>
 
-<div class="container mb-5" style="padding-top: 120px;">
-  <scully-content [dir]="'blog/cz'"></scully-content>
+<ng-container *ngIf="article; else notFound">
+  <div class="container mb-5" style="padding-top: 120px;">
+    <scully-content [dir]="'blog/cz'"></scully-content>
 
-  <div class="box-area mt-4">
-    <h2 class="text-center">Chcete toto téma s námi probrat?</h2>
-    <app-schedule-call-btn></app-schedule-call-btn>
+    <div *ngIf="author" class="author-box aos-init aos-animate" data-aos="fade-right">
+      <div class="d-flex">
+        <div class="mr-3">
+          <img [src]="'/assets/photos/authors/' + author.img" alt="Image" class="img-fluid rounded-circle">
+        </div>
+        <div class="mr-auto text-black">
+          <div><strong class="font-weight-bold mb-0">{{author.fullName}}</strong></div>
+          <div *ngIf="author.position">{{author.position}}</div>
+          <div class="author-box-icons">
+            <a *ngIf="author.linkedIn" [href]="author.linkedIn" target="_blank">
+              <fa-icon [icon]="faLinkedinIn"></fa-icon>
+            </a>
+            <a *ngIf="author.email"
+               [href]="'mailto:' + author.email + '?subject=' + encodeURIComponent('Blog: ' + article.title)">
+              <fa-icon [icon]="faEnvelope"></fa-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="share-box">
+      <span class="share-box-title">{{'page.blog.shareVia'|translate}}:</span>
+      <share-buttons [include]="['facebook', 'linkedin', 'twitter', 'copy']" theme="default"></share-buttons>
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="box-area mt-4">
+      <h2 class="text-center">{{'page.blog.consultTopic'|translate}}</h2>
+      <app-schedule-call-btn></app-schedule-call-btn>
+    </div>
+
+    <div class="tags-box">
+      <ng-container *ngFor="let keyword of article.keywords.split(',')">
+        <span class="badge badge-light">
+          <fa-icon [icon]="faTag"></fa-icon>&nbsp; {{ keyword }}
+        </span>
+        &nbsp;
+      </ng-container>
+    </div>
   </div>
-</div>
 
-<div class="container pt-3">
-  <hr/>
-</div>
+  <div class="container pt-3">
+    <hr/>
+  </div>
 
+  <app-blog-posts-section [exclude]="[article?.route]"></app-blog-posts-section>
+</ng-container>
 
-<app-blog-posts-section></app-blog-posts-section>
+<ng-template #notFound>
+  <app-page-not-found></app-page-not-found>
+
+  <div class="container pt-3">
+    <hr/>
+  </div>
+
+  <app-blog-posts-section></app-blog-posts-section>
+
+  <app-specialization-section></app-specialization-section>
+
+  <app-contact-us-section></app-contact-us-section>
+</ng-template>

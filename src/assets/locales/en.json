@@ -246,7 +246,8 @@
       "chooseAnotherPage": "Choose another page…"
     },
     "blog": {
-      "consultTopic": "Do you want to discuss this topic with us?"
+      "consultTopic": "Do you want to discuss this topic with us?",
+      "shareVia": "Share via"
     }
   },
   "footer": {

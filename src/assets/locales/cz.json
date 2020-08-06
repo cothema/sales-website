@@ -246,7 +246,8 @@
       "chooseAnotherPage": "Zvolte jinou stránku…"
     },
     "blog": {
-      "consultTopic": "Chcete toto téma s námi probrat?"
+      "consultTopic": "Chcete toto téma s námi probrat?",
+      "shareVia": "Sdílet přes"
     }
   },
   "footer": {

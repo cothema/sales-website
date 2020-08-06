@@ -1,6 +1,6 @@
 {
   "name": "sales-website",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -17,6 +17,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.0.0",
+    "@angular/cdk": "^10.1.2",
     "@angular/common": "~9.0.0",
     "@angular/compiler": "~9.0.0",
     "@angular/core": "~9.0.0",
@@ -49,6 +50,8 @@
     "ngx-facebook": "^3.0.0-0",
     "ngx-page-scroll": "7.0.1",
     "ngx-page-scroll-core": "7.0.1",
+    "ngx-seo": "^5.0.0",
+    "ngx-sharebuttons": "^8.0.1",
     "ngx-spinner": "^9.0.2",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",

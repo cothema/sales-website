@@ -5,6 +5,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ServiceWorkerModule } from '@angular/service-worker';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LocalizeRouterModule } from '@gilsdav/ngx-translate-router';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
@@ -14,6 +15,8 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { FacebookModule } from 'ngx-facebook';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import { ShareButtonsModule } from 'ngx-sharebuttons/buttons';
+import { ShareIconsModule } from 'ngx-sharebuttons/icons';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
@@ -46,7 +49,7 @@ import { ServicesSectionComponent } from './sections/services-section/services-s
 import { ServicesStepsSectionComponent } from './sections/services-steps-section/services-steps-section.component';
 import { SpecializationSectionComponent } from './sections/specialization-section/specialization-section.component';
 import { TranslateWrapperService } from './services/translate-wrapper.service';
-import { ServiceWorkerModule } from '@angular/service-worker';
+import { PageNotFoundComponent } from './sections/page-not-found/page-not-found.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -86,7 +89,8 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     ScheduleCallBtnComponent,
     FieldReasonsSectionComponent,
     SalesUniversityBannerComponent,
-    NotFoundPageComponent
+    NotFoundPageComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -111,7 +115,9 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     NgxSpinnerModule,
     LocalizeRouterModule,
     TooltipModule.forRoot(),
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    ShareButtonsModule,
+    ShareIconsModule
   ],
   bootstrap: [AppComponent],
   exports: [

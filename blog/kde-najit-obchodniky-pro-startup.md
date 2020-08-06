@@ -1,9 +1,11 @@
 ---
 title: 'Kde najít obchodníky pro startup?'
-description: 'Návod, jak ve startupu řešit obchodní záležitosti.'
+description: 'Najít kvalitní obchodníky, dokázat je zaplatit a ještě je umět uřídit, to je extrémně náročná disciplína. Zkusme se zamyslet, jak na to jít lépe a chytřeji.'
 published: true
-keywords: 'startup, obchod, sales, outsourcing'
+keywords: 'startup,obchod,sales,outsourcing'
 lang: cz
+author: mh
+image: /assets/photos/articles/sales_meeting.jpg
 ---
 # Kde najít obchodníky pro startup?
 
@@ -48,7 +50,7 @@ dobře známe svou cílovou skupinu a správně zacílíme reklamní
 kampaně. Zákazník se sám zaregistruje, zaplatí a užívá službu.
 V ideálním případě se nemusíme již o zákazníky dále starat.
 
-Volba této strategie dává smysl zejménu u B2C produktů a služeb,
+Volba této strategie dává smysl zejména u B2C produktů a služeb,
 neboť u nich máme nízké obraty na jednoho zákazníka a
 jakákoliv manuální práce by nám neúměrně navýšila poměr nákladů.
 

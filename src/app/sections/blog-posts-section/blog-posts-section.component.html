@@ -16,8 +16,8 @@
           <h2>
             <a [routerLink]="post.route">{{ post.title }}</a>
           </h2>
-          <p>
-            {{ post.annotation }}
+          <p *ngIf="post.description">
+            {{ post.description }}
           </p>
           <p>
             <a [routerLink]="post.route">{{ 'btn.continueReading' | translate }}…</a>

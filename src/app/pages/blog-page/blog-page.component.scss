@@ -24,3 +24,30 @@ h1, .box-area {
     text-align: right;
   }
 }
+
+.author-box {
+  margin: 30px 0;
+  max-width: 400px;
+
+  .author-box-icons fa-icon {
+    padding: 5px;
+  }
+}
+
+.tags-box {
+  margin: 10px 0;
+}
+
+.share-box {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin: 20px 0;
+  padding: 10px;
+  box-shadow: 0 5px 15px -2px rgba(0, 0, 0, 0.1);
+
+  .share-box-title {
+    float: left;
+    line-height: 35px;
+    margin: 5px 5px 0 5px;
+  }
+}

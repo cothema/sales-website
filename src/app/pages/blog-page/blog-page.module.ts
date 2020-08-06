@@ -5,7 +5,11 @@ import { BlogRoutingModule } from './blog-routing.module';
 
 @NgModule({
   declarations: [],
-  imports: [SharedModule, BlogRoutingModule, ScullyLibModule]
+  imports: [
+    SharedModule,
+    BlogRoutingModule,
+    ScullyLibModule
+  ]
 })
 export class BlogPageModule {
 }
