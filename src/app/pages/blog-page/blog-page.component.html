@@ -2,6 +2,13 @@
 
 <ng-container *ngIf="article; else notFound">
   <div class="container mb-5" style="padding-top: 120px;">
+    <h1 *ngIf="article.title">{{article.title}}</h1>
+
+    <div *ngIf="article.title" class="mb-2">
+      <fa-icon [icon]="faCalendar"></fa-icon>&nbsp;
+      <b>Publikováno:</b> {{article.publishedDate|date:'longDate'}}
+    </div>
+
     <scully-content [dir]="'blog/cz'"></scully-content>
 
     <div *ngIf="author" class="author-box aos-init aos-animate" data-aos="fade-right">

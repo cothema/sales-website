@@ -6,7 +6,8 @@
     "for-dealers": "for-dealers",
     "sign-in": "sign-in",
     "field": "field",
-    "how-it-works": "how-it-works"
+    "how-it-works": "how-it-works",
+    "terms-and-conditions": "terms-and-conditions"
   },
   "msg": {
     "loading": "Loading"
@@ -72,7 +73,8 @@
     "contactUs": {
       "h": "Contact us",
       "p1": "We will consult your individual needs and send you more detailed information on possible cooperation, including specific commission conditions.",
-      "poweredBy": "This project is powered by:"
+      "poweredBy": "This project is powered by:",
+      "lawId": "ID"
     },
     "services": {
       "h": "Our services",
@@ -103,7 +105,7 @@
         "h": "User support",
         "li1": "Solution of first-level user support",
         "li2": "Providing feedback and suggestions for improvement",
-        "li3": "Email and phone support 9AM - 5PM on working days"
+        "li3": "Email and phone support on working days"
       }
     },
     "servicesSteps": {
@@ -248,6 +250,9 @@
     "blog": {
       "consultTopic": "Do you want to discuss this topic with us?",
       "shareVia": "Share via"
+    },
+    "terms": {
+      "h": "Terms and Conditions"
     }
   },
   "footer": {

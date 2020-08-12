@@ -6,7 +6,8 @@
     "for-dealers": "pre-obchodnikov",
     "sign-in": "prihlasenie",
     "field": "obor",
-    "how-it-works": "ako-to-funguje"
+    "how-it-works": "ako-to-funguje",
+    "terms-and-conditions": "obchodne-podmienky"
   },
   "msg": {
     "loading": "Načítanie"
@@ -72,7 +73,8 @@
     "contactUs": {
       "h": "Kontaktujte nás",
       "p1": "Radi s Vami skonzultujeme Vaše individuálne potreby a zašleme podrobnejšie informácie k prípadnej spolupráci vrátane konkrétnych províznych podmienok.",
-      "poweredBy": "Prevádzkovateľom je:"
+      "poweredBy": "Prevádzkovateľom je:",
+      "lawId": "IČ"
     },
     "services": {
       "h": "Naše služby",
@@ -103,7 +105,7 @@
         "h": "Užívateľská podpora",
         "li1": "Vyriešenie prvoúrovňové užívateľskej podpory",
         "li2": "Zaistenie spätnej väzby a námetov na zlepšenie",
-        "li3": "E-mailová a telefonická podpora od 9 do 17 hod. v pracovných dňoch"
+        "li3": "E-mailová a telefonická podpora v pracovných dňoch"
       }
     },
     "servicesSteps": {
@@ -248,6 +250,9 @@
     "blog": {
       "consultTopic": "Chcete túto tému s nami prebrať?",
       "shareVia": "Zdieľať cez"
+    },
+    "terms": {
+      "h": "Obchodné podmienky"
     }
   },
   "footer": {

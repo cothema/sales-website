@@ -5,9 +5,9 @@ published: true
 keywords: 'startup,obchod,sales,outsourcing'
 lang: cz
 author: mh
+publishedDate: 2020-07-27
 image: /assets/photos/articles/sales_meeting.jpg
 ---
-# Kde najít obchodníky pro startup?
 
 <div class="img-box-right">
     <img src="/assets/photos/articles/sales_meeting.jpg" />

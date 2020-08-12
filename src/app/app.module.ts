@@ -50,6 +50,7 @@ import { ServicesStepsSectionComponent } from './sections/services-steps-section
 import { SpecializationSectionComponent } from './sections/specialization-section/specialization-section.component';
 import { TranslateWrapperService } from './services/translate-wrapper.service';
 import { PageNotFoundComponent } from './sections/page-not-found/page-not-found.component';
+import { TermsPageComponent } from './pages/terms-page/terms-page.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -90,7 +91,8 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     FieldReasonsSectionComponent,
     SalesUniversityBannerComponent,
     NotFoundPageComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    TermsPageComponent
   ],
   imports: [
     BrowserModule,

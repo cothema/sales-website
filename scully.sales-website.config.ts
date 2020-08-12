@@ -9,8 +9,33 @@ const SitemapPlugin = getSitemapPlugin();
 setPluginConfig(SitemapPlugin, {
   urlPrefix: 'https://cothema.com',
   sitemapFilename: 'sitemap.xml',
-  changeFreq: 'monthly',
-  ignoredRoutes: ['/404']
+  merge: false,
+  trailingSlash: false,
+  changeFreq: 'weekly',
+  priority: '1.0',
+  ignoredRoutes: [
+    '/404',
+    '/en/field',
+    '/cz/obor',
+    '/sk/obor'
+  ],
+  routes: {
+    '/en/terms-and-conditions': {
+      changeFreq: 'monthly',
+      priority: '0.4',
+      merge: true
+    },
+    '/cz/obchodni-podminky': {
+      changeFreq: 'monthly',
+      priority: '0.4',
+      merge: true
+    },
+    '/sk/obchodne-podmienky': {
+      changeFreq: 'monthly',
+      priority: '0.4',
+      merge: true
+    },
+  }
 });
 
 registerNgxTranslateRouter({

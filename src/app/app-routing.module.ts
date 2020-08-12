@@ -50,6 +50,10 @@ const routes: Routes = [
     ]
   },
   {
+    path: 'terms-and-conditions',
+    loadChildren: () => import('./pages/terms-page/terms-page.module').then((m) => m.TermsPageModule)
+  },
+  {
     path: '**',
     loadChildren: () => import('./pages/not-found-page/not-found-page.module').then((m) => m.NotFoundPageModule)
   }

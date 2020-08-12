@@ -1,5 +1,6 @@
 import { Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
+import { faCalendar } from '@fortawesome/free-solid-svg-icons/faCalendar';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 import { faTag } from '@fortawesome/free-solid-svg-icons/faTag';
 import { ScullyRoute, ScullyRoutesService } from '@scullyio/ng-lib';
@@ -21,6 +22,7 @@ export class BlogPageComponent implements OnInit, OnDestroy {
   faLinkedinIn = faLinkedinIn;
   faTag = faTag;
   faEnvelope = faEnvelope;
+  faCalendar = faCalendar;
 
   constructor(
     public seo: SeoService,

@@ -6,7 +6,8 @@
     "for-dealers": "pro-obchodniky",
     "sign-in": "prihlaseni",
     "field": "obor",
-    "how-it-works": "jak-to-funguje"
+    "how-it-works": "jak-to-funguje",
+    "terms-and-conditions": "obchodni-podminky"
   },
   "msg": {
     "loading": "Načítání"
@@ -72,11 +73,12 @@
     "contactUs": {
       "h": "Kontaktujte nás",
       "p1": "Rádi s Vámi zkonzultujeme Vaše individuální potřeby a zašleme podrobnější informace k případné spolupráci včetně konkrétních provizních podmínek.",
-      "poweredBy": "Provozovatelem je:"
+      "poweredBy": "Provozovatelem je:",
+      "lawId": "IČ"
     },
     "services": {
       "h": "Naše služby",
-      "p1": "<b>Řešíme potřeby technologických B2B inovativních firem (zejména startupů bez obchodního týmu)</b> zabývajících se vývojem softwaru nebo hardwaru.",
+      "p1": "<b>Řešíme obchodní zastoupení pro inovativní technologické společnosti zabývající se vývojem softwaru.</b>",
       "freeConsultation": "Nezávazná úvodní online konzultace ZDARMA",
       "scheduleACall": "Naplánovat hovor",
       "salesTeam": {
@@ -103,7 +105,7 @@
         "h": "Uživatelská podpora",
         "li1": "Vyřešení prvoúrovňové uživatelské podpory",
         "li2": "Zajištění zpětné vazby a námětů ke zlepšení",
-        "li3": "E-mailová a telefonická podpora od 9 do 17 hod. v pracovních dnech"
+        "li3": "E-mailová a telefonická podpora v pracovních dnech"
       }
     },
     "servicesSteps": {
@@ -248,6 +250,9 @@
     "blog": {
       "consultTopic": "Chcete toto téma s námi probrat?",
       "shareVia": "Sdílet přes"
+    },
+    "terms": {
+      "h": "Obchodní podmínky"
     }
   },
   "footer": {

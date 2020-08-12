@@ -6,8 +6,8 @@ keywords: 'startup,investoři,bootstrapping,fundraising'
 lang: cz
 author: mh
 image: /assets/photos/articles/startup_team.jpg
+publishedDate: 2020-07-20
 ---
-# Jak vybudovat startup bez investorů?
 
 <div class="img-box-right">
     <img src="/assets/photos/articles/startup_team.jpg" />

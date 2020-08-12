@@ -10,7 +10,6 @@ slugs:
     - ___UNPUBLISHED___kdiusw9h_uIcn13pOfzi0zAOqgZrsIINevQcXORzh
 
 ---
-# 3 největší výhody outsourcingu
 
 <div class="img-box-right">
     <img src="/assets/photos/articles/slack.jpg" />
