@@ -11,53 +11,49 @@
       <div class="col-lg-2 d-flex" data-aos="fade-up"></div>
 
       <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
-        <div class="unit-4 d-block c-pointer"
-             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
-          <div>
-            <h3>{{ 'section.servicesConsulting.basic.h' | translate }}</h3>
-            <div class="text-left">
-              <ul
-                class="ul-check mb-2 list-unstyled success"
-                style="display: inline-block; text-align: left; margin: 0 auto;"
-              >
-                <li>{{ 'section.servicesConsulting.basic.li1' | translate }}</li>
-                <li>{{ 'section.servicesConsulting.basic.li2' | translate }}</li>
-                <li>{{ 'section.servicesConsulting.basic.li3' | translate }}</li>
-                <li>{{ 'section.servicesConsulting.basic.li4' | translate }}</li>
-                <li>{{ 'section.servicesConsulting.basic.li5' | translate }}</li>
-              </ul>
-              <div class="pt-3 pb-3"
-                   style="font-size: 1.5em;font-weight:bold;text-align:center;text-transform: uppercase;
-                   color: #000000;">
-                {{ 'section.servicesConsulting.free' | translate }}
-              </div>
-            </div>
+        <app-card
+          class="c-pointer d-flex"
+          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
+          <h3>{{ 'section.servicesConsulting.basic.h' | translate }}</h3>
+          <div class="text-left">
+            <ul
+              class="ul-check mb-2 list-unstyled success"
+              style="display: inline-block; text-align: left; margin: 0 auto;"
+            >
+              <li>{{ 'section.servicesConsulting.basic.li1' | translate }}</li>
+              <li>{{ 'section.servicesConsulting.basic.li2' | translate }}</li>
+              <li>{{ 'section.servicesConsulting.basic.li3' | translate }}</li>
+              <li>{{ 'section.servicesConsulting.basic.li4' | translate }}</li>
+              <li>{{ 'section.servicesConsulting.basic.li5' | translate }}</li>
+            </ul>
           </div>
-        </div>
+          <div class="card-big-text text-uppercase">
+            {{ 'section.servicesConsulting.free' | translate }}
+          </div>
+        </app-card>
       </div>
 
       <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
-        <div class="unit-4 d-block c-pointer"
-             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
-          <div>
-            <h3>{{ 'section.servicesConsulting.deep.h' | translate }}</h3>
-            <div class="text-left">
-              <ul class="ul-check mb-2 list-unstyled success">
-                <li>{{ 'section.servicesConsulting.deep.li1' | translate }}</li>
-                <li>{{ 'section.servicesConsulting.deep.li2' | translate }}</li>
-                <li>{{ 'section.servicesConsulting.deep.li3' | translate }}</li>
-                <li>{{ 'section.servicesConsulting.deep.li4' | translate }}</li>
-              </ul>
-              <div class="pt-3 pb-3"
-                   style="font-size: 1.5em; font-weight:bold; text-align:center; color: #000000;">
-                <span
-                  style="text-transform: uppercase;">{{ 'section.servicesConsulting.individually' | translate }}</span><br/>
+        <app-card
+          class="c-pointer d-flex"
+          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
+          <h3>{{ 'section.servicesConsulting.deep.h' | translate }}</h3>
+          <div class="text-left">
+            <ul class="ul-check mb-2 list-unstyled success">
+              <li>{{ 'section.servicesConsulting.deep.li1' | translate }}</li>
+              <li>{{ 'section.servicesConsulting.deep.li2' | translate }}</li>
+              <li>{{ 'section.servicesConsulting.deep.li3' | translate }}</li>
+              <li>{{ 'section.servicesConsulting.deep.li4' | translate }}</li>
+            </ul>
+            <div class="card-big-text">
+              <div class="text-uppercase">{{ 'section.servicesConsulting.individually' | translate }}</div>
+              <div>
                 {{ 'section.priceList.from' | translate }} 1.500
                 <span [innerHTML]="'section.priceList.czkPerH'|translate"></span>
               </div>
             </div>
           </div>
-        </div>
+        </app-card>
       </div>
 
     </div>

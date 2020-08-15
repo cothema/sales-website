@@ -63,6 +63,7 @@ import { ServicesSectionComponent } from './sections/sales/services-section/serv
 import { ServicesStepsSectionComponent } from './sections/sales/services-steps-section/services-steps-section.component';
 import { TranslateWrapperService } from './services/translate-wrapper.service';
 import { ScrollDownBtnComponent } from './components/scroll-down-btn/scroll-down-btn.component';
+import { CardComponent } from './components/card/card.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -116,7 +117,8 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     ServicesConsultingSectionComponent,
     ManufacturingAndIndustryPageComponent,
     SalespeopleAndConsultantsPageComponent,
-    ScrollDownBtnComponent
+    ScrollDownBtnComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

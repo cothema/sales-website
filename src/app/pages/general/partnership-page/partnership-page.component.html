@@ -24,12 +24,9 @@
   <div class="row align-items-stretch mt-5">
 
     <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
-      <div class="unit-4 d-block c-pointer"
-           onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
-        <div class="unit-4-icon mb-3">
-          <span class="icon-wrap"><fa-icon [icon]="faMousePointer"></fa-icon></span>
-        </div>
-        <div>
+      <app-card [faIcon]="faMousePointer"
+                class="d-flex c-pointer"
+                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
           <h3>{{ 'page.partnership.agency.h' | translate }}</h3>
           <div class="text-left">
             <p class="text-center">
@@ -42,54 +39,45 @@
               {{ 'btn.interested' | translate }}
             </a>
           </div>
-        </div>
-      </div>
+      </app-card>
     </div>
 
     <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
-      <div class="unit-4 d-block c-pointer"
-           onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
-        <div class="unit-4-icon mb-3">
-          <span class="icon-wrap"><fa-icon [icon]="faCode"></fa-icon></span>
+      <app-card [faIcon]="faCode"
+                class="d-flex c-pointer"
+                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
+        <h3>{{ 'page.partnership.customSw.h' | translate }}</h3>
+        <div class="text-left">
+          <p class="text-center">
+            {{ 'page.partnership.customSw.p1' | translate}}
+          </p>
         </div>
-        <div>
-          <h3>{{ 'page.partnership.customSw.h' | translate }}</h3>
-          <div class="text-left">
-            <p class="text-center">
-              {{ 'page.partnership.customSw.p1' | translate}}
-            </p>
-          </div>
-          <div class="text-center mt-3">
-            <a class="btn btn-success"
-               onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
-              {{ 'btn.interested' | translate }}
-            </a>
-          </div>
+        <div class="text-center mt-3">
+          <a class="btn btn-success"
+             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
+            {{ 'btn.interested' | translate }}
+          </a>
         </div>
-      </div>
+      </app-card>
     </div>
 
     <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
-      <div class="unit-4 d-block c-pointer"
-           onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
-        <div class="unit-4-icon mb-3">
-          <span class="icon-wrap"><fa-icon [icon]="faUser"></fa-icon></span>
+      <app-card [faIcon]="faUser"
+                class="d-flex c-pointer"
+                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
+        <h3>{{ 'page.partnership.specialist.h' | translate }}</h3>
+        <div class="text-left">
+          <p class="text-center">
+            {{ 'page.partnership.specialist.p1' | translate}}
+          </p>
         </div>
-        <div>
-          <h3>{{ 'page.partnership.specialist.h' | translate }}</h3>
-          <div class="text-left">
-            <p class="text-center">
-              {{ 'page.partnership.specialist.p1' | translate}}
-            </p>
-          </div>
-          <div class="text-center mt-3">
-            <a class="btn btn-success"
-               onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
-              {{ 'btn.interested' | translate }}
-            </a>
-          </div>
+        <div class="text-center mt-3">
+          <a class="btn btn-success"
+             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
+            {{ 'btn.interested' | translate }}
+          </a>
         </div>
-      </div>
+      </app-card>
     </div>
 
   </div>

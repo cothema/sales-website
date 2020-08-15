@@ -452,8 +452,17 @@ h5,
   outline: none;
 }
 
+/* Pulsating animations */
 .pulsing-success {
   animation: pulsing-success 2.5s infinite cubic-bezier(0.66, 0, 0, 1);
+
+  &:hover {
+    animation: none;
+  }
+}
+
+.pulsing-warning {
+  animation: pulsing-warning 2.5s infinite cubic-bezier(0.66, 0, 0, 1);
 
   &:hover {
     animation: none;
@@ -465,5 +474,14 @@ h5,
   40% {
     box-shadow: 0 0 10px 10px transparentize($success, 0.5);
   }
-  100% {}
+  100% {
+  }
+}
+
+@keyframes pulsing-warning {
+  40% {
+    box-shadow: 0 0 10px 10px transparentize($warning, 0.5);
+  }
+  100% {
+  }
 }

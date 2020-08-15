@@ -8,7 +8,7 @@
             <h1 *ngIf="title">{{ title }}</h1>
             <p *ngIf="subtitle" class="mb-4" style="font-size: 1.4rem;">{{ subtitle }}</p>
             <ng-content></ng-content>
-            <div *ngIf="tags.length" class="d-none d-lg-block mt-4">
+            <div *ngIf="tags.length" class="d-none d-lg-block mt-4 cover-tags">
               <app-tag-list [tags]="tags"></app-tag-list>
             </div>
           </div>

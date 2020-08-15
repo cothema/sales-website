@@ -8,21 +8,16 @@
     <div class="row">
       <div class="col-lg-4"></div>
       <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
-        <div class="unit-4 d-block">
-          <div class="unit-4-icon mb-3">
-            <span class="icon-wrap"><fa-icon [icon]="faLink"></fa-icon></span>
+        <app-card [faIcon]="faLink" class="d-flex">
+          <h3>{{ 'section.services.existRel.h' | translate }}</h3>
+          <div class="text-left">
+            <p>{{ 'section.services.existRel.p1' | translate }}</p>
+            <ul class="ul-check mb-2 list-unstyled success">
+              <li>{{ 'section.services.existRel.li1' | translate }}</li>
+              <li>{{ 'section.services.existRel.li2' | translate }}</li>
+            </ul>
           </div>
-          <div>
-            <h3>{{ 'section.services.existRel.h' | translate }}</h3>
-            <div class="text-left">
-              <p>{{ 'section.services.existRel.p1' | translate }}</p>
-              <ul class="ul-check mb-2 list-unstyled success">
-                <li>{{ 'section.services.existRel.li1' | translate }}</li>
-                <li>{{ 'section.services.existRel.li2' | translate }}</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        </app-card>
       </div>
     </div>
   </div>
