@@ -1,0 +1,19 @@
+<div class="site-blocks-cover" style="overflow: hidden;">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-12" data-aos="fade-right" data-aos-delay="200" style="position: relative;">
+        <img [src]="image" alt="illustration image" class="img-fluid img-absolute"/>
+        <div class="row mb-4" data-aos="fade-right" data-aos-delay="200">
+          <div class="col-lg-6 mr-auto">
+            <h1 *ngIf="title">{{ title }}</h1>
+            <p *ngIf="subtitle" class="mb-4" style="font-size: 1.4rem;">{{ subtitle }}</p>
+            <ng-content></ng-content>
+            <div *ngIf="tags.length" class="d-none d-lg-block mt-4">
+              <app-tag-list [tags]="tags"></app-tag-list>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

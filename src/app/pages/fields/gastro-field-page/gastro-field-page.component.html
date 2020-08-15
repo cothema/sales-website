@@ -5,13 +5,7 @@
     <fa-icon [icon]="faUtensils"></fa-icon>&nbsp; {{'section.specialization.gastro.h'|translate}}
   </h1>
   <div>
-    <span class="badge badge-light">
-      <fa-icon [icon]="faTag"></fa-icon>&nbsp; {{ 'page.fieldEcommerce.tags.consultations' | translate }}
-    </span>
-    &nbsp;
-    <span class="badge badge-light">
-      <fa-icon [icon]="faTag"></fa-icon>&nbsp; {{ 'section.coverOutsourcing.tags.innovations' | translate }}
-    </span>
+    <app-tag-list [tags]="tags"></app-tag-list>
   </div>
 </div>
 

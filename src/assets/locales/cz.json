@@ -3,11 +3,16 @@
     "blog": "blog",
     "code-of-ethics": "eticky-kodex",
     "expansion": "expanze",
-    "for-dealers": "pro-obchodniky",
+    "career": "kariera",
     "sign-in": "prihlaseni",
     "field": "obor",
     "how-it-works": "jak-to-funguje",
-    "terms-and-conditions": "obchodni-podminky"
+    "terms-and-conditions": "obchodni-podminky",
+    "sales-outsourcing": "obchodni-outsourcing",
+    "partnership": "partnerstvi",
+    "manufacturing-and-industry": "vyroba-a-prumysl",
+    "salespeople-and-consultants": "obchodnici-a-konzultanti",
+    "contact": "kontakt"
   },
   "msg": {
     "loading": "Načítání"
@@ -19,12 +24,32 @@
     "signOut": "Odhlásit se",
     "signIn": "Přihlášení"
   },
+  "subBrand": {
+    "consulting": "konzultace",
+    "career": "kariéra",
+    "expansion": "expanze",
+    "sales": "obchod"
+  },
+  "tags": {
+    "salesOutsourcing": "Obchodní outsourcing",
+    "b2b": "B2B",
+    "saas": "SaaS",
+    "startups": "Startupy",
+    "innovations": "Inovace",
+    "expansion": "Expanze",
+    "resellerNetwork": "Síť prodejců",
+    "consulting": "Konzultace",
+    "automation": "Automatizace",
+    "processes": "Procesy",
+    "digitization": "Digitalizace",
+    "it": "IT"
+  },
   "menu": {
     "home": "Úvod",
     "services": "Služby",
     "aboutUs": "O nás",
     "contact": "Kontakt",
-    "forDealers": "Pro obchodníky",
+    "career": "Kariéra",
     "faq": "Dotazy",
     "blog": "Blog",
     "codeOfEthics": "Etický kodex",
@@ -32,31 +57,34 @@
     "questionnaire": "Úvodní dotazník",
     "expansionCZ": "Expanze do Česka",
     "howItWorks": "Jak to funguje?",
-    "specialization": "Obory specializace"
+    "specialization": "Obory specializace",
+    "innovationConsultation": "Konzultace inovací",
+    "salesOutsourcing": "Obchodní outsourcing",
+    "partnership": "Partnerství"
   },
   "section": {
     "blog": {
       "h1": "Příspěvky z blogu",
       "noPosts": "Žádné příspěvky nejsou k dispozici."
     },
-    "coverOutsourcing": {
+    "coverConsultation": {
+      "h1": "Zvyšte zisk své firmy díky inovacím!",
+      "p1": "Zefektivňujeme firemní procesy využitím potenciálu moderních technologií.",
+      "btn": {
+        "wantConsultation": "Chci konzultaci",
+        "haveService": "Mám službu"
+      }
+    },
+    "coverSalesOutsourcing": {
       "h1": "Přivádíme klienty inovativním službám",
       "p1": "Přenechte své obchodní záležitosti síti zkušených obchodníků — zaměřte se na svůj růst!",
-      "tags": {
-        "salesOutsourcing": "Obchodní outsourcing",
-        "b2b": "B2B",
-        "saas": "SaaS",
-        "startups": "Startupy",
-        "innovations": "Inovace"
+      "btn": {
+        "wantService": "Hledám službu"
       }
     },
     "coverExpansion": {
       "h1": "Expandujte do Česka jednoduše",
-      "p1": "Český trh známe nejlépe a naše místní distribuční síť je zde pro Vaše potřeby.",
-      "tags": {
-        "expansion": "Expanze",
-        "resellerNetwork": "Síť prodejců"
-      }
+      "p1": "Český trh známe nejlépe a naše místní distribuční síť je zde pro Vaše potřeby."
     },
     "aboutUs": {
       "why": {
@@ -134,6 +162,23 @@
         "p1": "První prodeje nastartují počáteční cash flow Vašeho nově vznikajícího projektu. Budete moci rychleji inovovat a investovat tam, kde je potřeba."
       }
     },
+    "servicesConsulting": {
+      "basic": {
+        "h": "Základní konzultace",
+        "li1": "Zjištění potřeb společnosti a příležitostí ke zlepšení",
+        "li2": "Návrh řešení z dostupných služeb na trhu",
+        "li3": "Zajištění podpory pro navrhnuté služby",
+        "li4": "Propojení s experty z různých oborů",
+        "li5": "Zajištění nejvýhodnější nabídky dodavatelských služeb"
+      },
+      "deep": {
+        "h": "Hloubkové konzultace",
+        "li1": "Architektura firemních procesů",
+        "li2": "Zajištění implementace navrhovaných řešení",
+        "li3": "Nadstandardní zaškolení zaměstnanců",
+        "li4": "Kyberbezpečnost"
+      }
+    },
     "faq": {
       "1": {
         "h": "Kdo tvoří Váš obchodní tým?",
@@ -162,6 +207,7 @@
       }
     },
     "forDealers": {
+      "h": "Pro obchodníky",
       "p1": "Jste zkušený obchodník nebo Vás uzavírání obchodů jen baví a cítíte v této oblasti svůj talent? Zapojením do naší sítě získají zkušení obchodníci přístup k široké síti regionálně rozmístěných obchodníků, což jim umožní lépe obsloužit své stávající zákazníky a pro ty méně zkušené máme připravený systém školení a profesního růstu.",
       "li1": "Více uzavřených obchodů",
       "li2": "Spolupráce v síti lokálních obchodníků",
@@ -169,7 +215,7 @@
       "li4": "Žádné nesmyslné produkty bez přidané hodnoty pro zákazníka"
     },
     "specialization": {
-      "p1": "Obory, u nichž máme více klientů, tudíž máme k dispozici specializované obchodníky.",
+      "h": "Obory specializace",
       "gastro": {
         "h": "Gastro",
         "p1": "Restaurace, bistra, hospody, cateringové společnosti…",
@@ -186,6 +232,14 @@
       "ecommerce": {
         "h": "E-commerce",
         "p1": "E-shopy a další weby umožňující platby přes internet."
+      },
+      "manufacturingAndIndustry": {
+        "h": "Výroba a průmysl",
+        "p1": "Strojírenství, automobilový průmysl a další průmyslové společnosti."
+      },
+      "salespeopleAndConsultants": {
+        "h": "Obchodníci a konzultanti",
+        "p1": "Prodejci, konzultanti, finanční poradci a další, kteří pečují o své klienti."
       },
       "note": "Podnikáte v jiném oboru? Nebojte, jsme flexibilní. Rychle se zorientujeme i ve Vašem oboru.",
       "btn": {
@@ -235,9 +289,6 @@
     "fieldEcommerce": {
       "p1": "Klientům v oboru e-commerce (e-shopy a webové stránky umožňující online platby) nabízíme konzultace v rámci nichž dokážeme navrhnout efektivní řešení pro další růst.",
       "solutionsExamples": "Vybraná řešení, která doporučujeme:",
-      "tags": {
-        "consultations": "Konzultace"
-      },
       "otherFields": "Další obory, na které se specializujeme:"
     },
     "howItWorks": {
@@ -253,6 +304,25 @@
     },
     "terms": {
       "h": "Obchodní podmínky"
+    },
+    "partnership": {
+      "h": "Staňte se partnerem",
+      "h2": "Dodavatelé řešení",
+      "li1": "Zajistíme Vám perspektivní prověřené klienty",
+      "li2": "Komplexnější služby pro Vaše stávající klienty díky napojení na síť našich konzultantů",
+      "li3": "Pomůžeme Vám udržet dlouhodobý vztah s každým klientem",
+      "agency": {
+        "h": "Agentura",
+        "p1": "Pro marketingové, mediální a digitální agentury"
+      },
+      "specialist": {
+        "h": "Specialista",
+        "p1": "Pro odborníky na volné noze z různých oborů"
+      },
+      "customSw": {
+        "h": "Vývoj softwaru na míru",
+        "p1": "Pro vývojáře softwaru dle potřeb klienta, zejm. v oblasti informačních systémů a automatizace"
+      }
     }
   },
   "footer": {

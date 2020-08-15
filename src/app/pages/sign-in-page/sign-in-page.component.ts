@@ -2,8 +2,8 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { faGoogle } from '@fortawesome/free-brands-svg-icons/faGoogle';
 import { faSignOutAlt } from '@fortawesome/free-solid-svg-icons/faSignOutAlt';
 import { TranslateService } from '@ngx-translate/core';
-import { SeoService } from '../../service/seo.service';
 import { AuthService } from '../../services/auth.service';
+import { SeoService } from '../../services/seo.service';
 
 @Component({
   selector: 'app-sign-in-page',

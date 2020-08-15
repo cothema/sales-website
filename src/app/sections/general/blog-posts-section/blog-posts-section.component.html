@@ -1,0 +1,35 @@
+<div *ngIf="showBlank || posts.length" class="site-section" id="blog-section">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2 class="section-title mb-3">{{ 'section.blog.h1' | translate }}</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div *ngIf="!posts?.length" class="col-md-12 text-center lead mb-5">
+        {{ 'section.blog.noPosts' | translate }}
+      </div>
+
+      <div *ngFor="let post of posts" class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+        <div class="h-entry">
+          <h2>
+            <a [routerLink]="post.route">{{ post.title }}</a>
+          </h2>
+          <p *ngIf="post.description">
+            {{ post.description }}
+          </p>
+          <p>
+            <a [routerLink]="post.route">{{ 'btn.continueReading' | translate }}…</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="showAllBtn" class="text-center mt-2">
+      <a [routerLink]="'/blog'|localize" class="btn btn-outline-primary btn-lg">
+        Všechny příspěvky
+      </a>
+    </div>
+  </div>
+</div>

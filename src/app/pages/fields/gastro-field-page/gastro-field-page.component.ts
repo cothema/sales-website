@@ -1,9 +1,9 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons/faShoppingCart';
-import { faTag } from '@fortawesome/free-solid-svg-icons/faTag';
 import { faUtensils } from '@fortawesome/free-solid-svg-icons/faUtensils';
 import { TranslateService } from '@ngx-translate/core';
-import { SeoService } from '../../../service/seo.service';
+import { SeoService } from '../../../services/seo.service';
+import { TagsService } from '../../../services/tags.service';
 
 @Component({
   selector: 'app-gastro-field-page',
@@ -11,20 +11,22 @@ import { SeoService } from '../../../service/seo.service';
   styleUrls: ['./gastro-field-page.component.scss']
 })
 export class GastroFieldPageComponent implements OnInit, OnDestroy {
-  faTag = faTag;
   faShoppingCart = faShoppingCart;
   faUtensils = faUtensils;
   subBrandColor = '#23863a';
+  tags = ['consulting', 'innovations'];
 
   constructor(
     private seo: SeoService,
-    private translate: TranslateService
+    private translate: TranslateService,
+    private tagsService: TagsService
   ) {
   }
 
   ngOnInit(): void {
     this.seo.setData({
-      title: this.translate.instant('section.specialization.gastro.h')
+      title: this.translate.instant('section.specialization.gastro.h'),
+      keywords: this.tagsService.toKeywords(this.tags)
     });
   }
 

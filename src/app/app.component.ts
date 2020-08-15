@@ -5,8 +5,8 @@ import { TranslateService } from '@ngx-translate/core';
 import * as AOS from 'aos';
 import { FacebookService, InitParams } from 'ngx-facebook';
 import { Subscription } from 'rxjs';
-import { SeoService } from './service/seo.service';
 import { LangService } from './services/lang.service';
+import { SeoService } from './services/seo.service';
 
 @Component({
   selector: 'app-root',

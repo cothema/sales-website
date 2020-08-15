@@ -2,6 +2,10 @@
   animation: fadeInDelayed ease 1000ms;
 }
 
+hr {
+  background: #888888;
+}
+
 @keyframes fadeInDelayed {
   0% {
     opacity: 0;

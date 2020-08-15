@@ -6,6 +6,8 @@ import { ScullyConfig, setPluginConfig } from '@scullyio/scully';
 const Http404Plugin = getHttp404Plugin();
 
 const SitemapPlugin = getSitemapPlugin();
+
+// @see https://www.v9digital.com/insights/sitemap-xml-why-changefreq-priority-are-important/
 setPluginConfig(SitemapPlugin, {
   urlPrefix: 'https://cothema.com',
   sitemapFilename: 'sitemap.xml',

@@ -1,0 +1,109 @@
+<app-header-part [subBrand]="'partner'"></app-header-part>
+
+<div class="cover-title mb-0">
+  <h1>
+    <fa-icon [icon]="faHandshake"></fa-icon>&nbsp;
+    {{'page.partnership.h'|translate}}
+  </h1>
+</div>
+
+<div class="container pt-5">
+  <div class="text-center">
+    <h2>{{'page.partnership.h2'|translate}}</h2>
+
+    <ul
+      class="ul-check mt-4 mb-5 list-unstyled success"
+      style="display: inline-block; text-align: left; margin: 0 auto;font-size:1.3em;"
+    >
+      <li>{{ 'page.partnership.li1' | translate }}</li>
+      <li>{{ 'page.partnership.li2' | translate }}</li>
+      <li>{{ 'page.partnership.li3' | translate }}</li>
+    </ul>
+  </div>
+
+  <div class="row align-items-stretch mt-5">
+
+    <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
+      <div class="unit-4 d-block"
+           onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;"
+           style="cursor: pointer">
+        <div class="unit-4-icon mb-3">
+          <span class="icon-wrap"><fa-icon [icon]="faMousePointer"></fa-icon></span>
+        </div>
+        <div>
+          <h3>{{ 'page.partnership.agency.h' | translate }}</h3>
+          <div class="text-left">
+            <p class="text-center">
+              {{ 'page.partnership.agency.p1' | translate}}
+            </p>
+          </div>
+          <div class="text-center mt-3">
+            <a class="btn btn-success"
+               onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
+              {{ 'btn.interested' | translate }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
+      <div class="unit-4 d-block"
+           onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;"
+           style="cursor: pointer">
+        <div class="unit-4-icon mb-3">
+          <span class="icon-wrap"><fa-icon [icon]="faCode"></fa-icon></span>
+        </div>
+        <div>
+          <h3>{{ 'page.partnership.customSw.h' | translate }}</h3>
+          <div class="text-left">
+            <p class="text-center">
+              {{ 'page.partnership.customSw.p1' | translate}}
+            </p>
+          </div>
+          <div class="text-center mt-3">
+            <a class="btn btn-success"
+               onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
+              {{ 'btn.interested' | translate }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
+      <div class="unit-4 d-block"
+           onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;"
+           style="cursor: pointer">
+        <div class="unit-4-icon mb-3">
+          <span class="icon-wrap"><fa-icon [icon]="faUser"></fa-icon></span>
+        </div>
+        <div>
+          <h3>{{ 'page.partnership.specialist.h' | translate }}</h3>
+          <div class="text-left">
+            <p class="text-center">
+              {{ 'page.partnership.specialist.p1' | translate}}
+            </p>
+          </div>
+          <div class="text-center mt-3">
+            <a class="btn btn-success"
+               onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
+              {{ 'btn.interested' | translate }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="bg-primary">
+  <div class="container p-5 text-center">
+    <h2 class="mt-2 mb-5">Jste obchodník nebo konzultant a orientujete se v IT oboru?</h2>
+    <a [routerLink]="'/career'|localize" class="btn btn-lg btn-light mb-3">
+      Nahlédnout do sekce Kariéra
+      &nbsp;<fa-icon [icon]="faArrowRight"></fa-icon>
+    </a>
+  </div>
+</div>

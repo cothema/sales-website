@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { SeoService } from '../../service/seo.service';
+import { SeoService } from '../../services/seo.service';
 
 @Component({
   selector: 'app-code-of-ethics-page',

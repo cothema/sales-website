@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { SeoService } from '../../service/seo.service';
+import { SeoService } from '../../services/seo.service';
 
 @Component({
   selector: 'app-expansion-page',

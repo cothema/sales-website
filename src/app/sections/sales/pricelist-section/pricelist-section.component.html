@@ -1,0 +1,70 @@
+<div class="site-section" id="pricelist-section">
+  <div class="container">
+    <h2 class="section-title text-center mb-4">{{ 'menu.priceList' | translate }}</h2>
+
+    <div style="max-width: 600px; margin: 0 auto;">
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th></th>
+          <th class="text-center">{{ 'section.priceList.newProduct' | translate }}</th>
+          <th class="text-center">{{ 'section.priceList.existingProduct' | translate }}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td style="width:40%">
+            <b>{{ 'section.priceList.startPack' | translate }}</b>
+            &nbsp;<fa-icon [icon]="faInfoCircle" [tooltip]="'section.priceList.startPackDesc' | translate"></fa-icon>
+          </td>
+          <td class="text-center">
+            {{ 'section.priceList.from' | translate }} 25.000
+            <span [innerHTML]="'section.priceList.czk'|translate"></span>
+          </td>
+          <td class="text-center">{{ 'section.priceList.individual' | translate }}</td>
+        </tr>
+        <tr>
+          <td>
+            <b>{{ 'section.priceList.cooperation' | translate }}</b>
+            &nbsp;<fa-icon [icon]="faInfoCircle" [tooltip]="'section.priceList.cooperationDesc' | translate"></fa-icon>
+          </td>
+          <td class="text-center" colspan="2">
+            3.000 <span [innerHTML]="'section.priceList.czkPerMo'|translate"></span>
+          </td>
+        </tr>
+        <tr>
+          <th>{{ 'section.priceList.provisionRealized' | translate }}</th>
+          <td class="text-center" colspan="2">{{ 'section.priceList.byAgreement' | translate }}</td>
+        </tr>
+        <tr>
+          <th>{{ 'section.priceList.consulting' | translate }}</th>
+          <td class="text-center" colspan="2">
+            {{ 'section.priceList.from' | translate }} 1.000
+            <span [innerHTML]="'section.priceList.czkPerH'|translate"></span>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+      <table class="table table-striped mt-2">
+        <thead>
+        <tr>
+          <th class="text-center" colspan="2">{{ 'section.priceList.otherServices.h' | translate }}:</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td style="width:25%"></td>
+          <td>
+            <ul class="ul-check mt-2 mb-2 list-unstyled success font-weight-bold">
+              <li>{{ 'section.priceList.otherServices.li1' | translate }}</li>
+              <li>{{ 'section.priceList.otherServices.li2' | translate }}</li>
+              <li>{{ 'section.priceList.otherServices.li3' | translate }}</li>
+            </ul>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

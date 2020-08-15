@@ -920,6 +920,7 @@
   margin-bottom: 4em;
   text-align: center;
   padding-top: 50px;
+  width: 100%;
 
   .unit-4-icon {
     position: absolute;
@@ -1870,5 +1871,13 @@
       border-color: $primary !important;
       color: $white;
     }
+  }
+}
+
+.bg-green-gradient {
+  background: linear-gradient(to top right, #50a3a2 0%, #53e3a6 40%);
+
+  h1, p {
+    color: #000000;
   }
 }

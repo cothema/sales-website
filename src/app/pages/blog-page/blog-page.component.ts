@@ -5,8 +5,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 import { faTag } from '@fortawesome/free-solid-svg-icons/faTag';
 import { ScullyRoute, ScullyRoutesService } from '@scullyio/ng-lib';
 import { Observable } from 'rxjs';
-import { AuthorRepositoryService } from '../../repository/author-repository.service';
-import { SeoService } from '../../service/seo.service';
+import { AuthorRepositoryService } from '../../repository/author/author-repository.service';
+import { SeoService } from '../../services/seo.service';
 
 @Component({
   selector: 'app-blog-page',
@@ -16,9 +16,9 @@ import { SeoService } from '../../service/seo.service';
   encapsulation: ViewEncapsulation.Emulated
 })
 export class BlogPageComponent implements OnInit, OnDestroy {
-  public article$: Observable<ScullyRoute> = this.scully.getCurrent();
-  public article;
-  public author;
+  article$: Observable<ScullyRoute> = this.scully.getCurrent();
+  article;
+  author;
   faLinkedinIn = faLinkedinIn;
   faTag = faTag;
   faEnvelope = faEnvelope;
@@ -27,20 +27,20 @@ export class BlogPageComponent implements OnInit, OnDestroy {
   constructor(
     public seo: SeoService,
     private scully: ScullyRoutesService,
-    authorRepositoryService: AuthorRepositoryService
+    private authorRepositoryService: AuthorRepositoryService
   ) {
-    this.article$.subscribe((article) => {
-      this.article = article;
-      if (article?.author) {
-        this.author = authorRepositoryService.authors.find(author => author.abbrev === article.author);
-      } else {
-        this.author = undefined;
-      }
-      this.solveSeo();
-    });
   }
 
-  ngOnInit() {
+  async ngOnInit() {
+    this.article = await this.article$.toPromise();
+
+    if (this.article?.author) {
+      let authors = await this.authorRepositoryService.getAll();
+      this.author = authors.find(author => author.abbrev === this.article.author);
+    } else {
+      this.author = undefined;
+    }
+
     this.solveSeo();
   }
 

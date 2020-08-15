@@ -3,11 +3,16 @@
     "blog": "blog",
     "code-of-ethics": "code-of-ethics",
     "expansion": "expansion",
-    "for-dealers": "for-dealers",
+    "career": "career",
     "sign-in": "sign-in",
     "field": "field",
     "how-it-works": "how-it-works",
-    "terms-and-conditions": "terms-and-conditions"
+    "terms-and-conditions": "terms-and-conditions",
+    "sales-outsourcing": "sales-outsourcing",
+    "partnership": "partnership",
+    "manufacturing-and-industry": "manufacturing-and-industry",
+    "salespeople-and-consultants": "salespeople-and-consultants",
+    "contact": "contact"
   },
   "msg": {
     "loading": "Loading"
@@ -19,12 +24,32 @@
     "signOut": "Sign out",
     "signIn": "Sign in"
   },
+  "subBrand": {
+    "consulting": "consulting",
+    "career": "career",
+    "expansion": "expansion",
+    "sales": "sales"
+  },
+  "tags": {
+    "salesOutsourcing": "Sales outsourcing",
+    "b2b": "B2B",
+    "saas": "SaaS",
+    "startups": "Startups",
+    "innovations": "Innovations",
+    "expansion": "Expansion",
+    "resellerNetwork": "Reseller network",
+    "consulting": "Consulting",
+    "automation": "Automation",
+    "processes": "Processes",
+    "digitization": "Digitization",
+    "it": "IT"
+  },
   "menu": {
     "home": "Home",
     "services": "Services",
     "aboutUs": "About Us",
     "contact": "Contact",
-    "forDealers": "For Dealers",
+    "career": "Career",
     "faq": "FAQ",
     "blog": "Blog",
     "codeOfEthics": "Code of ethics",
@@ -32,31 +57,33 @@
     "questionnaire": "Questionnaire",
     "expansionCZ": "Expansion to Czechia",
     "howItWorks": "How it works?",
-    "specialization": "Specialization"
+    "innovationConsultation": "Innovation consulting",
+    "salesOutsourcing": "Sales outsourcing",
+    "partnership": "Partnership"
   },
   "section": {
     "blog": {
       "h1": "Blog Posts",
       "noPosts": "No posts available."
     },
-    "coverOutsourcing": {
+    "coverConsultation": {
+      "h1": "Increase your company profits through innovation!",
+      "p1": "We streamline business processes by using the potential of modern technologies.",
+      "btn": {
+        "wantConsultation": "I want a consultation",
+        "haveService": "I have a service"
+      }
+    },
+    "coverSalesOutsourcing": {
       "h1": "We bring clients to innovative services",
       "p1": "Leave your sales matters to a network of experienced salespeople — focus on your growth!",
-      "tags": {
-        "salesOutsourcing": "Sales outsourcing",
-        "b2b": "B2B",
-        "saas": "SaaS",
-        "startups": "Startups",
-        "innovations": "Innovations"
+      "btn": {
+        "wantService": "Find a service"
       }
     },
     "coverExpansion": {
       "h1": "Expand to Czechia easily",
-      "p1": "We best know the Czech market and our local distribution network is here for your needs.",
-      "tags": {
-        "expansion": "Expansion",
-        "resellerNetwork": "Reseller network"
-      }
+      "p1": "We best know the Czech market and our local distribution network is here for your needs."
     },
     "aboutUs": {
       "why": {
@@ -162,6 +189,7 @@
       }
     },
     "forDealers": {
+      "h": "For salespeople",
       "p1": "Are you an experienced dealer or do you just enjoy closing deals and do you feel to be talented in this area? By joining our network, experienced salespeople will gain access to a wide network of regional salespeople, which will allow them to better serve their existing customers, and for the less experienced we have prepared a system of training and professional growth.",
       "li1": "More closed deals",
       "li2": "Cooperation in a network of local dealers",
@@ -169,7 +197,7 @@
       "li4": "No meaningless products without added value for the customer"
     },
     "specialization": {
-      "p1": "Fields in which we have more clients, so we have specialized salespeople available.",
+      "h": "Fields of specialization",
       "gastro": {
         "h": "Gastro",
         "p1": "Restaurants, bistros, pubs, catering companies…",
@@ -186,6 +214,14 @@
       "ecommerce": {
         "h": "E-commerce",
         "p1": "E-shops and other websites that allow online payments."
+      },
+      "manufacturingAndIndustry": {
+        "h": "Manufacturing and industry",
+        "p1": "Engineering, automotive and other industrial companies."
+      },
+      "salespeopleAndConsultants": {
+        "h": "Salespeople and consultants",
+        "p1": "Salespeople, consultants, financial advisors and others who care for their clients."
       },
       "note": "Do you do business in another field? Don't worry, we are flexible. We will quickly find your way in your field as well.",
       "btn": {
@@ -235,9 +271,6 @@
     "fieldEcommerce": {
       "p1": "We offer to clients in the field of e-commerce (e-shops and websites with online payments) consultations in which we can design effective solutions for further growth.",
       "solutionsExamples": "Selected solutions that we recommend:",
-      "tags": {
-        "consultations": "Consultations"
-      },
       "otherFields": "Other fields in which we specialize:"
     },
     "howItWorks": {
@@ -253,6 +286,25 @@
     },
     "terms": {
       "h": "Terms and Conditions"
+    },
+    "partnership": {
+      "h": "Became a partner",
+      "h2": "Solution providers",
+      "li1": "We will provide you promising proven clients",
+      "li2": "More comprehensive services for your existing clients thanks to the connection to the network of our consultants",
+      "li3": "We will help you maintain a long-term relationship with each client",
+      "agency": {
+        "h": "Agency",
+        "p1": "For marketing, media and digital agencies"
+      },
+      "specialist": {
+        "h": "Specialist",
+        "p1": "For freelance professionals from various fields"
+      },
+      "customSw": {
+        "h": "Custom software development",
+        "p1": "For software developers according to the client's needs, especially in the field of information systems and automation"
+      }
     }
   },
   "footer": {

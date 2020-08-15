@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { faUsers } from '@fortawesome/free-solid-svg-icons/faUsers';
 import { TranslateService } from '@ngx-translate/core';
-import { SeoService } from '../../service/seo.service';
+import { SeoService } from '../../services/seo.service';
 
 @Component({
   selector: 'app-how-it-works-page',

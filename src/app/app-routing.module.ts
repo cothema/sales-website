@@ -13,8 +13,12 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'for-dealers',
-    loadChildren: () => import('./pages/for-dealers-page/for-dealers-page.module').then((m) => m.ForDealersPageModule)
+    path: 'career',
+    loadChildren: () => import('./pages/career-page/career-page.module').then((m) => m.CareerPageModule)
+  },
+  {
+    path: 'sales-outsourcing',
+    loadChildren: () => import('./pages/sales-outsourcing-page/sales-outsourcing-page.module').then((m) => m.SalesOutsourcingPageModule)
   },
   {
     path: 'expansion',
@@ -50,8 +54,16 @@ const routes: Routes = [
     ]
   },
   {
+    path: 'partnership',
+    loadChildren: () => import('./pages/partnership-page/partnership-page.module').then((m) => m.PartnershipPageModule)
+  },
+  {
     path: 'terms-and-conditions',
     loadChildren: () => import('./pages/terms-page/terms-page.module').then((m) => m.TermsPageModule)
+  },
+  {
+    path: 'contact',
+    loadChildren: () => import('./pages/contact-page/contact-page.module').then((m) => m.ContactPageModule)
   },
   {
     path: '**',
