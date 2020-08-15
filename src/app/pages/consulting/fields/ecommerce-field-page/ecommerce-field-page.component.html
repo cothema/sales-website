@@ -1,0 +1,60 @@
+<app-header-part [subBrand]="'ecommerce'"></app-header-part>
+
+<div class="cover-title">
+  <h1>
+    <fa-icon [icon]="faShoppingCart"></fa-icon>&nbsp;
+    {{'section.specialization.ecommerce.h'|translate}}
+  </h1>
+  <div>
+    <app-tag-list [tags]="tags"></app-tag-list>
+  </div>
+</div>
+
+<div class="container">
+  <div class="mt-5 mb-4">
+    <p style="font-size:1.7em">
+      {{'page.fieldEcommerce.p1'|translate}}
+    </p>
+  </div>
+  <div class="text-center mb-5">
+    <app-schedule-call-btn></app-schedule-call-btn>
+  </div>
+</div>
+
+<app-field-reasons-section></app-field-reasons-section>
+
+<div class="container">
+  <div class="p-3">
+    <div class="mt-5 mb-5">
+      <h2 class="mt-4">{{'page.fieldEcommerce.solutionsExamples'|translate}}</h2>
+
+      <div class="p-2">
+        <a href="https://www.thepay.cz" target="_blank">
+          <img alt="The Pay" class="m-4" height="80" src="/src/assets/logos/ecommerce/the-pay.png">
+        </a>
+        <a
+          href="https://notifikuj.cz/?utm_source=cothema&utm_medium=web&utm_campaign=content&a_box=rxhnkctt&a_cha=havlicek"
+          target="_blank">
+          <img alt="Notifikuj.cz" class="m-4" height="80" src="/src/assets/logos/ecommerce/notifikuj_cz.png">
+        </a>
+        <a href="https://smartemailing.cz/zdarma?affiliateId=y8x9k"
+           target="_blank">
+          <img alt="SmartEmailing" class="m-4" height="80" src="/src/assets/logos/ecommerce/smartemailing.png">
+        </a>
+      </div>
+    </div>
+
+    <div class="mt-5 mb-5">
+      <h2 class="mt-4">{{'page.fieldEcommerce.otherFields'|translate}}</h2>
+
+      <div class="p-2">
+        <a [routerLink]="'/field/gastro'|localize" class="btn btn-dark btn-lg">
+          <fa-icon [icon]="faUtensils"></fa-icon>&nbsp;
+          {{'section.specialization.gastro.h'|translate}}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-contact-us-section></app-contact-us-section>

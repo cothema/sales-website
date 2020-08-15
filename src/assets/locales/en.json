@@ -28,7 +28,8 @@
     "consulting": "consulting",
     "career": "career",
     "expansion": "expansion",
-    "sales": "sales"
+    "sales": "sales",
+    "industry": "industry"
   },
   "tags": {
     "salesOutsourcing": "Sales outsourcing",
@@ -70,8 +71,8 @@
       "h1": "Increase your company profits through innovation!",
       "p1": "We streamline business processes by using the potential of modern technologies.",
       "btn": {
-        "wantConsultation": "I want a consultation",
-        "haveService": "I have a service"
+        "findSolution": "Find a solution",
+        "haveService": "I offer a service"
       }
     },
     "coverSalesOutsourcing": {
@@ -99,7 +100,7 @@
     },
     "contactUs": {
       "h": "Contact us",
-      "p1": "We will consult your individual needs and send you more detailed information on possible cooperation, including specific commission conditions.",
+      "p1": "We will consult your individual needs and send you more detailed information.",
       "poweredBy": "This project is powered by:",
       "lawId": "ID"
     },
@@ -127,7 +128,6 @@
         "li1": "Preliminary feedback",
         "li2": "Provision of product interest"
       },
-      "expansionCz": "We offer expansion to the Czech rep.",
       "userSupport": {
         "h": "User support",
         "li1": "Solution of first-level user support",
@@ -159,6 +159,25 @@
       "6": {
         "h1": "Initial cash flow",
         "p1": "The first sales will start the initial cash flow of your newly emerging project. You will be able to innovate faster and invest where needed."
+      }
+    },
+    "servicesConsulting": {
+      "free": "free of charge",
+      "individually": "individually",
+      "basic": {
+        "h": "Basic consultation",
+        "li1": "Identifying the needs of the company and finding opportunities for improvement",
+        "li2": "Design of solution from available services on the market",
+        "li3": "Providing support for the proposed services",
+        "li4": "Connection with experts from various fields",
+        "li5": "Ensuring the most advantageous offer of supplier services"
+      },
+      "deep": {
+        "h": "In-depth consultations",
+        "li1": "Business process architecture",
+        "li2": "Ensuring the implementation of the proposed solutions",
+        "li3": "Above-standard staff training",
+        "li4": "Cybersecurity"
       }
     },
     "faq": {

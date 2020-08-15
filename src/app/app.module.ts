@@ -26,21 +26,23 @@ import { CoverComponent } from './components/cover/cover.component';
 import { ScheduleCallBtnComponent } from './components/schedule-call-btn/schedule-call-btn.component';
 import { TagListComponent } from './components/tag-list/tag-list.component';
 import { TagComponent } from './components/tag/tag.component';
-import { BlogListPageComponent } from './pages/blog-page/blog-list-page/blog-list-page.component';
-import { BlogPageComponent } from './pages/blog-page/blog-page.component';
-import { CareerPageComponent } from './pages/career-page/career-page.component';
-import { CodeOfEthicsPageComponent } from './pages/code-of-ethics-page/code-of-ethics-page.component';
-import { ContactPageComponent } from './pages/contact-page/contact-page.component';
-import { ExpansionPageComponent } from './pages/expansion-page/expansion-page.component';
-import { EcommerceFieldPageComponent } from './pages/fields/ecommerce-field-page/ecommerce-field-page.component';
-import { GastroFieldPageComponent } from './pages/fields/gastro-field-page/gastro-field-page.component';
-import { HomePageComponent } from './pages/home-page/home-page.component';
-import { HowItWorksPageComponent } from './pages/how-it-works-page/how-it-works-page.component';
-import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
-import { PartnershipPageComponent } from './pages/partnership-page/partnership-page.component';
-import { SalesOutsourcingPageComponent } from './pages/sales-outsourcing-page/sales-outsourcing-page.component';
-import { SignInPageComponent } from './pages/sign-in-page/sign-in-page.component';
-import { TermsPageComponent } from './pages/terms-page/terms-page.component';
+import { EcommerceFieldPageComponent } from './pages/consulting/fields/ecommerce-field-page/ecommerce-field-page.component';
+import { GastroFieldPageComponent } from './pages/consulting/fields/gastro-field-page/gastro-field-page.component';
+import { ManufacturingAndIndustryPageComponent } from './pages/consulting/fields/manufacturing-and-industry-page/manufacturing-and-industry-page.component';
+import { SalespeopleAndConsultantsPageComponent } from './pages/consulting/fields/salespeople-and-consultants-page/salespeople-and-consultants-page.component';
+import { HomePageComponent } from './pages/consulting/home-page/home-page.component';
+import { ExpansionPageComponent } from './pages/expansion/expansion-page/expansion-page.component';
+import { BlogListPageComponent } from './pages/general/blog-page/blog-list-page/blog-list-page.component';
+import { BlogPageComponent } from './pages/general/blog-page/blog-page.component';
+import { CareerPageComponent } from './pages/general/career-page/career-page.component';
+import { CodeOfEthicsPageComponent } from './pages/general/code-of-ethics-page/code-of-ethics-page.component';
+import { ContactPageComponent } from './pages/general/contact-page/contact-page.component';
+import { NotFoundPageComponent } from './pages/general/not-found-page/not-found-page.component';
+import { PartnershipPageComponent } from './pages/general/partnership-page/partnership-page.component';
+import { SignInPageComponent } from './pages/general/sign-in-page/sign-in-page.component';
+import { TermsPageComponent } from './pages/general/terms-page/terms-page.component';
+import { HowItWorksPageComponent } from './pages/sales/how-it-works-page/how-it-works-page.component';
+import { SalesOutsourcingPageComponent } from './pages/sales/sales-outsourcing-page/sales-outsourcing-page.component';
 import { FooterPartComponent } from './parts/footer-part/footer-part.component';
 import { HeaderPartComponent } from './parts/header-part/header-part.component';
 import { MenuItemsComponent } from './parts/menu-items/menu-items.component';
@@ -110,7 +112,9 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     CoverComponent,
     PartnershipPageComponent,
     ContactPageComponent,
-    ServicesConsultingSectionComponent
+    ServicesConsultingSectionComponent,
+    ManufacturingAndIndustryPageComponent,
+    SalespeopleAndConsultantsPageComponent
   ],
   imports: [
     BrowserModule,

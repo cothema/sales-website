@@ -84,18 +84,11 @@
     </div>
   </div>
 
-  <div *ngIf="!expansion" class="text-center mb-4">
-    <a [routerLink]="'/expansion' | localize" class="btn btn-primary btn-lg">
-      {{ 'section.services.expansionCz' | translate }}
-      &nbsp;<fa-icon [icon]="faArrowRight"></fa-icon>
-    </a>
-  </div>
-
   <app-schedule-call-btn class="mt-2 mb-4"></app-schedule-call-btn>
 
   <div class="text-center mt-4">
     <a [routerLink]="'/how-it-works' | localize"
-       class="btn btn-primary">
+       class="btn btn-lg btn-outline-primary">
       <fa-icon [icon]="faInfoCircle"></fa-icon>&nbsp; {{ 'menu.howItWorks' | translate }}
     </a>
   </div>

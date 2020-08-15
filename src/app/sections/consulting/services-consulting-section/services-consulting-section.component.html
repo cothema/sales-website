@@ -30,7 +30,7 @@
               <div class="pt-3 pb-3"
                    style="font-size: 1.5em;font-weight:bold;text-align:center;text-transform: uppercase;
                    color: #000000;">
-                Zdarma
+                {{ 'section.servicesConsulting.free' | translate }}
               </div>
             </div>
           </div>
@@ -51,10 +51,11 @@
                 <li>{{ 'section.servicesConsulting.deep.li4' | translate }}</li>
               </ul>
               <div class="pt-3 pb-3"
-                   style="font-size: 1.5em;font-weight:bold;text-align:center; text-transform: uppercase;
-                   color: #000000;">
-                Inviduálně<br />
-                od 1.500 Kč / hod.
+                   style="font-size: 1.5em; font-weight:bold; text-align:center; color: #000000;">
+                <span
+                  style="text-transform: uppercase;">{{ 'section.servicesConsulting.individually' | translate }}</span><br/>
+                {{ 'section.priceList.from' | translate }} 1.500
+                <span [innerHTML]="'section.priceList.czkPerH'|translate"></span>
               </div>
             </div>
           </div>

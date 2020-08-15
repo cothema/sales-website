@@ -28,7 +28,8 @@
     "consulting": "konzultácie",
     "career": "kariéra",
     "expansion": "expanzia",
-    "sales": "obchod"
+    "sales": "obchod",
+    "industry": "priemysel"
   },
   "tags": {
     "salesOutsourcing": "Obchodní outsourcing",
@@ -70,8 +71,8 @@
       "h1": "Zvýšte zisk svojej firmy vďaka inováciám!",
       "p1": "Zefektívňujeme firemné procesy využitím potenciálu moderných technológií.",
       "btn": {
-        "wantConsultation": "Chcem konzultácii",
-        "haveService": "Mám službu"
+        "findSolution": "Nájsť riešenie",
+        "haveService": "Ponúkam službu"
       }
     },
     "coverSalesOutsourcing": {
@@ -110,7 +111,7 @@
     },
     "contactUs": {
       "h": "Kontaktujte nás",
-      "p1": "Radi s Vami skonzultujeme Vaše individuálne potreby a zašleme podrobnejšie informácie k prípadnej spolupráci vrátane konkrétnych províznych podmienok.",
+      "p1": "Radi s Vami skonzultujeme Vaše individuálne potreby a zašleme podrobnejšie informácie.",
       "poweredBy": "Prevádzkovateľom je:",
       "lawId": "IČ"
     },
@@ -138,7 +139,6 @@
         "li1": "Predbežná spätná väzba",
         "li2": "Zaistenie záujmu o produkt"
       },
-      "expansionCz": "Ponúkame zabezpečenie expanzie do ČR",
       "userSupport": {
         "h": "Užívateľská podpora",
         "li1": "Vyriešenie prvoúrovňové užívateľskej podpory",
@@ -170,6 +170,25 @@
       "6": {
         "h1": "Počiatočné cash flow",
         "p1": "Prvé predaja naštartujú počiatočné cash flow Vášho novovznikajúceho projektu. Budete môcť rýchlejšie inovovať a investovať tam, kde je potreba."
+      }
+    },
+    "servicesConsulting": {
+      "free": "zadarmo",
+      "individually": "individuálne",
+      "basic": {
+        "h": "Základné konzultácie",
+        "li1": "Zistenie potrieb spoločnosti a nájdenie príležitostí na zlepšenie",
+        "li2": "Návrh riešenia z dostupných služieb na trhu",
+        "li3": "Zabezpečenie podpory pre navrhnuté služby",
+        "li4": "Prepojenie s expertmi z rôznych odborov",
+        "li5": "Zaistenie najvýhodnejšej ponuky dodávateľských služieb"
+      },
+      "deep": {
+        "h": "Hĺbkové konzultácie",
+        "li1": "Architektúra firemných procesov",
+        "li2": "Zaistenie implementácia navrhovaných riešení",
+        "li3": "Nadštandardné zaškolenie zamestnancov",
+        "li4": "Kyberbezpečnost"
       }
     },
     "faq": {

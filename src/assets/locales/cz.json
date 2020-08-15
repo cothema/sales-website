@@ -28,7 +28,8 @@
     "consulting": "konzultace",
     "career": "kariéra",
     "expansion": "expanze",
-    "sales": "obchod"
+    "sales": "obchod",
+    "industry": "průmysl"
   },
   "tags": {
     "salesOutsourcing": "Obchodní outsourcing",
@@ -71,8 +72,8 @@
       "h1": "Zvyšte zisk své firmy díky inovacím!",
       "p1": "Zefektivňujeme firemní procesy využitím potenciálu moderních technologií.",
       "btn": {
-        "wantConsultation": "Chci konzultaci",
-        "haveService": "Mám službu"
+        "findSolution": "Najít řešení",
+        "haveService": "Nabízím službu"
       }
     },
     "coverSalesOutsourcing": {
@@ -100,7 +101,7 @@
     },
     "contactUs": {
       "h": "Kontaktujte nás",
-      "p1": "Rádi s Vámi zkonzultujeme Vaše individuální potřeby a zašleme podrobnější informace k případné spolupráci včetně konkrétních provizních podmínek.",
+      "p1": "Rádi s Vámi zkonzultujeme Vaše individuální potřeby a zašleme podrobnější informace.",
       "poweredBy": "Provozovatelem je:",
       "lawId": "IČ"
     },
@@ -128,7 +129,6 @@
         "li1": "Předběžná zpětná vazba",
         "li2": "Zajištění zájmu o produkt"
       },
-      "expansionCz": "Nabízíme zajištění expanze do ČR",
       "userSupport": {
         "h": "Uživatelská podpora",
         "li1": "Vyřešení prvoúrovňové uživatelské podpory",
@@ -163,9 +163,11 @@
       }
     },
     "servicesConsulting": {
+      "free": "zdarma",
+      "individually": "individuálně",
       "basic": {
         "h": "Základní konzultace",
-        "li1": "Zjištění potřeb společnosti a příležitostí ke zlepšení",
+        "li1": "Zjištění potřeb společnosti a nalezení příležitostí ke zlepšení",
         "li2": "Návrh řešení z dostupných služeb na trhu",
         "li3": "Zajištění podpory pro navrhnuté služby",
         "li4": "Propojení s experty z různých oborů",
