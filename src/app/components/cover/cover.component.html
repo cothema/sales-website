@@ -15,5 +15,8 @@
         </div>
       </div>
     </div>
+    <div *ngIf="scrollToFragment" class="d-none d-md-block scroll-to-btn-wrap">
+      <app-scroll-down-btn [fragment]="scrollToFragment"></app-scroll-down-btn>
+    </div>
   </div>
 </div>

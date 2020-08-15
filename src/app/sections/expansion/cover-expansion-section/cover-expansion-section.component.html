@@ -3,9 +3,10 @@
   [tags]="tags"
   [title]=" 'section.coverExpansion.h1' | translate"
   image="assets/images/undraw_investing_7u74.svg"
+  scrollToFragment="services-section"
 >
   <div class="d-none d-md-block">
-    <a [routerLink]="'/expansion'|localize" class="btn btn-success btn-lg mr-2 mb-2"
+    <a [routerLink]="'/expansion'|localize" class="btn btn-success btn-lg pulsating-success mr-2 mb-2"
        fragment="services-section" pageScroll>
       <fa-icon [icon]="faCheck"></fa-icon>&nbsp;
       {{'btn.interested'|translate}}

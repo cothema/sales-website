@@ -3,9 +3,12 @@
   [tags]="tags"
   [title]=" 'section.coverConsultation.h1' | translate"
   image="assets/images/undraw_metrics_gtu7.svg"
+  scrollToFragment="services-consulting-section"
 >
   <div class="d-none d-md-block">
-    <a [routerLink]="'/'|localize" class="btn btn-success btn-lg mr-2 mb-2" fragment="services-consulting-section"
+    <a [routerLink]="'/'|localize"
+       class="btn btn-success btn-lg pulsing-success mr-2 mb-2"
+       fragment="services-consulting-section"
        pageScroll>
       <fa-icon [icon]="faCheck"></fa-icon>&nbsp;
       {{ 'section.coverConsultation.btn.findSolution' | translate }}

@@ -11,6 +11,7 @@ export class CoverComponent implements OnInit {
   @Input() subtitle: string;
   @Input() tags: string[] = [];
   @Input() title: string;
+  @Input() scrollToFragment: string;
 
   constructor() {
   }

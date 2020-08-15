@@ -446,3 +446,24 @@ h5,
     color: #666666;
   }
 }
+
+.c-pointer {
+  cursor: pointer;
+  outline: none;
+}
+
+.pulsing-success {
+  animation: pulsing-success 2.5s infinite cubic-bezier(0.66, 0, 0, 1);
+
+  &:hover {
+    animation: none;
+  }
+}
+
+/* Animation */
+@keyframes pulsing-success {
+  40% {
+    box-shadow: 0 0 10px 10px transparentize($success, 0.5);
+  }
+  100% {}
+}

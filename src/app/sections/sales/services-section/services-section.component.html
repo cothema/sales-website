@@ -1,7 +1,7 @@
 <div class="site-section" id="services-section">
   <div class="container">
     <div class="row mb-5 justify-content-center text-center" data-aos="fade-up">
-      <div class="col-7 text-center">
+      <div class="col-md-7 text-center">
         <h2 class="section-title">{{ 'section.services.h' | translate }}</h2>
         <p *ngIf="!expansion" [innerHTML]="'section.services.p1' | translate" class="lead mt-4 mb-4">
         </p>
@@ -18,9 +18,8 @@
     <div class="row align-items-stretch">
 
       <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
-        <div class="unit-4 d-block"
-             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;"
-             style="cursor: pointer">
+        <div class="unit-4 d-block c-pointer"
+             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
           <div class="unit-4-icon mb-3">
             <span class="icon-wrap"><fa-icon [icon]="faUsers"></fa-icon></span>
           </div>
@@ -42,9 +41,8 @@
       </div>
 
       <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
-        <div class="unit-4 d-block"
-             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;"
-             style="cursor: pointer">
+        <div class="unit-4 d-block c-pointer"
+             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
           <div class="unit-4-icon mb-3">
             <span class="icon-wrap"><fa-icon [icon]="faHeadset"></fa-icon></span>
           </div>
@@ -62,9 +60,8 @@
       </div>
 
       <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
-        <div class="unit-4 d-block"
-             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;"
-             style="cursor: pointer">
+        <div class="unit-4 d-block c-pointer"
+             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
           <div class="unit-4-icon mb-3">
             <span class="icon-wrap"><fa-icon [icon]="faMapMarkerAlt"></fa-icon></span>
           </div>
