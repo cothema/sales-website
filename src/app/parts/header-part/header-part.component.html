@@ -38,7 +38,7 @@
       <div class="col-6 col-md-3 col-xl-4 d-block">
         <h1 class="mb-0 site-logo">
           <a [fragment]="'home-section'" [routerLink]="'/' | localize" class="text-black h2 mb-0" pageScroll>
-            cothema<span *ngIf="!subBrand" class="text-primary">.</span><span
+            c<span class="d-none d-md-inline">othema</span><span *ngIf="!subBrand" class="text-primary">.</span><span
             *ngIf="subBrand" [style]="{color: color ? color : '#007bff'}">:{{subBrand}}</span>
           </a>
         </h1>

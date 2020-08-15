@@ -5,6 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 import { faTag } from '@fortawesome/free-solid-svg-icons/faTag';
 import { ScullyRoute, ScullyRoutesService } from '@scullyio/ng-lib';
 import { Observable } from 'rxjs';
+import { take } from 'rxjs/operators';
 import { AuthorRepositoryService } from '../../../repository/author/author-repository.service';
 import { SeoService } from '../../../services/seo.service';
 
@@ -18,6 +19,7 @@ import { SeoService } from '../../../services/seo.service';
 export class BlogPageComponent implements OnInit, OnDestroy {
   article$: Observable<ScullyRoute> = this.scully.getCurrent();
   article;
+  articleFound: boolean = true;
   author;
   faLinkedinIn = faLinkedinIn;
   faTag = faTag;
@@ -32,7 +34,9 @@ export class BlogPageComponent implements OnInit, OnDestroy {
   }
 
   async ngOnInit() {
-    this.article = await this.article$.toPromise();
+    this.article = await this.article$.pipe(take(1)).toPromise();
+
+    this.articleFound = !!this.article;
 
     if (this.article?.author) {
       let authors = await this.authorRepositoryService.getAll();

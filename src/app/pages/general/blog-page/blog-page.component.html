@@ -1,6 +1,6 @@
 <app-header-part [subBrand]="'blog'"></app-header-part>
 
-<ng-container *ngIf="article; else notFound">
+<ng-container *ngIf="articleFound; else notFound">
   <div class="container mb-5" style="padding-top: 120px;">
     <h1 *ngIf="article.title">{{article.title}}</h1>
 
