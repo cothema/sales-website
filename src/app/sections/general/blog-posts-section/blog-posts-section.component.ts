@@ -13,6 +13,7 @@ export class BlogPostsSectionComponent implements OnInit, OnChanges {
   @Input() limit: number;
   @Input() showAllBtn: boolean = true;
   @Input() showBlank: boolean = true;
+  @Input() tagsFilter: string[][];
 
   constructor(
     private scully: ScullyRoutesService,
@@ -31,11 +32,43 @@ export class BlogPostsSectionComponent implements OnInit, OnChanges {
   private async loadContent(): Promise<void> {
     let allRoutes = await this.getAllRoutes();
     this.posts = allRoutes.filter((route) => {
-      return route.published && route.lang === this.translateService.currentLang && !this.exclude.includes(route.route);
+      return route.published
+        && route.lang === this.translateService.currentLang
+        && this.inTagsFilter(route)
+        && !this.exclude.includes(route.route);
     });
     if (this.limit) {
       this.posts.slice(0, this.limit);
     }
+  }
+
+  private getArticleKeywords(article): string[] {
+    if (article.tags) {
+      return article.tags.split(',');
+    }
+    return [];
+  }
+
+  private inTagsFilter(article): boolean {
+    if (!this.tagsFilter) {
+      return true;
+    }
+    const articleTags = this.getArticleKeywords(article);
+
+    let out = false;
+    for (let tagOrElement of this.tagsFilter) {
+      for (let tagAndElement of tagOrElement) {
+        out = articleTags.includes(tagAndElement);
+        if (out === false) {
+          continue;
+        }
+      }
+
+      if (out === true) {
+        return true;
+      }
+    }
+    return false;
   }
 
   private async getAllRoutes(): Promise<ScullyRoute[]> {

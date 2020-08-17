@@ -1,16 +1,18 @@
 <app-header-part [subBrand]="'blog'"></app-header-part>
 
-<ng-container *ngIf="articleFound; else notFound">
-  <div class="container mb-5" style="padding-top: 120px;">
-    <h1 *ngIf="article.title">{{article.title}}</h1>
+<div class="container mb-5" style="padding-top: 120px;">
+  <div *ngIf="articleFound">
+    <h1 *ngIf="article?.title">{{article.title}}</h1>
 
-    <div *ngIf="article.title" class="mb-2">
+    <div *ngIf="article?.title" class="mb-2">
       <fa-icon [icon]="faCalendar"></fa-icon>&nbsp;
       <b>Publikováno:</b> {{article.publishedDate|date:'longDate'}}
     </div>
+  </div>
 
-    <scully-content [dir]="'blog/cz'"></scully-content>
+  <scully-content [dir]="'blog'"></scully-content>
 
+  <div *ngIf="articleFound">
     <div *ngIf="author" class="author-box aos-init aos-animate" data-aos="fade-right">
       <div class="d-flex">
         <div class="mr-3">
@@ -45,32 +47,20 @@
     </div>
 
     <div class="tags-box">
-      <ng-container *ngFor="let keyword of article.keywords.split(',')">
-        <span class="badge badge-light">
-          <fa-icon [icon]="faTag"></fa-icon>&nbsp; {{ keyword }}
-        </span>
-        &nbsp;
-      </ng-container>
+      <app-tag-list *ngIf="article?.tags" [tags]="article.tags.split(',')" color="light"></app-tag-list>
     </div>
   </div>
 
-  <div class="container pt-3">
-    <hr/>
-  </div>
+  <app-page-not-found *ngIf="!articleFound"></app-page-not-found>
+</div>
 
-  <app-blog-posts-section [exclude]="[article?.route]"></app-blog-posts-section>
-</ng-container>
+<div class="container pt-3">
+  <hr/>
+</div>
 
-<ng-template #notFound>
-  <app-page-not-found></app-page-not-found>
+<app-blog-posts-section *ngIf="articleFound" [exclude]="[article?.route]"></app-blog-posts-section>
+<app-blog-posts-section *ngIf="!articleFound"></app-blog-posts-section>
 
-  <div class="container pt-3">
-    <hr/>
-  </div>
+<app-specialization-section *ngIf="!articleFound"></app-specialization-section>
 
-  <app-blog-posts-section></app-blog-posts-section>
-
-  <app-specialization-section></app-specialization-section>
-
-  <app-contact-us-section></app-contact-us-section>
-</ng-template>
+<app-contact-us-section *ngIf="!articleFound"></app-contact-us-section>

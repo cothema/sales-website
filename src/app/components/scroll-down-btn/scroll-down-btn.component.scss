@@ -36,12 +36,14 @@
   &:before {
     left: 0;
     transform: skew(0deg, 30deg);
+    border-radius: 3px 0 0 3px;
   }
 
   &:after {
     right: 0;
     width: 50%;
     transform: skew(0deg, -30deg);
+    border-radius: 0 3px 3px 0;
   }
 }
 

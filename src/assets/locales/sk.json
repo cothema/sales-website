@@ -15,7 +15,8 @@
     "contact": "kontakt"
   },
   "msg": {
-    "loading": "Načítanie"
+    "loading": "Načítanie",
+    "updateAvailable": "Je k dispozícii aktualizovaná verzia stránky."
   },
   "btn": {
     "interested": "Mám záujem",
@@ -23,7 +24,8 @@
     "signInViaGoogle": "Prihlásiť sa cez Google",
     "signOut": "Odhlásiť sa",
     "signIn": "Prihlásenie",
-    "learnMore": "Dozvedieť sa viac"
+    "learnMore": "Dozvedieť sa viac",
+    "reload": "Znovu načítať"
   },
   "subBrand": {
     "consulting": "konzultácie",
@@ -33,6 +35,7 @@
     "industry": "priemysel"
   },
   "tags": {
+    "sales": "Obchod",
     "salesOutsourcing": "Obchodní outsourcing",
     "b2b": "B2B",
     "saas": "SaaS",
@@ -124,7 +127,7 @@
       "salesTeam": {
         "h": "Obchodný tím",
         "li1": "Nemusíte hľadať, školiť a viesť obchodný zástupca.",
-        "li2": "Platíte len provízie za realizované obchody.",
+        "li2": "Platíte provízie len za realizované obchody.",
         "li3": "Odbornosť - obchodníkov prideľujeme podľa oboru.",
         "li4": "Fungujúci tím s optimalizovaným pomerom cena/výkon."
       },
@@ -282,8 +285,8 @@
       "czkPerMo": "Kč&nbsp;/&nbsp;mes."
     },
     "field-reasons": {
-      "1": "<b>Všetko \"pod jednou strechou\"</b> - zaštítíme komunikáciu medzi klientom a jednotlivými prevádzkovateľmi služieb.",
-      "2": "<b>Inovácie a previazanosť</b> - u nami odporúčaných riešení sa snažíme o čo najvyššiu kompatibilitu a integráciu. Od klientov neustále zbierame spätnú väzbu a odovzdávame ju tvorcom služieb tak, aby riešenie ešte lepšie vyhovovala potrebám klientov.",
+      "1": "<b>Všetko \"pod jednou strechou\"</b> - skonzultujeme Vaše potreby, navrhneme riešenie a zaštítíme komunikáciu s dodávateľmi jednotlivých služieb.",
+      "2": "<b>Inovácie</b> - priebežne s Vami budeme komunikovať a zisťovať, ako služby dodávateľov posunúť ešte na vyššiu úroveň.",
       "3": "<b>Dôvera</b> - dlhotrvajúce vzťahy sú pre nás receptom na udržiavanie dobrých vzťahov medzi klientmi a poskytovateľmi služieb."
     }
   },

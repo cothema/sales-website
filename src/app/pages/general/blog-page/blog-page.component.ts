@@ -34,8 +34,22 @@ export class BlogPageComponent implements OnInit, OnDestroy {
   }
 
   async ngOnInit() {
-    this.article = await this.article$.pipe(take(1)).toPromise();
+    this.article$.subscribe((article) => {
+      this.article = article;
+      this.refreshContent();
+    });
+    await this.article$.pipe(take(1)).toPromise();
+  }
 
+  ngOnDestroy(): void {
+    this.seo.setDefault();
+  }
+
+  encodeURIComponent(title: string): string {
+    return encodeURIComponent(title);
+  }
+
+  private async refreshContent() {
     this.articleFound = !!this.article;
 
     if (this.article?.author) {
@@ -46,14 +60,6 @@ export class BlogPageComponent implements OnInit, OnDestroy {
     }
 
     this.solveSeo();
-  }
-
-  ngOnDestroy(): void {
-    this.seo.setDefault();
-  }
-
-  encodeURIComponent(title: string): string {
-    return encodeURIComponent(title);
   }
 
   private solveSeo() {

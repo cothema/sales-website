@@ -16,7 +16,7 @@
     </div>
 
     <div class="row align-items-stretch">
-
+      <div class="col-md-3 col-lg-4 d-flex" data-aos="fade-up"></div>
       <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
         <app-card [faIcon]="faUsers"
                   class="c-pointer d-flex"
@@ -31,36 +31,6 @@
               <li>{{ 'section.services.salesTeam.li3' | translate }}</li>
               <li>{{ 'section.services.salesTeam.li1' | translate }}</li>
               <li>{{ 'section.services.salesTeam.li2' | translate }}</li>
-            </ul>
-          </div>
-        </app-card>
-      </div>
-
-      <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
-        <app-card [faIcon]="faHeadset"
-                  class="d-flex c-pointer"
-                  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
-          <h3>{{ 'section.services.userSupport.h' | translate }}</h3>
-          <div class="text-left">
-            <ul class="ul-check mb-2 list-unstyled success">
-              <li>{{ 'section.services.userSupport.li1' | translate }}</li>
-              <li>{{ 'section.services.userSupport.li3' | translate }}</li>
-              <li>{{ 'section.services.userSupport.li2' | translate }}</li>
-            </ul>
-          </div>
-        </app-card>
-      </div>
-
-      <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
-        <app-card [faIcon]="faMapMarkerAlt"
-                  class="d-flex c-pointer"
-                  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
-          <h3>{{ 'section.services.localRepre.h' | translate }}</h3>
-          <div class="text-left">
-            <ul class="ul-check mb-2 list-unstyled success">
-              <li>{{ 'section.services.localRepre.li1' | translate }}</li>
-              <li>{{ 'section.services.localRepre.li2' | translate }}</li>
-              <li>{{ 'section.services.localRepre.li3' | translate }}</li>
             </ul>
           </div>
         </app-card>

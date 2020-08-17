@@ -5,7 +5,7 @@
     <fa-icon [icon]="faUtensils"></fa-icon>&nbsp; {{'section.specialization.gastro.h'|translate}}
   </h1>
   <div>
-    <app-tag-list [tags]="tags"></app-tag-list>
+    <app-tag-list [tags]="tags" color="dark"></app-tag-list>
   </div>
 </div>
 
@@ -74,9 +74,19 @@
       <h2 class="mt-4">{{'page.fieldEcommerce.otherFields'|translate}}</h2>
 
       <div class="p-2">
+        <a [routerLink]="'/field/manufacturing-and-industry'|localize" class="btn btn-dark btn-lg">
+          <fa-icon [icon]="faIndustry"></fa-icon>&nbsp;
+          {{'section.specialization.manufacturingAndIndustry.h'|translate}}
+        </a>
+        &nbsp;
         <a [routerLink]="'/field/ecommerce'|localize" class="btn btn-dark btn-lg">
           <fa-icon [icon]="faShoppingCart"></fa-icon>&nbsp;
           {{'section.specialization.ecommerce.h'|translate}}
+        </a>
+        &nbsp;
+        <a [routerLink]="'/field/salespeople-and-consultants'|localize" class="btn btn-dark btn-lg">
+          <fa-icon [icon]="faSuitcase"></fa-icon>&nbsp;
+          {{'section.specialization.salespeopleAndConsultants.h'|translate}}
         </a>
       </div>
     </div>

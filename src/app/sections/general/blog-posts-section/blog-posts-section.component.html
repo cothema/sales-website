@@ -1,8 +1,11 @@
 <div *ngIf="showBlank || posts.length" class="site-section" id="blog-section">
   <div class="container">
     <div class="row mb-5">
-      <div class="col-12 text-center">
-        <h2 class="section-title mb-3">{{ 'section.blog.h1' | translate }}</h2>
+      <div class="col-12 text-center mb-3">
+        <h2 class="section-title">{{ 'section.blog.h1' | translate }}</h2>
+        <div *ngFor="let tagsFilterOne of tagsFilter">
+          <app-tag-list *ngIf="tagsFilter.length" [tags]="tagsFilterOne"></app-tag-list>
+        </div>
       </div>
     </div>
 

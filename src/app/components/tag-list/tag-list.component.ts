@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class TagListComponent implements OnInit {
   @Input() tags: string[] = [];
+  @Input() color: string = 'light';
 
   constructor() {
   }

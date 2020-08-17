@@ -7,6 +7,7 @@ import { FacebookService, InitParams } from 'ngx-facebook';
 import { Subscription } from 'rxjs';
 import { LangService } from './services/lang.service';
 import { SeoService } from './services/seo.service';
+import { UpdateService } from './services/update.service';
 
 @Component({
   selector: 'app-root',
@@ -29,8 +30,10 @@ export class AppComponent implements OnInit, OnDestroy {
     private facebookService: FacebookService,
     private translate: TranslateService,
     private titleService: Title,
-    private seo: SeoService
+    private seo: SeoService,
+    private update: UpdateService
   ) {
+    update.listen();
   }
 
   ngOnInit() {

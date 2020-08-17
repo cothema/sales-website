@@ -2,7 +2,8 @@
 title: '3 největší výhody outsourcingu'
 description: 'Jaká jsou pro a proti outsourcingu? Je to bezpečné? A proč se vlastně o outsourcing zajímat?'
 published: false
-keywords: 'startup,outsourcing,sales,marketing,it'
+keywords: 'startup,outsourcing,obchod,sales,marketing,it'
+tags: 'startups,sales,salesOutsourcing'
 lang: cz
 author: mh
 image: /assets/photos/articles/slack.jpg

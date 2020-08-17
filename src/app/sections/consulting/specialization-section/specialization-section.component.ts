@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { faIndustry } from '@fortawesome/free-solid-svg-icons/faIndustry';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons/faShoppingCart';
 import { faSuitcase } from '@fortawesome/free-solid-svg-icons/faSuitcase';
@@ -14,6 +14,7 @@ export class SpecializationSectionComponent implements OnInit {
   faShoppingCart = faShoppingCart;
   faIndustry = faIndustry;
   faSuitcase = faSuitcase;
+  @Input() showMoreBtn = true;
 
   constructor() {
   }

@@ -3,6 +3,7 @@ import { APP_INITIALIZER, NgModule } from '@angular/core';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { FormsModule } from '@angular/forms';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
@@ -15,6 +16,7 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { FacebookModule } from 'ngx-facebook';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import { JsonLdModule } from 'ngx-seo';
 import { ShareButtonsModule } from 'ngx-sharebuttons/buttons';
 import { ShareIconsModule } from 'ngx-sharebuttons/icons';
 import { NgxSpinnerModule } from 'ngx-spinner';
@@ -22,8 +24,10 @@ import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SalesUniversityBannerComponent } from './banners/sales-university-banner/sales-university-banner.component';
+import { CardComponent } from './components/card/card.component';
 import { CoverComponent } from './components/cover/cover.component';
 import { ScheduleCallBtnComponent } from './components/schedule-call-btn/schedule-call-btn.component';
+import { ScrollDownBtnComponent } from './components/scroll-down-btn/scroll-down-btn.component';
 import { TagListComponent } from './components/tag-list/tag-list.component';
 import { TagComponent } from './components/tag/tag.component';
 import { EcommerceFieldPageComponent } from './pages/consulting/fields/ecommerce-field-page/ecommerce-field-page.component';
@@ -62,12 +66,13 @@ import { PricelistSectionComponent } from './sections/sales/pricelist-section/pr
 import { ServicesSectionComponent } from './sections/sales/services-section/services-section.component';
 import { ServicesStepsSectionComponent } from './sections/sales/services-steps-section/services-steps-section.component';
 import { TranslateWrapperService } from './services/translate-wrapper.service';
-import { ScrollDownBtnComponent } from './components/scroll-down-btn/scroll-down-btn.component';
-import { CardComponent } from './components/card/card.component';
+
+// https://netbasal.com/strategies-for-cache-busting-translation-files-in-angular-86143ee14c3c
+declare const VERSION: string;
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/locales/', '.json');
+  return new TranslateHttpLoader(http, './assets/locales/', `.json?v=${VERSION}`);
 }
 
 export function appInitializerFactory(translateWrapperService: TranslateWrapperService) {
@@ -145,7 +150,9 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     TooltipModule.forRoot(),
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     ShareButtonsModule,
-    ShareIconsModule
+    ShareIconsModule,
+    JsonLdModule,
+    MatSnackBarModule
   ],
   bootstrap: [AppComponent],
   exports: [

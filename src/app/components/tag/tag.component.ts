@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnChanges, OnInit } from '@angular/core';
 import { faTag } from '@fortawesome/free-solid-svg-icons/faTag';
 
 @Component({
@@ -6,14 +6,30 @@ import { faTag } from '@fortawesome/free-solid-svg-icons/faTag';
   templateUrl: './tag.component.html',
   styleUrls: ['./tag.component.scss']
 })
-export class TagComponent implements OnInit {
+export class TagComponent implements OnInit, OnChanges {
   faTag = faTag;
   @Input() title: string;
+  @Input() color: string = 'light';
+  classes: any;
 
   constructor() {
   }
 
   ngOnInit(): void {
+    this.setup();
+  }
+
+  ngOnChanges(): void {
+    this.setup();
+  }
+
+  private setup() {
+    let classes = {};
+
+    classes['badge'] = true;
+    classes['badge-' + this.color] = true;
+
+    this.classes = classes;
   }
 
 }

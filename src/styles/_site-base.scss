@@ -469,6 +469,14 @@ h5,
   }
 }
 
+.pulsing-danger {
+  animation: pulsing-danger 2.5s infinite cubic-bezier(0.66, 0, 0, 1);
+
+  &:hover {
+    animation: none;
+  }
+}
+
 /* Animation */
 @keyframes pulsing-success {
   40% {
@@ -484,4 +492,46 @@ h5,
   }
   100% {
   }
+}
+
+@keyframes pulsing-danger {
+  40% {
+    box-shadow: 0 0 10px 10px transparentize($danger, 0.5);
+  }
+  100% {
+  }
+}
+
+/* Field detail page */
+.field-img {
+  img {
+    border-radius: 5px;
+  }
+}
+
+.field-intro {
+  h3 {
+    color: #000000;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: 0
+  }
+
+  font-size: 1.3em;
+}
+
+/* Material design */
+.mat-snack-bar-container {
+  color: #000000;
+  font-weight: bold;
+  background: #ffc107;
+}
+
+.mat-simple-snackbar-action {
+  color: #000000;
+}
+
+/* Scully */
+#___scully-parsing-error___ {
+  display: none;
 }

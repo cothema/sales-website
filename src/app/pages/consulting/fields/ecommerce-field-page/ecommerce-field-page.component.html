@@ -6,17 +6,30 @@
     {{'section.specialization.ecommerce.h'|translate}}
   </h1>
   <div>
-    <app-tag-list [tags]="tags"></app-tag-list>
+    <app-tag-list [tags]="tags" color="dark"></app-tag-list>
   </div>
 </div>
 
 <div class="container">
-  <div class="mt-5 mb-4">
-    <p style="font-size:1.7em">
-      {{'page.fieldEcommerce.p1'|translate}}
-    </p>
+  <div class="mt-5 mb-3">
+    <div class="row">
+      <div class="col-md-5 p-2 field-img">
+        <img src="/assets/photos/field/eshop.jpg" style="max-width: 100%"><br/>
+        <span class="img-caption">Photo by <a
+          href="https://unsplash.com/@olloweb?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Agence Olloweb</a> on <a
+          href="https://unsplash.com/s/photos/website?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+      </div>
+      <div class="col-md-7 pl-4 pr-4 field-intro">
+        <h3 class="mt-2">
+          {{'section.specialization.ecommerce.p1'|translate}}
+        </h3>
+        <p>
+          {{'page.fieldEcommerce.p1'|translate}}
+        </p>
+      </div>
+    </div>
   </div>
-  <div class="text-center mb-5">
+  <div class="text-center pt-3 mb-5">
     <app-schedule-call-btn></app-schedule-call-btn>
   </div>
 </div>
@@ -30,7 +43,7 @@
 
       <div class="p-2">
         <a href="https://www.thepay.cz" target="_blank">
-          <img alt="The Pay" class="m-4" height="80" src="/assets/logos/ecommerce/the-pay.png">
+          <img alt="The Pay" class="m-4" height="70" src="/assets/logos/ecommerce/the-pay.png">
         </a>
         <a
           href="https://notifikuj.cz/?utm_source=cothema&utm_medium=web&utm_campaign=content&a_box=rxhnkctt&a_cha=havlicek"
@@ -41,6 +54,14 @@
            target="_blank">
           <img alt="SmartEmailing" class="m-4" height="80" src="/assets/logos/ecommerce/smartemailing.png">
         </a>
+        <a href="https://www.caflou.cz/a/d693f2"
+           target="_blank">
+          <img alt="Caflou" class="m-4" height="60" src="/assets/logos/digi/caflou.svg">
+        </a>
+        <a href="https://www.integromat.com/?pc=cothema"
+           target="_blank">
+          <img alt="Integromat" class="m-4" height="80" src="/assets/logos/digi/integromat.png">
+        </a>
       </div>
     </div>
 
@@ -48,6 +69,16 @@
       <h2 class="mt-4">{{'page.fieldEcommerce.otherFields'|translate}}</h2>
 
       <div class="p-2">
+        <a [routerLink]="'/field/manufacturing-and-industry'|localize" class="btn btn-dark btn-lg">
+          <fa-icon [icon]="faIndustry"></fa-icon>&nbsp;
+          {{'section.specialization.manufacturingAndIndustry.h'|translate}}
+        </a>
+        &nbsp;
+        <a [routerLink]="'/field/salespeople-and-consultants'|localize" class="btn btn-dark btn-lg">
+          <fa-icon [icon]="faSuitcase"></fa-icon>&nbsp;
+          {{'section.specialization.salespeopleAndConsultants.h'|translate}}
+        </a>
+        &nbsp;
         <a [routerLink]="'/field/gastro'|localize" class="btn btn-dark btn-lg">
           <fa-icon [icon]="faUtensils"></fa-icon>&nbsp;
           {{'section.specialization.gastro.h'|translate}}

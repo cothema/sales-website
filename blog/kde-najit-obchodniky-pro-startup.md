@@ -2,7 +2,8 @@
 title: 'Kde najít obchodníky pro startup?'
 description: 'Najít kvalitní obchodníky, dokázat je zaplatit a ještě je umět uřídit, to je extrémně náročná disciplína. Zkusme se zamyslet, jak na to jít lépe a chytřeji.'
 published: true
-keywords: 'startup,obchod,sales,outsourcing'
+keywords: 'startup,obchod,sales,sales outsourcing'
+tags: 'startups,sales,salesOutsourcing'
 lang: cz
 author: mh
 publishedDate: 2020-07-27

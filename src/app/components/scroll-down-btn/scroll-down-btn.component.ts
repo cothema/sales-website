@@ -20,7 +20,6 @@ export class ScrollDownBtnComponent implements OnInit {
     let urlTree = this.router.parseUrl(this.router.url);
     urlTree.fragment = undefined;
     this.url = urlTree.toString();
-    console.log(this.url);
   }
 
 }

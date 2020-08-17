@@ -6,10 +6,57 @@
     {{'section.specialization.salespeopleAndConsultants.h'|translate}}
   </h1>
   <div>
-    <app-tag-list [tags]="tags"></app-tag-list>
+    <app-tag-list [tags]="tags" color="dark"></app-tag-list>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="mt-5 mb-3">
+    <div class="row">
+      <div class="col-md-5 p-2 field-img">
+        <img src="/assets/photos/field/sales.jpg" style="max-width: 100%"><br/>
+        <span class="img-caption">Photo by <a
+          href="https://unsplash.com/@linkedinsalesnavigator?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">LinkedIn Sales Navigator</a> on <a
+          href="https://unsplash.com/s/photos/salespeople?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+      </div>
+      <div class="col-md-7 pl-4 pr-4 field-intro">
+        <h3 class="mt-2">
+          {{'section.specialization.salespeopleAndConsultants.p1'|translate}}
+        </h3>
+      </div>
+    </div>
+  </div>
+  <div class="text-center pt-3 mb-5">
+    <app-schedule-call-btn></app-schedule-call-btn>
   </div>
 </div>
 
 <app-field-reasons-section></app-field-reasons-section>
+
+<div class="container">
+  <div class="p-3">
+    <div class="mt-5 mb-5">
+      <h2 class="mt-4">{{'page.fieldEcommerce.otherFields'|translate}}</h2>
+
+      <div class="p-2">
+        <a [routerLink]="'/field/manufacturing-and-industry'|localize" class="btn btn-dark btn-lg">
+          <fa-icon [icon]="faIndustry"></fa-icon>&nbsp;
+          {{'section.specialization.manufacturingAndIndustry.h'|translate}}
+        </a>
+        &nbsp;
+        <a [routerLink]="'/field/ecommerce'|localize" class="btn btn-dark btn-lg">
+          <fa-icon [icon]="faShoppingCart"></fa-icon>&nbsp;
+          {{'section.specialization.ecommerce.h'|translate}}
+        </a>
+        &nbsp;
+        <a [routerLink]="'/field/gastro'|localize" class="btn btn-dark btn-lg">
+          <fa-icon [icon]="faUtensils"></fa-icon>&nbsp;
+          {{'section.specialization.gastro.h'|translate}}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 <app-contact-us-section></app-contact-us-section>

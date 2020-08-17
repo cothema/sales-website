@@ -15,7 +15,8 @@
     "contact": "kontakt"
   },
   "msg": {
-    "loading": "Načítání"
+    "loading": "Načítání",
+    "updateAvailable": "Je k dispozici aktualizovaná verze stránky."
   },
   "btn": {
     "interested": "Mám zájem",
@@ -23,7 +24,8 @@
     "signInViaGoogle": "Přihlásit se přes Google",
     "signOut": "Odhlásit se",
     "signIn": "Přihlášení",
-    "learnMore": "Dozvědět se více"
+    "learnMore": "Dozvědět se více",
+    "reload": "Znovu načíst"
   },
   "subBrand": {
     "consulting": "konzultace",
@@ -33,6 +35,7 @@
     "industry": "průmysl"
   },
   "tags": {
+    "sales": "Obchod",
     "salesOutsourcing": "Obchodní outsourcing",
     "b2b": "B2B",
     "saas": "SaaS",
@@ -114,7 +117,7 @@
       "salesTeam": {
         "h": "Obchodní tým",
         "li1": "Nemusíte hledat, školit a vést obchodní zástupce.",
-        "li2": "Platíte jen provize za realizované obchody.",
+        "li2": "Platíte provize jen za realizované obchody.",
         "li3": "Odbornost - obchodníky přidělujeme dle oboru.",
         "li4": "Fungující tým s optimalizovaným poměrem cena/výkon."
       },
@@ -272,9 +275,9 @@
       "czkPerMo": "Kč&nbsp;/&nbsp;měs."
     },
     "field-reasons": {
-      "1": "<b>Vše \"pod jednou střechou\"</b> - zaštítíme komunikaci mezi klientem a jednotlivými provozovateli služeb.",
-      "2": "<b>Inovace a provázanost</b> - u námi doporučovaných řešení se snažíme o co nejvyšší kompatibilitu a integraci. Od klientů neustále sbíráme zpětnou vazbu a předáváme ji tvůrcům služeb tak, aby řešení ještě lépe vyhovovala potřebám klientů.",
-      "3": "<b>Důvěra</b> - dlouhotrvající vztahy jsou pro nás receptem na udržování dobrých vztahů mezi klienty a poskytovateli služeb."
+      "1": "<b>Vše \"pod jednou střechou\"</b> - zkonzultujeme Vaše potřeby, navrhneme řešení a zaštítíme komunikaci s dodavateli jednotlivých služeb.",
+      "2": "<b>Inovace</b> - průběžně s Vámi budeme komunikovat a zjišťovat, jak služby dodavatelů posunout ještě na vyšší úroveň.",
+      "3": "<b>Důvěra</b> - dlouhotrvající vztahy jsou pro nás receptem na udržování dobrých vztahů."
     }
   },
   "page": {

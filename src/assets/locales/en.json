@@ -15,7 +15,8 @@
     "contact": "contact"
   },
   "msg": {
-    "loading": "Loading"
+    "loading": "Loading",
+    "updateAvailable": "An updated version of the page is available."
   },
   "btn": {
     "interested": "I'm interested in",
@@ -23,7 +24,8 @@
     "signInViaGoogle": "Login via Google",
     "signOut": "Sign out",
     "signIn": "Sign in",
-    "learnMore": "Learn more"
+    "learnMore": "Learn more",
+    "reload": "Reload"
   },
   "subBrand": {
     "consulting": "consulting",
@@ -33,6 +35,7 @@
     "industry": "industry"
   },
   "tags": {
+    "sales": "Sales",
     "salesOutsourcing": "Sales outsourcing",
     "b2b": "B2B",
     "saas": "SaaS",
@@ -113,7 +116,7 @@
       "salesTeam": {
         "h": "Sales team",
         "li1": "You don't waste time looking for, training and leading sales representatives or teams.",
-        "li2": "You only pay commissions for closed deals.",
+        "li2": "You pay commissions only for closed deals.",
         "li3": "Expertise - we assign salespeople according to the field.",
         "li4": "A functioning sales team with an optimized price vs. performance ratio."
       },
@@ -271,9 +274,9 @@
       "czkPerMo": "CZK&nbsp;/&nbsp;mo."
     },
     "field-reasons": {
-      "1": "<b>Everything  \"under one roof\"</b> - we provide communication between the client and individual service providers.",
-      "2": "<b>Innovations and integrations</b> - for our recommended solutions, we strive for the highest possible compatibility and integration. We constantly collect feedback from clients and pass it on to service creators so that the solution meets the needs of clients even better.",
-      "3": "<b>Trust</b> - long-term relationships are our recipe for maintaining good relationships between clients and service providers."
+      "1": "<b>Everything \"under one roof\"</b> - we will consult your needs, propose solutions and protect communication with suppliers of individual services.",
+      "2": "<b>Innovations</b> - we will communicate with you on an ongoing basis and find out how to move the services of suppliers to an even higher level.",
+      "3": "<b>Trust</b> - long-term relationships are a recipe for maintaining good relationships for us."
     }
   },
   "page": {

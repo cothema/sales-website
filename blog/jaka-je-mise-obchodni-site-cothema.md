@@ -2,7 +2,8 @@
 title: 'Jaká je mise obchodní sítě Cothema?'
 description: 'Představte si, že se můžete naplno věnovat tomu, co milujete, zaměříte se na řešení problému a veškeré překážky odpadnou stranou. To je naše vize budoucnosti podnikání.'
 published: false
-keywords: 'startup,obchod,sales,outsourcing'
+keywords: 'startup,obchod,sales,sales outsourcing'
+tags: 'startups,sales,salesOutsourcing'
 lang: cz
 author: mh
 image: /assets/photos/articles/sales_meeting.jpg

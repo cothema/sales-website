@@ -16,7 +16,7 @@
           <div class="text-left">
             <p>{{ 'section.specialization.manufacturingAndIndustry.p1' | translate }}</p>
           </div>
-          <div class="text-center mt-3">
+          <div *ngIf="showMoreBtn" class="text-center mt-3">
             <a [routerLink]="'/field/manufacturing-and-industry' | localize" class="btn btn-success">
               {{ 'section.specialization.btn.more' | translate }}
             </a>
@@ -30,7 +30,7 @@
           <div class="text-left">
             <p>{{ 'section.specialization.ecommerce.p1' | translate }}</p>
           </div>
-          <div class="text-center mt-3">
+          <div *ngIf="showMoreBtn" class="text-center mt-3">
             <a [routerLink]="'/field/ecommerce' | localize" class="btn btn-success">
               {{ 'section.specialization.btn.more' | translate }}
             </a>
@@ -44,7 +44,7 @@
           <div class="text-left">
             <p>{{ 'section.specialization.salespeopleAndConsultants.p1' | translate }}</p>
           </div>
-          <div class="text-center mt-3">
+          <div *ngIf="showMoreBtn" class="text-center mt-3">
             <a [routerLink]="'/field/salespeople-and-consultants' | localize" class="btn btn-success">
               {{ 'section.specialization.btn.more' | translate }}
             </a>
@@ -61,7 +61,7 @@
           <div class="text-left">
             <p>{{ 'section.specialization.gastro.p1' | translate }}</p>
           </div>
-          <div class="text-center mt-3">
+          <div *ngIf="showMoreBtn" class="text-center mt-3">
             <a [routerLink]="'/field/gastro' | localize" class="btn btn-success">
               {{ 'section.specialization.btn.more' | translate }}
             </a>
