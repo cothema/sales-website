@@ -37,8 +37,10 @@ export class UpdateService {
         });
     });
 
-    setInterval(() => {
-      this.swUpdate.checkForUpdate();
-    }, this.checkInterval);
+    if (this.swUpdate.isEnabled) {
+      setInterval(() => {
+        this.swUpdate.checkForUpdate();
+      }, this.checkInterval);
+    }
   }
 }

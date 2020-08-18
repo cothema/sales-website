@@ -1,4 +1,4 @@
-<app-header-part [subBrand]="'blog'"></app-header-part>
+<app-header-part [changeLangLink]="'/blog'" [subBrand]="'blog'"></app-header-part>
 
 <div class="container mb-5" style="padding-top: 120px;">
   <div *ngIf="articleFound">
@@ -7,6 +7,12 @@
     <div *ngIf="article?.title" class="mb-2">
       <fa-icon [icon]="faCalendar"></fa-icon>&nbsp;
       <b>Publikováno:</b> {{article.publishedDate|date:'longDate'}}
+    </div>
+
+    <div *ngIf="article?.description" class="pt-3 pb-2 lead font-weight-bold">
+      {{article.description}}
+
+      <hr />
     </div>
   </div>
 

@@ -64,10 +64,10 @@ export class BlogPageComponent implements OnInit, OnDestroy {
 
   private solveSeo() {
     this.seo.setData({
-      title: this.article.title,
-      image: this.seo.baseUrl + this.article.image,
-      description: this.article.description,
-      keywords: this.article.keywords
+      title: this.article?.title,
+      image: this.article ? (this.seo.baseUrl + this.article.image) : undefined,
+      description: this.article?.description,
+      keywords: this.article?.keywords
     });
   }
 }

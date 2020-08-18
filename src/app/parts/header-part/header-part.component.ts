@@ -20,6 +20,7 @@ export class HeaderPartComponent implements OnInit {
   menuItems: MenuItemModel[] = [];
   @Input() subBrand;
   @Input() color;
+  @Input() changeLangLink;
 
   constructor(
     public menuRepository: MenuRepositoryService,
@@ -37,7 +38,7 @@ export class HeaderPartComponent implements OnInit {
   }
 
   async onChangeLang(lang: string) {
-    return this.langService.changeLang(lang);
+    return this.langService.changeLang(lang, this.changeLangLink);
   }
 
   private initSiteScroll() {
