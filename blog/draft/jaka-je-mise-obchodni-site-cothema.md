@@ -8,7 +8,7 @@ lang: cz
 author: mh
 image: /assets/photos/articles/sales_meeting.jpg
 slugs:
-    - ___UNPUBLISHED___kdong3vo_9jFgwq8DsUJR0PjyhoA1wKPC41i810Ds
+    - ___UNPUBLISHED___ke0i45c1_9mrB1CChkFJAm6igm4ZkezORLr2gkZoO
 
 ---
 <div class="img-box-right">

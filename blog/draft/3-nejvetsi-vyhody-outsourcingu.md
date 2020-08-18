@@ -8,10 +8,9 @@ lang: cz
 author: mh
 image: /assets/photos/articles/slack.jpg
 slugs:
-    - ___UNPUBLISHED___kdiusw9h_uIcn13pOfzi0zAOqgZrsIINevQcXORzh
+    - ___UNPUBLISHED___ke0i45bz_CarhlsRKlOS4tO7hCQoJ4cA7PcqeQXKB
 
 ---
-
 <div class="img-box-right">
     <img src="/assets/photos/articles/slack.jpg" />
     <br />

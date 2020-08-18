@@ -10,7 +10,7 @@ import { take } from 'rxjs/operators';
 export class UpdateService {
 
   private listening = false;
-  private checkInterval = 30 * 1000;
+  private checkInterval = 60 * 1000;
 
   constructor(
     private swUpdate: SwUpdate,

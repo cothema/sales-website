@@ -38,9 +38,9 @@ vaše příležitost, jak být o krok před konkurencí.
 
 ### Využívejte psychologie
 
-- Používejte **baťovské ceny** (9,90 Kč vypadá méně než 10 Kč).
-- **Omezujte nabídky časově** a využívejte slov jako (omezený, poslední…).
-- Poskytujte nabídky typu **3+1 zdarma** nebo **doprava zdarma** při nákupu nad 3.000 Kč zdarma.
+- Používejte **baťovské ceny** (99 Kč vypadá méně než 100 Kč).
+- **Omezujte nabídky časově nebo počtem kusů** a využívejte slov jako (omezený, poslední…).
+- Poskytujte nabídky typu **3+1 zdarma** nebo **doprava zdarma** při nákupu nad 3.000 Kč.
 - Využijte tzv. sociálního schválení - **ukažte, jak nakupují ostatní** zákazníci v reálném čase
     - Vyzkoušet můžete českou službu <a href="https://notifikuj.cz/?utm_source=cothema&utm_medium=havlicek&utm_campaign=blog&a_box=rxhnkctt&a_cha=havlicek" target="_blank">Notifikuj.cz</a>
     a efektivitu ověřit AB testy přímo v aplikaci. (14 dní zdarma)
@@ -69,7 +69,7 @@ o které nemají zájem).
     - Doporučujeme začít s nástrojem <a href="https://smartemailing.cz/zdarma?affiliateId=y8x9k" target="_blank">SmartEmailing</a>
     (14 dní zdarma).
 - Kontaktujte zákazníky způsobem, jakým konkurence tolik nekomunikuje - např. sms, Facebook chatbot…
-- **Poděkujte zákazníkovi za nákup** a **řekněte si o recenzi.** Kladné recenze jsou jedním z nejsilnější
+- **Poděkujte zákazníkovi za nákup** a **řekněte si o recenzi**. Kladné recenze jsou jedním z nejsilnější
 prodejních argumentů.
 - **Věnujte se nespokojeným zákazníkům** a řešte jejich problémy. Nespokojený zákazník, o jehož problém se nikdo
 nezajímá nás dokáže velmi potrápit a naší značce to rozhodně neprospěje.
@@ -79,7 +79,7 @@ Facebook skupinu, která může žít vlastním životem a můžete tam nabídno
 
 ## Zviditelněte se reklamou
 
-- Zaplaťe si **reklamní kampaň** na <a href="https://www.facebook.com/" target="_blank">Facebooku</a>.
+- Zaplaťte si **reklamní kampaň** na <a href="https://www.facebook.com/" target="_blank">Facebooku</a>.
     - Využijte tzv. **retargetingu**, kdy cílíte reklamou na zákazníky, kteří již u vás na e-shopu byli, ale
     nenakoupili nebo svůj nákup nedokončili. U těchto zákazníků je vyšší pravděpodobnost, že nakoupí, a vás tak bude
     stát reklama méně peněz.
