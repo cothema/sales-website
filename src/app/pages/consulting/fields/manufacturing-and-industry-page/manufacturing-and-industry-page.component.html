@@ -1,16 +1,6 @@
 <app-header-part [color]="subBrandColor" [subBrand]="'subBrand.industry'|translate"></app-header-part>
 
-<div [style]="{'background-color': subBrandColor}" class="cover-title">
-  <h1>
-    <fa-icon [icon]="faIndustry"></fa-icon>&nbsp;
-    {{'section.specialization.manufacturingAndIndustry.h'|translate}}
-  </h1>
-  <div>
-    <app-tag-list [tags]="tags" color="dark"></app-tag-list>
-  </div>
-</div>
-
-<div class="container">
+<app-field-detail [field]="field">
   <div class="mt-5 mb-3">
     <div class="row">
       <div class="col-md-5 p-2 field-img">
@@ -33,38 +23,4 @@
       </div>
     </div>
   </div>
-  <div class="text-center pt-3 mb-5">
-    <app-schedule-call-btn></app-schedule-call-btn>
-  </div>
-</div>
-
-<app-field-reasons-section></app-field-reasons-section>
-
-<div class="container">
-  <div class="p-3">
-    <div class="mt-5 mb-5">
-      <h2 class="mt-4">{{'page.fieldEcommerce.otherFields'|translate}}</h2>
-
-      <div class="p-2">
-        <a [routerLink]="'/field/ecommerce'|localize" class="btn btn-dark btn-lg">
-          <fa-icon [icon]="faShoppingCart"></fa-icon>&nbsp;
-          {{'section.specialization.ecommerce.h'|translate}}
-        </a>
-        &nbsp;
-        <a [routerLink]="'/field/salespeople-and-consultants'|localize" class="btn btn-dark btn-lg">
-          <fa-icon [icon]="faSuitcase"></fa-icon>&nbsp;
-          {{'section.specialization.salespeopleAndConsultants.h'|translate}}
-        </a>
-        &nbsp;
-        <a [routerLink]="'/field/gastro'|localize" class="btn btn-dark btn-lg">
-          <fa-icon [icon]="faUtensils"></fa-icon>&nbsp;
-          {{'section.specialization.gastro.h'|translate}}
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<app-blog-posts-section [showBlank]="false" [tagsFilter]="[['manufacturingAndIndustry']]"></app-blog-posts-section>
-
-<app-contact-us-section></app-contact-us-section>
+</app-field-detail>

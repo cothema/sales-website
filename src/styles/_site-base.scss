@@ -427,7 +427,7 @@ h5,
 .cover-title {
   background-color: $primary;
   text-align: center;
-  height: 300px;
+  min-height: 300px;
   padding-top: 160px;
   margin-bottom: 30px;
 
@@ -534,4 +534,20 @@ h5,
 /* Scully */
 #___scully-parsing-error___ {
   display: none;
+}
+
+/* Other */
+.box-area, .box-area-dark {
+  color: #fff;
+  text-align: center;
+  padding: 25px 15px;
+  border-radius: 5px;
+}
+
+.box-area {
+  background: $primary;
+}
+
+.box-area-dark {
+  background: $dark;
 }

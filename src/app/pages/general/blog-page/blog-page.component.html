@@ -2,7 +2,7 @@
 
 <div class="container mb-5" style="padding-top: 120px;">
   <div *ngIf="articleFound">
-    <h1 *ngIf="article?.title">{{article.title}}</h1>
+    <h1 *ngIf="article?.title" class="box-area">{{article.title}}</h1>
 
     <div *ngIf="article?.title" class="mb-2">
       <fa-icon [icon]="faCalendar"></fa-icon>&nbsp;
@@ -16,7 +16,7 @@
     </div>
   </div>
 
-  <scully-content [dir]="'blog'"></scully-content>
+  <scully-content></scully-content>
 
   <div *ngIf="articleFound">
     <div *ngIf="author" class="author-box aos-init aos-animate" data-aos="fade-right">
@@ -59,6 +59,8 @@
 
   <app-page-not-found *ngIf="!articleFound"></app-page-not-found>
 </div>
+
+<app-field-intro *ngIf="article?.fieldIdLink" [fieldId]="article.fieldIdLink"></app-field-intro>
 
 <div class="container pt-3">
   <hr/>

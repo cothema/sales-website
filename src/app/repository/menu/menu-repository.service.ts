@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { AbstractRepositoryService } from '../abstract-repository.service';
+import { FieldRepositoryService } from '../field/field-repository.service';
 import { MenuItemModel } from './menu-item.model';
 
 @Injectable({
@@ -7,9 +8,14 @@ import { MenuItemModel } from './menu-item.model';
 })
 export class MenuRepositoryService extends AbstractRepositoryService<MenuItemModel> {
 
-  constructor() {
+  constructor(
+    private fieldRepositoryService: FieldRepositoryService
+  ) {
     super();
-    this.items = [
+  }
+
+  async getAll(): Promise<MenuItemModel[]> {
+    return [
       {
         link: '/',
         fragment: 'services-section',
@@ -18,24 +24,7 @@ export class MenuRepositoryService extends AbstractRepositoryService<MenuItemMod
           {
             link: '/',
             title: 'menu.innovationConsultation',
-            children: [
-              {
-                link: '/field/manufacturing-and-industry',
-                title: 'section.specialization.manufacturingAndIndustry.h'
-              },
-              {
-                link: '/field/ecommerce',
-                title: 'section.specialization.ecommerce.h'
-              },
-              {
-                link: '/field/salespeople-and-consultants',
-                title: 'section.specialization.salespeopleAndConsultants.h'
-              },
-              {
-                link: '/field/gastro',
-                title: 'section.specialization.gastro.h'
-              }
-            ]
+            children: await this.getFieldItems()
           },
           {
             link: '/sales-outsourcing',
@@ -69,7 +58,7 @@ export class MenuRepositoryService extends AbstractRepositoryService<MenuItemMod
         ]
       },
       {
-        link: '/',
+        link: '/sales-outsourcing',
         fragment: 'about-section',
         title: 'menu.aboutUs',
         children: [
@@ -98,5 +87,16 @@ export class MenuRepositoryService extends AbstractRepositoryService<MenuItemMod
         title: 'menu.career'
       }
     ];
+  }
+
+  private async getFieldItems(): Promise<MenuItemModel[]> {
+    const fields = await this.fieldRepositoryService.getAll();
+
+    return fields.map(x => {
+      return {
+        link: '/field/' + x.urlAlias,
+        title: x.title_
+      };
+    });
   }
 }

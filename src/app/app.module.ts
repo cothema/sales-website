@@ -66,6 +66,12 @@ import { PricelistSectionComponent } from './sections/sales/pricelist-section/pr
 import { ServicesSectionComponent } from './sections/sales/services-section/services-section.component';
 import { ServicesStepsSectionComponent } from './sections/sales/services-steps-section/services-steps-section.component';
 import { TranslateWrapperService } from './services/translate-wrapper.service';
+import { FieldLogosComponent } from './components/field-logos/field-logos.component';
+import { CoverTitleComponent } from './components/cover-title/cover-title.component';
+import { FieldDetailComponent } from './components/field-detail/field-detail.component';
+import { OtherFieldsComponent } from './components/other-fields/other-fields.component';
+import { FieldIntroComponent } from './components/field-intro/field-intro.component';
+import { SolutionsLogosListComponent } from './components/solutions-logos-list/solutions-logos-list.component';
 
 // https://netbasal.com/strategies-for-cache-busting-translation-files-in-angular-86143ee14c3c
 declare const VERSION: string;
@@ -123,7 +129,13 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     ManufacturingAndIndustryPageComponent,
     SalespeopleAndConsultantsPageComponent,
     ScrollDownBtnComponent,
-    CardComponent
+    CardComponent,
+    FieldLogosComponent,
+    CoverTitleComponent,
+    FieldDetailComponent,
+    OtherFieldsComponent,
+    FieldIntroComponent,
+    SolutionsLogosListComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-services-consultations-section',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./services-consulting-section.component.scss']
 })
 export class ServicesConsultingSectionComponent implements OnInit {
+
+  @Input() ctaBtn = true;
 
   constructor() { }
 

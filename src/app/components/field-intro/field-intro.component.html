@@ -1,0 +1,15 @@
+<div *ngIf="field" class="container">
+  <div class="text-center py-4 box-area-dark">
+    <h3>
+      {{'page.blog.consultationForField'|translate}}
+      {{field.title_|translate}}
+    </h3>
+    <div class="my-3">
+      {{field.description_|translate}}
+    </div>
+    <a [routerLink]="'/field/' + field.urlAlias|localize" class="btn btn-light">
+      {{'btn.learnMore'|translate}}
+      &nbsp;<fa-icon [icon]="faArrowRight"></fa-icon>
+    </a>
+  </div>
+</div>

@@ -48,7 +48,7 @@
     "processes": "Processes",
     "digitization": "Digitization",
     "it": "IT",
-    "eCommerce": "E-commerce"
+    "ecommerce": "E-commerce"
   },
   "menu": {
     "home": "Home",
@@ -306,7 +306,9 @@
     },
     "blog": {
       "consultTopic": "Do you want to discuss this topic with us?",
-      "shareVia": "Share via"
+      "shareVia": "Share via",
+      "consultationForField": "Consultations for the field:",
+      "published": "Published"
     },
     "terms": {
       "h": "Terms and Conditions"

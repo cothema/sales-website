@@ -48,7 +48,7 @@
     "processes": "Procesy",
     "digitization": "Digitalizace",
     "it": "IT",
-    "eCommerce": "E-commerce"
+    "ecommerce": "E-commerce"
   },
   "menu": {
     "home": "Úvod",
@@ -70,7 +70,9 @@
   "section": {
     "blog": {
       "h1": "Príspevky z blogu",
-      "noPosts": "Žiadne príspevky nie sú k dispozícii."
+      "noPosts": "Žiadne príspevky nie sú k dispozícii.",
+      "consultationForField": "Konzultácie pre odbor",
+      "published": "Publikované"
     },
     "coverConsultation": {
       "h1": "Zvýšte zisk svojej firmy vďaka inováciám!",

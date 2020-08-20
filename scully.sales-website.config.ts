@@ -57,7 +57,7 @@ export const config: ScullyConfig = {
     '/blog/:slug': {
       type: 'contentFolder',
       slug: {
-        folder: './blog'
+        folder: './blog/public'
       }
     }
   }

@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="p-3">
+    <div class="mt-5 mb-5">
+      <h2 class="mt-4">{{'page.fieldEcommerce.solutionsExamples'|translate}}</h2>
+
+      <div class="py-2 partner-logo-box">
+        <div *ngFor="let partner of partners" class="partner-logo">
+          <a [href]="partner.link" target="_blank">
+            <img [alt]="partner.title"
+                 [height]="partner.imgHeight"
+                 [src]="partner.img"
+                 [title]="partner.title">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -48,7 +48,7 @@
     "processes": "Procesy",
     "digitization": "Digitalizace",
     "it": "IT",
-    "eCommerce": "E-commerce"
+    "ecommerce": "E-commerce"
   },
   "menu": {
     "home": "Úvod",
@@ -307,7 +307,9 @@
     },
     "blog": {
       "consultTopic": "Chcete toto téma s námi probrat?",
-      "shareVia": "Sdílet přes"
+      "shareVia": "Sdílet přes",
+      "consultationForField": "Konzultace pro obor",
+      "published": "Publikováno"
     },
     "terms": {
       "h": "Obchodní podmínky"

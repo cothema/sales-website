@@ -1,9 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { faIndustry } from '@fortawesome/free-solid-svg-icons/faIndustry';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons/faShoppingCart';
-import { faSuitcase } from '@fortawesome/free-solid-svg-icons/faSuitcase';
-import { faUtensils } from '@fortawesome/free-solid-svg-icons/faUtensils';
 import { TranslateService } from '@ngx-translate/core';
+import { FieldRepositoryService } from '../../../../repository/field/field-repository.service';
+import { FieldModel } from '../../../../repository/field/field.model';
 import { SeoService } from '../../../../services/seo.service';
 import { TagsService } from '../../../../services/tags.service';
 
@@ -13,21 +11,22 @@ import { TagsService } from '../../../../services/tags.service';
   styleUrls: ['./gastro-field-page.component.scss']
 })
 export class GastroFieldPageComponent implements OnInit, OnDestroy {
-  faShoppingCart = faShoppingCart;
-  faUtensils = faUtensils;
   subBrandColor = '#23863a';
+  field?: FieldModel;
+  fieldId = 'gastro';
   tags = ['consulting', 'innovations'];
-  faIndustry = faIndustry;
-  faSuitcase = faSuitcase;
 
   constructor(
     private seo: SeoService,
     private translate: TranslateService,
-    private tagsService: TagsService
+    private tagsService: TagsService,
+    private fieldRepositoryService: FieldRepositoryService
   ) {
   }
 
-  ngOnInit(): void {
+  async ngOnInit(): Promise<void> {
+    await this.loadField();
+
     this.seo.setData({
       title: this.translate.instant('section.specialization.gastro.h'),
       keywords: this.tagsService.toKeywords(this.tags)
@@ -36,6 +35,10 @@ export class GastroFieldPageComponent implements OnInit, OnDestroy {
 
   ngOnDestroy() {
     this.seo.setDefault();
+  }
+
+  private async loadField(): Promise<void> {
+    this.field = await this.fieldRepositoryService.getById(this.fieldId);
   }
 
 }

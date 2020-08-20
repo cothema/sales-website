@@ -1,13 +1,14 @@
 ---
 title: 'Tipy, ako zvýšiť zisk e-shopu zadarmo alebo s nízkymi nákladmi'
-description: 'Prevádzkujete e-shop a chcete z neho vymáčknuť ešte viac peňazí a k tomu ako bonus mať spokojných zákazníkov?'
+description: 'Prevádzkujete e-shop a chcete z neho "vymáčknuť" ešte viac peňazí a k tomu ako bonus mať spokojných zákazníkov?'
 published: true
 keywords: 'eshop,marketing,konzultácie,zisk,náklady'
-tags: 'eCommerce,consulting'
+tags: 'ecommerce,consulting'
 lang: sk
 author: mh
 publishedDate: 2020-08-18
 image: /assets/photos/field/eshop.jpg
+fieldIdLink: ecommerce
 ---
 
 <div class="img-box-right">
@@ -40,12 +41,12 @@ vaša príležitosť, ako byť o krok pred konkurenciou.
 ### Využívajte psychológie
 
 - Používajte **baťovské ceny** (9,90 € vyzerá menej ako 10 €).
-- **Obmedzujte ponuky časovo alebo počtom kusov** a využívajte slov ako (obmedzený, posledný…).
+- **Obmedzujte ponuky časovo alebo počtom kusov** a využívajte slov ako obmedzený, posledný…
 - Poskytujte ponuky typu **3+1 zadarmo** alebo **doprava zadarmo** pri nákupe nad 200 €.
 - Využite tzv. sociálneho schválenie - **ukážte, ako nakupujú ostatní** zákazníci v reálnom čase
     - Vyskúšať môžete českú službu <a href="https://notifikuj.cz/?utm_source=cothema&utm_medium=havlicek&utm_campaign=blog&a_box=rxhnkctt&a_cha=havlicek" target="_blank">Notifikuj.cz</a>
     a efektivitu overiť AB testy priamo v aplikácii. (14 dní zadarmo)
-
+- Buďte hraví, originálny, hovorte rečou zákazníka a mierte na jeho city - zákazníci to ocenia, budú sa cítiť zároveň súhlasne a zapamätajú si vás.
 
 ## Ponúknite niečo naviac (upselling / cross-selling)
 
