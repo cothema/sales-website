@@ -48,7 +48,7 @@
     "processes": "Procesy",
     "digitization": "Digitalizace",
     "it": "IT",
-    "ecommerce": "E-commerce"
+    "ecommerce": "E-shopy"
   },
   "menu": {
     "home": "Úvod",
@@ -75,7 +75,7 @@
     },
     "coverConsultation": {
       "h1": "Zvyšte zisk své firmy díky inovacím!",
-      "p1": "Zefektivňujeme firemní procesy využitím potenciálu moderních technologií.",
+      "p1": "Nezahazujte příležitosti, buďte s námi vždy krok před konkurencí! Pomocí prověřených služeb dosáhnete lepších výsledků ve svém podnikání.",
       "btn": {
         "findSolution": "Najít řešení",
         "haveService": "Nabízím službu"
@@ -174,9 +174,8 @@
         "h": "Základní konzultace",
         "li1": "Zjištění potřeb společnosti a nalezení příležitostí ke zlepšení",
         "li2": "Návrh řešení z dostupných služeb na trhu",
-        "li3": "Zajištění podpory pro navrhnuté služby",
-        "li4": "Propojení s experty z různých oborů",
-        "li5": "Zajištění nejvýhodnější nabídky dodavatelských služeb"
+        "li3": "Propojení s experty",
+        "li4": "Výhodnější nabídky dodavatelských služeb"
       },
       "deep": {
         "h": "Hloubkové konzultace",
@@ -222,7 +221,7 @@
       "li4": "Žádné nesmyslné produkty bez přidané hodnoty pro zákazníka"
     },
     "specialization": {
-      "h": "Obory specializace",
+      "h": "V jakém oboru podnikáte?",
       "gastro": {
         "h": "Gastro",
         "p1": "Restaurace, bistra, hospody, cateringové společnosti…",
@@ -237,7 +236,7 @@
         "li8": "Produkty vertikálních farem"
       },
       "ecommerce": {
-        "h": "E-commerce",
+        "h": "E-shopy",
         "p1": "E-shopy a další weby umožňující platby přes internet."
       },
       "manufacturingAndIndustry": {
@@ -246,9 +245,9 @@
       },
       "salespeopleAndConsultants": {
         "h": "Obchodníci a konzultanti",
-        "p1": "Prodejci, konzultanti, finanční poradci a další, kteří pečují o své klienti."
+        "p1": "Prodejci, konzultanti, finanční poradci a další, kteří pečují o své klienty."
       },
-      "note": "Podnikáte v jiném oboru? Nebojte, jsme flexibilní. Rychle se zorientujeme i ve Vašem oboru.",
+      "note": "Podnikáte v jiném oboru? Napište nám, něco vymyslíme.",
       "btn": {
         "more": "Více o službách"
       }
@@ -293,10 +292,28 @@
       "li5": "<b>Termíny</b>, které si stanovíme dodržujeme nebo včas upozorníme na jejich nesplnitelnost.",
       "note": "Dodržování tohoto etického kodexu není právně vymahatelné, nicméně dodržování bodů kodexu pečlivě kontrolujeme. Budeme rádi, pokud nás na případné porušení upozorníte."
     },
+    "field_": {
+      "andOtherTips": "a spousta dalších užitečných tipů…"
+    },
     "fieldEcommerce": {
-      "p1": "Klientům v oboru e-commerce (e-shopy a webové stránky umožňující online platby) nabízíme konzultace v rámci nichž dokážeme navrhnout efektivní řešení pro další růst.",
+      "p1": "Provozovatelům e-shopů nabízíme konzultace v rámci nichž dokážeme navrhnout efektivní řešení pro další růst.",
       "solutionsExamples": "Vybraná řešení, která doporučujeme:",
-      "otherFields": "Další obory, na které se specializujeme:"
+      "otherFields": "Další obory, na které se specializujeme:",
+      "li1": "<b>Optimalizace pro vyhledávače (SEO)</b> - ušetřete za placené reklamy",
+      "li2": "<b>Psaní článků a textů (copywriting)</b> - získejte obsah pro sociální sítě",
+      "li3": "<b>Marketingová strategie</b> a komunikace na sociálních sítích - zviditelněte se a působte důvěryhodně",
+      "li4": "<b>Vzhled webu a uživatelská přívětivost (UI, UX)</b> - přijměte získané uživatele k nákupu",
+      "li5": "<b>Moderní platební metody</b> pro příjemný nákup",
+      "li6": "<b>Automatizace rutinních procesů</b> - nedělejte ručně více než musíte, ušetříte čas a zamezíte chybám",
+      "li7": "<b>Výběr přepravních služeb (logistika)</b>",
+      "li8": "Doporučení pro <b>udržování vztahů se zákazníky</b> - prodávejte opakovaně",
+      "call": "Neztrácejte peníze neefektivní prací! Oslňte své zákazníky moderním přístupem a buďte vždy krok před konkurencí."
+    },
+    "fieldIndustry": {
+      "li1": "Automatizace nákupního procesu",
+      "li2": "Správa majetku",
+      "li3": "Elektronické podpisy smluv",
+      "li4": "Propojení systémů a řízení procesů"
     },
     "howItWorks": {
       "salesOutsourcing": "Obchodní outsourcing"

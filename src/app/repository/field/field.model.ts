@@ -6,6 +6,8 @@ export interface FieldModel {
   title_: string;
   description_: string;
   color?: string;
+  image?: string;
+  imageCaption?: string;
   icon?: any;
   tags?: string[];
   partners?: PartnerModel[];

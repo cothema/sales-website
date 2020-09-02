@@ -10,6 +10,7 @@ export class CoverTitleComponent implements OnInit {
   @Input() tags: string[];
   @Input() title: string;
   @Input() color: string = '#007bff';
+  @Input() image: string;
 
   constructor() {
   }

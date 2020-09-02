@@ -19,7 +19,7 @@ export class CareerPageComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.seo.setData({
-      title: this.translate.instant('menu.forDealers')
+      title: this.translate.instant('section.forDealers.h')
     });
   }
 

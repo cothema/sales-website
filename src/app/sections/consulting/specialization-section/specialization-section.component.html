@@ -9,6 +9,7 @@
     </div>
 
     <div class="row">
+      <div class="col-lg-2"></div>
 
       <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
         <app-card [faIcon]="faIndustry" [routerLink]="'/field/manufacturing-and-industry' | localize" class="d-flex">
@@ -18,7 +19,8 @@
           </div>
           <div *ngIf="showMoreBtn" class="text-center mt-3">
             <a [routerLink]="'/field/manufacturing-and-industry' | localize" class="btn btn-success">
-              {{ 'section.specialization.btn.more' | translate }}
+              <span class="d-none d-hover">{{ 'section.specialization.btn.more' | translate }}&nbsp; </span>
+              <fa-icon [icon]="faArrowRight"></fa-icon>
             </a>
           </div>
         </app-card>
@@ -32,11 +34,16 @@
           </div>
           <div *ngIf="showMoreBtn" class="text-center mt-3">
             <a [routerLink]="'/field/ecommerce' | localize" class="btn btn-success">
-              {{ 'section.specialization.btn.more' | translate }}
+              <span class="d-none d-hover">{{ 'section.specialization.btn.more' | translate }}&nbsp; </span>
+              <fa-icon [icon]="faArrowRight"></fa-icon>
             </a>
           </div>
         </app-card>
       </div>
+
+      <div class="col-lg-2"></div>
+
+      <div class="col-lg-2"></div>
 
       <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
         <app-card [faIcon]="faSuitcase" [routerLink]="'/field/salespeople-and-consultants' | localize" class="d-flex">
@@ -46,13 +53,11 @@
           </div>
           <div *ngIf="showMoreBtn" class="text-center mt-3">
             <a [routerLink]="'/field/salespeople-and-consultants' | localize" class="btn btn-success">
-              {{ 'section.specialization.btn.more' | translate }}
+              <span class="d-none d-hover">{{ 'section.specialization.btn.more' | translate }}&nbsp; </span>
+              <fa-icon [icon]="faArrowRight"></fa-icon>
             </a>
           </div>
         </app-card>
-      </div>
-
-      <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
       </div>
 
       <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
@@ -63,7 +68,8 @@
           </div>
           <div *ngIf="showMoreBtn" class="text-center mt-3">
             <a [routerLink]="'/field/gastro' | localize" class="btn btn-success">
-              {{ 'section.specialization.btn.more' | translate }}
+              <span class="d-none d-hover">{{ 'section.specialization.btn.more' | translate }}&nbsp; </span>
+              <fa-icon [icon]="faArrowRight"></fa-icon>
             </a>
           </div>
         </app-card>

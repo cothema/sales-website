@@ -374,8 +374,8 @@ h5,
 
     &:before {
       left: 0;
-      font-size: 20px;
-      top: -0.3rem;
+      font-size: 1.2em;
+      top: -0.1rem;
       content: '✓';
       position: absolute;
     }
@@ -426,7 +426,10 @@ h5,
 
 .cover-title {
   background-color: $primary;
+  background-size: cover;
+  background-position: center;
   text-align: center;
+  text-shadow: 1px 1px 2px $black;
   min-height: 300px;
   padding-top: 160px;
   margin-bottom: 30px;
@@ -441,6 +444,7 @@ h5,
 .img-caption {
   color: #888888;
   font-style: italic;
+  font-size: 0.8em;
 
   a {
     color: #666666;
@@ -550,4 +554,17 @@ h5,
 
 .box-area-dark {
   background: $dark;
+}
+
+.btn:hover > .d-hover {
+  display: inline !important;
+}
+
+.container-800 {
+  max-width: 800px;
+}
+
+/* Z-index because of Messenger button */
+.cdk-overlay-container {
+  z-index: 21474836440;
 }

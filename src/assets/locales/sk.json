@@ -48,7 +48,7 @@
     "processes": "Procesy",
     "digitization": "Digitalizace",
     "it": "IT",
-    "ecommerce": "E-commerce"
+    "ecommerce": "E-shopy"
   },
   "menu": {
     "home": "Úvod",
@@ -76,7 +76,7 @@
     },
     "coverConsultation": {
       "h1": "Zvýšte zisk svojej firmy vďaka inováciám!",
-      "p1": "Zefektívňujeme firemné procesy využitím potenciálu moderných technológií.",
+      "p1": "Nezahadzujte príležitosti, buďte s nami vždy krok pred konkurenciou! Pomocou preverených služieb dosiahnete lepšie výsledky vo svojom podnikaní.",
       "btn": {
         "findSolution": "Nájsť riešenie",
         "haveService": "Ponúkam službu"
@@ -186,9 +186,8 @@
         "h": "Základné konzultácie",
         "li1": "Zistenie potrieb spoločnosti a nájdenie príležitostí na zlepšenie",
         "li2": "Návrh riešenia z dostupných služieb na trhu",
-        "li3": "Zabezpečenie podpory pre navrhnuté služby",
-        "li4": "Prepojenie s expertmi z rôznych odborov",
-        "li5": "Zaistenie najvýhodnejšej ponuky dodávateľských služieb"
+        "li3": "Prepojenie s expertmi",
+        "li4": "Výhodnejšie ponuky dodávateľských služieb"
       },
       "deep": {
         "h": "Hĺbkové konzultácie",
@@ -249,7 +248,7 @@
         "li8": "Produkty vertikálnych fariem"
       },
       "ecommerce": {
-        "h": "E-commerce",
+        "h": "E-shopy",
         "p1": "E-shopy a ďalšie weby umožňujúce platby cez internet."
       },
       "manufacturingAndIndustry": {
@@ -260,7 +259,7 @@
         "h": "Obchodníci a konzultanti",
         "p1": "Predajcovia, konzultanti, finanční poradcovia a ďalší, ktorí sa starajú o svojich klientov."
       },
-      "note": "Podnikáte v inom odbore? Nebojte, sme flexibilní. Rýchlo sa zorientujeme aj vo Vašom odbore.",
+      "note": "Podnikáte v inom odbore? Napíšte nám, niečo vymyslíme.",
       "btn": {
         "more": "Viac o službách"
       }
@@ -305,13 +304,28 @@
       "li5": "<b>Termíny</b>, ktoré si stanovíme dodržiavame alebo včas upozorníme na ich nesplniteľnosť.",
       "note": "Dodržiavanie tohto etického kódexu nie je právne vymožiteľné, však dodržiavanie bodov kódexu starostlivo kontrolujeme. Budeme radi, ak nás na prípadné porušenie upozorníte."
     },
+    "field_": {
+      "andOtherTips": "a množstvo ďalších užitočných tipov…"
+    },
     "fieldEcommerce": {
       "p1": "Klientom v obore e-commerce (e-shopy a webové stránky umožňujúce online platby) ponúkame konzultácie v rámci ktorých dokážeme navrhnúť efektívne riešenie pre ďalší rast.",
       "solutionsExamples": "Vybrané riešenia, ktorá odporúčame:",
-      "tags": {
-        "consultations": "Konzultácie"
-      },
-      "otherFields": "Ďalšie odbory, na ktoré sa špecializujeme:"
+      "otherFields": "Ďalšie odbory, na ktoré sa špecializujeme:",
+      "li1": "<b>Optimalizácia pre vyhľadávače (SEO)</b> - ušetrite za platené reklamy",
+      "li2": "<b>Písanie článkov a textov (copywriting)</b> - získajte obsah pre sociálne siete",
+      "li3": "<b>Marketingová stratégia</b> a komunikácie na sociálnych sieťach - zviditeľnite sa a pôsobte dôveryhodne",
+      "li4": "<b>Vzhľad webu a užívateľská prívetivosť (UI, UX)</b> - prijmite získané užívateľa k nákupu",
+      "li5": "<b>Moderné platobné metódy</b> pre príjemný nákup",
+      "li6": "<b>Automatizácia rutinných procesov</b> - nerobte ručne viac než musíte, ušetríte čas a zamedzíte chybám",
+      "li7": "<b>Výber prepravných služieb (logistika)</b>",
+      "li8": "Odporúčania pre <b>udržiavanie vzťahov so zákazníkmi</b> - predávajte opakovane",
+      "call": "Nestrácajte peniaze neefektívne prácou! Oslňte svojich zákazníkov moderným prístupom a buďte vždy krok pred konkurenciou."
+    },
+    "fieldIndustry": {
+      "li1": "Automatizácia nákupného procesu",
+      "li2": "Správa majetku",
+      "li3": "Elektronické podpisy zmlúv",
+      "li4": "Prepojenie systémov a riadenia procesov"
     },
     "howItWorks": {
       "salesOutsourcing": "Obchodný outsourcing"

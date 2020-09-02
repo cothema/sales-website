@@ -1,22 +1,36 @@
 <app-header-part [subBrand]="'ecommerce'"></app-header-part>
 
 <app-field-detail [field]="field">
-  <div class="mt-5 mb-3">
-    <div class="row">
-      <div class="col-md-5 p-2 field-img">
-        <img src="/assets/photos/field/eshop.jpg" style="max-width: 100%"><br/>
-        <span class="img-caption">Photo by <a
-          href="https://unsplash.com/@olloweb?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Agence Olloweb</a> on <a
-          href="https://unsplash.com/s/photos/website?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-      </div>
-      <div class="col-md-7 pl-4 pr-4 field-intro">
-        <h3 class="mt-2">
-          {{'section.specialization.ecommerce.p1'|translate}}
-        </h3>
-        <p>
-          {{'page.fieldEcommerce.p1'|translate}}
-        </p>
-      </div>
+  <div class="mt-5 mb-3 container container-800">
+    <div class="lead lead-call mb-4 p-3" style="background-color: rgb(0, 123, 255);color:#fff;border-radius:4px">
+      {{'page.fieldEcommerce.call'|translate}}
     </div>
+
+    <div class="pl-4 pr-4 field-intro">
+      <p class="p-3">
+        {{'page.fieldEcommerce.p1'|translate}}
+      </p>
+    </div>
+
+    <div class="pl-4 pr-4 mb-4 field-intro">
+      <ul class="ul-check list-unstyled success mb-0">
+        <li [innerHTML]="'page.fieldEcommerce.li8'|translate"></li>
+        <li [innerHTML]="'page.fieldEcommerce.li3'|translate"></li>
+        <li [innerHTML]="'page.fieldEcommerce.li1'|translate"></li>
+        <li [innerHTML]="'page.fieldEcommerce.li2'|translate"></li>
+        <li [innerHTML]="'page.fieldEcommerce.li4'|translate"></li>
+        <li [innerHTML]="'page.fieldEcommerce.li6'|translate"></li>
+        <li [innerHTML]="'page.fieldEcommerce.li5'|translate"></li>
+        <li [innerHTML]="'page.fieldEcommerce.li7'|translate"></li>
+      </ul>
+      <i>{{'page.field_.andOtherTips'|translate}}</i>
+    </div>
+
   </div>
+
+  <!--    <div class="text-center mb-5">-->
+  <!--      <a class="btn btn-success btn-lg">-->
+  <!--        Analýza zdarma-->
+  <!--      </a>-->
+  <!--    </div>-->
 </app-field-detail>

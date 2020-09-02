@@ -5,7 +5,7 @@
 
       <div class="py-2 partner-logo-box">
         <div *ngFor="let partner of partners" class="partner-logo">
-          <a [href]="partner.link" target="_blank">
+          <a [href]="partner.link" rel="nofollow" target="_blank">
             <img [alt]="partner.title"
                  [height]="partner.imgHeight"
                  [src]="partner.img"

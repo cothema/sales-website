@@ -1,9 +1,11 @@
 <app-cover-title *ngIf="field"
                  [color]="field.color"
                  [faIcon]="field.icon"
+                 [image]="field.image"
                  [tags]="field.tags"
                  [title]="field.title_|translate"
 ></app-cover-title>
+<div [innerHTML]="field.imageCaption" class="img-caption pl-2" style="margin-top: -25px;"></div>
 
 <div class="container">
   <ng-content></ng-content>

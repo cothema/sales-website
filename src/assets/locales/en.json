@@ -48,7 +48,7 @@
     "processes": "Processes",
     "digitization": "Digitization",
     "it": "IT",
-    "ecommerce": "E-commerce"
+    "ecommerce": "E-shops"
   },
   "menu": {
     "home": "Home",
@@ -74,7 +74,7 @@
     },
     "coverConsultation": {
       "h1": "Increase your company profits through innovation!",
-      "p1": "We streamline business processes by using the potential of modern technologies.",
+      "p1": "Don't waste opportunities, always be one step ahead of the competition with us! With proven services, you will achieve better results in your business.",
       "btn": {
         "findSolution": "Find a solution",
         "haveService": "I offer a service"
@@ -173,9 +173,8 @@
         "h": "Basic consultation",
         "li1": "Identifying the needs of the company and finding opportunities for improvement",
         "li2": "Design of solution from available services on the market",
-        "li3": "Providing support for the proposed services",
-        "li4": "Connection with experts from various fields",
-        "li5": "Ensuring the most advantageous offer of supplier services"
+        "li3": "Connection with experts",
+        "li4": "More advantageous offers of supplier services"
       },
       "deep": {
         "h": "In-depth consultations",
@@ -236,7 +235,7 @@
         "li8": "Products of vertical farms"
       },
       "ecommerce": {
-        "h": "E-commerce",
+        "h": "E-shops",
         "p1": "E-shops and other websites that allow online payments."
       },
       "manufacturingAndIndustry": {
@@ -247,7 +246,7 @@
         "h": "Salespeople and consultants",
         "p1": "Salespeople, consultants, financial advisors and others who care for their clients."
       },
-      "note": "Do you do business in another field? Don't worry, we are flexible. We will quickly find your way in your field as well.",
+      "note": "Do you do business in another field? Write to us, we will come up with something.",
       "btn": {
         "more": "More about services"
       }
@@ -292,10 +291,28 @@
       "li5": "We adhere to the <b>deadlines</b> we set, otherwise we will notify you in a timely manner of their unattainability.",
       "note": "Adherence to this Code of Ethics is not legally enforceable, however, we carefully monitor compliance with the Code. We will be happy if you notify us of any violations."
     },
+    "field_": {
+      "andOtherTips": "and lots of other useful tips…"
+    },
     "fieldEcommerce": {
       "p1": "We offer to clients in the field of e-commerce (e-shops and websites with online payments) consultations in which we can design effective solutions for further growth.",
       "solutionsExamples": "Selected solutions that we recommend:",
-      "otherFields": "Other fields in which we specialize:"
+      "otherFields": "Other fields in which we specialize:",
+      "li1": "<b>Search Engine Optimization (SEO)</b> - Save on paid advertising",
+      "li2": "<b>Article Writing and Copywriting</b> - Get social content",
+      "li3": "<b>Marketing strategy</b> and social media communication",
+      "li4": "<b>Website design and user friendliness (UI, UX)</b> - Accept acquired users for purchase",
+      "li5": "<b>Modern payment methods</b> for a pleasant purchase",
+      "li6": "<b>Automate routine processes</b> - Don't do more manually than you need to save time and avoid mistakes",
+      "li7": "<b>Selection of transport services (logistics)</b>",
+      "li8": "Recommendations for <b>maintaining customer relationships</b> - sell repeatedly",
+      "call": "Don't waste money on inefficient work! Dazzle your customers with a modern approach and always be one step ahead of the competitors."
+    },
+    "fieldIndustry": {
+      "li1": "Automation of the purchasing process",
+      "li2": "Facility management",
+      "li3": "Electronic signatures of contracts",
+      "li4": "System interconnection and process control"
     },
     "howItWorks": {
       "salesOutsourcing": "Sales outsourcing"
