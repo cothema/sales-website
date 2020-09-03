@@ -16,13 +16,13 @@ publishedDate: 2020-07-20
     <span class="img-caption">Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/startup?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 </div>
 
-Pravděpodobně jste již přemýšleli nad tím zda a za jakých
+Pravděpodobně jste již přemýšleli nad tím, zda a za jakých
 okolností byste byli ochotni do svého projektu přijmout investora.
 
 Jako všude, i zde platí, že mince má dvě strany.
 Na straně jedné Vám investor zabezpečí dostatek kapitálu a
 zajistí potřebné know-how. Na straně druhé se může Váš původní
-podnikatelský záměr začít ubírat směrem, který pro Vás není příjemný.
+podnikatelský záměr začít ubírat směrem, který se Vám nelíbí.
 
 Jestliže jste se rozhodli jít vlastní cestou a financovat svůj
 startup z vlastních zdrojů, pak se takový postup označuje pojmem
@@ -35,12 +35,12 @@ I přestože si zpočátku možná říkáte, že investora potřebovat
 vlastně ani nebudete, je více než pravděpodobné,
 že v případě úspěchu investora ke svému projektu
 v poměrně blízké době v nějaké formě přizvete, aby Vám pomohl
-zrealizovat Vaše sny rychleji a vymezili jste se tak vůči
-konkurenci, která na Vás bude čekat za každým rohem.
+zrealizovat Vaše plány rychleji a získali jste náskok před
+konkurencí, která na Vás bude čekat za každým rohem.
 
 Není nic důležitějšího než rychlost realizace a správnost načasování
 uvedení produktu / služby na trh. Technologie se vyvíjí
-neuvěřitelným tempem dopředu, proto příliš neotálejte
+neuvěřitelnou rychlostí, proto příliš neotálejte
 a hledejte cesty, jak v co nejkratší době oslovit a
 pokrýt co největší množství zajímých klientů.
 
@@ -53,16 +53,16 @@ pokrýt co největší množství zajímých klientů.
 
 ## Jak ušetřit a být efektivní?
 - **Buďte nejlepší v jedné malé věci!**
-Méně je někdy více.
-Zaměřte se na jednu dovednost, kterou umíte nejlépe využít.
-Zužte si segment zákazníků, které se Vám podaří s největší
+Méně je často více.
+Zaměřte se na jednu dovednost, kterou zvládáte nejlépe.
+Najděte si segment zákazníků, které se Vám podaří s největší
 pravděpodobností oslovit a kteří u Vás utratí největší množství
 peněz.
 - **Najímejte spolupracovníky externě** a plaťte je dle
-množství odvedené práce.
+odvedené práce.
 - **Postupně outsourcujte co můžete**: I když ze začátku se může
 zdát, že si na vše vystačíte sami, s postupem času nastane chvíle,
-kdy již zkrátka nebudete mít čas nebo potřebné znalosti a v tu
+kdy nebudete mít čas nebo potřebné znalosti. V tu
 chvíli přichází na řadu outsourcing. Jedná se o velmi strategické
 rozhodnutí, proto vybírejte partnery velmi opatrně!
   - [Jak funguje obchodní outsourcing?](/cz/jak-to-funguje)

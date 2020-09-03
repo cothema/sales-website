@@ -17,39 +17,39 @@ fieldIdLink: ecommerce
     <span class="img-caption">Photo by <a href="https://unsplash.com/@olloweb?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Agence Olloweb</a> on <a href="https://unsplash.com/s/photos/website?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 </div>
 
-Mnoho níže uvedených rad se může zdát jako naprosto samozřejmých. Přesto se jimi řada e-shopů neřídí a to je právě
-vaše příležitost, jak být o krok před konkurencí. 
+Níže uvedené rady se mohou zdát jako naprostá samozřejmost. Přesto se jimi řada e-shopů neřídí a to je právě
+vaše příležitost, jak být o krok před konkurencí.
 
 
 ## Buďte přirozeně vidět
 
-- Mějte **stránku na <a href="https://www.facebook.com/" target="_blank">Facebooku</a>** a pravidelně na ní sdílejte příspěvky.
+- Mějte **stránku na <a href="https://www.facebook.com/" target="_blank">Facebooku</a>** a pravidelně na ní publikujte.
 - Zaregistrujte se na **<a href="https://www.heureka.cz/" target="_blank">Heurece</a>** a **<a href="https://www.zbozi.cz/" target="_blank">Zboží.cz</a>** (i když nemusíte být nejlevnější, lidé se o vás dozví).
 - Ujistěte se, že je váš e-shop alespoň základně **optimalizován pro vyhledávače (SEO)**
-- Vyzkoušejte **<a href="https://www.instagram.com/" target="_blank">Instagram</a>** - povzbuzujte i své fanoušky, aby sdíleli příspěvky s vaším hastagem.
+- Vyzkoušejte **<a href="https://www.instagram.com/" target="_blank">Instagram</a>** - povzbuzujte své fanoušky, aby sdíleli příspěvky s vaším hastagem.
 
 
 ## Vzbuzujte zájem
 
-- Dělejte **slevové akce** - zejména Češi slevy doslova milují!
+- Dělejte **slevové akce** - Češi slevy doslova milují!
 - **Zvýrazňujte výhodné nabídky** → rychlejší rozhodnutí zákazníka.
 - **Kvalitní a přehledné produktové texty** jsou společně s **kvalitními fotografiemi** naprostý základ úspěchu.
-- Mějte přehledný web, aby zákazník neztrácel pozornost.
+- Mějte přehledný web, aby zákazník neztrácel pozornost a snado se orientoval.
 
 
-### Využívejte psychologie
+### Využívejte psychologii
 
-- Používejte **baťovské ceny** (99 Kč vypadá méně než 100 Kč).
+- Používejte **baťovské ceny** (99 Kč vypadá lépe než 100 Kč).
 - **Omezujte nabídky časově nebo počtem kusů** a využívejte slov jako omezený, poslední…
 - Poskytujte nabídky typu **3+1 zdarma** nebo **doprava zdarma** při nákupu nad 3.000 Kč.
 - Využijte tzv. sociálního schválení - **ukažte, jak nakupují ostatní** zákazníci v reálném čase
-    - Vyzkoušet můžete českou službu <a href="https://notifikuj.cz/?utm_source=cothema&utm_medium=havlicek&utm_campaign=blog&a_box=rxhnkctt&a_cha=havlicek" target="_blank">Notifikuj.cz</a>
-    a efektivitu ověřit AB testy přímo v aplikaci. (14 dní zdarma)
-- Buďte hraví, originální, mluvte řečí zákazníka a miřte na jeho city - zákazníci to ocení, budou se cítit sounáležitě a zapamatují si vás.
+    - Vyzkoušet můžete českou službu <a href="https://notifikuj.cz/?utm_source=cothema&utm_medium=havlicek&utm_campaign=blog&a_box=rxhnkctt&a_cha=havlicek" target="_blank">Notifikuj.cz</a> -
+    efektivitu lze ověřit AB testy přímo v aplikaci. (14 dní zdarma)
+- Buďte hraví, originální, mluvte řečí zákazníka a miřte na jeho city - zákazníci to ocení, budou se cítit dobře a zapamatují si vás.
 
 ## Nabídněte něco navíc (upselling / cross-selling)
 
-- Např. **doplňky k nakoupenému zboží** nebo jiné produkty, které lidé obvykle kupují společně.
+- Např. **doplňky k nakoupenému zboží** nebo jiné produkty, které lidé obvykle kupují společně se zvoleným zbožím.
 - Zmiňte ještě před dokončením nákupu, kolik chybí zákazníkovi, aby získal např. dopravu zdarma nebo dárek.
 
 
@@ -59,12 +59,12 @@ vaše příležitost, jak být o krok před konkurencí.
 - Nenuťte zákazníky platit převodem na účet, poskytněte jim možnost provést úhradu platební kartou skrze **platební bránu**.
     - Zvolit můžete například <a href="https://www.thepay.cz/" target="_blank">ThePay</a>.
 
-## Udržujte vztahy
+## Udržujte vztahy se zakázníky
 
 Udržení zákazníka, který u vás již jednou nakoupil je několikanásobně levnější než získání zákazníka nového.
 
 - Zašlete zákazníkům po nákupu kupón / **slevový kód na další nákup**.
-    - Zašlete zákazníkovi vzorek jiného souvisejícího produktu (např. kosmetika, čaj apod.).
+- Zašlete zákazníkovi vzorek jiného souvisejícího produktu (např. kosmetika, čaj apod.).
 - Čas od času zašlete svým zákazníkům **personalizovaný e-mail** (nezahlcujte zákazníky nabídkami,
 o které nemají zájem).
     - Doporučujeme začít s nástrojem <a href="https://smartemailing.cz/zdarma?affiliateId=y8x9k" target="_blank">SmartEmailing</a>
