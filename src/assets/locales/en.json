@@ -3,27 +3,59 @@
     "blog": "blog",
     "code-of-ethics": "code-of-ethics",
     "expansion": "expansion",
-    "for-dealers": "for-dealers",
+    "career": "career",
     "sign-in": "sign-in",
     "field": "field",
-    "how-it-works": "how-it-works"
+    "how-it-works": "how-it-works",
+    "terms-and-conditions": "terms-and-conditions",
+    "sales-outsourcing": "sales-outsourcing",
+    "partnership": "partnership",
+    "manufacturing-and-industry": "manufacturing-and-industry",
+    "salespeople-and-consultants": "salespeople-and-consultants",
+    "contact": "contact"
   },
   "msg": {
-    "loading": "Loading"
+    "loading": "Loading",
+    "updateAvailable": "An updated version of the page is available."
   },
   "btn": {
     "interested": "I'm interested in",
     "continueReading": "Continue Reading",
     "signInViaGoogle": "Login via Google",
     "signOut": "Sign out",
-    "signIn": "Sign in"
+    "signIn": "Sign in",
+    "learnMore": "Learn more",
+    "reload": "Reload"
+  },
+  "subBrand": {
+    "consulting": "consulting",
+    "career": "career",
+    "expansion": "expansion",
+    "sales": "sales",
+    "industry": "industry"
+  },
+  "tags": {
+    "sales": "Sales",
+    "salesOutsourcing": "Sales outsourcing",
+    "b2b": "B2B",
+    "saas": "SaaS",
+    "startups": "Startups",
+    "innovations": "Innovations",
+    "expansion": "Expansion",
+    "resellerNetwork": "Reseller network",
+    "consulting": "Consulting",
+    "automation": "Automation",
+    "processes": "Processes",
+    "digitization": "Digitization",
+    "it": "IT",
+    "ecommerce": "E-shops"
   },
   "menu": {
     "home": "Home",
     "services": "Services",
     "aboutUs": "About Us",
     "contact": "Contact",
-    "forDealers": "For Dealers",
+    "career": "Career",
     "faq": "FAQ",
     "blog": "Blog",
     "codeOfEthics": "Code of ethics",
@@ -31,31 +63,33 @@
     "questionnaire": "Questionnaire",
     "expansionCZ": "Expansion to Czechia",
     "howItWorks": "How it works?",
-    "specialization": "Specialization"
+    "innovationConsultation": "Innovation consulting",
+    "salesOutsourcing": "Sales outsourcing",
+    "partnership": "Partnership"
   },
   "section": {
     "blog": {
       "h1": "Blog Posts",
       "noPosts": "No posts available."
     },
-    "coverOutsourcing": {
+    "coverConsultation": {
+      "h1": "Increase your company profits through innovation!",
+      "p1": "Don't waste opportunities, always be one step ahead of the competition with us! With proven services, you will achieve better results in your business.",
+      "btn": {
+        "findSolution": "Find a solution",
+        "haveService": "I offer a service"
+      }
+    },
+    "coverSalesOutsourcing": {
       "h1": "We bring clients to innovative services",
       "p1": "Leave your sales matters to a network of experienced salespeople — focus on your growth!",
-      "tags": {
-        "salesOutsourcing": "Sales outsourcing",
-        "b2b": "B2B",
-        "saas": "SaaS",
-        "startups": "Startups",
-        "innovations": "Innovations"
+      "btn": {
+        "wantService": "Find a service"
       }
     },
     "coverExpansion": {
       "h1": "Expand to Czechia easily",
-      "p1": "We best know the Czech market and our local distribution network is here for your needs.",
-      "tags": {
-        "expansion": "Expansion",
-        "resellerNetwork": "Reseller network"
-      }
+      "p1": "We best know the Czech market and our local distribution network is here for your needs."
     },
     "aboutUs": {
       "why": {
@@ -71,8 +105,9 @@
     },
     "contactUs": {
       "h": "Contact us",
-      "p1": "We will consult your individual needs and send you more detailed information on possible cooperation, including specific commission conditions.",
-      "poweredBy": "This project is powered by:"
+      "p1": "We will consult your individual needs and send you more detailed information.",
+      "poweredBy": "This project is powered by:",
+      "lawId": "ID"
     },
     "services": {
       "h": "Our services",
@@ -82,7 +117,7 @@
       "salesTeam": {
         "h": "Sales team",
         "li1": "You don't waste time looking for, training and leading sales representatives or teams.",
-        "li2": "You only pay commissions for closed deals.",
+        "li2": "You pay commissions only for closed deals.",
         "li3": "Expertise - we assign salespeople according to the field.",
         "li4": "A functioning sales team with an optimized price vs. performance ratio."
       },
@@ -98,12 +133,11 @@
         "li1": "Preliminary feedback",
         "li2": "Provision of product interest"
       },
-      "expansionCz": "We offer expansion to the Czech rep.",
       "userSupport": {
         "h": "User support",
         "li1": "Solution of first-level user support",
         "li2": "Providing feedback and suggestions for improvement",
-        "li3": "Email and phone support 9AM - 5PM on working days"
+        "li3": "Email and phone support on working days"
       }
     },
     "servicesSteps": {
@@ -130,6 +164,24 @@
       "6": {
         "h1": "Initial cash flow",
         "p1": "The first sales will start the initial cash flow of your newly emerging project. You will be able to innovate faster and invest where needed."
+      }
+    },
+    "servicesConsulting": {
+      "free": "free of charge",
+      "individually": "individually",
+      "basic": {
+        "h": "Basic consultation",
+        "li1": "Identifying the needs of the company and finding opportunities for improvement",
+        "li2": "Design of solution from available services on the market",
+        "li3": "Connection with experts",
+        "li4": "More advantageous offers of supplier services"
+      },
+      "deep": {
+        "h": "In-depth consultations",
+        "li1": "Business process architecture",
+        "li2": "Ensuring the implementation of the proposed solutions",
+        "li3": "Above-standard staff training",
+        "li4": "Cybersecurity"
       }
     },
     "faq": {
@@ -160,6 +212,7 @@
       }
     },
     "forDealers": {
+      "h": "For salespeople",
       "p1": "Are you an experienced dealer or do you just enjoy closing deals and do you feel to be talented in this area? By joining our network, experienced salespeople will gain access to a wide network of regional salespeople, which will allow them to better serve their existing customers, and for the less experienced we have prepared a system of training and professional growth.",
       "li1": "More closed deals",
       "li2": "Cooperation in a network of local dealers",
@@ -167,7 +220,7 @@
       "li4": "No meaningless products without added value for the customer"
     },
     "specialization": {
-      "p1": "Fields in which we have more clients, so we have specialized salespeople available.",
+      "h": "Fields of specialization",
       "gastro": {
         "h": "Gastro",
         "p1": "Restaurants, bistros, pubs, catering companies…",
@@ -182,10 +235,18 @@
         "li8": "Products of vertical farms"
       },
       "ecommerce": {
-        "h": "E-commerce",
+        "h": "E-shops",
         "p1": "E-shops and other websites that allow online payments."
       },
-      "note": "Do you do business in another field? Don't worry, we are flexible. We will quickly find your way in your field as well.",
+      "manufacturingAndIndustry": {
+        "h": "Manufacturing and industry",
+        "p1": "Engineering, automotive and other industrial companies."
+      },
+      "salespeopleAndConsultants": {
+        "h": "Salespeople and consultants",
+        "p1": "Salespeople, consultants, financial advisors and others who care for their clients."
+      },
+      "note": "Do you do business in another field? Write to us, we will come up with something.",
       "btn": {
         "more": "More about services"
       }
@@ -213,9 +274,9 @@
       "czkPerMo": "CZK&nbsp;/&nbsp;mo."
     },
     "field-reasons": {
-      "1": "<b>Everything  \"under one roof\"</b> - we provide communication between the client and individual service providers.",
-      "2": "<b>Innovations and integrations</b> - for our recommended solutions, we strive for the highest possible compatibility and integration. We constantly collect feedback from clients and pass it on to service creators so that the solution meets the needs of clients even better.",
-      "3": "<b>Trust</b> - long-term relationships are our recipe for maintaining good relationships between clients and service providers."
+      "1": "<b>Everything \"under one roof\"</b> - we will consult your needs, propose solutions and protect communication with suppliers of individual services.",
+      "2": "<b>Innovations</b> - we will communicate with you on an ongoing basis and find out how to move the services of suppliers to an even higher level.",
+      "3": "<b>Trust</b> - long-term relationships are a recipe for maintaining good relationships for us."
     }
   },
   "page": {
@@ -230,13 +291,28 @@
       "li5": "We adhere to the <b>deadlines</b> we set, otherwise we will notify you in a timely manner of their unattainability.",
       "note": "Adherence to this Code of Ethics is not legally enforceable, however, we carefully monitor compliance with the Code. We will be happy if you notify us of any violations."
     },
+    "field_": {
+      "andOtherTips": "and lots of other useful tips…"
+    },
     "fieldEcommerce": {
       "p1": "We offer to clients in the field of e-commerce (e-shops and websites with online payments) consultations in which we can design effective solutions for further growth.",
       "solutionsExamples": "Selected solutions that we recommend:",
-      "tags": {
-        "consultations": "Consultations"
-      },
-      "otherFields": "Other fields in which we specialize:"
+      "otherFields": "Other fields in which we specialize:",
+      "li1": "<b>Search Engine Optimization (SEO)</b> - Save on paid advertising",
+      "li2": "<b>Article Writing and Copywriting</b> - Get social content",
+      "li3": "<b>Marketing strategy</b> and social media communication",
+      "li4": "<b>Website design and user friendliness (UI, UX)</b> - Accept acquired users for purchase",
+      "li5": "<b>Modern payment methods</b> for a pleasant purchase",
+      "li6": "<b>Automate routine processes</b> - Don't do more manually than you need to save time and avoid mistakes",
+      "li7": "<b>Selection of transport services (logistics)</b>",
+      "li8": "Recommendations for <b>maintaining customer relationships</b> - sell repeatedly",
+      "call": "Don't waste money on inefficient work! Dazzle your customers with a modern approach and always be one step ahead of the competitors."
+    },
+    "fieldIndustry": {
+      "li1": "Automation of the purchasing process",
+      "li2": "Facility management",
+      "li3": "Electronic signatures of contracts",
+      "li4": "System interconnection and process control"
     },
     "howItWorks": {
       "salesOutsourcing": "Sales outsourcing"
@@ -246,7 +322,32 @@
       "chooseAnotherPage": "Choose another page…"
     },
     "blog": {
-      "consultTopic": "Do you want to discuss this topic with us?"
+      "consultTopic": "Do you want to discuss this topic with us?",
+      "shareVia": "Share via",
+      "consultationForField": "Consultations for the field:",
+      "published": "Published"
+    },
+    "terms": {
+      "h": "Terms and Conditions"
+    },
+    "partnership": {
+      "h": "Became a partner",
+      "h2": "Solution providers",
+      "li1": "We will provide you promising proven clients",
+      "li2": "More comprehensive services for your existing clients thanks to the connection to the network of our consultants",
+      "li3": "We will help you maintain a long-term relationship with each client",
+      "agency": {
+        "h": "Agency",
+        "p1": "For marketing, media and digital agencies"
+      },
+      "specialist": {
+        "h": "Specialist",
+        "p1": "For freelance professionals from various fields"
+      },
+      "customSw": {
+        "h": "Custom software development",
+        "p1": "For software developers according to the client's needs, especially in the field of information systems and automation"
+      }
     }
   },
   "footer": {

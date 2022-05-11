@@ -1,0 +1,30 @@
+<app-cover-title *ngIf="field"
+                 [color]="field.color"
+                 [faIcon]="field.icon"
+                 [image]="field.image"
+                 [tags]="field.tags"
+                 [title]="field.title_|translate"
+></app-cover-title>
+<div [innerHTML]="field.imageCaption" class="img-caption pl-2" style="margin-top: -25px;"></div>
+
+<div class="container">
+  <ng-content></ng-content>
+
+  <div class="text-center pt-3 mb-5">
+    <app-schedule-call-btn></app-schedule-call-btn>
+  </div>
+</div>
+
+<ng-container *ngIf="field">
+  <app-services-consultations-section [ctaBtn]="false"></app-services-consultations-section>
+
+  <app-field-reasons-section></app-field-reasons-section>
+
+  <app-solutions-logos-list *ngIf="field.partners?.length" [partners]="field.partners"></app-solutions-logos-list>
+
+  <app-blog-posts-section [showBlank]="false" [tagsFilter]="[[field.id]]"></app-blog-posts-section>
+
+  <app-other-fields [exceptFieldId]="field.id"></app-other-fields>
+</ng-container>
+
+<app-contact-us-section></app-contact-us-section>

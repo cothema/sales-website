@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="mt-5 mb-5">
+    <h2 class="mt-4">{{'page.fieldEcommerce.otherFields'|translate}}</h2>
+
+    <div class="p-2">
+      <ng-container *ngFor="let field of fields">
+      <a *ngIf="field.id !== exceptFieldId" [routerLink]="'/field/' + field.urlAlias|localize"
+         class="btn btn-dark btn-lg m-2">
+        <fa-icon [icon]="field.icon"></fa-icon>&nbsp;
+        {{field.title_|translate}}
+      </a>
+      </ng-container>
+    </div>
+  </div>
+</div>

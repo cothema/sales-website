@@ -2,8 +2,9 @@ import { Component, Input, OnInit } from '@angular/core';
 import { faBars } from '@fortawesome/free-solid-svg-icons/faBars';
 import { faTimes } from '@fortawesome/free-solid-svg-icons/faTimes';
 import { TranslateService } from '@ngx-translate/core';
+import { MenuItemModel } from '../../repository/menu/menu-item.model';
+import { MenuRepositoryService } from '../../repository/menu/menu-repository.service';
 import { LangService } from '../../services/lang.service';
-import { MenuService } from '../../services/menu.service';
 
 declare var $: any;
 
@@ -16,25 +17,28 @@ export class HeaderPartComponent implements OnInit {
   lang: string;
   faBars = faBars;
   faTimes = faTimes;
+  menuItems: MenuItemModel[] = [];
   @Input() subBrand;
   @Input() color;
+  @Input() changeLangLink;
 
   constructor(
+    public menuRepository: MenuRepositoryService,
     private translateService: TranslateService,
-    public menu: MenuService,
     private langService: LangService
   ) {
   }
 
   async ngOnInit(): Promise<void> {
     this.lang = this.translateService.currentLang;
+    this.menuItems = await this.menuRepository.getAll();
     this.siteMenuClone();
     this.initSiteSticky();
     this.initSiteScroll();
   }
 
   async onChangeLang(lang: string) {
-    return this.langService.changeLang(lang);
+    return this.langService.changeLang(lang, this.changeLangLink);
   }
 
   private initSiteScroll() {

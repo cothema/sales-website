@@ -920,6 +920,7 @@
   margin-bottom: 4em;
   text-align: center;
   padding-top: 50px;
+  width: 100%;
 
   .unit-4-icon {
     position: absolute;
@@ -970,10 +971,23 @@
     margin-bottom: 0;
   }
 
+  .card-big-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: $black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   &:hover {
     background: $primary;
     box-shadow: 0 4px 20px -5px rgba($primary, 0.4);
     top: -7px;
+
+    .card-big-text {
+      color: $white;
+    }
 
     .icon-wrap {
       background-color: $white;
@@ -1870,5 +1884,13 @@
       border-color: $primary !important;
       color: $white;
     }
+  }
+}
+
+.bg-green-gradient {
+  background: linear-gradient(to top right, #50a3a2 0%, #53e3a6 40%);
+
+  h1, p {
+    color: #000000;
   }
 }

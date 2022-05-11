@@ -1,0 +1,87 @@
+<div class="site-section bg-dark" id="specialization-section">
+
+  <div class="container">
+
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2 class="section-title mb-5">{{ 'section.specialization.h' | translate }}</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-2"></div>
+
+      <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <app-card [faIcon]="faIndustry" [routerLink]="'/field/manufacturing-and-industry' | localize" class="d-flex">
+          <h3>{{ 'section.specialization.manufacturingAndIndustry.h' | translate }}</h3>
+          <div class="text-left">
+            <p>{{ 'section.specialization.manufacturingAndIndustry.p1' | translate }}</p>
+          </div>
+          <div *ngIf="showMoreBtn" class="text-center mt-3">
+            <a [routerLink]="'/field/manufacturing-and-industry' | localize" class="btn btn-success">
+              <span class="d-none d-hover">{{ 'section.specialization.btn.more' | translate }}&nbsp; </span>
+              <fa-icon [icon]="faArrowRight"></fa-icon>
+            </a>
+          </div>
+        </app-card>
+      </div>
+
+      <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <app-card [faIcon]="faShoppingCart" [routerLink]="'/field/ecommerce' | localize" class="d-flex">
+          <h3>{{ 'section.specialization.ecommerce.h' | translate }}</h3>
+          <div class="text-left">
+            <p>{{ 'section.specialization.ecommerce.p1' | translate }}</p>
+          </div>
+          <div *ngIf="showMoreBtn" class="text-center mt-3">
+            <a [routerLink]="'/field/ecommerce' | localize" class="btn btn-success">
+              <span class="d-none d-hover">{{ 'section.specialization.btn.more' | translate }}&nbsp; </span>
+              <fa-icon [icon]="faArrowRight"></fa-icon>
+            </a>
+          </div>
+        </app-card>
+      </div>
+
+      <div class="col-lg-2"></div>
+
+      <div class="col-lg-2"></div>
+
+      <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <app-card [faIcon]="faSuitcase" [routerLink]="'/field/salespeople-and-consultants' | localize" class="d-flex">
+          <h3>{{ 'section.specialization.salespeopleAndConsultants.h' | translate }}</h3>
+          <div class="text-left">
+            <p>{{ 'section.specialization.salespeopleAndConsultants.p1' | translate }}</p>
+          </div>
+          <div *ngIf="showMoreBtn" class="text-center mt-3">
+            <a [routerLink]="'/field/salespeople-and-consultants' | localize" class="btn btn-success">
+              <span class="d-none d-hover">{{ 'section.specialization.btn.more' | translate }}&nbsp; </span>
+              <fa-icon [icon]="faArrowRight"></fa-icon>
+            </a>
+          </div>
+        </app-card>
+      </div>
+
+      <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <app-card [faIcon]="faUtensils" [routerLink]="'/field/gastro' | localize" class="d-flex">
+          <h3>{{ 'section.specialization.gastro.h' | translate }}</h3>
+          <div class="text-left">
+            <p>{{ 'section.specialization.gastro.p1' | translate }}</p>
+          </div>
+          <div *ngIf="showMoreBtn" class="text-center mt-3">
+            <a [routerLink]="'/field/gastro' | localize" class="btn btn-success">
+              <span class="d-none d-hover">{{ 'section.specialization.btn.more' | translate }}&nbsp; </span>
+              <fa-icon [icon]="faArrowRight"></fa-icon>
+            </a>
+          </div>
+        </app-card>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="lead text-center">{{ 'section.specialization.note' | translate }}</div>
+      </div>
+    </div>
+
+  </div>
+
+</div>

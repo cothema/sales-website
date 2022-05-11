@@ -1,0 +1,74 @@
+<app-header-part [changeLangLink]="'/blog'" [subBrand]="'blog'"></app-header-part>
+
+<div class="container mb-5" style="padding-top: 120px;">
+  <div *ngIf="articleFound">
+    <h1 *ngIf="article?.title" class="box-area">{{article.title}}</h1>
+
+    <div *ngIf="article?.title" class="mb-2">
+      <fa-icon [icon]="faCalendar"></fa-icon>&nbsp;
+      <b>Publikováno:</b> {{article.publishedDate|date:'longDate'}}
+    </div>
+
+    <div *ngIf="article?.description" class="pt-3 pb-2 lead font-weight-bold">
+      {{article.description}}
+
+      <hr />
+    </div>
+  </div>
+
+  <scully-content></scully-content>
+
+  <div *ngIf="articleFound">
+    <div *ngIf="author" class="author-box aos-init aos-animate" data-aos="fade-right">
+      <div class="d-flex">
+        <div class="mr-3">
+          <img [src]="'/assets/photos/authors/' + author.img" alt="illustration image" class="img-fluid rounded-circle">
+        </div>
+        <div class="mr-auto text-black">
+          <div><strong class="font-weight-bold mb-0">{{author.fullName}}</strong></div>
+          <div *ngIf="author.position">{{author.position}}</div>
+          <div class="author-box-icons">
+            <a *ngIf="author.linkedIn" [href]="author.linkedIn" target="_blank">
+              <fa-icon [icon]="faLinkedinIn"></fa-icon>
+            </a>
+            <a *ngIf="author.email"
+               [href]="'mailto:' + author.email + '?subject=' + encodeURIComponent('Blog: ' + article.title)">
+              <fa-icon [icon]="faEnvelope"></fa-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="share-box">
+      <span class="share-box-title">{{'page.blog.shareVia'|translate}}:</span>
+      <share-buttons [include]="['facebook', 'linkedin', 'twitter', 'copy']" [url]="this.seo.getUrl()"
+                     theme="default"></share-buttons>
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="box-area mt-4">
+      <h2 class="text-center">{{'page.blog.consultTopic'|translate}}</h2>
+      <app-schedule-call-btn></app-schedule-call-btn>
+    </div>
+
+    <div class="tags-box">
+      <app-tag-list *ngIf="article?.tags" [tags]="article.tags.split(',')" color="light"></app-tag-list>
+    </div>
+  </div>
+
+  <app-page-not-found *ngIf="!articleFound"></app-page-not-found>
+</div>
+
+<app-field-intro *ngIf="article?.fieldIdLink" [fieldId]="article.fieldIdLink"></app-field-intro>
+
+<div class="container pt-3">
+  <hr/>
+</div>
+
+<app-blog-posts-section *ngIf="articleFound" [exclude]="[article?.route]"></app-blog-posts-section>
+<app-blog-posts-section *ngIf="!articleFound"></app-blog-posts-section>
+
+<app-specialization-section *ngIf="!articleFound"></app-specialization-section>
+
+<app-contact-us-section *ngIf="!articleFound"></app-contact-us-section>

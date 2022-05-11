@@ -1,0 +1,59 @@
+<div class="site-section" id="services-consulting-section">
+  <div class="container">
+    <div class="row mb-5 justify-content-center text-center" data-aos="fade-up">
+      <div class="col-7 text-center">
+        <h2 class="section-title">{{ 'section.services.h' | translate }}</h2>
+      </div>
+    </div>
+
+    <div class="row align-items-stretch">
+
+      <div class="col-lg-2 d-flex" data-aos="fade-up"></div>
+
+      <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
+        <app-card
+          class="c-pointer d-flex"
+          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
+          <h3>{{ 'section.servicesConsulting.basic.h' | translate }}</h3>
+          <div class="text-left">
+            <ul
+              class="ul-check mb-2 list-unstyled success"
+              style="display: inline-block; text-align: left; margin: 0 auto;"
+            >
+              <li>{{ 'section.servicesConsulting.basic.li1' | translate }}</li>
+              <li>{{ 'section.servicesConsulting.basic.li2' | translate }}</li>
+              <li>{{ 'section.servicesConsulting.basic.li3' | translate }}</li>
+              <li>{{ 'section.servicesConsulting.basic.li4' | translate }}</li>
+            </ul>
+          </div>
+          <div class="card-big-text text-uppercase">
+            {{ 'section.servicesConsulting.free' | translate }}
+          </div>
+        </app-card>
+      </div>
+
+      <div class="col-md-6 col-lg-4 d-flex" data-aos="fade-up">
+        <app-card
+          class="c-pointer d-flex"
+          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cothema/uvodni-konzultace'});return false;">
+          <h3>{{ 'section.servicesConsulting.deep.h' | translate }}</h3>
+          <div class="text-left">
+            <ul class="ul-check mb-2 list-unstyled success">
+              <li>{{ 'section.servicesConsulting.deep.li1' | translate }}</li>
+              <li>{{ 'section.servicesConsulting.deep.li2' | translate }}</li>
+              <li>{{ 'section.servicesConsulting.deep.li3' | translate }}</li>
+              <li>{{ 'section.servicesConsulting.deep.li4' | translate }}</li>
+            </ul>
+            <div class="card-big-text">
+              <div class="text-uppercase">{{ 'section.servicesConsulting.individually' | translate }}</div>
+            </div>
+          </div>
+        </app-card>
+      </div>
+
+    </div>
+  </div>
+
+  <app-schedule-call-btn *ngIf="ctaBtn" class="mt-2 mb-4"></app-schedule-call-btn>
+
+</div>

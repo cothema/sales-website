@@ -1,0 +1,9 @@
+<div [class]="{'unit-4': true, 'd-block': true, 'c-pointer': !!routerLink}"
+     [routerLink]="routerLink">
+  <div *ngIf="faIcon" class="unit-4-icon mb-3">
+    <span class="icon-wrap"><fa-icon [icon]="faIcon"></fa-icon></span>
+  </div>
+  <div>
+    <ng-content></ng-content>
+  </div>
+</div>

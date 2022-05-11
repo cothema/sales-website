@@ -374,8 +374,8 @@ h5,
 
     &:before {
       left: 0;
-      font-size: 20px;
-      top: -0.3rem;
+      font-size: 1.2em;
+      top: -0.1rem;
       content: '✓';
       position: absolute;
     }
@@ -426,8 +426,11 @@ h5,
 
 .cover-title {
   background-color: $primary;
+  background-size: cover;
+  background-position: center;
   text-align: center;
-  height: 300px;
+  text-shadow: 1px 1px 2px $black;
+  min-height: 300px;
   padding-top: 160px;
   margin-bottom: 30px;
 
@@ -441,8 +444,127 @@ h5,
 .img-caption {
   color: #888888;
   font-style: italic;
+  font-size: 0.8em;
 
   a {
     color: #666666;
   }
+}
+
+.c-pointer {
+  cursor: pointer;
+  outline: none;
+}
+
+/* Pulsating animations */
+.pulsing-success {
+  animation: pulsing-success 2.5s infinite cubic-bezier(0.66, 0, 0, 1);
+
+  &:hover {
+    animation: none;
+  }
+}
+
+.pulsing-warning {
+  animation: pulsing-warning 2.5s infinite cubic-bezier(0.66, 0, 0, 1);
+
+  &:hover {
+    animation: none;
+  }
+}
+
+.pulsing-danger {
+  animation: pulsing-danger 2.5s infinite cubic-bezier(0.66, 0, 0, 1);
+
+  &:hover {
+    animation: none;
+  }
+}
+
+/* Animation */
+@keyframes pulsing-success {
+  40% {
+    box-shadow: 0 0 10px 10px transparentize($success, 0.5);
+  }
+  100% {
+  }
+}
+
+@keyframes pulsing-warning {
+  40% {
+    box-shadow: 0 0 10px 10px transparentize($warning, 0.5);
+  }
+  100% {
+  }
+}
+
+@keyframes pulsing-danger {
+  40% {
+    box-shadow: 0 0 10px 10px transparentize($danger, 0.5);
+  }
+  100% {
+  }
+}
+
+/* Field detail page */
+.field-img {
+  img {
+    border-radius: 5px;
+  }
+}
+
+.field-intro {
+  h3 {
+    color: #000000;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: 0
+  }
+
+  font-size: 1.3em;
+}
+
+/* Material design */
+.mat-snack-bar-container {
+  color: #000000;
+  font-weight: bold;
+  background: #ffc107;
+}
+
+.mat-simple-snackbar-action {
+  color: #000000;
+}
+
+/* Scully */
+#___scully-parsing-error___ {
+  display: none;
+}
+
+/* Other */
+.box-area, .box-area-dark {
+  color: #fff;
+  text-align: center;
+  padding: 25px 15px;
+  border-radius: 5px;
+}
+
+.box-area {
+  background: $primary;
+}
+
+.box-area-dark {
+  background: $dark;
+}
+
+.btn:hover > .d-hover {
+  display: inline !important;
+}
+
+.container-800 {
+  max-width: 800px;
+}
+
+/* Z-index because of Messenger button */
+.cdk-overlay-container {
+  z-index: 21474836440;
 }

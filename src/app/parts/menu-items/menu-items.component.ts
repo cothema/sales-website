@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons/faExternalLinkAlt';
-import { MenuItem } from '../../services/menu.service';
+import { MenuItemModel } from '../../repository/menu/menu-item.model';
 
 @Component({
   selector: '[menuItems]',
@@ -9,7 +9,7 @@ import { MenuItem } from '../../services/menu.service';
 })
 export class MenuItemsComponent implements OnInit {
 
-  @Input('items') items: MenuItem[];
+  @Input() items: MenuItemModel[];
   faExternalLinkAlt = faExternalLinkAlt;
 
   constructor() {

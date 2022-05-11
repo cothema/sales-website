@@ -5,7 +5,8 @@
     </div>
   </div>
   <div class="site-mobile-menu-body">
-    <ul [items]="menu.items" class="site-nav-wrap"
+    <ul [items]="menuItems"
+        class="site-nav-wrap"
         menuItems>
       <li>
         <a
@@ -36,8 +37,8 @@
     <div class="row align-items-center">
       <div class="col-6 col-md-3 col-xl-4 d-block">
         <h1 class="mb-0 site-logo">
-          <a [fragment]="'home-section'" [routerLink]="'/' | localize" class="text-black h2 mb-0" pageScroll>
-            cothema<span *ngIf="!subBrand" class="text-primary">.</span><span
+          <a [fragment]="'home-section'" [routerLink]="'/'" class="text-black h2 mb-0" pageScroll>
+            c<span class="d-none d-md-inline">othema</span><span *ngIf="!subBrand" class="text-primary">.</span><span
             *ngIf="subBrand" [style]="{color: color ? color : '#007bff'}">:{{subBrand}}</span>
           </a>
         </h1>
@@ -45,7 +46,7 @@
 
       <div class="col-12 col-md-9 col-xl-8 main-menu">
         <nav class="site-navigation position-relative text-right" role="navigation">
-          <ul [items]="menu.items" class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0"
+          <ul [items]="menuItems" class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0"
               menuItems>
             <li>
               <a

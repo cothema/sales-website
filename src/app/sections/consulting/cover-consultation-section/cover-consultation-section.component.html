@@ -1,0 +1,21 @@
+<app-cover
+  [subtitle]="'section.coverConsultation.p1' | translate"
+  [tags]="tags"
+  [title]=" 'section.coverConsultation.h1' | translate"
+  image="assets/images/undraw_metrics_gtu7.svg"
+  scrollToFragment="specialization-section"
+>
+  <div class="d-none d-md-block">
+    <a [routerLink]="'/'|localize"
+       class="btn btn-success btn-lg pulsing-success mr-2 mb-2"
+       fragment="specialization-section"
+       pageScroll>
+      <fa-icon [icon]="faCheck"></fa-icon>&nbsp;
+      {{ 'section.coverConsultation.btn.findSolution' | translate }}
+    </a>
+    <a [routerLink]="'/sales-outsourcing'|localize" class="btn btn-outline-primary mr-2 mb-2"
+       pageScroll>
+      {{ 'section.coverConsultation.btn.haveService' | translate }}
+    </a>
+  </div>
+</app-cover>

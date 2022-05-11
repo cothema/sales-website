@@ -1,0 +1,11 @@
+<div
+  [style]="{'background-color': color, 'background-image': image ? 'url(\'' + image + '\')' : undefined}"
+  class="cover-title">
+  <h1>
+    <span *ngIf="faIcon" class="d-none d-md-inline"><fa-icon [icon]="faIcon"></fa-icon>&nbsp;</span>
+    {{title}}
+  </h1>
+  <div *ngIf="tags" class="d-none">
+    <app-tag-list [tags]="tags" color="dark"></app-tag-list>
+  </div>
+</div>

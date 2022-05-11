@@ -4,9 +4,10 @@ import { TranslateService } from '@ngx-translate/core';
 
 import * as AOS from 'aos';
 import { FacebookService, InitParams } from 'ngx-facebook';
-import { NgxSpinnerService } from 'ngx-spinner';
 import { Subscription } from 'rxjs';
 import { LangService } from './services/lang.service';
+import { SeoService } from './services/seo.service';
+import { UpdateService } from './services/update.service';
 
 @Component({
   selector: 'app-root',
@@ -29,12 +30,10 @@ export class AppComponent implements OnInit, OnDestroy {
     private facebookService: FacebookService,
     private translate: TranslateService,
     private titleService: Title,
-    spinnerService: NgxSpinnerService
+    private seo: SeoService,
+    private update: UpdateService
   ) {
-    spinnerService.show();
-    setTimeout(() => {
-      spinnerService.hide();
-    }, 600);
+    update.listen();
   }
 
   ngOnInit() {
@@ -51,15 +50,14 @@ export class AppComponent implements OnInit, OnDestroy {
     if (this.onLangChange !== undefined) {
       this.onLangChange.unsubscribe();
     }
+    this.seo.setDefault();
   }
 
   private solveLangInit() {
     // Set html lang attribute
     this.langService.initLanguage(this.el);
 
-    this.translate.get('section.coverOutsourcing.h1').subscribe((res: string) => {
-      this.titleService.setTitle('Cothema | ' + res);
-    });
+    this.seo.setDefault();
   }
 
   private initFacebookService(): void {

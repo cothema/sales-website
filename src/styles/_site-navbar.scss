@@ -4,6 +4,7 @@
   position: absolute;
   width: 100%;
   background: $white;
+  background: rgba(255, 255, 255, 0.95);
 
   .site-logo {
     position: relative;
@@ -15,8 +16,10 @@
     &.border-bottom {
       border-bottom: 1px solid lighten($gray-1, 80%) !important;
     }
+
     .site-menu {
       margin-bottom: 0;
+
       .active {
         // > a {
         color: $primary;
@@ -24,12 +27,15 @@
         padding: 15px 20px;
         // }
       }
+
       a {
         text-decoration: none !important;
         display: inline-block;
       }
+
       > li {
         display: inline-block;
+
         > a {
           padding: 15px 20px;
           color: $black;
@@ -41,11 +47,14 @@
           }
         }
       }
+
       .has-children {
         position: relative;
+
         > a {
           position: relative;
           padding-right: 20px;
+
           &:before {
             position: absolute;
             content: '▾';
@@ -55,6 +64,7 @@
             transform: translateY(-50%);
           }
         }
+
         .dropdown {
           visibility: hidden;
           opacity: 0;
@@ -74,6 +84,7 @@
 
           &.arrow-top {
             position: absolute;
+
             &:before {
               bottom: 100%;
               display: none;
@@ -85,6 +96,7 @@
               position: absolute;
               pointer-events: none;
             }
+
             &:before {
               border-color: rgba(136, 183, 213, 0);
               border-bottom-color: $white;
@@ -100,19 +112,23 @@
             transition: 0s all;
             color: $gray-800;
           }
+
           .active {
             > a {
               color: $primary !important;
             }
           }
+
           > li {
             list-style: none;
             padding: 0;
             margin: 0;
-            min-width: 200px;
+            min-width: 220px;
+
             > a {
               padding: 9px 20px;
               display: block;
+
               &:hover {
                 background: $primary;
                 color: $white;
@@ -126,11 +142,13 @@
                   right: 20px;
                 }
               }
+
               > .dropdown,
               > ul {
                 left: 100%;
                 top: 0;
               }
+
               &:hover,
               &:active,
               &:focus {
@@ -150,10 +168,12 @@
             color: $primary;
           }
         }
+
         &:hover,
         &:focus,
         &:active {
           cursor: pointer;
+
           > .dropdown {
             transition-delay: 0s;
             margin-top: 0px;
@@ -192,6 +212,7 @@
     .site-mobile-menu-close {
       float: right;
       margin-top: 8px;
+
       span {
         font-size: 30px;
         display: inline-block;
@@ -200,21 +221,26 @@
         line-height: 1;
         cursor: pointer;
         transition: 0.3s all ease;
+
         &:hover {
           color: $gray-1;
         }
       }
     }
+
     .site-mobile-menu-logo {
       float: left;
       margin-top: 10px;
       margin-left: 0px;
+
       a {
         display: inline-block;
         text-transform: uppercase;
+
         img {
           max-width: 70px;
         }
+
         &:hover {
           text-decoration: none;
         }
@@ -231,6 +257,7 @@
     height: calc(100vh - 52px);
     padding-bottom: 150px;
   }
+
   .site-nav-wrap {
     padding: 0;
     margin: 0;
@@ -246,10 +273,12 @@
       display: block;
       position: relative;
       color: $gray-900;
+
       &:hover {
         color: $primary;
       }
     }
+
     li {
       text-align: center;
       position: relative;
@@ -261,6 +290,7 @@
         // }
       }
     }
+
     .arrow-collapse {
       position: absolute;
       right: 0px;
@@ -298,6 +328,7 @@
         }
       }
     }
+
     > li {
       display: block;
       position: relative;
@@ -317,15 +348,19 @@
 
         > li {
           display: block;
+
           > a {
             padding-left: 40px;
             font-size: 16px;
           }
+
           > ul {
             padding: 0;
             margin: 0;
+
             > li {
               display: block;
+
               > a {
                 font-size: 16px;
                 padding-left: 60px;
@@ -341,8 +376,10 @@
       width: 100%;
       margin-top: 30px;
       padding-bottom: 5em;
+
       > li {
         width: auto;
+
         &:first-child {
           a {
             padding-left: 15px !important;
@@ -363,11 +400,13 @@
   .site-navbar {
     transition: 0.3s all ease;
   }
+
   &.is-sticky {
     .site-navbar {
       box-shadow: 4px 0 20px -10px rgba(0, 0, 0, 0.2);
     }
   }
+
   .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important;

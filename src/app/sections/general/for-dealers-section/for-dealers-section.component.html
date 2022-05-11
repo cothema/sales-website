@@ -1,0 +1,35 @@
+<div class="site-section" id="salesman-section">
+  <div class="container">
+    <div class="row mb-2 justify-content-center text-center aos-init aos-animate" data-aos="fade-up">
+      <div class="col-7 text-center">
+        <h2 class="section-title">{{ 'section.forDealers.h' | translate }}</h2>
+        <p class="lead">
+          {{ 'section.forDealers.p1' | translate }}
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div>
+          <ul
+            class="ul-check mb-2 list-unstyled success"
+            style="display: inline-block; text-align: left; margin: 0 auto;"
+          >
+            <li>{{ 'section.forDealers.li4' | translate }}</li>
+            <li>{{ 'section.forDealers.li1' | translate }}</li>
+            <li>{{ 'section.forDealers.li2' | translate }}</li>
+            <li>{{ 'section.forDealers.li3' | translate }}</li>
+          </ul>
+        </div>
+        <a [routerLink]="'/career'|localize"
+           class="btn btn-danger btn-lg mt-2 mr-2 mb-2"
+           fragment="contact-section"
+           pageScroll>
+          <fa-icon [icon]="faHeart"></fa-icon>&nbsp;
+          {{ 'btn.interested' | translate }}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
