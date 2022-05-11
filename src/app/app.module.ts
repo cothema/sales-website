@@ -23,7 +23,6 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SalesUniversityBannerComponent } from './banners/sales-university-banner/sales-university-banner.component';
 import { CardComponent } from './components/card/card.component';
 import { CoverComponent } from './components/cover/cover.component';
 import { ScheduleCallBtnComponent } from './components/schedule-call-btn/schedule-call-btn.component';
@@ -113,7 +112,6 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     HowItWorksPageComponent,
     ScheduleCallBtnComponent,
     FieldReasonsSectionComponent,
-    SalesUniversityBannerComponent,
     NotFoundPageComponent,
     PageNotFoundComponent,
     TermsPageComponent,
