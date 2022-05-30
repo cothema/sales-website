@@ -1,7 +1,6 @@
 {
   "ROUTES": {
     "blog": "blog",
-    "code-of-ethics": "eticky-kodex",
     "expansion": "expanzia",
     "career": "kariera",
     "sign-in": "prihlasenie",
@@ -75,8 +74,9 @@
       "published": "Publikované"
     },
     "coverConsultation": {
-      "h1": "Zvýšte zisk svojej firmy vďaka inováciám!",
-      "p1": "Nezahadzujte príležitosti, buďte s nami vždy krok pred konkurenciou! Pomocou preverených služieb dosiahnete lepšie výsledky vo svojom podnikaní.",
+      "h1": "Digitálna agentúra budúcnosti",
+      "p1": "Premýšľame nad vašou firmou tak, aby bola vždy krok pred konkurenciou.",
+      "p2": "Spoločne vytvoríme riešenie, ktoré Vám umožní ďalej rásť a uvoľní ruky od toho, čo Vás najviac zaťažuje.",
       "btn": {
         "findSolution": "Nájsť riešenie",
         "haveService": "Ponúkam službu"

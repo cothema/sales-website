@@ -65,10 +65,6 @@ export class MenuRepositoryService extends AbstractRepositoryService<MenuItemMod
           {
             link: '/blog',
             title: 'menu.blog'
-          },
-          {
-            link: '/code-of-ethics',
-            title: 'menu.codeOfEthics'
           }
         ]
       },

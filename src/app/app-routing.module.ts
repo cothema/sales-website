@@ -29,10 +29,6 @@ const routes: Routes = [
     loadChildren: () => import('./pages/general/blog-page/blog-page.module').then((m) => m.BlogPageModule)
   },
   {
-    path: 'code-of-ethics',
-    loadChildren: () => import('./pages/general/code-of-ethics-page/code-of-ethics-page.module').then((m) => m.CodeOfEthicsPageModule)
-  },
-  {
     path: 'sign-in',
     loadChildren: () => import('./pages/general/sign-in-page/sign-in-page.module').then((m) => m.SignInPageModule)
   },

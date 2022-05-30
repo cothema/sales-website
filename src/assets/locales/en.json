@@ -1,7 +1,6 @@
 {
   "ROUTES": {
     "blog": "blog",
-    "code-of-ethics": "code-of-ethics",
     "expansion": "expansion",
     "career": "career",
     "sign-in": "sign-in",
@@ -73,8 +72,9 @@
       "noPosts": "No posts available."
     },
     "coverConsultation": {
-      "h1": "Increase your company profits through innovation!",
-      "p1": "Don't waste opportunities, always be one step ahead of the competition with us! With proven services, you will achieve better results in your business.",
+      "h1": "Digital agency of the future",
+      "p1": "We think about your business to be always one step ahead of the competitors.",
+      "p2": "Together we will create a solution that will allow you to continue to grow and free your hands from what burdens you down the most.",
       "btn": {
         "findSolution": "Find a solution",
         "haveService": "I offer a service"

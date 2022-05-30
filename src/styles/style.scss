@@ -13,3 +13,12 @@ $gray-4: $gray-400;
 @import 'site-navbar';
 /* Blocks */
 @import 'site-blocks';
+
+.btn-success {
+  background-color: #57b894;
+  border-color: #57b894;
+
+  &:active, &:hover, &:focus {
+    background-color: #358c70 !important;
+  }
+}

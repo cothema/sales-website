@@ -9,6 +9,7 @@ export class CoverComponent implements OnInit {
 
   @Input() image: string;
   @Input() subtitle: string;
+  @Input() subtitle2: string;
   @Input() tags: string[] = [];
   @Input() title: string;
   @Input() scrollToFragment: string;

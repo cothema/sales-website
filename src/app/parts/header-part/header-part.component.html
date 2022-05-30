@@ -49,15 +49,6 @@
           <ul [items]="menuItems" class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0"
               menuItems>
             <li>
-              <a
-                [routerLink]="'/sign-in' | localize"
-                class="btn-login btn btn-outline-primary btn-sm"
-                style="margin: 0 0 0 1em; padding: 0.2em 1em;"
-              >
-                {{ 'btn.signIn' | translate }}
-              </a>
-            </li>
-            <li>
               <select
                 (change)="onChangeLang($event.target.value)"
                 [ngModel]="lang"

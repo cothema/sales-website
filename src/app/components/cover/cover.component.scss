@@ -5,6 +5,11 @@
   transform: translateX(-50%);
 }
 
+h1 {
+  font-family: Arial Black;
+  color: #57b894;
+}
+
 @media (max-height: 650px) {
   .cover-tags {
     display: none !important;

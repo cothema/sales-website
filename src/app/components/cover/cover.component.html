@@ -6,7 +6,10 @@
         <div class="row mb-4" data-aos="fade-right" data-aos-delay="200">
           <div class="col-lg-6 mr-auto">
             <h1 *ngIf="title">{{ title }}</h1>
-            <p *ngIf="subtitle" class="mb-4" style="font-size: 1.4rem;">{{ subtitle }}</p>
+            <div>
+              <p *ngIf="subtitle" class="mb-2" style="font-family: Arial Black;font-size: 1.4rem; font-weight: bold;">{{ subtitle }}</p>
+              <p *ngIf="subtitle2" class="mb-2" style="font-family: Arial;font-size: 1.4rem; ">{{ subtitle2 }}</p>
+            </div>
             <ng-content></ng-content>
             <div *ngIf="tags.length" class="d-none d-lg-block mt-4 cover-tags">
               <app-tag-list [tags]="tags"></app-tag-list>

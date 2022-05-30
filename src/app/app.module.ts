@@ -38,7 +38,6 @@ import { ExpansionPageComponent } from './pages/expansion/expansion-page/expansi
 import { BlogListPageComponent } from './pages/general/blog-page/blog-list-page/blog-list-page.component';
 import { BlogPageComponent } from './pages/general/blog-page/blog-page.component';
 import { CareerPageComponent } from './pages/general/career-page/career-page.component';
-import { CodeOfEthicsPageComponent } from './pages/general/code-of-ethics-page/code-of-ethics-page.component';
 import { ContactPageComponent } from './pages/general/contact-page/contact-page.component';
 import { NotFoundPageComponent } from './pages/general/not-found-page/not-found-page.component';
 import { PartnershipPageComponent } from './pages/general/partnership-page/partnership-page.component';
@@ -96,7 +95,6 @@ export function appInitializerFactory(translateWrapperService: TranslateWrapperS
     CoverConsultationSectionComponent,
     BlogPostsSectionComponent,
     BlogPageComponent,
-    CodeOfEthicsPageComponent,
     ExpansionPageComponent,
     HomePageComponent,
     SignInPageComponent,
