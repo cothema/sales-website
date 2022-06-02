@@ -17,7 +17,7 @@ export class ScrollDownBtnComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    let urlTree = this.router.parseUrl(this.router.url);
+    const urlTree = this.router.parseUrl(this.router.url);
     urlTree.fragment = undefined;
     this.url = urlTree.toString();
   }

@@ -33,9 +33,9 @@ export class FeatureLevelService {
   }
 
   private get defaultLevel(): number {
-    if (environment.hasOwnProperty('staging') && environment['staging'] === true) {
+    if (environment.hasOwnProperty('staging') && environment.staging === true) {
       return this.LEVEL_BETA;
-    } else if (environment.hasOwnProperty('production') && environment['production'] === false) {
+    } else if (environment.hasOwnProperty('production') && environment.production === false) {
       return this.LEVEL_DEV;
     }
     return this.LEVEL_PROD;

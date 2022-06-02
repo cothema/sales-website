@@ -11,8 +11,8 @@ export class BlogPostsSectionComponent implements OnInit, OnChanges {
   posts: any[] = [];
   @Input() exclude: string[] = []; // routes to articles to exclude
   @Input() limit: number;
-  @Input() showAllBtn: boolean = true;
-  @Input() showBlank: boolean = true;
+  @Input() showAllBtn = true;
+  @Input() showBlank = true;
   @Input() tagsFilter: string[][];
 
   constructor(
@@ -30,7 +30,7 @@ export class BlogPostsSectionComponent implements OnInit, OnChanges {
   }
 
   private async loadContent(): Promise<void> {
-    let allRoutes = await this.getAllRoutes();
+    const allRoutes = await this.getAllRoutes();
     this.posts = allRoutes.filter((route) => {
       return route.published
         && route.lang === this.translateService.currentLang
@@ -56,8 +56,8 @@ export class BlogPostsSectionComponent implements OnInit, OnChanges {
     const articleTags = this.getArticleKeywords(article);
 
     let out = false;
-    for (let tagOrElement of this.tagsFilter) {
-      for (let tagAndElement of tagOrElement) {
+    for (const tagOrElement of this.tagsFilter) {
+      for (const tagAndElement of tagOrElement) {
         out = articleTags.includes(tagAndElement);
         if (out === false) {
           continue;

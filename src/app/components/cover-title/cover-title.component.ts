@@ -9,7 +9,7 @@ export class CoverTitleComponent implements OnInit {
   @Input() faIcon: any;
   @Input() tags: string[];
   @Input() title: string;
-  @Input() color: string = '#007bff';
+  @Input() color = '#007bff';
   @Input() image: string;
 
   constructor() {

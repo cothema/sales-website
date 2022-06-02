@@ -25,8 +25,8 @@ export class UpdateService {
     }
     this.listening = true;
 
-    let _reload = await this.translate.get('btn.reload').pipe(take(1)).toPromise();
-    let _updateAvailable = await this.translate.get('msg.updateAvailable').pipe(take(1)).toPromise();
+    const _reload = await this.translate.get('btn.reload').pipe(take(1)).toPromise();
+    const _updateAvailable = await this.translate.get('msg.updateAvailable').pipe(take(1)).toPromise();
 
     this.swUpdate.available.subscribe(evt => {
       const snack = this.snackbar.open(_updateAvailable, _reload);

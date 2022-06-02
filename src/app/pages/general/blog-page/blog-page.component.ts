@@ -19,7 +19,7 @@ import { SeoService } from '../../../services/seo.service';
 export class BlogPageComponent implements OnInit, OnDestroy {
   article$: Observable<ScullyRoute> = this.scully.getCurrent();
   article;
-  articleFound: boolean = true;
+  articleFound = true;
   author;
   faLinkedinIn = faLinkedinIn;
   faTag = faTag;
@@ -53,7 +53,7 @@ export class BlogPageComponent implements OnInit, OnDestroy {
     this.articleFound = !!this.article;
 
     if (this.article?.author) {
-      let authors = await this.authorRepositoryService.getAll();
+      const authors = await this.authorRepositoryService.getAll();
       this.author = authors.find(author => author.abbrev === this.article.author);
     } else {
       this.author = undefined;

@@ -12,9 +12,9 @@ export class TagsService {
   }
 
   translate(tags: string[], fn: (string) => string): string[] {
-    let out = [];
+    const out = [];
 
-    for (let tag of tags) {
+    for (const tag of tags) {
       let translated = this.translateService.instant('tags.' + tag);
 
       if (fn) {

@@ -9,7 +9,7 @@ import { faTag } from '@fortawesome/free-solid-svg-icons/faTag';
 export class TagComponent implements OnInit, OnChanges {
   faTag = faTag;
   @Input() title: string;
-  @Input() color: string = 'light';
+  @Input() color = 'light';
   classes: any;
 
   constructor() {
@@ -24,9 +24,9 @@ export class TagComponent implements OnInit, OnChanges {
   }
 
   private setup() {
-    let classes = {};
+    const classes = {};
 
-    classes['badge'] = true;
+    classes.badge = true;
     classes['badge-' + this.color] = true;
 
     this.classes = classes;
