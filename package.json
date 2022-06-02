@@ -3,9 +3,9 @@
   "version": "0.3.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 4201 --extra-webpack-config webpack.partial.js -o",
-    "build": "ng build --extra-webpack-config webpack.partial.js -o && npm run scully",
-    "build:prod": "ng build --prod --extra-webpack-config webpack.partial.js -o && npm run g:robots && npm run scully",
+    "start": "ng serve --port 4201 --extra-webpack-config webpack.partial.js",
+    "build": "ng build --extra-webpack-config webpack.partial.js && npm run scully",
+    "build:prod": "ng build --prod --extra-webpack-config webpack.partial.js && npm run g:robots && npm run scully",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -39,11 +39,10 @@
     "@ngx-translate/core": "^12.1.2",
     "@ngx-translate/http-loader": "^5.0.0",
     "@scullyio/init": "^2.1.32",
-    "@scullyio/ng-lib": "0.0.27",
+    "@scullyio/ng-lib": "2.1.32",
     "@scullyio/scully": "^2.1.32",
     "aos": "^2.3.4",
     "bootstrap": "^4.5.0",
-    "fast-xml-parser": "^3.17.4",
     "firebase": "^9.8.2",
     "jquery": "^3.5.1",
     "jquery-sticky": "^1.0.4",
@@ -57,7 +56,7 @@
     "ngx-spinner": "^9.0.2",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.11.5"
   },
   "devDependencies": {
     "@angular-devkit/architect": "^0.1000.3",
